@@ -1,6 +1,6 @@
-# About Me ✨: 
+# Muhammad Rashid ✨: 
 <br>
-Hi 👋, I am Rashid Rao from Pakistan.Software Engineer by profession and a Tourist 🏕️🏔️ by passion. I love to find solution to real-world problems. I love challenging tasks in my life. As far as my passion is concerned, I love adventures 🚣 in my life and my professional field. 👨🏻‍ 👨🏻‍💻
+Hi 👋, I am Muhammad Rashid from Pakistan.Software Engineer by profession and a Tourist 🏕️🏔️ by passion. I love to find solution to real-world problems. I love challenging tasks in my life. As far as my passion is concerned, I love adventures 🚣 in my life and my professional field. 👨🏻‍ 👨🏻‍💻
 
 # My Qualifications 🎓: 
 I passed my matriculation, my F.Sc Pre Eng and then I continued my higher education which details are as follows:
