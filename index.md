@@ -5,10 +5,13 @@
 Hi 👋, I am Muhammad Rashid from Pakistan.Software Engineer by profession and a Tourist 🏕️🏔️ by passion. I love to find solution to real-world problems. I love challenging tasks in my life. As far as my passion is concerned, I love adventures 🚣 in my life and my professional field. 👨🏻‍ 👨🏻‍💻
 
 # My Qualifications 🎓: 
-I passed my matriculation, my F.Sc Pre Eng and then I continued my higher education which details are as follows:
-<br>
-1. I passed my Bachelors 📘 from AIOU, Islamabad, Pakistan (2010-2016) with Software Engineering Specialization💻.
-2. I passed my Masters 📗 from Comsats University Islamabad, Pakistan ( 2017-2019) with Computer Vision and Graphics.
+
+|  Degree 📘 | Obtained CGPA / % | Total CGPA / % | Institute | From | To |
+|  -- | -- | -- | --  | -- | -- |
+|  MS(CS) | 3.77 | 4.00 | Comsats University Islamabad, Wah Campus, Pakistan.  | 2017 | 2019 |
+|  BS(CS) | 3.19 | 4.00 | Allama Iqbal Open University Islamabad, Pakistan.  | 2010 | 2016 |
+|  F.Sc. (Pre-Engineering) | 63% <br> 700 | 1100 | Board of Intermediate and Secondary Eduction, DG Khan, Pakistan.  | 2007 | 2009 |
+|  Matric (Science) | (86.3%) <br> 734 | 850 | Board of Intermediate and Secondary Eduction, Multan, Pakistan. | 2005 | 2007 |
 <br>
 
 # Motivation for my Research Carrier⚡:
