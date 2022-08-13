@@ -16,7 +16,8 @@ Hi 👋, I am Muhammad Rashid from Pakistan.Software Engineer by profession and 
 
 # Motivation for my Research Carrier⚡:
 <br>
-In my Master's, I learned the following Courses which motivated me to start my research carrier: <br>
+In my Master's, I learned the following Courses which motivated me to start my research carrier:
+
 | Sr. No. | Subject | Credit Hours | LG | GP |
 | --- | --- | --- | --- | --- |
 | 1. | Advanced Algorithm Analysis. | 3 | A+ | 12 |
