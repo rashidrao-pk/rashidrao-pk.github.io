@@ -17,13 +17,14 @@ Hi 👋, I am Muhammad Rashid from Pakistan.Software Engineer by profession and 
 # Motivation for my Research Carrier⚡:
 <br>
 In my Master's, I learned the following Courses which motivated me to start my research carrier: <br>
-1. Advanced Algorithm Analysis. <br>
-2. Advanced Topics in Computer Architecture. <br>
-3. Advanced Topics in Operating Systems. <br>
-4. Advanced Topics in Digital Image Processing. <br>
-5. Advanced Topics in Computer Vision. <br>
-6. Advanced Topics in Artificial Intelligence. <br>
-7. Advanced Topics in Neural Networks. <br>
+| --- | --- |
+|1. | Advanced Algorithm Analysis. |
+|2. | Advanced Topics in Computer Architecture. |
+|3. | Advanced Topics in Operating Systems. |
+|4. | Advanced Topics in Digital Image Processing. |
+|5. | Advanced Topics in Computer Vision. |
+|6. | Advanced Topics in Artificial Intelligence. |
+|7. | Advanced Topics in Neural Networks. |
 <br>
 
 # MS(CS) Thesis: 
@@ -44,7 +45,6 @@ After getting motivated, i did my research in Computer Vision and Mahcine Learni
 <br>
 
 # R E S E A R C H P R O J E C T S ( Completed as Freelancer) ⚡ :
-
 
 Date	| Title	|Development Platform	 | Client	 | Client Location |
 | -- | -- | -- | -- | -- |
@@ -68,12 +68,11 @@ Jun<br>2022 | <a href="https://github.com/rashidrao-pk/Lungs_Nodule_Cancer_Detec
 Jun<br>2021 | <a href="https://github.com/rashidrao-pk/Image-Fusion-based-on-correlation-in-MATLAB"> Image Fusion based on correlation </a>| MATLAB | Agriculture<br> University | Faisalabad,<br>Pakistan |
 May<br>2020 | <a href="https://github.com/rashidrao-pk/Patch-Based-Image-Enhancements-in-Matlab-CLAHE"> Patch-Based Image Enhancements </a>| MATLAB | Fiverr | KSA |
 May-2019 | <a href ="https://github.com/rashidrao-pk/Low-Light-Image-Enhancements-using-Matlab"> Low Light Image Enhancements </a>| MATLAB | Fiverr | China |
-
-
-
-
+<br>
 #  C L I E N TS - F E E D B A C K ⚡ :
+<br>
 I always prefer quality over the quantity and hence i always provided the solutions with quality and the result is satisfied clients. Here are few of examples -> <a href="https://github.com/rashidrao-pk/What-Client-Say-About-Me--Freelancer-providing-Computer-Vision-and-Machine-Learning-Solutions"> Link </a>
+<br>
 
 #  T E C H N I C A L - S K I L L S ⚡ :
 
@@ -95,7 +94,8 @@ I always prefer quality over the quantity and hence i always provided the soluti
 | --- | --- | --- | --- |
 | a) | PHP Programming | Buraq Institute of Science and Technology | 12th-Apr-2014 ~ 1st-Jul-2014 |
 | b) | Diploma in Office Management | o	Elysium Computer College Regd # 673 | 04-Mar-2007 ~ 13-Jun-2007 |
-# Social Links 🔗:
+<br>
+# Technical Profile Links 🔗:
 
 |  Platform | Link  |
 |---|---|
