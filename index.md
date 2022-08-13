@@ -23,10 +23,10 @@ In my Master's, I learned the following Courses which motivated me to start my r
 | 1. | Advanced Algorithm Analysis. | 3 | A+ | 12 |
 | 2. | Advanced Topics in Computer Architecture. | 3 | A | 10.95 |
 | 3. | Advanced Topics in Operating Systems. | 3 | A | 10.50 |
-| 4. | Advanced Topics in Digital Image Processing. | 3 | A | 11.70 |
-| 5. | Advanced Topics in Computer Vision. | 3 | A | 10.0 |
-| 6. | Advanced Topics in Artificial Intelligence. | 3 | A | 10.50 |
-| 7. | Advanced Topics in Neural Networks. | 3 | A+ | 12 |
+| 4. | ****Advanced Topics in Digital Image Processing.**** | 3 | A | 11.70 |
+| 5. | ****Advanced Topics in Computer Vision.**** | 3 | A | 10.0 |
+| 6. | ****Advanced Topics in Artificial Intelligence.**** | 3 | A | 10.50 |
+| 7. | ****Advanced Topics in Neural Networks.**** | 3 | A+ | 12 |
 | 8. | Independent Studies. | 3 | A+ | 12 |
 <br>
 
@@ -98,6 +98,7 @@ I always prefer quality over the quantity and hence i always provided the soluti
 | a) | PHP Programming | Buraq Institute of Science and Technology | 12th-Apr-2014 ~ 1st-Jul-2014 |
 | b) | Diploma in Office Management | o	Elysium Computer College Regd # 673 | 04-Mar-2007 ~ 13-Jun-2007 |
 <br>
+
 # Technical Profile Links 🔗:
 
 |  Platform | Link  |
