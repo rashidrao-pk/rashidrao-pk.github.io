@@ -49,8 +49,8 @@ After getting motivated, i did my research in Computer Vision and Mahcine Learni
 
 # R E S E A R C H P R O J E C T S ( Completed as Freelancer) ⚡ :
 
-Date	| Title	|Development Platform	 | Client	 | Client Location |
-| -- | -- | -- | -- | -- |
+| Date | Title | Development Platform	 | Client	 | Client Location |
+| ---- | ----- | --------------------- | ------- | --------------- |
 July <br> 2022 | <a href="https://github.com/rashidrao-pk/PSO-implementation-and-Ensemble-Learning-Models-to-predict-Heart-Diseases"> PSO-implementation-and-Ensemble-Learning-Models-to-predict-Heart-Diseases </a> | JUPYTER<br> PYTHON | FIVERR | UK | 
 Jun <br>2021 | <a href = "https://github.com/rashidrao-pk/Bone-Cancer-Detection-GUI-in-Matlab-using-Image-Processing-Techniques " >Bone Cancer Detection using MRI Images </a>| MATLAB<br>GUI	| Fiverr | US |
 Jun <br>2021 | <a href = "https://github.com/rashidrao-pk/Driver-Drowsiness-Detection-using-Computer-Vision-in-Matlab " >Driver drowsiness Detection based on Facial Features </a>| MATLAB<br>GUI |	Fiverr |	Malysia |
@@ -80,7 +80,7 @@ I always prefer quality over the quantity and hence i always provided the soluti
 #  T E C H N I C A L - S K I L L S ⚡ :
 
 | Sr. No. | Skill | Level |
-| --- | --- | --- | 
+| ------- | ----- | ----- | 
 | a) | Matlab | Professional |
 | b) | Python | Expert |
 | c) | Dev C++ | Expert | 
@@ -94,7 +94,7 @@ I always prefer quality over the quantity and hence i always provided the soluti
 #  C E R T I F I C A T I O N S 📝 :
 
 | Sr. No. | Certification Name | Certified By | Dated |
-| --- | --- | --- | --- |
+| ------- | ------------------ | ------------ | ----- |
 | a) | PHP Programming | Buraq Institute of Science and Technology | 12th-Apr-2014 ~ 1st-Jul-2014 |
 | b) | Diploma in Office Management | o	Elysium Computer College Regd # 673 | 04-Mar-2007 ~ 13-Jun-2007 |
 <br>
@@ -102,9 +102,6 @@ I always prefer quality over the quantity and hence i always provided the soluti
 # Technical Profile Links 🔗:
 
 |  Platform | Link  |
-|---|---|
+| --------- | ----- |
 | Google Scholar  | https://scholar.google.com.pk/citations?user=F5u_Z5MAAAAJ  |
 | LinkedIn  | https://www.linkedin.com/in/rashid-rao-cuipakistan/  |
-
-
-<br>
