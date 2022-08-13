@@ -17,14 +17,16 @@ Hi 👋, I am Muhammad Rashid from Pakistan.Software Engineer by profession and 
 # Motivation for my Research Carrier⚡:
 <br>
 In my Master's, I learned the following Courses which motivated me to start my research carrier: <br>
-| --- | --- |
-| 1. | Advanced Algorithm Analysis. |
-| 2. | Advanced Topics in Computer Architecture. |
-| 3. | Advanced Topics in Operating Systems. |
-| 4. | Advanced Topics in Digital Image Processing. |
-| 5. | Advanced Topics in Computer Vision. |
-| 6. | Advanced Topics in Artificial Intelligence. |
-| 7. | Advanced Topics in Neural Networks. |
+| Sr. No. | Subject | Credit Hours | LG | GP |
+| --- | --- | --- | --- | --- |
+| 1. | Advanced Algorithm Analysis. | 3 | A+ | 12 |
+| 2. | Advanced Topics in Computer Architecture. | 3 | A | 10.95 |
+| 3. | Advanced Topics in Operating Systems. | 3 | A | 10.50 |
+| 4. | Advanced Topics in Digital Image Processing. | 3 | A | 11.70 |
+| 5. | Advanced Topics in Computer Vision. | 3 | A | 10.0 |
+| 6. | Advanced Topics in Artificial Intelligence. | 3 | A | 10.50 |
+| 7. | Advanced Topics in Neural Networks. | 3 | A+ | 12 |
+| 8. | Independent Studies. | 3 | A+ | 12 |
 <br>
 
 # MS(CS) Thesis: 
