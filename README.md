@@ -105,8 +105,10 @@ After getting motivated, i did my research in Computer Vision and Mahcine Learni
 | 9. | AI for Everyone          | Bertinoro International Spring School (BISS-23)                  | 12-19 Mar 2023                   | -----       |   -------     |     [LINK](https://www.coursera.org/account/accomplishments/verify/XFEK65GWB3MF) |
 | 10. | PHP Programming (Web Development)          | Buraq Institute of Science and Technology                  | 12th-Apr-2014 ~ 1st-Jul-2014                   |    --    |   3 Months     |     [LINK](https://drive.google.com/file/d/1K686f8rWsElKnx3g8lmmIc5j7OqL6bZI/view?usp=sharing) |
 
-# Projects/Tasks Completed:
+# Projects/Tasks Completed :
 All copleted tasks/projects are enlisted in details in [`this readme file`](/projects.md)
+
+<!-- > [!IMPORTANT] -->
 
 # Profile Links 📫:
 
