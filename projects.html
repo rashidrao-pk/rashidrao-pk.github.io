@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Rashid's Profile</title>
+    <style>
+        body {
+             background-image: url('assets/images/bg_.jpg'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-position: center; /* Center the image */
+             background-attachment: fixed; /* Fix the background image */
+             opacity: 0.95; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            border-radius: 10px; /* Add border radius */
+            color: white;
+            padding: 0.1px;
+            text-align: center;
+            font-size: 26px; /* Custom font size */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000; /* Ensures the header stays above other content */
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+            border-radius: 10px; /* Border radius for the container */
+            padding: 20px; /* Padding around content */
+        }
+        /* Add some content below the header for scrolling effect */
+        .content {
+            padding: 20px;
+            height: 2000px; /* Just to create scrollable content */
+            background-color: #f4f4f4;
+            border-radius: 10px; /* Add border radius */
+        }
+        .nav {
+            border-radius: 10px; /* Border radius for the container */
+            background-color: #000;
+            position: fixed; /* Keep navigation in view */
+            top: 50%; /* Center vertically */
+            left: 0; /* Align to the left */
+            color: blue;
+            transform: translateY(-50%); /* Adjust for vertical centering */
+            background-color: #f9f9f9; /* Background color for nav */
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            z-index: 999; /* Ensure it sits above other content */
+            border-radius: 10px; /* Add border radius */
+        }
+        nav a {
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+            display: block;
+            margin: 5px 0;
+        }
+        nav a:hover {
+            border-radius: 10px; /* Add border radius */
+            background-color: #575757;
+            color: #fff;
+        }
+        main {
+            margin-left: 220px; /* Space for the navigation bar */
+            padding: 20px;
+        }
+        h1, h2, h3, h4 {
+            color: rgba(0, 0, 0, 1)
+
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 10px; /* Add border radius */
+        }
+        th, td {
+            border: 1px solid #dddddd;
+
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+
+            background-color: #f2f2f2;
+        }
+        th img {
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
+
+<header>
+    <p>Muhammad Rashid</p>
+</header>
 <h1>R E S E A R C H P R O J E C T S ( Completed as Freelancer) 🏭 :</h1>
 
 <table border="1">
@@ -207,6 +302,6 @@
 <br>
 
 <h2>CLIENTS - FEEDBACK ⚡ :</h2>
-<p>I always preferred quality over quantity and hence I always provided quality solutions resulting in satisfied clients. Here are a few examples of what clients said about me, which can be found at <a href="/feedbacks.md">This Link</a>.</p>
+<p>I always preferred quality over quantity and hence I always provided quality solutions resulting in satisfied clients. Here are a few examples of what clients said about me, which can be found at <a href="/feedbacks.html">This Link</a>.</p>
 </body>
 </html>

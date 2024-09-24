@@ -4,14 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Rashid's Profile</title>
+    <style>
+        body {
+             background-image: url('assets/images/bg_.jpg'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-position: center; /* Center the image */
+             background-attachment: fixed; /* Fix the background image */
+             opacity: 0.95; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            border-radius: 10px; /* Add border radius */
+            color: white;
+            padding: 0.1px;
+            text-align: center;
+            font-size: 26px; /* Custom font size */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000; /* Ensures the header stays above other content */
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+            border-radius: 10px; /* Border radius for the container */
+            padding: 20px; /* Padding around content */
+        }
+        /* Add some content below the header for scrolling effect */
+        .content {
+            padding: 20px;
+            height: 2000px; /* Just to create scrollable content */
+            background-color: #f4f4f4;
+            border-radius: 10px; /* Add border radius */
+        }
+        .nav {
+            border-radius: 10px; /* Border radius for the container */
+            background-color: #000;
+            position: fixed; /* Keep navigation in view */
+            top: 50%; /* Center vertically */
+            left: 0; /* Align to the left */
+            color: blue;
+            transform: translateY(-50%); /* Adjust for vertical centering */
+            background-color: #f9f9f9; /* Background color for nav */
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            z-index: 999; /* Ensure it sits above other content */
+            border-radius: 10px; /* Add border radius */
+        }
+        nav a {
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+            display: block;
+            margin: 5px 0;
+        }
+        nav a:hover {
+            border-radius: 10px; /* Add border radius */
+            background-color: #575757;
+            color: #fff;
+        }
+        main {
+            margin-left: 220px; /* Space for the navigation bar */
+            padding: 20px;
+        }
+        h1, h2, h3, h4 {
+            color: rgba(0, 0, 0, 1)
+
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 10px; /* Add border radius */
+        }
+        th, td {
+            border: 1px solid #dddddd;
+
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+
+            background-color: #f2f2f2;
+        }
+        th img {
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Muhammad Rashid</h1>
-
+<header>
+    <p>Muhammad Rashid</p>
+</header>
+<div class="nav">
+    <nav>
+        <h3>Content</h3>
+        <a href="#educational-achievements">Educational Achievements</a>
+        <a href="#research-projects-completed">Research Projects</a>
+        <a href="#published-papers">Published Papers</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#profiles">Profile Links</a>
+        <a href="#git-stats">Git Stats</a>
+    </nav>
+</div>
+<main>
 <p>Hi 👋, I am Muhammad Rashid, Software Engineer by profession and a Tourist 🏕️🏔️ by passion. I love to find solutions to real-world problems. As far as my passion is concerned, I love adventures 🚣 in my life and in my professional field. 👨🏻‍💻</p>
 
-<h2>Educational Achievements 🎓:</h2>
+<h2  id="educational-achievements">Educational Achievements 🎓:</h2>
 
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
@@ -49,16 +153,37 @@
 <h3>a. PhD (CS) 2022-Present:</h3>
 <p>Industrial PhD funded by PNRR-CINECA Italy</p>
 
-<h4>Academic Supervisor:</h4>
-<ul>
-    <li><a href="https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore">Elvio Gilberto Amparore</a>, University of Turin, Italy</li>
-</ul>
+<h4>Supervisors</h4>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px;">Role</th>
+            <th style="border: 1px solid #ddd; padding: 8px;">Name and Affiliation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Academic Supervisor</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore">Elvio Gilberto Amparore</a>, University of Turin, Italy
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Industrial Supervisor</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://www.rulex.ai/about-us">Enrico Ferrari, PhD</a>, Head of R&D Projects, Rulex Innovation Labs, Italy
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Industrial Supervisor</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">
+                <a href="https://www.rulex.ai/about-us">Damiano Verda, PhD</a>, Head of Data Science Dept., Rulex Innovation Labs, Italy
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-<h4>Industrial Supervisors:</h4>
-<ul>
-    <li><a href="https://www.rulex.ai/about-us">Enrico Ferrari, PhD</a>, Head of R&D Projects, Rulex Innovation Labs, Italy</li>
-    <li><a href="https://www.rulex.ai/about-us">Damiano Verda, PhD</a>, Head of Data Science Dept., Rulex Innovation Labs, Italy</li>
-</ul>
+
 
 <p>Keywords: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML</p>
 
@@ -179,7 +304,7 @@
 </table>
 
 
-<h2>All Research Articles / Publications 📊📝:</h2>
+<h2 id="published-papers">All Research Articles / Publications 📊📝:</h2>
 <p>After getting motivated, I did my research in Computer Vision and Machine Learning Field and published the following research articles:</p>
 
 <table border="1" cellpadding="10" cellspacing="0">
@@ -270,7 +395,7 @@
 </table>
 
 
-<h2>Certificates 📝:</h2>
+<h2 id="certificates">Certificates 📝:</h2>
 
 <h3>a. Conferences:</h3>
 
@@ -288,8 +413,8 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>`XAI-World` (World Conference on eXplainable Artificial Intelligence)</td>
-      <td>`Oral Presenter in Main Track` &amp; Attendee</td>
+      <td><b>XAI-World</b> (World Conference on eXplainable Artificial Intelligence)</td>
+      <td><b>Oral Presenter in Main Track</b> &amp; Attendee</td>
       <td>Valletta, Malta</td>
       <td>17-19 July 2024</td>
       <td>
@@ -299,8 +424,8 @@
     </tr>
     <tr>
       <td>2</td>
-      <td>`AAAI-24` (Association for the Advancement of Artificial Intelligence (AAAI))</td>
-      <td>`Oral Presenter in Main Track` &amp; Attendee</td>
+      <td><b>AAAI-24</b> (Association for the Advancement of Artificial Intelligence (AAAI))</td>
+      <td><b>Oral Presenter in Main Track</b> &amp; Attendee</td>
       <td>Vancouver, Canada</td>
       <td>22-27 Feb 2024</td>
       <td>
@@ -310,7 +435,7 @@
     </tr>
     <tr>
       <td>3</td>
-      <td>`ECML-PKDD-23` (European Conference on Machine Learning-PKDD)</td>
+      <td><b>ECML-PKDD-23</b> (European Conference on Machine Learning-PKDD)</td>
       <td>Attendee</td>
       <td>Turin, Italy</td>
       <td>18-22, Sep 2023</td>
@@ -321,7 +446,7 @@
   </tbody>
 </table>
 
-<h3>b. Certificates of Courses:</h3>
+<h3 >b. Certificates of Courses:</h3>
 <table border="1">
     <thead>
         <tr>
@@ -428,11 +553,11 @@
     </tbody>
 </table>
 
-<h2>Projects/Tasks Completed:</h2>
-<p>All completed tasks/projects are enlisted in detail in <a href="projects.md">this readme file</a>.</p>
+<h2 id="research-projects-completed">Projects/Tasks Completed:</h2>
+<p>All completed tasks/projects are enlisted in detail in <a href="projects.html">this readme file</a>.</p>
 
 
-<h2>Profile Links 📫:</h2>
+<h2 id='profiles'>Profile Links 📫:</h2>
 
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
@@ -476,6 +601,16 @@
         <td><a href="https://github.com/rashidrao-pk">https://github.com/rashidrao-pk</a></td>
     </tr>
 </table>
+<h2 id='git-stats'>GitHub Repositories Stats</h2>
 
+<a href="https://github.com/rashidrao-pk/github-readme-stats">
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=rashidrao-pk&rank_icon=percentile" alt="GitHub Stats"/>
+</a>
+<a href="https://github.com/rashidrao-pk/convoychat">
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=rashidrao-pk&layout=compact&langs_count=8&card_width=320" alt="Top Languages"/>
+</a>
+
+
+</main>
 </body>
 </html>
