@@ -18,11 +18,12 @@
         }
         header {
             background-color: #333;
-            border-radius: 10px; /* Add border radius */
+            border-radius: 1px; /* Add border radius */
             color: white;
             padding: 0.1px;
             text-align: center;
             font-size: 26px; /* Custom font size */
+            font-family: Generic Font Family;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             position: sticky;
             top: 0;
@@ -94,6 +95,29 @@
         th img {
             vertical-align: middle;
         }
+        .highlight{
+            color: blue;
+        }
+        /* Style the button */
+        #myBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            bottom: 10px; /* Position from the bottom */
+            left: 10px; /* Position from the right */
+            z-index: 100; /* Sit on top */
+            font-size: 18px; /* Text size */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #007BFF; /* Blue background */
+            color: white; /* White text */
+            padding: 15px; /* Some padding */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+        /* Show the button when scrolling down */
+        #myBtn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
     </style>
 </head>
 <body>
@@ -101,9 +125,11 @@
 <header>
     <p>Muhammad Rashid</p>
 </header>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <div class="nav">
     <nav>
-        <h3>Content</h3>
+        <h3>Muhammad Rashid</h3>
         <a href="#educational-achievements">Educational Achievements</a>
         <a href="#research-projects-completed">Research Projects</a>
         <a href="#published-papers">Published Papers</a>
@@ -148,8 +174,6 @@
     </tr>
 </table>
 
-<h2>Educational Projects / Research Projects 💻:</h2>
-
 <h3>a. PhD (CS) 2022-Present:</h3>
 <p>Industrial PhD funded by PNRR-CINECA Italy</p>
 
@@ -183,11 +207,9 @@
     </tbody>
 </table>
 
-
-
 <p>Keywords: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML</p>
 
-<h2>Published Papers 📄:</h2>
+<h2>Publications in PhD 📄:</h2>
 
 <p>Here are the publications related to my PhD work:</p>
 
@@ -613,4 +635,25 @@
 
 </main>
 </body>
+<footer>
+    <script>
+        // Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        };
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</footer>
 </html>
