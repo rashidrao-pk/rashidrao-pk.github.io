@@ -9,7 +9,7 @@ venue: 'xAI 2024 | Explainable Artificial Intelligence'
 location: "La Valletta, Malta"
 slidesurl: 'http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf'
 paperurl: 'http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_paper.pdf'
-citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13).'
+citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In World Conference on Explainable Artificial Intelligence, pp. 243-254. Cham: Springer Nature Switzerland, 2024</i>.'
 ---
 
 Generative models based on variational autoencoders are a popular technique for detecting anomalies in images in a semi-supervised context. A common approach employs the anomaly score to detect the presence of anomalies, and it is known to reach high level of accuracy on benchmark datasets. However, since anomaly scores are computed from reconstruction disparities, they often obscure the detection of various spurious features, raising concerns regarding their actual efficacy. 
