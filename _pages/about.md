@@ -1,49 +1,95 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hey, I'm Sascha."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I'm a  Machine Learning (Computer Vision) Researcher at the University of Turin in Italy, where I have been pursuing my PhD since 2022. My research is centered on advancing machine learning techniques for Computer vision related tasks, with a recent focus on eXplainable AI (XAI) and visual anomaly detection in industrial applications.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Research Interests
+My current work involves developing a new approach for learning hard, axis-aligned decision trees using gradient descent. This method employs backpropagation with a straight-through operator on a dense decision tree representation, allowing for the joint optimization of all tree parameters. As a result, we achieve state-of-the-art performance across various domains, including interpretable decision trees and high-performance decision tree ensembles for tabular data, as well as interpretable reinforcement learning without information loss.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My primary research interests include:
+* Computer Vision
+* Deep Learning for Image Data
+* Anomaly Detection
+* Explainable Artificial Intelligence (XAI)
+* Explainable Copmuter Vision (XCV)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## News
+### 🤖 Using Stratified Sampling to Improve LIME Image Explanations @ AAAI-24 
+* Our paper was accepted in main technical track and then as a poster presentation, only 100 random papers were selected out of 2200 accepted papers and all the papers also required to be presented as poster presentation as well including those 100 papers.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* We investigate the use of a stratified sampling approach for LIME Image, a popular model-agnostic explainable AI method for computer vision tasks, in order to reduce the artifacts generated by typical Monte Carlo sampling. Such artifacts are due to the undersampling of the dependent variable in the synthetic neighborhood around the image being explained, which may result in inadequate explanations due to the impossibility of fitting a linear regressor on the sampled data. We then highlight a connection with the Shapley theory, where similar arguments about undersampling and sample relevance were suggested in the past. We derive all the formulas and adjustment factors required for an unbiased stratified sampling estimator. Experiments show the efficacy of the proposed approach.. The method is available under: https://github.com/rashidrao-pk/lime_stratified
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* Explore more:
+  * Read our [paper](https://openreview.net/forum?id=qpXctF2aLZ)
+  * Try our [code](https://github.com/s-marton/SYMPOL)
 
-**Markdown generator**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 🌳🧠 Decision Trees That Remember: Gradient-Based Learning of Recurrent Decision Trees with Memory @ ICLR 25 NFAM Workshop
+* Our paper was accepted at the ICLR 25 Workshop on New Frontiers in Associative Memories
+* We propose ReMeDe trees, a recurrent decision tree architecture with internal memory, enabling efficient learning for sequential data through hard, axis-aligned decision trees trained via gradient descent.
+* 🔍 Why does this matter?
+  * Captures long-term dependencies like RNNs but retains the axis-alignment and transparency of decision trees
+  * Handles sequential data without relying on fixed-size memory windows or hand-crafted features
+  * Trained efficiently via Backpropagation-Through-Time
+* Read our [paper](https://openreview.net/forum?id=u2Hh24rxW1)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Publication List
+### First Author Publications
+1. [Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI](https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13)<br />
+<u>Muhammad Rashid</u>, Elvio Amparore, Enrico Ferrari, Damiano Verda<br />
+eXplainable AI world Conference-24 <b></b>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+2. [Using Stratified Sampling to Improve LIME Image Explanations](https://ojs.aaai.org/index.php/AAAI/article/view/29397)<br />
+<u>Muhammad Rashid</u>, Elvio Amparore, Enrico Ferrari, Damiano Verda<br />
+AAAI-24 <b></b>
+
+3. [A sustainable deep learning framework for object recognition using multi-layers deep features fusion and selection](https://www.mdpi.com/2071-1050/12/12/5037)<br />
+<u>Muhammad Rashid</u>, Muhammad Attique Khan, Majed Alhaisoni, Shui-Hua Wang, Syed
+Rameez Naqvi, Amjad Rehman, Tanzila Saba<br />
+Sustainability | Q1 Journal 3.25 IF<b></b>
+
+4. [Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features](https://link.springer.com/article/10.1007/s11042-018-7031-0)<br />
+<u>Muhammad Rashid</u>, Muhammad Attique Khan, Muhammad Sharif, Mudassar Raza,
+Muhammad Masood, Farhat Afza<br />
+Multimedia Tools and Applications | Q1 Journal 2.577 IF <b></b>
+
+
+### Further Publications
+5.  [A Novel Light U-Net Model for Left Ventricle Segmentation Using MRI](https://www.mdpi.com/2227-7390/11/14/3245)<br />
+Mehreen Irshad, Mussarat Yasmin, Muhammad Imran Sharif, <u>Muhammad Rashid</u>, ...<br />
+Mathematics | Q Journal 2.3 IF
+6.   [Deep CNN and geometric features-based gastrointestinal tract diseases detection and classification from wireless capsule endoscopy images](https://www.tandfonline.com/doi/abs/10.1080/0952813X.2019.1572657)<br />
+Muhammad Sharif, Muhammad Attique Khan, <u>Muhammad Rashid</u>, Mussarat Yasmin,
+Farhat Afza, Urcun John Tanik<br />
+Journal of Experimental & Theoretical Artificial Intelligence | Journal IF 2.296
+
+7.  [Classification of gastrointestinal diseases of stomach from WCE using improved saliency-based method and discriminant features selection](https://link.springer.com/article/10.1007/s11042-019-07875-9)<br />
+    Muhammad Attique Khan, <u>Muhammad Rashid</u> , Muhammad Sharif, Kashif Javed<br />
+    Multimedia Tools and Applications - IF 2.577
+8.  [An integrated framework of skin lesion detection and recognition through saliency method and optimal deep neural network features selection](https://link.springer.com/article/10.1007/s00521-019-04514-0)<br />
+    M Attique Khan, Tallha Akram, Muhammad Sharif, Kashif Javed, <u>Muhammad Rashid</u>,
+Syed Ahmad Chan Bukhari<br />
+    Neural Computing and Applications - IF 5.102
+9.  [Region-based active contour JSEG fusion technique for skin lesion segmentation from dermoscopic images](https://1stdirectory.co.uk/_assets/files_comp/ad6f229c-84db-4857-a481-2f6e9377461d.pdf)<br />
+    Rabia Javed, Mohd Shafry Mohd Rahim, Tanzila Saba, <u>Muhammad Rashid</u><br />
+    Biomedical Research | Journal IF 0.219 
+10.  [An Optimized Approach for Breast Cancer Classification for Histopathological Images Based on Hybrid Feature Set](https://www.ingentaconnect.com/content/ben/cmir/2021/00000017/00000001/art00016)<br />
+  Inzamam Mashood Nasir, <u>Muhammad Rashid</u>, Jamal Hussain Shah, Muhammad Sharif,
+Muhammad Yahiya Haider Awan, Monagi H Alkinani<br />
+  Current medical imaging | Journal IF 1.315
+
+
+
+
+
+
+
+
+

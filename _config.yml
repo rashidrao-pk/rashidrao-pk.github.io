@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Muhammad Rashid / Machine Learning Researcher"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Muhammad Rashid"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://rashidrao-pk.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rashidrao-pk/rashidrao-pk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,30 +25,30 @@ author:
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Machine Learning Researcher and PhD Candidate"
+  location         : "Turin, Italy"
+  employer         : "University of Turin"
   uri              : # URL
-  email            : "none@example.org" 
-
+  email            : "muhammad.rashid@unito.it" 
+  github           : "rashidrao-pk" # GitHub username
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.pk/citations?user=F5u_Z5MAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  orcid            : "https://orcid.org/0000-0002-2557-6845/"
+  semantic         : "https://www.semanticscholar.org/author/Muhammad-Rashid/2293444837" # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Muhammad-Rashid-65" # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57417085200" # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # github           : "academicpages"
+  kaggle           : "https://www.kaggle.com/rashidrao" # Username  
+  stackoverflow    : "https://stackoverflow.com/users/3309075/rashid-rao" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   bluesky          : "bsky.app" # Replace this with you Bluesky username
@@ -60,9 +60,9 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/rashid-rao-cuipakistan" # Username
   mastodon         : # URL
-  medium           : # URL
+  medium           : "https://medium.com/@muhammad-rashid" # URL
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
