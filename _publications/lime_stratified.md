@@ -6,8 +6,9 @@ permalink: /publication/lime_stratified
 excerpt: 'A improved version of LIME to generate meaninful explanations when LIME degenerates meaningless explanations.'
 date: 2024-03-24
 venue: 'AAAI Conference on Artificial Intelligence'
-slidesurl: 'http://s-marton.github.io/files/poster_gradtree.pdf'
-paperurl: 'http://s-marton.github.io/files/paper_gradtree.pdf'
+slidesurl: 'http://rashidrao-pk.github.io/files/st_lime_slides.pdf'
+posterurl: 'http://rashidrao-pk.github.io/files/st_lime_poster.pdf'
+paperurl: 'http://rashidrao-pk.github.io/files/st_lime_paper.pdf'
 citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13).'
 ---
 
