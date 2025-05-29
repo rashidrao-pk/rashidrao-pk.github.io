@@ -40,15 +40,15 @@ author:
   semantic         : "https://www.semanticscholar.org/author/Muhammad-Rashid/2293444837" # URL
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Muhammad-Rashid-65" # URL
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57417085200" # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57221707362&origin=resultslist" # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
   # github           : "academicpages"
-  kaggle           : "https://www.kaggle.com/rashidrao" # Username  
-  stackoverflow    : "https://stackoverflow.com/users/3309075/rashid-rao" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : "rashidrao" # Username  
+  stackoverflow    : "3309075/rashid-rao" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   # bluesky          : "https://bsky.app/profile/rashid-rao.bsky.social" # Replace this with you Bluesky username
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/rashid-rao-cuipakistan" # Username
+  linkedin         : "rashid-rao-cuipakistan" # Username
   mastodon         : # URL
   medium           : "https://medium.com/@muhammad-rashid" # URL
   pinterest        : # Username
