@@ -11,35 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, University of Turin, Italy 2025 (expected)
+* M.S. in Computer Science, Comsats University Islamabad Pakistan, 2019
+* B.S. in AIOU Islamabad Pakistan, 2016
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* January 2025: Visiting PhD Researcher
+  * [**_Valeria-Lab_**](https://valeria.ugr.es), [_Dept. of Computer Engineering, Automation and Robotics Department_](https://icar.ugr.es), [_University of Granada_](https://www.ugr.es)
+  * Duties includes: generation of synthetic data for a use case of EU project [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/)
+  * Supervisor: [*_Jesus Garrido_*](#)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* November 2022: Doctoral Researcher (Innovative & Industrial Need based) 
+  * University of Turin, Italy
+  * Duties includes: Automatic extraction of high-level semantic features, Object Localization, Anomaly Detection and Visual explanations for Anomalies
+  * Supervisor: [*_Elvio Gilberto Amparore_*](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore)
 
-* Summer 2015: Research Assistant
+* November 2022: PhD Student (Research & Development) 
+  * RuleX Innovation Labs
+  * Duties included: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
+  * Supervisor: [*_Enrico Ferrari_*](https://www.rulex.ai/about-us), [*_Damiano Verda_*](https://www.rulex.ai/about-us)
+
+<!-- * Summer 2015: Research Assistant
   * GitHub University
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Professor Git -->
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning
+  * Computer Vision
+  * Deep Learning
+  <!-- * Sub-skill 2.1 -->
+  <!-- * Sub-skill 2.2 -->
+  <!-- * Sub-skill 2.3 -->
+* Programming Languages
+  * Python
+  * Matlab
+  * C++
 
 Publications
 ======
@@ -59,6 +68,6 @@ Talks
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
