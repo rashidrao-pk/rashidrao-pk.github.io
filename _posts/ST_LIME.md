@@ -1,11 +1,11 @@
 ---
 title: 'Stratified LIME to generate Image Explanation: An improved version of LIME Image'
 date: 12-09-2024
-permalink: /posts/XAD_VAE_GAN/
+permalink: /posts/ST_LIME
 tags:
   - XAI
-  - anomaly detection
-  - VAE-GAN
+  - LIME
+  - Sampling Strategy
 ---
 
 This blog post is based on our research article Using Stratified Sampling to Improve LIME Image Explanations. This helps;

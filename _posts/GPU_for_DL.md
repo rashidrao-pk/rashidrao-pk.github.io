@@ -1,7 +1,7 @@
 ---
 title: 'How to Setup GPU for Tensorflow on Windows'
 date: 12-09-2024
-permalink: /posts/XAD_VAE_GAN/
+permalink: /posts/GPU_for_DL/
 tags:
   - XAI
   - anomaly detection
