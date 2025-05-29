@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Muhammad Rashid"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Researcher and PhD Candidate"
+  bio              : "Machine Learning Researcher"
   location         : "Turin, Italy"
   employer         : "University of Turin"
   uri              : # URL
@@ -51,7 +51,7 @@ author:
   stackoverflow    : "https://stackoverflow.com/users/3309075/rashid-rao" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "https://bsky.app/profile/rashid-rao.bsky.social" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
