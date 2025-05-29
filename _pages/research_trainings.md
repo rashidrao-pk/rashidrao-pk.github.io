@@ -37,25 +37,6 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
   
-Skills
-======
-* Technical Skills
-  * Machine Learning
-  * Computer Vision
-  * Deep Learning (TensorFlow, PyTorch)
-
-  <!-- * Sub-skill 2.1 -->
-  <!-- * Sub-skill 2.2 -->
-  <!-- * Sub-skill 2.3 -->
-* Programming Languages
-  * Python
-  * Matlab
-  * C/C++
-  * Basics of Visual Bsaic, C#, and Java
-* Languages
-  * Urdu (Native)
-  * English (Fluent, B2)
-  * Italian (Basic, A1)
 
 Publications
 ======
