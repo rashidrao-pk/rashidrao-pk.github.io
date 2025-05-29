@@ -1,5 +1,5 @@
 ---
-title: "St-LIME | Using Stratified Sampling to Improve LIME Image Explanations"
+title: "Using Stratified Sampling to Improve LIME Image Explanations"
 collection: publications
 category: conferences
 permalink: /publication/lime_stratified

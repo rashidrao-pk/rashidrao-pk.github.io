@@ -1,5 +1,5 @@
 ---
-title: "XAD | Can I trust my anomaly detection system? A case study based on explainable AI"
+title: "Can I trust my anomaly detection system? A case study based on explainable AI"
 collection: publications
 category: conferences
 permalink: /publication/anomaly_detection_xai
