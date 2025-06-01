@@ -1,10 +1,10 @@
 ---
-permalink: /
+permalink: /certification/
 title: "Hey, I'm Rashid."
 author_profile: true
 redirect_from: 
-  - /certification/
-  - /certification.html
+  # - /certification/
+  # - /certification.html
 ---
 
 # Certification 📝:
