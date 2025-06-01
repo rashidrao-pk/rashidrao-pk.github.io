@@ -25,7 +25,11 @@ main:
     
   - title: "CV"
     url: /cv/
-    
+  - title: "certification"
+    url: /certification/
+  - title: "awards"
+    url: /awards/
+
   # - title: "CV"
   #   url: /cv-json/
     
