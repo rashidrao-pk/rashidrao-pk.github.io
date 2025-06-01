@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /awards/
 title: "Hey, I'm Rashid."
 author_profile: true
 redirect_from: 

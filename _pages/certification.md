@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /certification/
 title: "Hey, I'm Rashid."
 author_profile: true
 redirect_from: 
@@ -11,6 +11,7 @@ redirect_from:
 
 ##  a. Certificates of Conferences:
 
+
 | Sr. No. | Conference          | Role     |   Location   |  From-To  |  Presentation/Paper/Certificate Links |
 | :-----: | ------------------  |:---:     |   :---:      |  :---:    |                :---:                  |
 | 1.      | `XAI-World` (World Conference on eXplainable Artificial Intelligence) |   `Oral Presenter in Main Track` & Attendee  |  Valletta,Malta     | 17-19 July 2024   | [`Presentation Link`](https://xaiworldconference.com/2024/timetable/event/s-17-a-1/), [Attendance Certificate](files/certificates/xai_2024.png)   |
@@ -18,6 +19,7 @@ redirect_from:
 | 3. | `ECML-PKDD-23` (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [Attendance Certificate](files/certificates/ECML_23.png) |
 | 4. | `icSoftComputing` (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [Attendance Certificate](files/certificates/icSoftComp2024.jpg) |
 ---
+
 
 ##  b. Certificates of Courses:
 | Sr. No. | Certificate Name                           | Issued By            |   Dated         | Course Length | Certificate |
