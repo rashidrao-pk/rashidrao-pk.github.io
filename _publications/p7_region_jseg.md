@@ -1,21 +1,20 @@
 ---
-title: "A novel light u-net model for left ventricle segmentation using MRI"
+title: "Region-based active contour JSEG fusion technique for skin lesion segmentation from dermoscopic images"
 collection: publications
 category: conferences
-permalink: /publication/unet_model
-excerpt: 'A novel light u-net model for left ventricle segmentation using MRI'
+permalink: /publication/p7_region_jseg
+excerpt: 'Region-based active contour JSEG fusion technique for skin lesion segmentation from dermoscopic images'
 # date: 17-07-2024
-venue: 'Mathematics'
+venue: 'Biomedical Research'
 # location: "La Valletta, Malta"
 # slidesurl: 'http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf'
-paperurl: 'https://www.mdpi.com/2227-7390/11/14/3245'
-citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In Mathematics 11, no. 14 (2023): 3245.</i>.'
+paperurl: 'https://1stdirectory.co.uk/_assets/files_comp/ad6f229c-84db-4857-a481-2f6e9377461d.pdf'
+citation: 'Rashid,Muhammad et al. (2019). &quot;.&quot; <i>In Biomedical Research</i>.'
 ---
 
-Authors: Mehreen Irshad, Mussarat Yasmin, Muhammad Imran Sharif, <u>Muhammad Rashid</u>, ...<br />
-Mathematics | Q Journal 2.3 IF
+Authors: Rabia Javed, Mohd Shafry Mohd Rahim, Tanzila Saba, <u>Muhammad Rashid</u>
 
-citation:
+<!-- citation:
 @article{irshad2023novel,
   title={A novel light u-net model for left ventricle segmentation using MRI},
   author={Irshad, Mehreen and Yasmin, Mussarat and Sharif, Muhammad Imran and Rashid, Muhammad and Sharif, Muhammad Irfan and Kadry, Seifedine},
@@ -25,5 +24,5 @@ citation:
   pages={3245},
   year={2023},
   publisher={MDPI}
-}
+} -->
 
