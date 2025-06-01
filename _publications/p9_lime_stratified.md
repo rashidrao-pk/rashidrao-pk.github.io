@@ -2,7 +2,7 @@
 title: "Using Stratified Sampling to Improve LIME Image Explanations"
 collection: publications
 category: conferences
-permalink: /publication/lime_stratified
+permalink: /publication/p9_lime_stratified
 excerpt: 'A improved version of LIME to generate meaninful explanations when LIME degenerates meaningless explanations.'
 date: 2024-03-24
 venue: 'AAAI Conference on Artificial Intelligence'

@@ -1,7 +1,7 @@
 ---
 title: "A novel light u-net model for left ventricle segmentation using MRI"
 collection: publications
-category: Journal
+category: conferences
 permalink: /publication/unet_model
 excerpt: 'A novel light u-net model for left ventricle segmentation using MRI'
 # date: 17-07-2024

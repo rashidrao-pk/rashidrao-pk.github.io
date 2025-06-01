@@ -2,7 +2,7 @@
 title: "Can I trust my anomaly detection system? A case study based on explainable AI"
 collection: publications
 category: conferences
-permalink: /publication/anomaly_detection_xai
+permalink: /publication/p10_anomaly_detection_xai
 excerpt: 'A Case study to highlight use of VAE-GAN based Gen-AI approach to detect Anomalies in Industrial Inspection systems.'
 date: 17-07-2024
 venue: 'xAI 2024 | Explainable Artificial Intelligence'

@@ -64,10 +64,6 @@ Skills
   * Matlab
   * C/C++
   * Basics of Visual Bsaic, C#, and Java
-* Languages
-  * Urdu (Native)
-  * English (Fluent, B2)
-  * Italian (Basic, A1)
 
 Language
 ======
@@ -155,8 +151,6 @@ Certifications
     Go to TOP
   </a>
 </div>
-
-
 
 <!-- Teaching
 ======
