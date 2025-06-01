@@ -98,3 +98,56 @@ Muhammad Yahiya Haider Awan, Monagi H Alkinani<br />
 
 
 
+<hr>
+<p align="center">
+    <a href="https://github.com/rashidrao-pk" target="_blank">
+        <img src="assets/github.png" alt="github" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.kaggle.com/rashidrao" target="_blank">
+        <img src="assets/kaggle.png" alt="kaggle" width="70" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.mathworks.com/matlabcentral/profile/authors/14907465" target="_blank">
+        <img src="assets/mathworks.gif" alt="Mathworks" width="30" height="30"/>
+    &nbsp; | 
+    <a href="https://medium.com/@muhammad-rashid" target="_blank">
+        <img src="assets/medium.png" alt="Medium" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://stackoverflow.com/users/3309075/rashid-rao" target="_blank">
+        <img src="assets/stackoverflow.png" alt="StackOverflow" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://forums.developer.nvidia.com/u/rashid-rao/summary" target="_blank">
+        <img src="assets/nvidia.png" alt="Nvidia Developer" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://community.ultralytics.com/u/mrashid/summary" target="_blank">
+        <img src="assets/ultralytics.png" alt="linkedin" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/rashid-rao-cuipakistan/" target="_blank">
+        <img src="assets/linkedin.png" alt="linkedin" width="30" height="30"/>
+    </a>
+    &nbsp; |
+    <a href="https://scholar.google.com/citations?user=r3hkNdoAAAAJ" target="_blank">
+        <img src="assets/google scholar.png" alt="Google Scholar" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://orcid.org/0000-0002-2557-6845" target="_blank">
+        <img src="assets/orcid.png" alt="Google Scholar" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.researchgate.net/profile/Muhammad-Rashid-65" target="_blank">
+        <img src="assets/researchgate.png" alt="Google Scholar" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.scopus.com/authid/detail.uri?authorId=57417085200" target="_blank">
+        <img src="assets/scopus.png" alt="Google Scholar" width="30" height="30"/>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://underline.io/speakers/254136-muhammad-rashid" target="_blank">
+        <img src="assets/underline.png" alt="Google Scholar" width="70" height="30"/>
+    </a>
+</p>
