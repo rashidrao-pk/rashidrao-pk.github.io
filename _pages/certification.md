@@ -1,13 +1,13 @@
 ---
 permalink: /certification/
-title: "Hey, I'm Rashid."
+title: "Certification 📝"
 author_profile: true
 redirect_from: 
   # - /certification/
   # - /certification.html
 ---
 
-# Certification 📝:
+<!-- # : -->
 ---
 
 ##  a. Certificates of Conferences:
@@ -20,6 +20,7 @@ redirect_from:
 | 2. | `AAAI-24` (Association for the Advancement of Artificial Intelligence (AAAI)) | `Oral Presenter in Main Track` & Attendee  |  Vancouver, Canada  | 22-27 Feb 2024   |     [`Presentation Link`](https://underline.io/speakers/254136-muhammad-rashid), [Attendance Certificate](files/certificates/AAAI-24_Certificate.jpeg)   |
 | 3. | `ECML-PKDD-23` (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [Attendance Certificate](files/certificates/ECML_23.png) |
 | 4. | `icSoftComputing` (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [Attendance Certificate](files/certificates/icSoftComp2024.jpg) |
+
 ---
 
 

@@ -1,13 +1,12 @@
 ---
 permalink: /awards/
-title: "Hey, I'm Rashid."
+title: "Awards 🏆"
 author_profile: true
 redirect_from: 
   # - /awards/
   # - /awards.html
 ---
 
-##  Awards/Honors 🏆:
 
 | Sr. No.| Award Type    | Awarded By        |   Dated   | Reason | Link |
 | :---:  | ------------------  | ------------     |   :---:   | :---:   |   :---:    |     
