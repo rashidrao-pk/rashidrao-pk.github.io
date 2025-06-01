@@ -9,11 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Computer Science, University of Turin, Italy 2025 (expected)
-* M.S. in Computer Science, Comsats University Islamabad Pakistan, 2019
-* B.S. in AIOU Islamabad Pakistan, 2016
 
 Work experience
 ======
@@ -36,6 +31,97 @@ Work experience
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
+
+Education
+======
+---
+
+|  Sr. No. | Degree 📘  | Institute                                             | From |  To  |
+|  :---:   | :--------   | :------                                              | :--:  | :--: |
+| a.       | **Ph. D.(CS)**  | *_University of Turin_*, Italy.                          | 2022  | 2025 |
+| b.       | **MS(CS)**      | *_Comsats University Islamabad_*, Wah Campus, Pakistan.  | 2017  | 2019 |
+| c.       | **BS(CS)**      | *_Allama Iqbal Open University_* Islamabad, Pakistan.    | 2010  | 2016 |
+
+
+## a. PhD(CS): 
+**Details about PhD work**: 
+- ***Title, & Type***: Industrial PhD funded by PNRR-CINECA Italy for European Projects
+- ***University & Industry***: [***University of Turin***](https://www.unito.it/), [***Rulex Innovation Labs***, *_Italy_*](https://www.rulex.ai/)
+- ***Duration***: Oct 2022 - ~ Dec 2025 
+- ***Objectives***: Automatic extraction of high-level semantic features, Object Localization, Anomaly Detection and Visual explanations for Anomalies.
+- ***Training Activities & Courses***: Check [**Courses Details Here**](courses.md#a-courses-taken-in-phd-degree) and other [***Training Activities Here***](courses.md#seminar--workshops).
+- ***Keywords***: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
+- ***Image Datasets Used***: ImageNet, ImageNet-S, MVTec, MS-COCO.
+
+**Proudly Supervised by**
+ - *_Academic_*: [*_Elvio Gilberto Amparore_*](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore) , [***Dept. of Computer Science, University of Turin***](http://www.di.unito.it/do/home.pl), Italy. </li>
+ - *_Industrial_*: [*_Enrico Ferrari_*](https://www.rulex.ai/about-us), HEAD OF R&D PROJECTS, [***Rulex Innovation Labs***, *_Italy_*](https://www.rulex.ai/).
+ - *_Industrial_*: [*_Damiano Verda_*](https://www.rulex.ai/about-us), HEAD OF DATA SCIENCE, [***Rulex Innovation Labs***, *_Italy_*](https://www.rulex.ai/).
+
+***Contributions to European Project***:
+  - ***DistriMuSe Website***: My task here is to implement ***Anomaly Detection(AD)*** in robotics use case for human safety, read more details here at [***DistriMuSe Website***](https://distrimuse.eu/about-the-project/).
+
+ **Achievements:**
+
+Acheivements in this study are the following Publications made and also available at [***UniTo portal***](https://iris.unito.it/cris/rp/rp203241).
+|  Sr. No. | Title | Journal / Conference | Dates | Location | Publication Date | LINKS <img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" /> |
+| :------: | ----- | ------- | :---: | :--------: | :--------: | :---------: |
+| 1. | Anonumous Submission. |  [***A+*** Ranked Conference]() | - | -  | `Under Review` | [Codes]() |
+| 2. | ***Can I trust my anomaly detection system? A case study.*** |  [***XAI-World*** ( World Conference on eXplainable Artificial Intelligence)](https://xaiworldconference.com/2024/) | 17-19 July 2024 | Valletta, Malta  | 10 July 2024 | [**Paper PDF Link**](https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13) -:- [**Codes**](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) -:- [***Medium Blog***](https://muhammad-rashid.medium.com/explainable-anomaly-detection-in-images-using-self-supervised-learning-with-generative-ai-vae-gan-40a34af50dd4)|
+| 3. | ***Using Stratified Sampling to Improve LIME Image Explanations.*** | [***AAAI-24*** (38th Annual AAAI Conference on Artificial Intelligence)](https://aaai.org/aaai-conference) |  22-27 feb 2024 | Vancouver, Canada. | 24-03-2024 |  [***Paper PDF Link***](https://ojs.aaai.org/index.php/AAAI/article/view/29397) -:- [***Stratified LIME***](https://github.com/rashidrao-pk/lime_stratified)<br> -:- [***Examples***](https://github.com/rashidrao-pk/lime-stratified-examples) -:- [***Medium Blog***](https://muhammad-rashid.medium.com/stratified-lime-to-generate-image-explanation-an-improved-version-of-lime-image-6b9668f03f1f)|
+
+---
+
+
+## b. Master Degree 
+---
+
+**Degree Details**: 
+- ***Title & Duration***: Master of Science (Computer Vision and Graphics), 2017-2019
+- ***Courses Taken***: [`Here`](courses.md#b-courses-taken-in-master-degree) is the summary of Courses and other Training Activities.   
+- ***Dataset Used***: Caltech-101, Caltech-256, PascalVOC-3D, Flower, Butterfly
+- ***Keywords***: Object Detection, Object Localization, Computer Vision, Deep Learning, Feature Engineering, Feature Selection and Optimization.
+
+**Achievements:**
+
+|  Sr. No. | Type    | Title  | Journal  | Publication Date | Paper      |    DOI     |    Codes <img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" />    |
+| :------: | :-----: | :----- | :------- |      :---:       | :--------: | :--------: | :---------: |
+| 1. | Research Thesis | Object Detection and Classification based on Feature Fusion and Deep Convolutional Networks.  | --- | --- | --- | --- | [GitHub Repo](https://github.com/rashidrao-pk/Object-detection-and-classification-based-on-feature-fusion-and-deep-convolutional-networks) |
+| 2. | Published Research Article | A sustainable deep learning framework for object recognition using multi-layers deep features fusion and selection.  | Sustainability | 19 June 2020 | [Link](https://www.mdpi.com/2071-1050/12/12/5037) | [PDF Link](https://doi.org/10.3390/su12125037) | [GitHub Repo](https://github.com/rashidrao-pk/A-sustainable-deep-learning-framework-for-object-recognition-using-multi-layers-deep-features-fusion), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70979-object_detection_-_classification?s_tid=prof_contriblnk)|
+| 3. | Published Research Article | Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features. |  Multimedia Tools and Applications | 08 Dec 2018 | [PDF Link](https://link.springer.com/article/10.1007/s11042-018-7031-0) | [LINK](https://doi.org/10.1007/s11042-018-7031-0) | [GitHub Repo ](https://github.com/rashidrao-pk/Object-Detection-and-Classification-A-Joint-Selection-and-Fusion-Strategy-of-Deep-Convolutional-Neu), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70981-object-detection-classification?s_tid=prof_contriblnk)|
+
+***NOTE:*** Few of the research activities/publications were outcome of collaboration work with other members of the research group. [See](README.md#all-research-articles--publications) 
+<br>
+
+---
+
+
+## c. Bachelor Degree
+
+
+ Bachelor of Science (Computer Science - **_Web Development_**) 
+
+**Degree Details**: 
+- ***Title***: Bachelor of Science (Computer Science - Web Development) (2016)
+- ***Keywords***: Software Engineering, Web development, Web Applications, Web Security, Information Security. 
+<details> 
+<summary> Click Here to check full project details  to see details</summary>
+
+
+**Achievements**: 
+
+|  Sr. No. | Title |
+|  :---    | :---  |
+|  Product      |  Developed A secure Web Application using MVC architecture and CodeIgnitor Framework  |
+|  Name      |  ***OVBTP***, A Secure AI based Web Application for Venue Booking and Tour Planning  |
+| Website      | [http://www.ovbtp.com](http://www.ovbtp.com) |
+| CODES      | [GITHUB](https://github.com/rashidrao-pk/Online-Venure-Booking-and-Tour-Planning)<img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" /> - [![autollm stars](https://img.shields.io/github/stars/rashidrao-pk/Online-Venue-Booking-and-Tour-Planning?color=blueviolet)](https://github.com/rashidrao-pk/Online-Venue-Booking-and-Tour-Planning)  - ![Published Date](https://img.shields.io/badge/published_Date-2023--01--03-brightgreen)
+|  Tools Used      |  MVC, MS-SQL, CodeIgnitor, PhP, Javascript, HTML, CSS  |
+</details>
+
+
+
+
 
 Publications
 ======
