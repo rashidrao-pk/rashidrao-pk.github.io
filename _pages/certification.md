@@ -8,8 +8,10 @@ redirect_from:
 ---
 
 # Certification 📝:
+---
 
 ##  a. Certificates of Conferences:
+---
 
 
 | Sr. No. | Conference          | Role     |   Location   |  From-To  |  Presentation/Paper/Certificate Links |
@@ -22,6 +24,9 @@ redirect_from:
 
 
 ##  b. Certificates of Courses:
+---
+
+
 | Sr. No. | Certificate Name                           | Issued By            |   Dated         | Course Length | Certificate |
 | :---: | ------------------                           | ------------         |   :---:         |   :---:   |     :---:   |
 | 1.    | [Build Basic Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/) | [DeepLearning.AI](https://www.deeplearning.ai/) |  04-02-2025    | 29 hours   |  [LINK](https://www.coursera.org/account/accomplishments/verify/OVXPELXP2RAP?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)   |
