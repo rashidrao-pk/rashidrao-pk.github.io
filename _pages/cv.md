@@ -76,7 +76,7 @@ Language
 | --------- | ----- | ----- | 
 | Urdu      |  Native | |
 | English   | B2      | -- |
-| Italian   | A1      | [LINK](files/certificates/Italian_A1.png) |
+| Italian   | A1      | [LINK](../files/certificates/Italian_A1.png) |
 
 ---
 
