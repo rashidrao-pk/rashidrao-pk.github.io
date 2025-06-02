@@ -7,14 +7,7 @@ redirect_from:
   # - /certification.html
 ---
 
-<!-- # : -->
----
-
-Certifications 
-======
-
 ##  a. Certificates of Conferences:
----
 
 
 | Sr. No. | Conference          | Role     |   Location   |  From-To  |  Presentation/Paper/Certificate Links |

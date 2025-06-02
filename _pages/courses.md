@@ -1,5 +1,12 @@
+---
+permalink: /courses/
+title: "Courses 📝"
+author_profile: true
+redirect_from: 
+  # - /courses/
+  # - /courses.html
+---
 
-#  Courses 📝:
 ##  a. Courses taken in PhD Degree:
 
 | **Sr. No.** | **Course Title**                        | **Instructors**                                         | **Link to Syllabus** | **Total Hours** | **Type of Exam**       | **Attendance & Exam Dates**            |
