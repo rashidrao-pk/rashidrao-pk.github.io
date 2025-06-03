@@ -10,22 +10,26 @@ redirect_from:
 {% include base_path %}
 
 
+Hi 👋, I am Muhammad Rashid, an early career **researcher** working in **Artificial Intelligence**, **Computer Vision** and **eXplainable AI**.
+
 Work experience
 ======
-* January 2025: Visiting PhD Researcher
-  * [**_Valeria-Lab_**](https://valeria.ugr.es), [_Dept. of Computer Engineering, Automation and Robotics Department_](https://icar.ugr.es), [_University of Granada_](https://www.ugr.es)
+* **_January 2025_**: Visiting PhD Researcher
+  * [**_Valeria-Lab_**](https://valeria.ugr.es), [_Dept. of Computer Engineering, Automation and Robotics Department_](https://icar.ugr.es), [_University of Granada, Spain_](https://www.ugr.es)
   * Duties includes: generation of synthetic data for a use case of EU project [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/)
-  * Supervisor: [*_Jesus Garrido_*](#)
+  * Supervisor: [*_Jesús Garrido_*](https://valeria.ugr.es/author/jesus-garrido/)
+  * Contributions:  Contributing in European industrial projects [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/)  where my role is to improve, develop and utilize the e***X***plainable ***AI*** (***`XAI`***) algorithms to add transparency and trust in the complex AI Models. 
 
-* November 2022: Doctoral Researcher (Innovative & Industrial Need based) 
-  * University of Turin, Italy
-  * Duties includes: Automatic extraction of high-level semantic features, Object Localization, Anomaly Detection and Visual explanations for Anomalies
-  * Supervisor: [*_Elvio Gilberto Amparore_*](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore)
+* **_November 2022_**: Doctoral Researcher (Innovative & Industrial Need based) 
+  * **_Institute_**: [**Dept. of Computer Science, University of Turin, Italy**](https://dott-informatica.campusnet.unito.it/do/studenti.pl/Show?_id=1077839#profilo)
+  * **_Duties includes_**: : Automatic extraction of high-level semantic features, Object Localization, Anomaly Detection and Visual explanations for Anomalies
+  * Contributions:  Contributing in European industrial projects [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/) and [***`NextPerception`***](https://www.nextperception.eu/about-project/) where my role is to improve, develop and utilize the e***X***plainable ***AI*** (***`XAI`***) algorithms to add transparency and trust in the complex AI Models.
+  * **_Supervisor_**: [*_Elvio Gilberto Amparore_*](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore)
 
-* November 2022: PhD Student (Research & Development) 
-  * RuleX Innovation Labs
-  * Duties included: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
-  * Supervisor: [*_Enrico Ferrari_*](https://www.rulex.ai/about-us), [*_Damiano Verda_*](https://www.rulex.ai/about-us)
+* **_November 2022_**: PhD Student (Research & Development) 
+  * **_Institute_**: RuleX Innovation Labs
+  * **_Duties included_**: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
+  * **_Supervisor_**: [*_Enrico Ferrari_*](https://www.rulex.ai/about-us), [*_Damiano Verda_*](https://www.rulex.ai/about-us)
 
 <!-- * Summer 2015: Research Assistant
   * GitHub University
@@ -84,13 +88,13 @@ Acheivements in this study are the following Publications made and also availabl
 
 **Achievements:**
 
-|  Sr. No. | Type    | Title  | Journal  | Publication Date | Paper      |    DOI     |    Codes <img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" />    |
-| :------: | :-----: | :----- | :------- |      :---:       | :--------: | :--------: | :---------: |
-| 1. | Research Thesis | Object Detection and Classification based on Feature Fusion and Deep Convolutional Networks.  | --- | --- | --- | --- | [GitHub Repo](https://github.com/rashidrao-pk/Object-detection-and-classification-based-on-feature-fusion-and-deep-convolutional-networks) |
-| 2. | Published Research Article | A sustainable deep learning framework for object recognition using multi-layers deep features fusion and selection.  | Sustainability | 19 June 2020 | [Link](https://www.mdpi.com/2071-1050/12/12/5037) | [PDF Link](https://doi.org/10.3390/su12125037) | [GitHub Repo](https://github.com/rashidrao-pk/A-sustainable-deep-learning-framework-for-object-recognition-using-multi-layers-deep-features-fusion), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70979-object_detection_-_classification?s_tid=prof_contriblnk)|
-| 3. | Published Research Article | Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features. |  Multimedia Tools and Applications | 08 Dec 2018 | [PDF Link](https://link.springer.com/article/10.1007/s11042-018-7031-0) | [LINK](https://doi.org/10.1007/s11042-018-7031-0) | [GitHub Repo ](https://github.com/rashidrao-pk/Object-Detection-and-Classification-A-Joint-Selection-and-Fusion-Strategy-of-Deep-Convolutional-Neu), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70981-object-detection-classification?s_tid=prof_contriblnk)|
+|  Sr. No. | Type    | Title  | Journal |    PDF Link     |    Codes <img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" />    |
+| :------: | :-----: | :------- |   :--------: | :--------: | :---------: |
+| 1. | Research Thesis | Object Detection and Classification based on Feature Fusion and Deep Convolutional Networks. | --- | --- | [GitHub Repo](https://github.com/rashidrao-pk/Object-detection-and-classification-based-on-feature-fusion-and-deep-convolutional-networks) |
+| 2. | Published Research Article | A sustainable deep learning framework for object recognition using multi-layers deep features fusion and selection.  | Sustainability | [PDF Link](https://doi.org/10.3390/su12125037) | [GitHub Repo](https://github.com/rashidrao-pk/A-sustainable-deep-learning-framework-for-object-recognition-using-multi-layers-deep-features-fusion), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70979-object_detection_-_classification?s_tid=prof_contriblnk)|
+| 3. | Published Research Article | Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features. |  Multimedia Tools and Applications | [PDF Link](https://link.springer.com/article/10.1007/s11042-018-7031-0) | [LINK](https://doi.org/10.1007/s11042-018-7031-0) | [GitHub Repo ](https://github.com/rashidrao-pk/Object-Detection-and-Classification-A-Joint-Selection-and-Fusion-Strategy-of-Deep-Convolutional-Neu), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70981-object-detection-classification?s_tid=prof_contriblnk)|
 
-***NOTE:*** Few of the research activities/publications were outcome of collaboration work with other members of the research group. [See](README.md#all-research-articles--publications) 
+***NOTE:*** Few of the research activities/publications were outcome of collaboration work with other members of the research group. [See](https://rashidrao-pk.github.io//publications) 
 <br>
 
 ---
@@ -141,6 +145,11 @@ Skills
   * Machine Learning
   * Computer Vision
   * Deep Learning (TensorFlow, PyTorch)
+  * Anomaly detection
+  * Generative AI
+  * GitHub
+  * Basics of Graphic Designing
+  * Web development
 
   <!-- * Sub-skill 2.1 -->
   <!-- * Sub-skill 2.2 -->
@@ -151,7 +160,7 @@ Skills
   * C/C++
   * Basics of Visual Bsaic, C#, and Java
 
-Language
+Languages
 ======
 
 |  Language | Level  | Certificate | 
@@ -184,10 +193,10 @@ Certifications
 
 | Sr. No. | Conference          | Role     |   Location   |  From-To  |  Presentation/Paper/Certificate Links |
 | :-----: | ------------------  |:---:     |   :---:      |  :---:    |                :---:                  |
-| 1.      | `XAI-World` (World Conference on eXplainable Artificial Intelligence) |   `Oral Presenter in Main Track` & Attendee  |  Valletta,Malta     | 17-19 July 2024   | [`Presentation Link`](https://xaiworldconference.com/2024/timetable/event/s-17-a-1/), [Attendance Certificate](../files/certificates/xai_2024.png)   |
-| 2. | `AAAI-24` (Association for the Advancement of Artificial Intelligence (AAAI)) | `Oral Presenter in Main Track` & Attendee  |  Vancouver, Canada  | 22-27 Feb 2024   |     [`Presentation Link`](https://underline.io/speakers/254136-muhammad-rashid), [Attendance Certificate](../files/certificates/AAAI-24_Certificate.jpeg)   |
-| 3. | `ECML-PKDD-23` (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [Attendance Certificate](../files/certificates/ECML_23.png) |
-| 4. | `icSoftComputing` (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [Attendance Certificate](../files/certificates/icSoftComp2024.jpg) |
+| 1.      | `XAI-World` (World Conference on eXplainable Artificial Intelligence) |   `Oral Presenter in Main Track` & Attendee  |  Valletta,Malta     | 17-19 July 2024   | [**Presentation**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1/), [**Attendance**](../files/certificates/xai_2024.png)   |
+| 2. | `AAAI-24` (Association for the Advancement of Artificial Intelligence (AAAI)) | `Oral Presenter in Main Track` & Attendee  |  Vancouver, Canada  | 22-27 Feb 2024   |     [**Presentation**](https://underline.io/speakers/254136-muhammad-rashid), [**Attendance**](../files/certificates/AAAI-24_Certificate.jpeg)   |
+| 3. | `ECML-PKDD-23` (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [**Attendance**](../files/certificates/ECML_23.png) |
+| 4. | `icSoftComputing` (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [**Attendance**](../files/certificates/icSoftComp2024.jpg) |
 
 ---
 
@@ -219,7 +228,7 @@ Certifications
 | :---:  | ------------------  | ------------     |   :---:   |   :---:    |     
 | 1.  | International Conference on Neonatal Neuroimaging and Monitoring and III Neonatal Neuroimaging Workshop[1](https://formacion.fueca.org/doccurso/390178.pdf), [2](https://parenth2020.com/events-new/)  | Universidad de Cádiz     |   Nov, 2024   |   [**LINK**](../files/certificates/workshop_XAI.png)    |
 | 2.  | 9 AI Superpowers - Marketing Masterclass  | MMC Learning    |   7 Nov, 2024   |   [**LINK**](https://certified.mmclearning.com/d25a810b-d950-4220-9cd8-86ff61c0fb21), [**LINK 2**](../files/certificates/superpower_ai.png)    |
-| 3.  | Certificate of Reviewer | IJEECS    |   23 Nov, 2022   |   [**LINK**](https://certified.mmclearning.com/d25a810b-d950-4220-9cd8-86ff61c0fb21), [**LINK 2**](../files/certificates/IJEECS_reviewer.png)    |
+| 3.  | Certificate of Reviewer | IJEECS    |   23 Nov, 2022   |   [**LINK**](../files/certificates/IJEECS_reviewer.png)    |
 
 
 <div style="text-align: right;">
