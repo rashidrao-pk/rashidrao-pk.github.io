@@ -233,3 +233,22 @@
     background-color: transparent;
   }
 }
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+details[open] summary::after {
+  content: " ▲";
+}
+
+details summary::after {
+  content: " ▼";
+}
+
+details {
+  margin-bottom: 1rem;
+  padding-left: 10px;
+}

@@ -18,28 +18,22 @@ Skilled **_R&D_** expert in **_Computer Vision_** and eXplainable AI (**_XAI_**)
 Work experience
 ======
 * **_Jan 2025 - ~Aug 2025_**: Visiting PhD Researcher - @[**_Valeria-Lab_**](https://valeria.ugr.es)
-  <details> 
-  <summary> Click here to check full details.</summary>
 
     * [**_Valeria-Lab_**](https://valeria.ugr.es), [_Dept. of Computer Engineering, Automation and Robotics Department_](https://icar.ugr.es), [**_University of Granada, Spain_**](https://www.ugr.es)
     * **Duties includes**: generation of synthetic data for a use case of EU project [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/)
     * **_Supervisor_**: [*_Jesús Garrido_*](https://valeria.ugr.es/author/jesus-garrido/)
     * **_Contributions_**:  Contributing in European industrial projects [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/)  where my role is to improve, develop and utilize the e***X***plainable ***AI*** (***`XAI`***) algorithms to add transparency and trust in the complex AI Models. 
-  </details> 
+
 
 * **_Nov 2022_** - **_~Nov 2025_**: Doctoral Researcher on Industrial Needs @  [**Dept. of Computer Science, University of Turin, Italy**](https://dott-informatica.campusnet.unito.it/do/studenti.pl/Show?_id=1077839#profilo)
-  <details> 
-  <summary> Click Here to check full project details  to see details</summary>
 
   * **_Institute_**: [**Dept. of Computer Science, University of Turin, Italy**](https://dott-informatica.campusnet.unito.it/do/studenti.pl/Show?_id=1077839#profilo)
   * **_Duties includes_**: : Automatic extraction of high-level semantic features, Object Localization, Anomaly Detection and Visual explanations for Anomalies
   * **_Contributions_**:  Contributing in European industrial projects [***`DistriMuSe`***](https://distrimuse.eu/about-the-project/) & [***`DistriMuSe details on UniTo Portal`***](https://unifind.unito.it/resource/project/AMPE%5FHEU%5FKDT%5F24%5F01) and [***`NextPerception`***](https://www.nextperception.eu/about-project/) where my role is to improve, develop and utilize the e***X***plainable ***AI*** (***`XAI`***) algorithms to add transparency and trust in the complex AI Models.
   * **_Supervisor_**: [*_Elvio Gilberto Amparore_*](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore)
-  </details> 
+
   
 * **_November 2022_**: PhD Student (Research & Development) @[**_Rulex Innovation Labs_**](https://www.rulex.ai/)
-  <details> 
-  <summary> Click Here to check full project details  to see details</summary>
 
   * **_Institute_**: [**_Rulex Innovation Labs_**](https://www.rulex.ai/), Genova, Italy.
   * **_Duties included_**: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
@@ -47,8 +41,6 @@ Work experience
   * **Time Spent in Industry**:
       * 3 Months (Oct 2023 - Dec 2023)
       * 2 Months (Nov 2024 - Dec 2024)
-
-  </details> 
 <!-- * Summer 2015: Research Assistant
   * GitHub University
   * Duties included: Tagging issues
