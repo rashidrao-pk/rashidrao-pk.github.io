@@ -147,7 +147,7 @@ Muhammad Yahiya Haider Awan, Monagi H Alkinani<br />
         <img src="../files/assets/linkedin.png" alt="linkedin Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp; |
-    <a href="https://scholar.google.com/citations?user=r3hkNdoAAAAJ" target="_blank">
+    <a href="https://scholar.google.com.pk/citations?user=F5u_Z5MAAAAJ" target="_blank">
         <img src="../files/assets/google scholar.png" alt="Google Scholar Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
