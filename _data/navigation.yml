@@ -6,6 +6,8 @@
 #
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
+# navigation:
+#   main: "navigation.yml"
 
 main:
   - title: "CV"
