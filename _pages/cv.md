@@ -120,8 +120,6 @@ Acheivements in this study are the following Publications made and also availabl
 **Degree Details**: 
 - ***Title***: Bachelor of Science (Computer Science - Web Development) (2016)
 - ***Keywords***: Software Engineering, Web development, Web Applications, Web Security, Information Security. 
-<details> 
-<summary> Click Here to check full project details  to see details</summary>
 
 **Achievements**: 
 
@@ -132,7 +130,6 @@ Acheivements in this study are the following Publications made and also availabl
 | Website      | [http://www.ovbtp.com](http://www.ovbtp.com) |
 | CODES      | [GITHUB](https://github.com/rashidrao-pk/Online-Venure-Booking-and-Tour-Planning)<img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" /> - [![autollm stars](https://img.shields.io/github/stars/rashidrao-pk/Online-Venue-Booking-and-Tour-Planning?color=blueviolet)](https://github.com/rashidrao-pk/Online-Venue-Booking-and-Tour-Planning)  - ![Published Date](https://img.shields.io/badge/published_Date-2023--01--03-brightgreen)
 |  Tools Used      |  MVC, MS-SQL, CodeIgnitor, PhP, Javascript, HTML, CSS  |
-</details>
 
 ---
 
