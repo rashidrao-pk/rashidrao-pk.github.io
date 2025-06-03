@@ -97,17 +97,17 @@ Muhammad Yahiya Haider Awan, Monagi H Alkinani<br />
 
 <table> 
 <td>
-<img height="200" src="https://camo.githubusercontent.com/63fc5a25819ba887c971051e0db888cf94c2ca2160795b03fe60bb0e61e03269/68747470733a2f2f73747265616b2d73746174732e64656d6f6c61622e636f6d3f757365723d72617368696472616f2d706b" alt="GitHub Streak" data-canonical-src="https://streak-stats.demolab.com?user=rashidrao-pk" style="max-width: 100%;">
+<img height="200" src="https://camo.githubusercontent.com/63fc5a25819ba887c971051e0db888cf94c2ca2160795b03fe60bb0e61e03269/68747470733a2f2f73747265616b2d73746174732e64656d6f6c61622e636f6d3f757365723d72617368696472616f2d706b" alt="GitHub Streak Muhammad Rashid Rao" data-canonical-src="https://streak-stats.demolab.com?user=rashidrao-pk" style="max-width: 100%;">
 
 </td>
 <td>
 
 </td>
 <td>
-<img height="200" align="center" src="https://camo.githubusercontent.com/4864a2623a76d071f36a4cfb1cd57bade85483712379324efbfccf308646cdb1/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d72617368696472616f2d706b2672616e6b5f69636f6e3d70657263656e74696c65" data-canonical-src="https://github-readme-stats.vercel.app/api?username=rashidrao-pk&amp;rank_icon=percentile" style="max-width: 100%;">
+<img height="200" align="center" src="https://camo.githubusercontent.com/4864a2623a76d071f36a4cfb1cd57bade85483712379324efbfccf308646cdb1/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d72617368696472616f2d706b2672616e6b5f69636f6e3d70657263656e74696c65" data-canonical-src="https://github-readme-stats.vercel.app/api?username=rashidrao-pk&amp;rank_icon=percentile" alt="GitHub Stats Muhammad Rashid Rao"  style="max-width: 100%;">
 </td>
 <td> 
-<img height="200" align="center" src="https://camo.githubusercontent.com/9179fb548bc678f6d5bbd49c3917b2111330d117a13fd40e223a1170e502ee6b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d72617368696472616f2d706b266c61796f75743d636f6d70616374266c616e67735f636f756e743d3826636172645f77696474683d333230" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs?username=rashidrao-pk&amp;layout=compact&amp;langs_count=8&amp;card_width=320" style="max-width: 100%;">
+<img height="200" align="center" src="https://camo.githubusercontent.com/9179fb548bc678f6d5bbd49c3917b2111330d117a13fd40e223a1170e502ee6b/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d72617368696472616f2d706b266c61796f75743d636f6d70616374266c616e67735f636f756e743d3826636172645f77696474683d333230" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs?username=rashidrao-pk&amp;layout=compact&amp;langs_count=8&amp;card_width=320"  alt="GitHub Most Used Languages Muhammad Rashid Rao" style="max-width: 100%;">
 </td>
 </table>
 
@@ -136,34 +136,35 @@ Muhammad Yahiya Haider Awan, Monagi H Alkinani<br />
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://forums.developer.nvidia.com/u/rashid-rao/summary" target="_blank">
-        <img src="../files/assets/nvidia.png" alt="Nvidia Developer" width="30" height="30"/>
+        <img src="../files/assets/nvidia.png" alt="Nvidia Developer Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://community.ultralytics.com/u/mrashid/summary" target="_blank">
-        <img src="../files/assets/ultralytics.png" alt="linkedin" width="30" height="30"/>
+        <img src="../files/assets/ultralytics.png" alt="ultralytics Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/rashid-rao-cuipakistan/" target="_blank">
-        <img src="../files/assets/linkedin.png" alt="linkedin" width="30" height="30"/>
+        <img src="../files/assets/linkedin.png" alt="linkedin Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp; |
     <a href="https://scholar.google.com/citations?user=r3hkNdoAAAAJ" target="_blank">
-        <img src="../files/assets/google scholar.png" alt="Google Scholar" width="30" height="30"/>
+        <img src="../files/assets/google scholar.png" alt="Google Scholar Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://orcid.org/0000-0002-2557-6845" target="_blank">
-        <img src="../files/assets/orcid.png" alt="Google Scholar" width="30" height="30"/>
+        <img src="../files/assets/orcid.png" alt="orcid Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.researchgate.net/profile/Muhammad-Rashid-65" target="_blank">
-        <img src="../files/assets/researchgate.png" alt="Google Scholar" width="30" height="30"/>
+        <img src="../files/assets/researchgate.png" alt="researchgate Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.scopus.com/authid/detail.uri?authorId=57417085200" target="_blank">
-        <img src="../files/assets/scopus.png" alt="Google Scholar" width="30" height="30"/>
+        <img src="../files/assets/scopus.png" alt="Google Scholar Muhammad Rashid Rao" width="30" height="30"/>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://underline.io/speakers/254136-muhammad-rashid" target="_blank">
-        <img src="../files/assets/underline.png" alt="Google Scholar" width="70" height="30"/>
+        <img src="../files/assets/underline.png" alt="underline Muhammad Rashid Rao" width="70" height="30"/>
     </a>
+
 </p>
