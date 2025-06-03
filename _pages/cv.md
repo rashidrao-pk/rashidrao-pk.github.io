@@ -112,7 +112,7 @@ Acheivements in this study are the following Publications made and also availabl
 | :------: | :-----: | :------- |   :--------: | :--------: | :---------: |
 | 1. | Research Thesis | Object Detection and Classification based on Feature Fusion and Deep Convolutional Networks. | --- | --- | [GitHub Repo](https://github.com/rashidrao-pk/Object-detection-and-classification-based-on-feature-fusion-and-deep-convolutional-networks) |
 | 2. | Published Research Article | A sustainable deep learning framework for object recognition using multi-layers deep features fusion and selection.  | Sustainability | [PDF Link](https://doi.org/10.3390/su12125037) | [GitHub Repo](https://github.com/rashidrao-pk/A-sustainable-deep-learning-framework-for-object-recognition-using-multi-layers-deep-features-fusion), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70979-object_detection_-_classification?s_tid=prof_contriblnk)|
-| 3. | Published Research Article | Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features. |  Multimedia Tools and Applications | [PDF Link](https://link.springer.com/article/10.1007/s11042-018-7031-0) | [LINK](https://doi.org/10.1007/s11042-018-7031-0) | [GitHub Repo ](https://github.com/rashidrao-pk/Object-Detection-and-Classification-A-Joint-Selection-and-Fusion-Strategy-of-Deep-Convolutional-Neu), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70981-object-detection-classification?s_tid=prof_contriblnk)|
+| 3. | Published Research Article | Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features. |  Multimedia Tools and Applications | [PDF Link](https://link.springer.com/article/10.1007/s11042-018-7031-0) | [GitHub Repo ](https://github.com/rashidrao-pk/Object-Detection-and-Classification-A-Joint-Selection-and-Fusion-Strategy-of-Deep-Convolutional-Neu), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70981-object-detection-classification?s_tid=prof_contriblnk)|
 
 ***NOTE:*** Few of the research activities/publications were outcome of collaboration work with other members of the research group. [See](https://rashidrao-pk.github.io//publications) 
 <br>
@@ -198,9 +198,9 @@ Awards
 
 | Sr. No.| Award Type    | Awarded By        |   Dated   | Reason | Link |
 | :---:  | ------------------  | ------------     |   :---:   | :---:   |   :---:    |     
-| 1.  | Erasmus Traineeship  | [Erasmus+](https://erasmus-plus.ec.europa.eu) |   Dec, 2024   |   **Erasmus Scholarship** for **Research Activities** in **Spain**    | **_LINK_** |
-| 2.  | Italian Industrial Scholarship for PhD Position  | National Recovery and Resilience Plan([NRRP](https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)) & Ministry of Universities and Research [MUR](https://www.cineca.it/it) |   Nov, 2022   |   **Fully Funded Scholarship** for **PhD**    | **_LINK_** |
-| 3.  | National Laptop  | [Prime Minister Laptop Award]() |   Jan, 2019   |   National **Laptop Winner** in **Prime Minister Laptop Scheme**    | **_LINK_** |
+| 1.  | Erasmus+ Traineeship  | [Erasmus+](https://erasmus-plus.ec.europa.eu) |   Dec, 2024   |   **Erasmus Scholarship** for **Research Activities** in **Spain**    | [**_LINK_**](../files/certificates/erasmus_funding.png) |
+| 2.  | Italian Industrial Scholarship for PhD Position  | National Recovery and Resilience Plan([NRRP](https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)) & Ministry of Universities and Research [MUR](https://www.cineca.it/it) |   Nov, 2022   |   **Fully Funded Scholarship** for **PhD**    | [**_LINK_**](https://informatica.unito.it/do/docenti.pl/Alias?muhammad.rashid) |
+| 3.  | National Laptop  | [Prime Minister Laptop Award]() |   Jan, 2019   |   National **Laptop Winner** in **Prime Minister Laptop Scheme**    | [**_LINK_**](https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx) |
 
 ---
 
@@ -214,10 +214,10 @@ Certifications
 
 | Sr. No. | Conference          | Role     |   Location   |  From-To  |  Presentation/Paper/Certificate Links |
 | :-----: | ------------------  |:---:     |   :---:      |  :---:    |                :---:                  |
-| 1.      | `XAI-World` (World Conference on eXplainable Artificial Intelligence) |   `Oral Presenter in Main Track` & Attendee  |  Valletta,Malta     | 17-19 July 2024   | [**Presentation**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1/), [**Attendance**](../files/certificates/xai_2024.png)   |
-| 2. | `AAAI-24` (Association for the Advancement of Artificial Intelligence (AAAI)) | `Oral Presenter in Main Track` & Attendee  |  Vancouver, Canada  | 22-27 Feb 2024   |     [**Presentation**](https://underline.io/speakers/254136-muhammad-rashid), [**Attendance**](../files/certificates/AAAI-24_Certificate.jpeg)   |
-| 3. | `ECML-PKDD-23` (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [**Attendance**](../files/certificates/ECML_23.png) |
-| 4. | `icSoftComputing` (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [**Attendance**](../files/certificates/icSoftComp2024.jpg) |
+| 1.      | **XAI-World** (World Conference on eXplainable Artificial Intelligence) |   **_Oral Presenter in Main Track_** & Attendee  |  Valletta,Malta     | 17-19 July 2024   | [**Presentation**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1/), [**Attendance**](../files/certificates/xai_2024.png)   |
+| 2. | **_AAAI-24_** (Association for the Advancement of Artificial Intelligence (AAAI)) | **_Oral Presenter in Main Track_** & Attendee  |  Vancouver, Canada  | 22-27 Feb 2024   |     [**Presentation**](https://underline.io/speakers/254136-muhammad-rashid), [**Attendance**](../files/certificates/AAAI-24_Certificate.jpeg)   |
+| 3. | **_ECML-PKDD-23_** (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [**Attendance**](../files/certificates/ECML_23.png) |
+| 4. | **_icSoftComputing_** (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [**Attendance**](../files/certificates/icSoftComp2024.jpg) |
 
 ---
 
