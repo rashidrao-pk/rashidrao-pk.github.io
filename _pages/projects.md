@@ -7,7 +7,17 @@ redirect_from:
   # - /projects.html
 ---
 
-# RESEARCH PROJECTS (Completed as Freelancer) 🏭 :
+# Contribution in Eu Research Projects
+## EU Project DistriMuSe:
+
+Contributions in Anomaly Detection of Robotics Use Case of European industrial project [**_DistriMuSe_**](https://distrimuse.eu/about-the-project/) & [**_DistriMuSe details on UniTo Portal_**](https://unifind.unito.it/resource/project/AMPE%5FHEU%5FKDT%5F24%5F01) 
+
+## EU Project NextPerception: 
+Contributed in eXplainable AI part of EU project [**_NextPerception_**](https://www.nextperception.eu/about-project/) 
+
+
+
+# Freelance Research Projects 🏭 :
 I have completed various ***Computer Vision*** and ***Machine Learning*** projects on different freelance plateform.
 Some of my contributions are publicaly available as open source on [***Mathworks website***](https://ch.mathworks.com/matlabcentral/fileexchange/113080-classification-of-gastrointestinal-diseases-of-stomach?s_tid=prof_contriblnk). Below is the breif summary of completed projects so far.
 
