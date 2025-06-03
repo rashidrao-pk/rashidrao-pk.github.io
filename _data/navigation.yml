@@ -25,10 +25,13 @@ main:
     
   - title: "CV"
     url: /cv/
-  - title: "certification"
+  - title: "Certification"
     url: /certification/
-  - title: "awards"
+  - title: "Awards"
     url: /awards/
+  
+  - title: "Trainings"
+    url: /research_trainings/    
 
   # - title: "CV"
   #   url: /cv-json/

@@ -10,6 +10,7 @@ redirect_from:
 
 EU Project DistriMuSe:
 ===
+
 | Sr No | Dates | Activity |
 | :--: | :--: | :-- |
 | 1. | MAY-2025 | Attended consortium meeeting of DistriMuSe in FIT, Brno University, Brno, CZ Republic [20-22 May 2025]. |
@@ -42,6 +43,7 @@ Research Updates
 
 Doctoral Research Activites
 ===
+
 | Sr No | Dates | Activity |
 | :--: | :--: | :-- |
 | 1. | JAN 2025-AUGUST 2025 | Joined Dept. of Computer Eng. Robotics, and Automation, Uni. of Granada for Mobility Period Abroad [LINK] |
@@ -54,17 +56,7 @@ Doctoral Research Activites
 | 8. | 18-22 SEP 2023 | Attended ECML-PKDD-23 in Turin , Italy.  [LINK] |
 | 9. | 05 MAR 2023 | Joined Dept. of Computer Science [LINK], UniTo, Turin , Italy.  [LINK] |
 
-<!-- 1.  JAN 2025-AUGUST 2025: 	Joined Dept. of Computer Eng. Robotics, and Automation, Uni. of Granada for Mobility Period Abroad [LINK] -->
-<!-- 2.  OCT 2024-DEC 2024:		Joined RuleX Innov. Labs to to spend enterprise time in the industry. 3 Months Internship [LINK] -->
-<!-- 3.  05 JULY - 15 July 2024: 		Oxford Machine Learning Summer School. [LINK] -->
-<!-- 4.  17-19 JULY 2024: 				XAI-World-24 Conference, Valletta, Malta. [LINK] -->
-<!-- 5.  20-27 FEB 2024: 				AAAI-24 conference, Vancouver, Canada. [LINK] -->
-<!-- 6.  05 APRIL 2024: 				Presented research activities and article in PhD comete [LINK] -->
-<!-- 7.  OCT 2023 - JAN 2024:		Joined RuleX Innov. Labs to to spend enterprise time in the industry. [LINK] -->
-<!-- 8.  18-22 SEP 2023:				Attended ECML-PKDD-23 in Turin , Italy.  [LINK] -->
-<!-- 9.  05 MAR 2023:					Joined Dept. of Computer Science [LINK] -->
-
-Other Research Trainings
+<!-- Other Research Trainings
 ===
 1. SEMINAR:		XXXX 	
-2. WORKSHOP:		XXXX
+2. WORKSHOP:		XXXX -->

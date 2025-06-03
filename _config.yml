@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Muhammad Rashid / Machine Learning Researcher"
+title                    : "Muhammad Rashid"
 title_separator          : "-"
 name                     : &name "Muhammad Rashid"
 description              : &description "personal description"
