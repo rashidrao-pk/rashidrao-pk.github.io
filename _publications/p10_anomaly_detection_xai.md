@@ -17,7 +17,7 @@ This case study explores the robustness of an anomaly detection system based on 
 
 
 *   Special Session: **_Explainable AI_** for improved **_human-computer interaction_**
-*   Conference: **_xAI-2024_** | Explainable Artificial Intelligence
+*   Conference: **_xAI-2024_** (Explainable Artificial Intelligence)
 *   Link to talk:   [**_https://xaiworldconference.com/2024/timetable/event/s-17-a-1_**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1)
 
 Contributions 📃
@@ -62,6 +62,7 @@ Results
 
 Authors ✍️
 ===
+
 | Sr. No. | Author Name | Affiliation | Google Scholar | 
 | :--:    | :--:        | :--:        | :--:           | 
 | 1. | Muhammad Rashid | University of Turin, Computer Science Department, C.so Svizzera 185, 10149 Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) | 
@@ -76,7 +77,7 @@ AI
 
 Citation
 ===
-```
+```bash
 @InProceedings{10.1007/978-3-031-63803-9_13, author="Rashid, Muhammad and Amparore, Elvio and Ferrari, Enrico and Verda, Damiano", editor="Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin", title="Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI", booktitle="Explainable Artificial Intelligence",
 year="2024", publisher="Springer Nature Switzerland",
 address="Cham", pages="243--254"}
