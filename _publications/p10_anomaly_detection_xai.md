@@ -39,12 +39,24 @@ Method Availability
 *   The method is available under: [https://github.com/rashidrao-pk/**anomaly_detection_trust_case_study**](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study)
 *   Links: [GitHub](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) [Paper PDF on **_Arxiv_**](https://arxiv.org/abs/2407.19951) [Proceedings of **_XAI_**](https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13), [**_Download Slides_**](https://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf) 
 
+Datasets and Models
+===
+*   **Dataset**:    MVTec (Hazelnut and Screw)
+*   **Model**:      Variational_AutoEncoder-Generative_Adverserial_Network (**_VAE-GAN_**) 
 
 Workflow
 ===
 <center>
-<img  width='80%' src='../files/papers_data/anomaly_detection_xai.jpg'> </center>
+<img  width='80%' src='../files/papers_data/anomaly_detection_xai.gif'> 
+<br><caption> Workflow of <b>eXplainable Anomaly Detection (XAD)</b> Methods </caption>
+</center>
 
+Results
+===
+<center>
+<img  width='80%' src='../files/papers_data/results_xad.jpg'> 
+<br><caption> Explained Anomalies on Hazelnut and Screw Dataset from <b>MVTec database</b> using <b>LIME</b> and <b>SHap XAI</b> Methods </caption>
+</center>
 
 ---
 
@@ -52,8 +64,8 @@ Authors ✍️
 ===
 | Sr. No. | Author Name | Affiliation | Google Scholar | 
 | :--:    | :--:        | :--:        | :--:           | 
-| 1. | Muhammad Rashid | University of Torino, Computer Science Department, C.so Svizzera 185, 10149 Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) | 
-| 2. | Elvio G. Amparore | University of Torino, Computer Science Department, C.so Svizzera 185, 10149 Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) | 
+| 1. | Muhammad Rashid | University of Turin, Computer Science Department, C.so Svizzera 185, 10149 Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) | 
+| 2. | Elvio G. Amparore | University of Turin, Computer Science Department, C.so Svizzera 185, 10149 Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) | 
 | 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Via Felice Romani 9, 16122 Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
 | 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Via Felice Romani 9, 16122 Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
 

@@ -29,6 +29,7 @@ an unbiased stratified sampling strategy;
 - provide empirical proofs of the advantage of using strat-
 ified sampling for LIME Image on a popular dataset.
 
+
 Method Availability
 ===
 *   The method is available under: [**https://github.com/rashidrao-pk/lime_stratified**](https://github.com/rashidrao-pk/lime_stratified) </a>
@@ -36,11 +37,15 @@ Method Availability
 *   Links: [**GitHub**](https://github.com/rashidrao-pk/lime_stratified), [Paper PDF on **_Arxiv_**](https://arxiv.org/abs/2403.17742)
 [Proceedings of **_AAAI-24_**](https://ojs.aaai.org/index.php/AAAI/article/view/29397)
 
+Datasets and Models
+===
+*   **Dataset**: ImageNet   
+*   **Model**:   Resnet-50 
 
 How LIME_Image Works
 ===
 
-<img src='../files/papers_data/LIME-Image-workflow.png'>
+<img  src='../files/papers_data/LIME-Image-workflow.png' style="background-color: white;">
 
 Keywords
 ===

@@ -41,7 +41,7 @@ This case study explores the robustness of an anomaly detection system based on 
 
 *   Method Availability
 
-    *   The method is available under: [https://github.com/rashidrao-pk/**_lime_stratified_**](https://github.com/rashidrao-pk/lime_stratified) </a>
+    *   The method is available under: [https://github.com/rashidrao-pk/**_lime_stratified_**](https://github.com/rashidrao-pk/lime_stratified)
     *   Examples and full results given at [**Lime_stratified_examples**](https://github.com/rashidrao-pk/lime-stratified-examples) 
     *   Links: [**GitHub**](https://github.com/rashidrao-pk/lime_stratified), [Paper PDF on **_Arxiv_**](https://arxiv.org/abs/2403.17742)
 [Proceedings of **_AAAI-24_**](https://ojs.aaai.org/index.php/AAAI/article/view/29397)
@@ -167,4 +167,3 @@ Muhammad Yahiya Haider Awan, Monagi H Alkinani<br />
         <img src="../files/assets/underline.png" alt="underline Muhammad Rashid Rao" width="70" height="30"/>
     </a>
 
-</p>
