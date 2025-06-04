@@ -55,4 +55,4 @@ Apr<br>2018 | [Heart-Vein-Blockage-Detection](https://github.com/rashidrao-pk/ra
 
 ## CLIENT FEEDBACKS ⚡ :
 
-I always preferred quality over the quantity and hence I always provided quality solutions resulting in satisfied clients. Here are few of examples what clients said about me? can be found at [`This Link`](/feedbacks.md)
+I always preferred quality over the quantity and hence I always provided quality solutions resulting in satisfied clients. Here are few of examples what clients said about me? can be found at [**_This Link_**](https://github.com/rashidrao-pk/rashidrao-pk/blob/main/project_completed/feedbacks.md)
