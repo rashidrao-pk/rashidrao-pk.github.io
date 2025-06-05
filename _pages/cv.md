@@ -38,9 +38,6 @@ Work experience
   * **_Institute_**: [**_Rulex Innovation Labs_**](https://www.rulex.ai/), Genova, Italy.
   * **_Duties_**: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
   * **_Supervisor_**: [_Enrico Ferrari_](https://www.rulex.ai/about-us), [_Damiano Verda_](https://www.rulex.ai/about-us)
-  * **Time Spent in Industry**:
-      * 3 Months (Oct 2023 - Dec 2023)
-      * 2 Months (Nov 2024 - Dec 2024)
 
 
 Education
