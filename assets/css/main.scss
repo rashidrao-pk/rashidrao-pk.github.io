@@ -12,8 +12,8 @@
     "vendor/breakpoint/breakpoint",
 
     "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "theme/default",
+    "theme/dark",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -35,9 +35,58 @@
     "layout/page",
     "layout/archive",
     "layout/sidebar",
-    "layout/json_cv",
 
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+    "vendor/font-awesome/brands",
+    "vendor/magnific-popup/magnific-popup"
 ;
+
+
+/* ===== Skill radio visualization (1–5) ===== */
+.skill-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  margin:8px 0;
+}
+
+.skill-name{
+  min-width: 240px; /* adjust */
+  font-weight: 600;
+}
+
+.skill-radio{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  flex: 1;
+}
+
+.skill-radio .dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(0,0,0,0.35);
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.skill-radio .dot.on{
+  background: #469B60;
+  border-color: #469B60;
+}
+
+.skill-score{
+  min-width: 52px;
+  text-align: right;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+
+/* dark-mode friendly */
+html[data-theme="dark"] .skill-radio .dot,
+body.dark .skill-radio .dot{
+  border-color: rgba(255,255,255,0.45);
+}

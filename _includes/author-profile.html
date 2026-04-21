@@ -8,9 +8,9 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
 
@@ -47,9 +47,9 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
-      {% if author.inspire-hep %}
-        <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
-      {% endif %}      
+      {% if author.semantic %}
+        <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
+      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
       {% endif %}
@@ -65,15 +65,6 @@
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
       {% endif %}
-      {% if author.semantic %}
-        <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
-      {% endif %}
-      {% if author.ssrn %}
-        <li><a href="{{ author.ssrn }}"><i class="ai ai-ssrn ai-fw icon-pad-right"></i>SSRN</a></li>
-      {% endif %}
-      {% if author.zotero %}
-        <li><a href="{{ author.zotero }}"><i class="ai ai-zotero ai-fw icon-pad-right"></i>Zotero</a></li>
-      {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
       {% if author.bitbucket %}
@@ -88,6 +79,20 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
+      {% if author.pypi %}
+        <li>
+          <a href="{{ author.pypi }}" target="_blank" rel="noopener">
+          <i class="fas fa-fw fa-cube"></i> PyPI
+          </a>
+        </li>
+      {% if author.gitlab %}
+        <li>
+          <a href="{{ author.gitlab }}" target="_blank" rel="noopener">
+          <i class="fas fa-fw fa-gitlab"></i> GitLab
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
@@ -96,9 +101,6 @@
       {% endif %}      
 
       <!-- Font Awesome icons / Social media -->
-      {% if author.artstation %}
-        <li><a href="https://www.artstation.com/{{ author.artstation }}"><i class="fab fa-fw fa-artstation icon-pad-right" aria-hidden="true"></i>Artstation</a></li>
-      {% endif %}        
       {% if author.bluesky %}
         <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
       {% endif %}

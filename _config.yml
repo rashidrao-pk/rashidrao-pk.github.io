@@ -8,56 +8,53 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+site_theme               : "default"
+title                    : "Muhammad Rashid"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Muhammad Rashid"
+description              : &description "personal description"
+url                      : https://rashidrao-pk.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rashidrao-pk/rashidrao-pk.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile.jpg"
+  name             : "Muhammad Rashid"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Machine Learning Researcher"
+  location         : "Turin, Italy"
+  employer         : "University of Turin"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "muhammad.rashid@unito.it" 
+  linkedin         : "r4ssh1d" # Username
+  github           : "rashidrao-pk" # GitHub username
+  gitlab           : "https://gitlab.di.unito.it/rashid" # GitHub username
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
+  googlescholar    : "https://scholar.google.com.pk/citations?user=F5u_Z5MAAAAJ"
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
-
+  orcid            : "https://orcid.org/0000-0002-2557-6845/"
+  semantic         : "https://www.semanticscholar.org/author/Muhammad-Rashid/2293444837" # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Muhammad-Rashid-65" # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57221707362&origin=resultslist" # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  pypi            : https://pypi.org/user/mrashid # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
+  # github           : "academicpages"
+  kaggle           : "rashidrao" # Username  
+  stackoverflow    : "3309075/rashid-rao" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  huggingface      : "https://huggingface.co/rashidrao"
   # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "https://bsky.app/profile/rashid-rao.bsky.social" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,9 +63,9 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
   mastodon         : # URL
-  medium           : # URL
+  medium           : "https://medium.com/@muhammad-rashid" # URL
+  Sessionize       : https://sessionize.com/rashid-m/
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
@@ -90,9 +87,14 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  cv_paper:
+    title: 'Paper on Computer Vision'   
+  xai_paper:
+    title: 'Paper on Explainable AI'
+  
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -143,8 +145,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -207,6 +208,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
+
 # Markdown Processing
 kramdown:
   input: GFM
@@ -217,6 +219,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  parse_block_html: true
 
 
 # These settings control the types of collections used by the template
@@ -295,14 +298,14 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -354,7 +357,7 @@ tag_archive:
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
