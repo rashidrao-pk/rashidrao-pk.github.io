@@ -1,22 +1,17 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Can I trust my anomaly detection system? A case study based on explainable AI<br />Mediterranean Conference Centre; La Valletta, Malta",
+    35.8989979,
+    14.5136607
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "ShapBPT: Image feature attributions using Data-Aware Binary Partition Trees<br />Singapore Expo Center; Singapore",
+    1.357107,
+    103.8194992
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "Using Stratified Sampling to Improve LIME Image Explanations<br />Vancouver Convention Centre; Vancouver, Canada",
+    49.2608724,
+    -123.113952
   ]
 ];
