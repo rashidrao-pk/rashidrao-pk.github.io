@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 ## EU Project: DistriMuSe — Safe Interaction with Robots
+<img src="../files/projects/advis.png" width="250">
+
 🔗 [https://distrimuse.eu/](https://distrimuse.eu/)
 
 Contributed to the **Safe Interaction with Robots** use case of the European industrial project **DistriMuSe**, focusing on **explainable anomaly detection for industrial robotics**.

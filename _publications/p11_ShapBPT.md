@@ -9,10 +9,9 @@ venue: 'AAAI-26 | 40th Annual AAAI Conference on Artificial Intelligence'
 location: 'Singapore'
 posterurl: 'https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf'
 paperurl: 'https://www.arxiv.org/abs/2602.07047'
-# citation: 'Rashid,Muhammad et al. (2026). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 40.'
-# PyPi : 'https://pypi.org/project/shap-bpt/'
-# slidesurl: 'http://rashidrao-pk.github.io/files/st_lime_slides.pdf'
-# paperurl: 'https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf'
+citation: 'Rashid,Muhammad et al. (2026). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 40.'
+PyPi : 'https://pypi.org/project/shap-bpt/'
+thumbnail: "papers_data/Fig1_explain_bpt-1.png"
 ---
 
 Pixel-level **_feature attributions_** play a key role in **_Explainable Computer Vision (XCV)_** by revealing how visual features influence model predictions. While hierarchical **_Shapley_** methods based on the **_Owen formula_** offer a principled explanation framework, existing approaches overlook the multiscale and morphological structure of images, resulting in inefficient computation and weak semantic alignment.
