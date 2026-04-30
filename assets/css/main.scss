@@ -89,3 +89,83 @@ html[data-theme="dark"] .skill-radio .dot,
 body.dark .skill-radio .dot{
   border-color: rgba(255,255,255,0.45);
 }
+
+.custom-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px 4px 4px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+a.custom-btn {
+  display: inline-block !important;
+  padding: 6px 12px !important;
+  margin: 4px 4px 4px 0 !important;
+  border-radius: 6px !important;
+  border: 1px solid #ccc !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+}
+/* ===== Color-coded buttons ===== */
+
+.btn-paper {
+  background-color: #d73a49;
+  color: white !important;
+  border-color: #d73a49;
+}
+
+.btn-arxiv {
+  background-color: #b31b1b;
+  color: white !important;
+  border-color: #b31b1b;
+}
+
+.btn-code {
+  background-color: #2ea44f;
+  color: white !important;
+  border-color: #2ea44f;
+}
+
+.btn-tests {
+  background-color: #6f42c1;
+  color: white !important;
+  border-color: #6f42c1;
+}
+
+.btn-pypi {
+  background-color: #0366d6;
+  color: white !important;
+  border-color: #0366d6;
+}
+
+.btn-demo {
+  background-color: #e36209;
+  color: white !important;
+  border-color: #e36209;
+}
+
+.btn-poster, .btn-slides {
+  background-color: #6a737d;
+  color: white !important;
+  border-color: #6a737d;
+}
+.custom-btn:hover,
+.btn-paper:hover,
+.btn-arxiv:hover,
+.btn-code:hover,
+.btn-tests:hover,
+.btn-pypi:hover,
+.btn-demo:hover,
+.btn-poster:hover,
+.btn-slides:hover {
+  color: #111 !important;
+}
