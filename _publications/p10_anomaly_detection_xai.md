@@ -4,11 +4,26 @@ collection: publications
 category: conferences
 permalink: /publication/p10_anomaly_detection_xai
 excerpt: 'A Case study to highlight use of VAE-GAN based Gen-AI approach to detect Anomalies in Industrial Inspection systems.'
+research_area:
+  - Explainable AI
+  - Anomaly Detection
+subcategory:
+  - Explainable Anomaly Detection
+  - Trustworthy AI
+tags:
+  - XAI
+  - anomaly detection
+  - VAE-GAN
+  - industrial AI
 date: 2024-07-17
 venue: 'xAI 2024 | Explainable Artificial Intelligence'
 location: "La Valletta, Malta"
+paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13'
+arxivurl: "https://arxiv.org/abs/2407.19951"
+codeurl: "https://github.com/rashidrao-pk/anomaly_detection_trust_case_study"
 slidesurl: 'http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf'
-paperurl: 'http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_paper.pdf'
+thumbnail: "../files/papers_data/anomaly_detection_xai.gif"
+
 citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In World Conference on Explainable Artificial Intelligence, pp. 243-254. Cham: Springer Nature Switzerland, 2024</i>.'
 ---
 
@@ -75,11 +90,20 @@ Keywords 🔍
 Anomaly detection · variational autoencoder · eXplainable
 AI
 
-Citation (bibtex)
-===
-```bibtex
-@InProceedings{10.1007/978-3-031-63803-9_13, author="Rashid, Muhammad and Amparore, Elvio and Ferrari, Enrico and Verda, Damiano", editor="Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin", title="Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI", booktitle="Explainable Artificial Intelligence",
-year="2024", publisher="Springer Nature Switzerland",
-address="Cham", pages="243--254"}
-```
+<h2>Citation (BibTeX)</h2>
+
+<div class="bibtex-box">
+  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+
+<pre><code class="language-bibtex">@InProceedings{10.1007/978-3-031-63803-9_13,
+  author    = {Rashid, Muhammad and Amparore, Elvio and Ferrari, Enrico and Verda, Damiano},
+  editor    = {Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin},
+  title     = {Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI},
+  booktitle = {Explainable Artificial Intelligence},
+  year      = {2024},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {243--254}
+}</code></pre>
+</div>
 

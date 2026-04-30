@@ -1,0 +1,76 @@
+---
+layout: archive
+title: "Publications by Tags"
+permalink: /tags/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign all_tags = "" | split: "" %}
+
+{% for pub in site.publications %}
+  {% if pub.tags %}
+    {% for tag in pub.tags %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign unique_tags = all_tags | uniq | sort_natural %}
+
+<div class="tag-index">
+  <h2>Browse by Tag</h2>
+
+  <p>
+    {% for tag in unique_tags %}
+      {% assign tag_slug = tag | slugify %}
+      <a href="#{{ tag_slug }}" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </p>
+</div>
+
+<hr>
+
+{% for tag in unique_tags %}
+  {% assign tag_slug = tag | slugify %}
+
+  <section id="{{ tag_slug }}" class="tag-section">
+    <h2>{{ tag }}</h2>
+
+    <ul>
+      {% assign pubs = site.publications | sort: "date" | reverse %}
+
+      {% for pub in pubs %}
+        {% if pub.tags contains tag %}
+          <li>
+            <strong>
+              <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+            </strong>
+            <br>
+            <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+
+            {% if pub.paperurl %}
+              <br>
+              <a href="{{ pub.paperurl }}" class="custom-btn btn-paper">Paper</a>
+            {% endif %}
+
+            {% if pub.codeurl %}
+              <a href="{{ pub.codeurl }}" class="custom-btn btn-code">Code</a>
+            {% endif %}
+
+            {% if pub.pdfurl %}
+              <a href="{{ pub.pdfurl }}" class="custom-btn btn-paper">PDF</a>
+            {% endif %}
+
+            {% if pub.arxivurl %}
+              <a href="{{ pub.arxivurl }}" class="custom-btn btn-arxiv">arXiv</a>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <hr>
+{% endfor %}

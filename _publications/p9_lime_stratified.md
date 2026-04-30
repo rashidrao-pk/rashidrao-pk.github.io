@@ -4,11 +4,25 @@ collection: publications
 category: conferences
 permalink: /publication/p9_lime_stratified
 excerpt: 'A improved version of LIME to generate meaninful explanations when LIME degenerates meaningless explanations.'
+research_area:
+  - Explainable AI
+subcategory:
+  - LIME
+  - Perturbation-based Explanations
+  - Explanation Stability
+tags:
+  - XAI
+  - LIME
+  - stratified sampling
+  - image explanations
 date: 2024-03-24
 venue: 'AAAI-24 - 38th AAAI Conference on Artificial Intelligence'
-slidesurl: 'http://rashidrao-pk.github.io/files/st_lime_slides.pdf'
-posterurl: 'http://rashidrao-pk.github.io/files/st_lime_poster.pdf'
-paperurl: 'http://rashidrao-pk.github.io/files/st_lime_paper.pdf'
+paperurl: "https://ojs.aaai.org/index.php/AAAI/article/view/29397"
+codeurl: "https://github.com/rashidrao-pk/lime_stratified"
+testurl: "https://github.com/rashidrao-pk/lime-stratified-examples"
+pypiurl: "https://pypi.org/project/lime-stratified/"
+slidesurl: "https://rashidrao-pk.github.io/files/st_lime_slides.pdf"
+thumbnail: "../files/papers_data/LIME-Image-workflow.png"
 citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13).'
 ---
 
@@ -55,10 +69,19 @@ Authors
 | 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
 | 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
 
-Citation
-===
+<h2>📖 Citation (BibTeX)</h2>
 
-If you use our proposed strategy, please cite us: <br>
-```
-Rashid, M., Amparore, E. G., Ferrari, E., & Verda, D. (2024). Using Stratified Sampling to Improve LIME Image Explanations. Proceedings of the AAAI Conference on Artificial Intelligence, 38(13), 14785-14792. https://doi.org/10.1609/aaai.v38i13.29397 
-```
+<div class="bibtex-box">
+  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+
+<pre><code class="language-bibtex">@inproceedings{rashid2024using,
+  title     = {Using Stratified Sampling to Improve LIME Image Explanations},
+  author    = {Rashid, Muhammad and Amparore, Elvio G. and Ferrari, Enrico and Verda, Damiano},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {38},
+  number    = {13},
+  pages     = {14785--14792},
+  year      = {2024}
+}</code></pre>
+</div>
+

@@ -1,0 +1,139 @@
+---
+layout: single
+title: "Research Map"
+permalink: /research-map/
+author_profile: true
+---
+
+<p>Interactive map of my research areas, tags, and publications.</p>
+
+<div id="research-network" style="height: 650px; border: 1px solid #ddd; border-radius: 12px;"></div>
+
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+<script>
+  const nodes = new vis.DataSet([
+    { id: "portfolio", label: "Research Portfolio", group: "main" },
+
+    { id: "xai", label: "Explainable AI", group: "area" },
+    { id: "ad", label: "Anomaly Detection", group: "area" },
+    { id: "cv", label: "Computer Vision", group: "area" },
+    { id: "mi", label: "Medical Imaging", group: "area" },
+
+    { id: "shapbpt", label: "ShapBPT", group: "tag", url: "/tags/#shapbpt" },
+    { id: "lime", label: "LIME", group: "tag", url: "/tags/#lime" },
+    { id: "shapley", label: "Shapley Values", group: "tag", url: "/tags/#shapley-values" },
+    { id: "feature-attribution", label: "Feature Attribution", group: "tag", url: "/tags/#feature-attribution" },
+
+    { id: "visual-ad", label: "Visual Anomaly Detection", group: "tag", url: "/tags/#visual-anomaly-detection" },
+    { id: "industrial-ai", label: "Industrial AI", group: "tag", url: "/tags/#industrial-ai" },
+    { id: "robotics-safety", label: "Robotics Safety", group: "tag", url: "/tags/#robotics-safety" },
+
+    { id: "object-detection", label: "Object Detection", group: "tag", url: "/tags/#object-detection" },
+    { id: "object-recognition", label: "Object Recognition", group: "tag", url: "/tags/#object-recognition" },
+    { id: "segmentation", label: "Image Segmentation", group: "tag", url: "/tags/#image-segmentation" },
+    { id: "feature-fusion", label: "Feature Fusion", group: "tag", url: "/tags/#feature-fusion" },
+
+    { id: "skin-lesion", label: "Skin Lesion", group: "tag", url: "/tags/#skin-lesion" },
+    { id: "wce", label: "WCE", group: "tag", url: "/tags/#wce" },
+    { id: "mri", label: "MRI", group: "tag", url: "/tags/#mri" },
+    { id: "histopathology", label: "Histopathology", group: "tag", url: "/tags/#histopathology" }
+  ]);
+
+  const edges = new vis.DataSet([
+    { from: "portfolio", to: "xai" },
+    { from: "portfolio", to: "ad" },
+    { from: "portfolio", to: "cv" },
+    { from: "portfolio", to: "mi" },
+
+    { from: "xai", to: "shapbpt" },
+    { from: "xai", to: "lime" },
+    { from: "xai", to: "shapley" },
+    { from: "xai", to: "feature-attribution" },
+
+    { from: "ad", to: "visual-ad" },
+    { from: "ad", to: "industrial-ai" },
+    { from: "ad", to: "robotics-safety" },
+
+    { from: "cv", to: "object-detection" },
+    { from: "cv", to: "object-recognition" },
+    { from: "cv", to: "segmentation" },
+    { from: "cv", to: "feature-fusion" },
+
+    { from: "mi", to: "skin-lesion" },
+    { from: "mi", to: "wce" },
+    { from: "mi", to: "mri" },
+    { from: "mi", to: "histopathology" }
+  ]);
+
+  const container = document.getElementById("research-network");
+
+  const data = {
+    nodes: nodes,
+    edges: edges
+  };
+
+  const options = {
+    nodes: {
+      shape: "dot",
+      size: 18,
+      font: {
+        size: 15
+      },
+      borderWidth: 1
+    },
+    edges: {
+      width: 1.5,
+      color: "#9ca3af",
+      smooth: true
+    },
+    groups: {
+      main: {
+        color: {
+          background: "#dbeafe",
+          border: "#2563eb"
+        },
+        size: 30
+      },
+      area: {
+        color: {
+          background: "#e5e7eb",
+          border: "#4b5563"
+        },
+        size: 24
+      },
+      tag: {
+        color: {
+          background: "#f3f4f6",
+          border: "#9ca3af"
+        },
+        size: 16
+      }
+    },
+    physics: {
+      stabilization: true,
+      barnesHut: {
+        gravitationalConstant: -9000,
+        springLength: 130,
+        springConstant: 0.04
+      }
+    },
+    interaction: {
+      hover: true,
+      tooltipDelay: 100,
+      navigationButtons: true,
+      keyboard: true
+    }
+  };
+
+  const network = new vis.Network(container, data, options);
+
+  network.on("doubleClick", function (params) {
+    if (params.nodes.length > 0) {
+      const node = nodes.get(params.nodes[0]);
+      if (node.url) {
+        window.location.href = node.url;
+      }
+    }
+  });
+</script>

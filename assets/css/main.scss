@@ -117,55 +117,273 @@ a.custom-btn {
 }
 /* ===== Color-coded buttons ===== */
 
+/* ===== Base Button ===== */
+.custom-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px 4px 4px 0;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* ===== Soft Academic Colors ===== */
+
+/* Paper (soft red) */
 .btn-paper {
-  background-color: #d73a49;
-  color: white !important;
-  border-color: #d73a49;
+  background-color: #f5c2c7;
+  border-color: #e6a1a7;
+  color: #7a1f24 !important;
 }
 
+/* arXiv (muted maroon) */
 .btn-arxiv {
-  background-color: #b31b1b;
-  color: white !important;
-  border-color: #b31b1b;
+  background-color: #f0c7c7;
+  border-color: #d9a2a2;
+  color: #6b1a1a !important;
 }
 
+/* Code (soft green) */
 .btn-code {
-  background-color: #2ea44f;
-  color: white !important;
-  border-color: #2ea44f;
+  background-color: #cde7d8;
+  border-color: #a8d5bb;
+  color: #1e5a3c !important;
 }
 
+/* Tests (soft purple) */
 .btn-tests {
-  background-color: #6f42c1;
-  color: white !important;
-  border-color: #6f42c1;
+  background-color: #e2d8f5;
+  border-color: #c7b8e6;
+  color: #4a2e7a !important;
 }
 
+/* PyPI (soft blue) */
 .btn-pypi {
-  background-color: #0366d6;
-  color: white !important;
-  border-color: #0366d6;
+  background-color: #d6e6fa;
+  border-color: #b6d2f5;
+  color: #1c4a7a !important;
 }
 
+/* Demo (soft orange) */
 .btn-demo {
-  background-color: #e36209;
-  color: white !important;
-  border-color: #e36209;
+  background-color: #fde2c8;
+  border-color: #f5c89c;
+  color: #7a4a1c !important;
 }
 
-.btn-poster, .btn-slides {
-  background-color: #6a737d;
-  color: white !important;
-  border-color: #6a737d;
+/* Poster / Slides (neutral gray) */
+.btn-poster,
+.btn-slides {
+  background-color: #e5e7eb;
+  border-color: #d1d5db;
+  color: #374151 !important;
 }
-.custom-btn:hover,
-.btn-paper:hover,
-.btn-arxiv:hover,
-.btn-code:hover,
-.btn-tests:hover,
-.btn-pypi:hover,
-.btn-demo:hover,
-.btn-poster:hover,
-.btn-slides:hover {
+
+/* ===== Hover (clean professional feel) ===== */
+.custom-btn:hover {
+  background-color: #ffffff;
+  border-color: #999;
   color: #111 !important;
+}
+
+/* ===== Count badge ===== */
+.pub-count-btn {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #3730a3 !important;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+
+
+// ===== Responsive adjustments =====
+
+.pub-card {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.pub-thumb {
+  flex: 0 0 180px;
+}
+
+.pub-thumb img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pub-content {
+  flex: 1;
+}
+
+.pub-content h2 {
+  margin-top: 0;
+}
+
+.pub-buttons {
+  margin-top: 8px;
+}
+
+.pub-meta {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-thumb img {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+// ==== ADJUST BIBTEX DISPLAY ====
+.bibtex-box {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.copy-bibtex-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #0366d6;
+  color: white;
+}
+
+.copy-bibtex-btn:hover {
+  background: #024f9c;
+}
+
+//  ADDED FOR TAGS
+.pub-tags {
+  margin-top: 6px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 2px 4px 2px 0;
+  font-size: 12px;
+  border-radius: 6px;
+  background: #eaeaea;
+  color: #333 !important;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background: #d0d0d0;
+  color: #111 !important;
+}
+
+.tag-section li {
+  margin-bottom: 16px;
+}
+
+//  FOR RESEARCH MAPS
+.research-map {
+  margin-top: 20px;
+}
+
+.research-node.main {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #e5e7eb;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.research-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fafafa;
+}
+
+.research-card h3 {
+  margin-top: 0;
+}
+
+//  SORT PUBLICATIONS BY USER-DEFINED ORDER
+.pub-sort-box {
+  margin: 16px 0 24px 0;
+}
+
+.pub-sort-box select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-left: 8px;
+}
+
+//  STYLE FOR FILTERING PUBLICATIONS
+.pub-filter-box {
+  margin: 10px 0 20px 0;
+}
+
+.pub-filter-box select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-left: 8px;
+}
+
+//  STYLE FOR PUBLICATION SEARCH
+.pub-search-box {
+  margin: 12px 0 20px 0;
+}
+
+.pub-search-box input {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 260px;
+}
+
+// STYLE FOR AUTHOR PROFILES
+
+.pub-controls {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 16px 0 24px 0;
+}
+
+.pub-sort-box,
+.pub-filter-box {
+  margin: 0;
+}
+
+.pub-controls select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-left: 6px;
 }

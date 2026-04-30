@@ -2,16 +2,34 @@
 title: "ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees"
 collection: publications
 category: conferences
-permalink: /publication/p11_ShapBPT
+permalink: /publication/p12_ShapBPT
 excerpt: 'A Novel XAI method to integrate the Data Aware Method (BPT) into Generating Image Features Attributions'
+research_area:
+  - Explainable AI
+  - Computer Vision
+subcategory:
+  - Image Feature Attribution
+  - Shapley Values
+  - Binary Partition Trees
+tags:
+  - XAI
+  - ShapBPT
+  - Shapley values
+  - BPT
+  - feature attribution
 date: 2026-01-24
 venue: 'AAAI-26 | 40th Annual AAAI Conference on Artificial Intelligence'
 location: 'Singapore'
-posterurl: 'https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf'
-paperurl: 'https://www.arxiv.org/abs/2602.07047'
+paperurl: "https://ojs.aaai.org/index.php/AAAI/article/view/39699"
+arxivurl: "https://www.arxiv.org/abs/2602.07047"
+codeurl: "https://github.com/amparore/shap_bpt"
+testurl: "https://github.com/rashidrao-pk/shap_bpt_tests"
+pypiurl: "https://pypi.org/project/shap-bpt/"
+userstudyurl: "https://huggingface.co/spaces/rashidrao/shapbpt-user-study"
+posterurl: "https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf"
 citation: 'Rashid,Muhammad et al. (2026). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 40.'
 PyPi : 'https://pypi.org/project/shap-bpt/'
-thumbnail: "papers_data/Fig1_explain_bpt-1.png"
+thumbnail: "../files/papers_data/Fig1_explain_bpt-1.png"
 ---
 
 Pixel-level **_feature attributions_** play a key role in **_Explainable Computer Vision (XCV)_** by revealing how visual features influence model predictions. While hierarchical **_Shapley_** methods based on the **_Owen formula_** offer a principled explanation framework, existing approaches overlook the multiscale and morphological structure of images, resulting in inefficient computation and weak semantic alignment.
@@ -89,13 +107,22 @@ Keywords 🔍
 Shapley Values · Binary Partition Trees · eXplainable
 AI · XAI · Image Feature Attributions
 
-<!-- Citation
-===
-```bash
-@InProceedings{10.1007/978-3-031-63803-9_13, author="Rashid, Muhammad and Amparore, Elvio and Ferrari, Enrico and Verda, Damiano", editor="Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin", title="Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI", booktitle="Explainable Artificial Intelligence",
-year="2024", publisher="Springer Nature Switzerland",
-address="Cham", pages="243--254"}
-``` -->
 
+<h2>📖 Citation (BibTeX)</h2>
+
+<div class="bibtex-box">
+  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+
+<pre><code class="language-bibtex">@inproceedings{rashid2026shapbpt,
+  title     = {ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees},
+  author    = {Rashid, Muhammad and Amparore, Elvio G. and Ferrari, Enrico and Verda, Damiano},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {40},
+  number    = {30},
+  pages     = {25099--25107},
+  year      = {2026},
+  url       = {https://doi.org/10.1609/aaai.v40i30.39699}
+}</code></pre>
+</div>
 
 

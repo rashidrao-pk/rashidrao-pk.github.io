@@ -1,9 +1,80 @@
 ---
-layout: archive
-title: "Talk map"
-permalink: /talkmap.html
-author_profile: true
+layout: none
+permalink: /talkmap/
 ---
 
-<p>This map is generated from a Jupyter Notebook file in <a href="https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb">talkmap.ipynb</a>, which mines the location fields in the .md files in _talks/.</p>
-<iframe src="/talkmap/map.html" height="700" width="850" style="border:none;"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Talk Map</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+var map = L.map('map').setView([30, 0], 2);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+}).addTo(map);
+
+
+// ✅ AUTO LOAD FROM _talks (SAFE VERSION)
+
+var talks = [
+{% assign valid_talks = site.talks | where_exp: "item", "item.coordinates" %}
+{% for talk in valid_talks %}
+  {
+    title: "{{ talk.title | escape }}",
+    location: {{ talk.coordinates | jsonify }},
+    text: "{{ talk.venue | escape }}",
+    url: "{{ talk.url | relative_url }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+];
+
+
+// ✅ ADD MARKERS
+
+talks.forEach(function(talk) {
+  L.marker(talk.location)
+    .addTo(map)
+    .bindPopup(`
+      <b>${talk.title}</b><br>
+      ${talk.text}<br>
+      <a href="${talk.url}">View details</a>
+    `);
+});
+
+
+// ✅ AUTO FIT MAP TO ALL TALKS
+
+if (talks.length > 0) {
+  var bounds = talks.map(t => t.location);
+  map.fitBounds(bounds);
+}
+
+</script>
+
+</body>
+</html>

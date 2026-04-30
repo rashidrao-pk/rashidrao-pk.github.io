@@ -1,16 +1,36 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
+{% include base_path %}
+
+<p>
+  Selected talks, conference presentations, posters, project updates, and research seminars.
+</p>
+
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+  <p>
+  <a href="{{ '/talkmap/' | relative_url }}" class="custom-btn btn-demo">
+    View Talk Map
+  </a>
+  </p>
 {% endif %}
 
-{% for post in site.talks reversed %}
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% assign current_year = "" %}
+
+{% for post in talks %}
+  {% assign talk_year = post.date | date: "%Y" %}
+
+  {% if talk_year != current_year %}
+    <h2>{{ talk_year }}</h2>
+    <hr />
+    {% assign current_year = talk_year %}
+  {% endif %}
+
   {% include archive-single-talk.html %}
+
 {% endfor %}

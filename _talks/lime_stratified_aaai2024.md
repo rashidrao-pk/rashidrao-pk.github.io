@@ -6,6 +6,7 @@ permalink: /talks/lime_stratified_aaai
 venue: "Vancouver Convention Centre"
 date: 21-02-2024
 location: "Vancouver, Canada"
+coordinates: [49.2884, -123.1116]
 Special Session: Main Track - Poster Talk
 Conference: AAAI-24 | The 38th Annual AAAI Conference on Artificial Intelligence
 Link to talk:   https://underline.io/speakers/254136-muhammad-rashid

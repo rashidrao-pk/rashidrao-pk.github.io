@@ -1,75 +1,121 @@
 ---
 permalink: /projects/
-title: "Projects 📝🔬"
+title: "Projects & Research Work"
 author_profile: true
-redirect_from: 
-  # - /projects/
-  # - /projects.html
 ---
 
-## EU Project: DistriMuSe — Safe Interaction with Robots
-<img src="../files/projects/advis.png" width="250">
-
-🔗 [https://distrimuse.eu/](https://distrimuse.eu/)
-
-Contributed to the **Safe Interaction with Robots** use case of the European industrial project **DistriMuSe**, focusing on **explainable anomaly detection for industrial robotics**.
-
-- **Contributions**
-  - Developed a **zoned VAE–GAN anomaly detection framework** for localized and interpretable monitoring.
-  - Introduced a **robust threshold calibration strategy** across **53 anomaly scoring methods**.
-- **Achievements**
-  - **99.61% accuracy**, **95.1% recall**, **90.9% F1-score**
-  - **Real-time inference** at ~**12.5 FPS**
-- **Skills Earned**
-  - Tools: Generative AI, Python, PyTorch, VAE–GANs, CNNs, latent space, anomaly detection, one class classification.
-  - Communication Protocols: Zenoh, ROS2, Rest-api.
-  - Management: Presentations, team managment, collaborations among EU countries.
+This page highlights selected **research projects, industrial systems, and open-source contributions** spanning **Explainable AI, Computer Vision, and Anomaly Detection**.
 
 ---
 
+# 🇪🇺 EU & Industrial Projects
 
-## Improvements in Coalition genertion for Shapley Values Generation
-🔗 [https://github.com/rashidrao-pk/shap_bpt_tests](https://github.com/rashidrao-pk/shap_bpt_tests)
+## 🤖 DistriMuSe — Safe Interaction with Robots
 
-Research project focused on improving the **Shapley Values Generation using Data Aware Binary Partition Trees**, imporved object localization using XAI methods.
+<img src="../files/projects/advis.png" width="260">
 
-- **Tools & Methods**: Python, Pytorch, CNNs, ViTs, Explainable AI (Shap), CAM XAI methods.
+<a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="custom-btn btn-code">
+   GitHub Repo
+</a>
 
-## Improvements in Sampling Strategy for LIME Image Explanations
-🔗 [https://github.com/rashidrao-pk/lime_stratified](https://github.com/rashidrao-pk/lime_stratified)
+Contributed to the **Safe Interaction with Robots** use case within the European project **DistriMuSe**, focusing on **explainable anomaly detection for industrial robotics**.
 
-Research project focused on improving the **sampling strategy of LIME for image explanations**, enhancing stability and faithfulness of explanations for deep vision models.
+### 🔬 Contributions
+- Zoned **VAE–GAN anomaly detection framework** for localized monitoring  
+- **Threshold calibration across 53 anomaly scoring methods**  
+- **ROS2-based real-time inference system**
 
-- **Tools & Methods**: Python, TensorFlow, CNNs, Explainable AI (LIME)
-
-
----
-
-## Explainable Anomaly Detection — Trust Case Study
-🔗 [https://github.com/rashidrao-pk/anomaly_detection_trust_case_study](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study)
-
-A comprehensive study on **trust and interpretability in anomaly detection systems**, combining generative models with explanation techniques to support human decision-making.
-
-- **Tools & Methods**: Generative AI, Python, TensorFlow, VAE–GANs, CNNs
-
-
----
-
-## AI Deployment on Edge Devices
-🔗 [https://github.com/rashidrao-pk/AI_on_Edge_Devices](https://github.com/rashidrao-pk/AI_on_Edge_Devices)
-
-Research and implementation of **lightweight deep learning models** for deployment on **resource-constrained edge devices**.
-
-- **Tools & Methods**: CNNs, Model Quantization, TensorFlow, Raspberry Pi
-
+### 📊 Achievements
+- **99.61% accuracy**, **95.1% recall**, **90.9% F1-score**
+- ~**12.5 FPS real-time inference**
+- Interpretable anomaly maps for safety-critical environments
 
 ---
 
+# 🧠 Core Research Projects (PhD)
 
-## Previously Developed Freelance Research Projects (2017-2022) 🏭
+## 🧠 ShapBPT — Explainable AI for Computer Vision
 
-As a freelancer, **applied Computer Vision and Machine Learning projects** developed through international freelance collaborations with academic and industrial clients. The work mainly covers **medical image analysis** (detection, segmentation, and classification from MRI, CT, fundus, and dermoscopic images) and **classical as well as deep learning–based vision pipelines**, including feature matching, image stitching, fusion, enhancement, and denoising.
+<a href="https://github.com/rashidrao-pk/shap_bpt_tests"
+   target="_blank"
+   class="custom-btn btn-code">Code</a>
 
-Several projects also address **intelligent decision systems** using neural networks, ensemble learning, evolutionary algorithms, and graph-based models. Implemented primarily in **MATLAB and Python**, many solutions were delivered as **end-to-end systems with graphical user interfaces (GUIs)**, emphasizing practical deployment, interpretability, and real-world applicability in healthcare, automation, and safety-critical scenarios. Further details about projects are given on the [**_THIS GITHUB REPO_**](https://github.com/rashidrao-pk/r4sshd/tree/main/project_completed). Here are few of examples what clients said about me? can be found at [**_This Link_**](https://github.com/rashidrao-pk/rashidrao-pk/blob/main/project_completed/feedbacks.md)
+- Hierarchical **Shapley-based image explanations**
+- Data-aware **Binary Partition Trees (BPT)**
+- Improved **localization + explanation stability**
 
-Some of these contributions are publicly available as **open-source resources** on the [**MathWorks File Exchange**](https://ch.mathworks.com/matlabcentral/fileexchange/113080-classification-of-gastrointestinal-diseases-of-stomach?s_tid=prof_contriblnk). Below is a brief summary of selected completed projects.
+---
+
+## 📊 LIME Stratified Sampling
+
+<a href="https://github.com/rashidrao-pk/lime_stratified"
+   target="_blank"
+   class="custom-btn btn-code">Code</a>
+
+- Improved **LIME sampling strategy**
+- Reduced variance in perturbations  
+- More **stable and reliable explanations**
+
+---
+
+## 🔍 Explainable Anomaly Detection (XAD)
+
+<a href="https://github.com/rashidrao-pk/anomaly_detection_trust_case_study"
+   target="_blank"
+   class="custom-btn btn-code">Code</a>
+
+- Combined **VAE–GAN + XAI**
+- Studied **trust in anomaly detection**
+- Human-centered interpretability insights
+
+---
+
+# ⚙️ Systems & Deployment
+
+## ⚡ AI on Edge Devices
+
+<a href="https://github.com/rashidrao-pk/AI_on_Edge_Devices"
+   target="_blank"
+   class="custom-btn btn-code">Code</a>
+
+- Lightweight models for **edge deployment**
+- **Model compression & quantization**
+- Deployment on **Raspberry Pi**
+
+---
+
+# 🏭 Applied / Freelance Research (2017–2022)
+
+Worked on **international academic & industrial projects** in:
+
+### 🔬 Domains
+- Medical Imaging (MRI, CT, dermoscopy, fundus)
+- Computer Vision pipelines (segmentation, enhancement, stitching)
+- Intelligent decision systems (ML, ensembles, optimization)
+
+### 🛠️ Technologies
+MATLAB, Python, Deep Learning, Machine Learning
+
+### 📦 Deliverables
+- End-to-end systems with **GUI**
+- Solutions for **healthcare and safety-critical applications**
+
+🔗 Repository:  
+<a href="https://github.com/rashidrao-pk/r4sshd/tree/main/project_completed" target="_blank">https://github.com/rashidrao-pk/r4sshd/tree/main/project_completed</a>
+
+💬 Client Feedbacks:  
+<a href="https://github.com/rashidrao-pk/rashidrao-pk/blob/main/project_completed/feedbacks.md" target="_blank">https://github.com/rashidrao-pk/rashidrao-pk/blob/main/project_completed/feedbacks</a>
+
+---
+
+# 🧠 Summary
+
+- **Explainable AI + Anomaly Detection (core focus)**
+- **Industrial AI systems (EU projects)**
+- **Research → Deployment pipelines**
+- **Real-time and interpretable AI systems**
+
+---

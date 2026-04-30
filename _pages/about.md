@@ -74,7 +74,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**,
   </p>
 
 - **Using Stratified Sampling to Improve LIME Image Explanations**  
-  *Explainable AI / XAI*
+  *AAAI 2024*
   <p>
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29397" class="custom-btn btn-paper">Paper</a>
     <a href="https://github.com/rashidrao-pk/lime_stratified" class="custom-btn btn-code">Code</a>
