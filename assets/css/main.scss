@@ -387,3 +387,42 @@ a.custom-btn {
   border: 1px solid #ccc;
   margin-left: 6px;
 }
+
+
+// GOOGLE TRASNLATE WIDGET
+
+/* Google Translate Styling */
+
+#google_translate_element {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  cursor: pointer;
+  background: transparent;
+  color: inherit;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.skiptranslate iframe {
+  display: none !important;
+}

@@ -1,93 +1,136 @@
 ---
+layout: archive
 permalink: /courses/
-title: "Courses 📝"
+title: "Courses & Training"
 author_profile: true
-redirect_from: 
-  # - /courses/
-  # - /courses.html
+classes: wide
+redirect_from:
+  - /courses.html
 ---
 
-##  a. Courses taken in PhD Degree:
+This page summarizes my formal doctoral coursework, research schools, professional training, workshops, and earlier academic coursework in Computer Science, Artificial Intelligence, Computer Vision, Explainable AI, and Machine Learning.
 
-| **Sr. No.** | **Course Title**                        | **Instructors**                                         | **Link to Syllabus** | **Total Hours** | **Type of Exam**       | **Attendance & Exam Dates**            |
-|-------------|-----------------------------------------|--------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------|-------------------------|-----------------------------------------|
-| 1           | Introduction to Deep Learning           | Attilio Fiandrotti, Rossella Cancelliere, Valerio Basile, Roberto Esposito, Marco Botta | [Syllabus](https://dottinformatica.campusnet.unito.it/do/corsi.pl/Show?_id=kwhb)                       | 24h (6 Credits) | Project + Presentation  | Exam: 29th Jan 2024                     |
-| 2           | Reasoning about Ontologies, Causality, Preferences, for Explainability | Matteo Baldoni, Laura Giordano, Valentina Gliozzi, Roberto Micalizio, Gian Luca Pozzato | [Syllabus](https://dottinformatica.campusnet.unito.it/do/corsi.pl/Show?_id=wo0s&search=%2Dcategoria%3Amodulo&sort=DEFAULT) | 24h (6 Credits) | Oral Presentation       | Exam: 1st Feb 2024                      |
-| 3           | AI for Health (BISS2023)                | Francesco Calimeri, Gianluigi Greco                   | [Syllabus](https://cs.unibo.it/projects/BISS/2023/courses/#ai-for-health)                             | 24h (6 CET)     | Project                 | Course: 12–17/03/2023, Exam: 16/04/2023 |
-| 4           | II semestre corsi di lingua italiana    | Manuela, and Klementina                               | [Syllabus](https://www.cla.unito.it/it/italianostudentiinternazionali/summer-school-italiano-l2)       | 45h             | Written Exam            | Course: Jan–May 2023, Exam: 24/05/2023  |
-| 5           | Hybrid Quantum Computing                | Juan Manuel Murillo                                   | [Syllabus](https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#hybridquantum-computing)          | 24h (6 CET)     | Project                 | Course: 12–17/03/2023                   |
+---
 
-### Other Courses Outside PhD Course Plan
+# PhD Coursework
 
-| Sr. No. | Certificate Name                           | Issued By            |   Dated         | Grade (%) | Course Length | Certificate |
-| :---: | ------------------                           | ------------         |   :---:         |   :---:   |   :---:       |     :---:   |
-| 1.    | [Build Basic Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/) | [DeepLearning.AI](https://www.deeplearning.ai/) |  XX-XX-2024 |    ---    | XX-XX-2024   |  [LINK]()   |
-| 2.    | [OxML Generative AI & Representation Learning](https://www.oxfordml.school/replearning) | Oxford University,UK & [Global Goals](http://www.globalgoals.ai/) |  July 2024 |    ---    | 11-14 July 2024   |  [LINK](https://www.linkedin.com/in/rashid-rao-cuipakistan/overlay/1723042628724/single-media-viewer/?type=DOCUMENT&profileId=ACoAABD65c0BtQYsWVhZVXZ4PcZV9G1-CKFA7XE)   |
-| 3.   | [Oxford Machine Learning Health & Bio](https://www.oxfordml.school/health) | Oxford University,UK & [Global Goals](http://www.globalgoals.ai/) | July 2024 |  ---       | 6-9 July 2024     |  [LINK](https://www.linkedin.com/in/rashid-rao-cuipakistan/overlay/1723042628724/single-media-viewer/?type=DOCUMENT&profileId=ACoAABD65c0BtQYsWVhZVXZ4PcZV9G1-CKFA7XE)   |
-| 4. | Introduction to TensorFlow for Artificial Intelligence,Machine Learning, and Deep Learning | DeepLearning.AI  | 12-Jun-2024                   |  100%       |   17 hours     |     <a href='https://coursera.org/share/c92c13ff02cf8e09592af5bf8fcb0d0e'> Yes </a>    |
-| 5. | Introduction to Generative AI | Google                            | 25-Mar-2024                   | -----       |   -------     |     <a href='https://www.cloudskillsboost.google/public_profiles/3924a3ad-b31b-42f5-b55b-6753ba136fb0/badges/8435493?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share'> Yes </a>    |
-| 6. | Unlocking Grant Success with Funding Institutional | Researcher Academy | 15-Mar-2024                   | -----       |   -------     |    <a href='https://www.linkedin.com/posts/rashid-rao-cuipakistan_unlocking-grant-success-with-funding-institutional-activity-7177617228719112192-CcIc?utm_source=share&utm_medium=member_desktop'> Yes </a>    |
-| 7. | How to Protect your Data          | RuleX                            | 08-Jan-2024                   | -----       |   -------     |     <a href='https://drive.google.com/file/d/1FwmLfBSHWwRJdBjBv_khjoyEgVHhD-gO/view?usp=sharing'> Yes </a> |
-| 8. | AI for Health (Subject from School)          | Bertinoro International Spring School (BISS-23)                  | 12-19 Mar 2023                   | -----       |   -------     |     [LINK](https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#ai-for-health) |
-| 9. | Hybrid Quantum Computing (Subject from School)          | Bertinoro International Spring School (BISS-23)                  | 12-19 Mar 2023                   | -----       |   -------     |     [LINK](https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#hybrid-quantum-computing) |
-| 10. | AI for Everyone          | Bertinoro International Spring School (BISS-23)                  | 12-19 Mar 2023                   | -----       |   -------     |     [LINK](https://www.coursera.org/account/accomplishments/verify/XFEK65GWB3MF) |
+## University of Torino — PhD in Computer Science
 
-###  PhD: Workshops/Seminars:
+| Course | Instructors | Hours / Credits | Assessment | Date | Link |
+|---|---|---:|---|---|---|
+| **Introduction to Deep Learning** | Attilio Fiandrotti, Rossella Cancelliere, Valerio Basile, Roberto Esposito, Marco Botta | 24h / 6 credits | Project + Presentation | Exam: 29 Jan 2024 | <a href="https://dottinformatica.campusnet.unito.it/do/corsi.pl/Show?_id=kwhb" class="custom-btn btn-demo">Syllabus</a> |
+| **Reasoning about Ontologies, Causality, Preferences, for Explainability** | Matteo Baldoni, Laura Giordano, Valentina Gliozzi, Roberto Micalizio, Gian Luca Pozzato | 24h / 6 credits | Oral Presentation | Exam: 1 Feb 2024 | <a href="https://dottinformatica.campusnet.unito.it/do/corsi.pl/Show?_id=wo0s&search=%2Dcategoria%3Amodulo&sort=DEFAULT" class="custom-btn btn-demo">Syllabus</a> |
+| **AI for Health** | Francesco Calimeri, Gianluigi Greco | 24h / 6 CET | Project | Mar–Apr 2023 | <a href="https://cs.unibo.it/projects/BISS/2023/courses/#ai-for-health" class="custom-btn btn-demo">Syllabus</a> |
+| **Italian Language Course — Second Semester** | Manuela, Klementina | 45h | Written Exam | Jan–May 2023 | <a href="https://www.cla.unito.it/it/italianostudentiinternazionali/summer-school-italiano-l2" class="custom-btn btn-demo">Syllabus</a> |
+| **Hybrid Quantum Computing** | Juan Manuel Murillo | 24h / 6 CET | Project | Mar 2023 | <a href="https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#hybrid-quantum-computing" class="custom-btn btn-demo">Syllabus</a> |
 
-| Sr. No.| Certificate Name    | Issued By        |   Dated   | Certificate |
-| :---:  | ------------------  | ------------     |   :---:   |   :---:    |     
-| 1.  | International Conference on Neonatal Neuroimaging and Monitoring and III Neonatal Neuroimaging Workshop  | Universidad de Cádiz     |   Nov, 2024   |   [LINK](https://www.linkedin.com/in/rashid-rao-cuipakistan/details/certifications/1731577245688/single-media-viewer/?type=IMAGE&profileId=ACoAABD65c0BtQYsWVhZVXZ4PcZV9G1-CKFA7XE)    |
-| 2.  | 9 AI Superpowers - Marketing Masterclass  | MMC Learning    |   7 Nov, 2024   |   [LINK](https://certified.mmclearning.com/d25a810b-d950-4220-9cd8-86ff61c0fb21)    |
+---
 
-<hr><hr><hr>
+# Professional Courses & Certifications
 
-<br>
+| Course / Certification | Issued By | Date | Duration | Link |
+|---|---|---:|---:|---|
+| **Build Basic Generative Adversarial Networks (GANs)** | DeepLearning.AI | Feb 2025 | 29h | <a href="https://www.coursera.org/account/accomplishments/verify/OVXPELXP2RAP" class="custom-btn btn-demo">Certificate</a> |
+| **OxML Generative AI & Representation Learning** | University of Oxford & Global Goals AI | Jul 2024 | 22h | <a href="../files/certificates/OxML.png" class="custom-btn btn-paper">Certificate</a> |
+| **Oxford Machine Learning Health & Bio** | University of Oxford & Global Goals AI | Jul 2024 | 22h | <a href="../files/certificates/OxML.png" class="custom-btn btn-paper">Certificate</a> |
+| **Introduction to TensorFlow for AI, ML, and Deep Learning** | DeepLearning.AI | Jun 2024 | 17h | <a href="https://coursera.org/share/c92c13ff02cf8e09592af5bf8fcb0d0e" class="custom-btn btn-demo">Certificate</a> |
+| **Introduction to Generative AI** | Google Cloud Skills Boost | Mar 2024 | 45 min | <a href="https://www.cloudskillsboost.google/public_profiles/3924a3ad-b31b-42f5-b55b-6753ba136fb0/badges/8435493" class="custom-btn btn-demo">Certificate</a> |
+| **Unlocking Grant Success with Funding Institutional** | Elsevier Researcher Academy | Mar 2024 | 43 min | <a href="../files/certificates/ResearchGrant.png" class="custom-btn btn-paper">Certificate</a> |
+| **How to Protect Your Data** | RuleX Academy | Jan 2024 | — | <a href="../files/certificates/protect_data.png" class="custom-btn btn-paper">Certificate</a> |
+| **AI for Everyone** | DeepLearning.AI | 2023 | 6h | <a href="https://www.coursera.org/account/accomplishments/verify/XFEK65GWB3MF" class="custom-btn btn-demo">Certificate</a> |
+| **PHP Programming (Web Development)** | Buraq Institute of Science and Technology | Apr–Jul 2014 | 3 months | <a href="../files/certificates/php.jpg" class="custom-btn btn-paper">Certificate</a> |
 
-##  b. Courses taken in Master Degree:
-- Thesis:   Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network.
-- Courses:
+---
 
-| Sr. No. | Course Code | Semester | Course Name     |   Credits  |  L.G   | GP      |
-| :-----: | ----------- | :---    | :--- |    :---:    |  :---: | :---:   |
-| 1. |   CSC-511   | Spring-2017 | Advanced Algorithm Analysis  | 3 |  $$A^+$$ | 12.00   |
-| 2. |   CSC-521   | Spring-2017 | Advanced Topics in Computer Architecture   | 3 |  $$A$$ |  10.95  |
-| 3. |   CSC-522   | Spring-2017 | Advanced Topics in Operating Systems   |  3 |  $$A$$  | 10.50   |
-| 4. |   CSC-650   | Fall-2017 | Advanced Topics in Digital Image Processing   | 3 |  $$A$$  | 11.70   |
-| 5. |   CSC-652   | Fall-2017 | Advanced Topics in Computer Vision | 3 |  $$A$$  | 11.70   |
-| 6. |   CSC-764   | Fall-2017 | Advanced Topics in Artificial Intelligence   | 3 |   $$A$$    | 10.50  |
-| 7. |   CSC-682   | Spring-2018 | Independent Studies-I    | 3 |  $$A^+$$     | 12.00  |
-| 8. |   CSC-762   | Spring-2018 | Advanced Topics in Neural Network   | 3 |  $$A^+$$     | 12.00   |
-| 9. |   CSC-800   | Fall-2018 | Thesis    | 6+ |   -    |  -  |
+# Research Schools
 
-###  MS: Workshops/Seminars:
+## Oxford Machine Learning Summer School 2024
 
-| Sr. No.| Certificate Name    | Issued By        |   Dated   | Certificate |
-| :---:  | ------------------  | ------------     |   :---:   |   :---:    |     
-| 1.  |  International Conference on Frontier of Information technology (FIT) | FIT     |   Nov, 2024   |   [LINK]()    |
+**University of Oxford & Global Goals AI**  
+Oxford, United Kingdom · July 2024
 
+Courses attended:
 
+- Generative AI & Representation Learning
+- Machine Learning for Health & Bioinformatics
 
-## c. Courses taken in Becholor Degree:
+<p>
+  <a href="https://www.oxfordml.school/replearning" class="custom-btn btn-demo">Generative AI</a>
+  <a href="https://www.oxfordml.school/health" class="custom-btn btn-demo">Health & Bio</a>
+  <a href="../files/certificates/OxML.png" class="custom-btn btn-paper">Certificate</a>
+</p>
 
-| Sr. No. | Certificate Name                           | Issued By            |   Dated         | Grade (%) | Course Length | Certificate |
-| :---: | ------------------                           | ------------         |   :---:         |   :---:   |   :---:       |     :---:   |
-| a. | PHP Programming (Web Development)          | Buraq Institute of Science and Technology                  | 12th-Apr-2014 ~ 1st-Jul-2014                   |    --    |   3 Months     |     [LINK](https://drive.google.com/file/d/1K686f8rWsElKnx3g8lmmIc5j7OqL6bZI/view?usp=sharing) |
+---
 
+## Bertinoro International Spring School 2023
 
+**Bologna, Italy**  
+March 2023
 
+Courses attended:
+
+- AI for Health
+- Hybrid Quantum Computing
+
+<p>
+  <a href="https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#ai-for-health" class="custom-btn btn-demo">AI for Health</a>
+  <a href="https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#hybrid-quantum-computing" class="custom-btn btn-demo">Hybrid Quantum Computing</a>
+</p>
+
+---
+
+# Workshops & Seminars
+
+| Workshop / Seminar | Organization | Date | Link |
+|---|---|---:|---|
+| **International Conference on Neonatal Neuroimaging and Monitoring and III Neonatal Neuroimaging Workshop** | Universidad de Cádiz | Nov 2024 | <a href="../files/certificates/workshop_XAI.png" class="custom-btn btn-paper">Certificate</a> |
+| **AI Superpowers — Marketing Masterclass** | MMC Learning | Nov 2024 | <a href="https://certified.mmclearning.com/d25a810b-d950-4220-9cd8-86ff61c0fb21" class="custom-btn btn-demo">Certificate</a> <a href="../files/certificates/superpower_ai.png" class="custom-btn btn-paper">Local Copy</a> |
+
+---
+
+# Master’s Coursework
+
+## Master of Science in Computer Science
+
+**COMSATS University Islamabad, Wah Campus, Pakistan**  
+**Thesis:** *Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network*
+
+| Course Code | Semester | Course Name | Credits | Grade |
+|---|---|---|---:|---:|
+| CSC-511 | Spring 2017 | Advanced Algorithm Analysis | 3 | A+ |
+| CSC-521 | Spring 2017 | Advanced Topics in Computer Architecture | 3 | A |
+| CSC-522 | Spring 2017 | Advanced Topics in Operating Systems | 3 | A |
+| CSC-650 | Fall 2017 | Advanced Topics in Digital Image Processing | 3 | A |
+| CSC-652 | Fall 2017 | Advanced Topics in Computer Vision | 3 | A |
+| CSC-764 | Fall 2017 | Advanced Topics in Artificial Intelligence | 3 | A |
+| CSC-682 | Spring 2018 | Independent Studies-I | 3 | A+ |
+| CSC-762 | Spring 2018 | Advanced Topics in Neural Network | 3 | A+ |
+| CSC-800 | Fall 2018 | Thesis | 6+ | — |
+
+---
+
+# Bachelor’s Training
+
+## Bachelor of Science in Computer Science
+
+**Allama Iqbal Open University, Islamabad, Pakistan**
+
+| Training | Issued By | Date | Duration | Link |
+|---|---|---:|---:|---|
+| **PHP Programming (Web Development)** | Buraq Institute of Science and Technology | Apr–Jul 2014 | 3 months | <a href="../files/certificates/php.jpg" class="custom-btn btn-paper">Certificate</a> |
+
+---
 
 <div style="text-align: right;">
-  <a href="#" 
+  <a href="#"
      style="
-        display: inline-block; 
-        padding: 5px 10px; 
-        background-color: #469B60; 
-        color: white; 
-        text-decoration: none; 
-        border-radius: 5px; 
-        font-weight: bold; 
-        font-size: 14px; 
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
-    Go to TOP
+        display: inline-block;
+        padding: 6px 12px;
+        background-color: #469B60;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;">
+    ↑ Top
   </a>
 </div>

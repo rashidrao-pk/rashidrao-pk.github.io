@@ -39,9 +39,15 @@ Contributed to the **Safe Interaction with Robots** use case within the European
 
 ## 🧠 ShapBPT — Explainable AI for Computer Vision
 
-<a href="https://github.com/rashidrao-pk/shap_bpt_tests"
-   target="_blank"
-   class="custom-btn btn-code">Code</a>
+  <p>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39699" class="custom-btn btn-paper">PDF</a>
+    <a href="https://www.arxiv.org/abs/2602.07047" class="custom-btn btn-arxiv">arXiv</a>
+    <a href="https://github.com/amparore/shap_bpt" class="custom-btn btn-code">Code</a>
+    <a href="https://github.com/rashidrao-pk/shap_bpt_tests" class="custom-btn btn-tests">Tests</a>
+    <a href="https://pypi.org/project/shap-bpt/" class="custom-btn btn-pypi">PyPI</a>
+    <a href="https://huggingface.co/spaces/rashidrao/shapbpt-user-study" class="custom-btn btn-demo">User Study</a>
+    <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
+  </p>
 
 - Hierarchical **Shapley-based image explanations**
 - Data-aware **Binary Partition Trees (BPT)**
@@ -51,9 +57,13 @@ Contributed to the **Safe Interaction with Robots** use case within the European
 
 ## 📊 LIME Stratified Sampling
 
-<a href="https://github.com/rashidrao-pk/lime_stratified"
-   target="_blank"
-   class="custom-btn btn-code">Code</a>
+  <p>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29397" class="custom-btn btn-paper">Paper</a>
+    <a href="https://github.com/rashidrao-pk/lime_stratified" class="custom-btn btn-code">Code</a>
+    <a href="https://github.com/rashidrao-pk/lime-stratified-examples" class="custom-btn btn-tests">Tests</a>
+    <a href="https://pypi.org/project/lime-stratified/" class="custom-btn btn-pypi">PyPI</a>
+    <a href="https://rashidrao-pk.github.io/files/st_lime_slides.pdf" class="custom-btn btn-slides">Slides</a>
+  </p>
 
 - Improved **LIME sampling strategy**
 - Reduced variance in perturbations  

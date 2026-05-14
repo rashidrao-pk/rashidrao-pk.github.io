@@ -9,278 +9,357 @@ redirect_from:
 
 {% include base_path %}
 
+# Muhammad Rashid
 
-Objective
-===
+**PhD in Computer Science**  
+**Computer Vision | Explainable AI | Machine Learning | Visual Anomaly Detection**  
+Turin, Italy  
 
-Skilled **_R&D_** expert in **_Computer Vision_** and eXplainable AI (**_XAI_**) specializing in Precise object localization using eXplainable AI and Visual **_Anomaly Detection_**. My previous work spans object detection, video surveillance, and computer vision aided medical imaging disease recognition
-
-Work experience
-======
-* **_Visiting PhD Researcher_**: @ University of Granada, Spain. [**_Jan 2025_**~**_Sep 2025_**]
-
-    * Location: [**_Valeria-Lab_**](https://valeria.ugr.es), [_Dept. of Computer Engineering, Automation and Robotics Department_](https://icar.ugr.es), [**_University of Granada, Spain_**](https://www.ugr.es).
-    * **Duties_**: Synthetic data generation for a use case of EU project [**_DistriMuSe_**](https://distrimuse.eu/about-the-project/).
-    * **_Supervisor_**: [*_Prof. Jesús Garrido_*](https://valeria.ugr.es/author/jesus-garrido/), Head of Valeria-LAB, UniGra.
-    * **_My Contributions_**:  Contributing in European industrial projects [**_DistriMuSe_**](https://distrimuse.eu/about-the-project/)  where my role was to improve, develop and utilize the Anomaly Detection algorithms to validate the dataset generated and provide feedback on further improvements in the pipeline. 
-
-
-* **_Doctoral Researcher on Industrial Needs_**: @  [**Dept. of Computer Science, University of Turin, Italy**](https://dott-informatica.campusnet.unito.it/do/studenti.pl/Show?_id=1077839#profilo)- [**_Nov 2022_** - **_Present_**]
-
-  * **_Institute_**: [**Dept. of Computer Science, University of Turin, Italy**](https://dott-informatica.campusnet.unito.it/do/studenti.pl/Show?_id=1077839#profilo)
-  * **_Duties_**: : Automatic extraction of high-level semantic features, Object Localization, Anomaly Detection and Visual explanations for Anomalies
-  * **_Contributions_**:  Contributing in European industrial projects [**_DistriMuSe_**](https://distrimuse.eu/about-the-project/) & [**_DistriMuSe details on UniTo Portal_**](https://unifind.unito.it/resource/project/AMPE%5FHEU%5FKDT%5F24%5F01) and [**_NextPerception_**](https://www.nextperception.eu/about-project/) where my role is to improve, develop and utilize the e***X***plainable ***AI*** (**_XAI_**) algorithms to add transparency and trust in the complex AI Models.
-  * **_Supervisor_**: [_Elvio Gilberto Amparore_](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore)
-
-
-* **_PhD Student (Research & Development)_**:  @[**_Rulex Innovation Labs_**](https://www.rulex.ai/) - [**_Nov 2022_** - **_Present_**]
-
-  * **_Institute_**: [**_Rulex Innovation Labs_**](https://www.rulex.ai/), Genova, Italy.
-  * **_Duties_**: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
-  * **_Supervisor_**: [_Enrico Ferrari_](https://www.rulex.ai/about-us), [_Damiano Verda_](https://www.rulex.ai/about-us)
-
-* **Computer Vision & Machine Learning Expert** @ Freelance Plateforms {Upwork & Fiverr} Remote- [2018 – 2023]
-- **_Computer Vision Projects_**: Developed 10+ Computer vision projects including GUI apps - (See Projects [**_here_**](https://github.com/rashidrao-pk/rashidrao-pk/blob/main/project_completed/README.md))
-
-Education
-======
----
-
-|  Sr. No. | Degree 📘  | Institute                                             | From |  To  |
-|  :---:   | :--------   | :------                                              | :--:  | :--: |
-| a.       | **Ph. D.(CS)**  | _University of Turin_, Italy.                          | 2022  | ~ 2025 |
-| b.       | **MS(CS)**      | _Comsats University Islamabad_, Wah Campus, Pakistan.  | 2017  | 2019 |
-| c.       | **BS(CS)**      | _Allama Iqbal Open University_ Islamabad, Pakistan.    | 2010  | 2016 |
-
-
-## a. PhD(CS): 
-**Details about PhD work**: 
-- ***Title, & Type***: Industrial PhD funded by PNRR-CINECA Italy for European Projects
-- ***University & Industry***: [***University of Turin***](https://www.unito.it/), [***Rulex Innovation Labs***, *_Italy_*](https://www.rulex.ai/)
-- ***Duration***: Oct 2022 - ~ Dec 2025 
-- ***Objectives***: Precise Object Localization using eXplainable AI and explainable visual Anomaly Detection.
-- ***Training Activities & Courses***: Check [**Courses Details Here**](courses.md#a-courses-taken-in-phd-degree) and other [***Training Activities Here***](https://rashidrao-pk.github.io//research_trainings).
-- ***Keywords***: eXplainable AI, XAI, Computer Vision, Trustworthy AI, Trustworthy ML
-- ***Image Datasets Used***: ImageNet, ImageNet-S, MVTec, MS-COCO, Robotics.
-
-**Proudly Supervised by**
- - **_Academic_**: [_Elvio Gilberto Amparore_](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore) , [***Dept. of Computer Science, University of Turin***](http://www.di.unito.it/do/home.pl), Italy.
- - **_Industrial_**: [_Enrico Ferrari_](https://www.rulex.ai/about-us), HEAD OF R&D PROJECTS, [***Rulex Innovation Labs***, _Italy_](https://www.rulex.ai/).
- - **_Industrial_**: [_Damiano Verda_](https://www.rulex.ai/about-us), HEAD OF DATA SCIENCE, [***Rulex Innovation Labs***, _Italy_](https://www.rulex.ai/).
-
-***Contributions to European Project***:
-  - ***DistriMuSe Website***: My task here is to implement ***Anomaly Detection(AD)*** in robotics use case for human safety, read more details here at [***DistriMuSe Website***](https://distrimuse.eu/about-the-project/).
-
- **Achievements:**
-
-
-Acheivements in this study are the following Publications made and also available at [***UniTo portal***](https://iris.unito.it/cris/rp/rp203241).
-
-|  Sr. No. | Title | Journal / Conference | Dates | Location | Publication Date | LINKS <img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" /> |
-| :------: | ----- | ------- | :---: | :--------: | :--------: | :---------: |
-| 1. | ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees. |  [AAAI-26 (40th Annual AAAI Conference on Artificial Intelligence)](https://aaai.org/conference/aaai/aaai-26/) | 24 jan 2026 | Singapore  | 24 Jan 2026 | [Codes](https://github.com/rashidrao-pk/shap_bpt_tests), [Poster](http://rashidrao-pk.github.io/files/AAAI_26_poster.pdf), [Python Package]()  |
-| 2. | ***Can I trust my anomaly detection system? A case study.*** |  [***XAI-World*** ( World Conference on eXplainable Artificial Intelligence)](https://xaiworldconference.com/2024/) | 17-19 July 2024 | Valletta, Malta  | 10 July 2024 | [**Paper PDF Link**](https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13) -:- [**Codes**](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) -:- [***Medium Blog***](https://muhammad-rashid.medium.com/explainable-anomaly-detection-in-images-using-self-supervised-learning-with-generative-ai-vae-gan-40a34af50dd4)|
-| 3. | ***Using Stratified Sampling to Improve LIME Image Explanations.*** | [***AAAI-24*** (38th Annual AAAI Conference on Artificial Intelligence)](https://aaai.org/aaai-conference) |  22-27 feb 2024 | Vancouver, Canada. | 24-03-2024 |  [***Paper PDF Link***](https://ojs.aaai.org/index.php/AAAI/article/view/29397) -:- [***Stratified LIME***](https://github.com/rashidrao-pk/lime_stratified)<br> -:- [***Examples***](https://github.com/rashidrao-pk/lime-stratified-examples) -:- [***Medium Blog***](https://muhammad-rashid.medium.com/stratified-lime-to-generate-image-explanation-an-improved-version-of-lime-image-6b9668f03f1f)|
+[Website](https://rashidrao-pk.github.io) · [Google Scholar](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ) · [GitHub](https://github.com/rashidrao-pk) · [LinkedIn](https://www.linkedin.com/in/r4ssh1d)
 
 ---
 
+# Professional Summary
 
-## b. Master Degree 
----
+I am a researcher in **Computer Vision**, **Explainable AI (XAI)**, and **Visual Anomaly Detection**, with a focus on trustworthy AI systems for safety-critical industrial environments. My PhD research at the **University of Torino** and **RuleX Innovation Labs** focused on improving trust in black-box AI models through explainable visual attribution methods and robust anomaly detection frameworks for smart industries.
 
-**Degree Details**: 
-- ***Title & Duration***: Master of Science (Computer Vision and Graphics), 2017-2019
-- ***Courses Taken***: [`Here`](courses.md#b-courses-taken-in-master-degree) is the summary of Courses and other Training Activities.   
-- ***Dataset Used***: Caltech-101, Caltech-256, PascalVOC-3D, Flower, Butterfly
-- ***Keywords***: Object Detection, Object Localization, Computer Vision, Deep Learning, Feature Engineering, Feature Selection and Optimization.
-
-**Achievements:**
-
-|  Sr. No. | Type    | Title  | Journal |    PDF Link     |    Codes <img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" />    |
-| :------: | :-----: | :------- |   :--------: | :--------: | :---------: |
-| 1. | Research Thesis | Object Detection and Classification based on Feature Fusion and Deep Convolutional Networks. | --- | --- | [GitHub Repo](https://github.com/rashidrao-pk/Object-detection-and-classification-based-on-feature-fusion-and-deep-convolutional-networks) |
-| 2. | Published Research Article | A sustainable deep learning framework for object recognition using multi-layers deep features fusion and selection.  | Sustainability | [PDF Link](https://doi.org/10.3390/su12125037) | [GitHub Repo](https://github.com/rashidrao-pk/A-sustainable-deep-learning-framework-for-object-recognition-using-multi-layers-deep-features-fusion), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70979-object_detection_-_classification?s_tid=prof_contriblnk)|
-| 3. | Published Research Article | Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features. |  Multimedia Tools and Applications | [PDF Link](https://link.springer.com/article/10.1007/s11042-018-7031-0) | [GitHub Repo ](https://github.com/rashidrao-pk/Object-Detection-and-Classification-A-Joint-Selection-and-Fusion-Strategy-of-Deep-Convolutional-Neu), [Mathworks](https://ch.mathworks.com/matlabcentral/fileexchange/70981-object-detection-classification?s_tid=prof_contriblnk)|
-
-***NOTE:*** Few of the research activities/publications were outcome of collaboration work with other members of the research group. [See](https://rashidrao-pk.github.io//publications) 
-<br>
+My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection with **VAE-GANs**, and **ADVIS**, a real-time anomaly detection and visual intelligence system for human safety in collaborative robotics.
 
 ---
 
+# Research Metrics
 
-## c. Bachelor Degree
-
-
- Bachelor of Science (Computer Science - **_Web Development_**) 
-
-**Degree Details**: 
-- ***Title***: Bachelor of Science (Computer Science - Web Development) (2016)
-- ***Keywords***: Software Engineering, Web development, Web Applications, Web Security, Information Security. 
-
-**Achievements**: 
-
-|  Sr. No. | Title |
-|  :---    | :---  |
-|  Product      |  Developed A secure Web Application using MVC architecture and CodeIgnitor Framework  |
-|  Name      |  ***OVBTP***, A Secure AI based Web Application for Venue Booking and Tour Planning  |
-| Website      | [http://www.ovbtp.com](http://www.ovbtp.com) |
-| CODES      | [GITHUB](https://github.com/rashidrao-pk/Online-Venure-Booking-and-Tour-Planning)<img src="https://cdn.jsdelivr.net/gh/DmitryRyumin/NewEraAI-Papers@main/images/github_code_developer.svg" width="27" alt="" /> - [![autollm stars](https://img.shields.io/github/stars/rashidrao-pk/Online-Venue-Booking-and-Tour-Planning?color=blueviolet)](https://github.com/rashidrao-pk/Online-Venue-Booking-and-Tour-Planning)  - ![Published Date](https://img.shields.io/badge/published_Date-2023--01--03-brightgreen)
-|  Tools Used      |  MVC, MS-SQL, CodeIgnitor, PhP, Javascript, HTML, CSS  |
+| Source | h-index | Citations | Publications |
+|---|---:|---:|---:|
+| Google Scholar | 9 | 788+ | 13 |
+| Scopus | 7 | 539+ | 11 |
 
 ---
 
-Projects
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+# Research Areas
+
+- Explainable Artificial Intelligence (XAI)
+- Explainable Computer Vision
+- Shapley-value-based explanations
+- LIME, SHAP, ShapBPT
+- Visual anomaly detection
+- VAE-GAN and deep generative models
+- Industrial AI and safety-critical systems
+- Human–robot collaboration
+- Medical image analysis
+- Edge AI and model deployment
 
 ---
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+# Experience
+
+## Research Fellow  
+**University of Torino, Italy**  
+**Nov 2025 – Present**
+
+Working within the **DistriMuSe** project under the supervision of Prof. Elvio G. Amparore.
+
+- Leading validation and optimization of anomaly detection pipelines for industrial robotics safety.
+- Evaluating robustness on synthetic and real industrial datasets.
+- Supporting integration of anomaly detection models into distributed robotics architectures.
+- Improving ADVIS for real-time safety monitoring in collaborative robotic environments.
 
 ---
 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+## Visiting Doctoral Researcher  
+**Valeria Lab, University of Granada, Spain**  
+**Jan 2025 – Aug 2025**
+
+- Completed an in-person research stay from **19 Jan 2025 to 19 Apr 2025**, followed by remote collaboration until **31 Aug 2025**.
+- Worked on the **DistriMuSe EU project**, focusing on safe interaction with robots in smart industrial environments.
+- Contributed to synthetic palletizing dataset development for Demo 3.2.
+- Tested and validated the ADVIS anomaly detection framework on synthetic robotic scenarios.
+- Supervisor: [Prof. Jesús Garrido](https://valeria.ugr.es/author/jesus-garrido/)
 
 ---
 
-Skills
-======
-* Technical Skills
-  * Machine Learning (4/5)
-  * Computer Vision (4/5)
-  * Deep Learning (TensorFlow, PyTorch) (4/5)
-  * Anomaly detection (4/5)
-  * Generative AI (4/5)
-  * GitHub (4/5)
-  * Basics of Graphic Designing (2/5)
-  * Web development (3/5)
+## Doctoral Researcher – R&D Projects  
+**University of Torino & RuleX Innovation Labs, Italy**  
+**Nov 2022 – Oct 2025**
 
-* Programming Languages
-  * Python (5/5)
-  * Matlab (4/5)
-  * C/C++ (3/5)
-  * Basics of Visual Basic, C#, and Java (2/5)
-
-## Academic Service & Volunteering 🤝
-
-**Program Committee Member**
-- XAI-World 2026, AAAI 2026, ICLR 2025, XAI-World 2025, XAI-World 2024, NLDB 2024  
-
-**Journal Reviewer**
-- IEEE Transactions on Intelligent Transportation Systems, Signal, Image and Video Processing (Springer Nature), Frontiers in Plant Science.
-
-**Workshop Program Committee**
-- INSAIT Workshop @ ICIAP 2025, DELTA 2024 (ACM SIGKDD)
-
-**General Support**
-- [Confederation of Laboratories for Artificial Intelligence Research in Europe (CAIRNE)](https://cairne.eu/individual-supporters/)
-
-
-
-
-Awards 
-======
----
-
-| Sr. No.| Award Type    | Awarded By        |   Dated   | Reason | Link |
-| :---:  | ------------------  | ------------     |   :---:   | :---:   |   :---:    |     
-| 1.  | Research Scholarship (Anomaly Detection models for safety in working environments) | [DistriMuSe](https://erasmus-plus.ec.europa.eu) |   Nov, 2025   |   **Research Scholarship** for **Research Activities** in **Italy**    | [**_LINK_**](https://informatica.unito.it/do/bandi.pl/ShowFile?_id=q50x;field=allegati_esiti;key=ioU9iQMv1Ncg7Sd8ve36YhsRZRTSrHEANf3ow6L6mwft5SNe0J7A6aAw7RsiAlwF6DcmWlDopY;t=0761) |
-| 2.  | Erasmus+ Traineeship  | [Erasmus+](https://erasmus-plus.ec.europa.eu) |   Dec, 2024   |   **Erasmus Scholarship** for **Research Activities** in **Spain**    | [**_LINK_**](../files/certificates/erasmus_funding.png) |
-| 3.  | Italian Industrial Scholarship for PhD Position  | National Recovery and Resilience Plan([NRRP](https://www.italiadomani.gov.it/content/sogei-ng/it/it/home.html)) & Ministry of Universities and Research [MUR](https://www.cineca.it/it) |   Nov, 2022   |   **Fully Funded Scholarship** for **PhD**    | [**_LINK_**](https://dott-informatica.campusnet.unito.it/do/studenti.pl/Show?_id=1077839#profilo) |
-| 4.  | National Laptop  | [Prime Minister Laptop Award]() |   Jan, 2019   |   National **Laptop Winner** in **Prime Minister Laptop Scheme**    | [**_LINK_**](https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx) |
+- Conducted PhD research on trustworthy AI, explainable computer vision, and visual anomaly detection.
+- Developed XAI methods including **LIME Stratified** and **ShapBPT**.
+- Built explainable anomaly detection systems using VAE-GANs.
+- Contributed to EU-funded projects including **DistriMuSe** and **NextPerception**.
+- Completed the thesis:  
+  *Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries.*
 
 ---
 
+## Research Assistant  
+**HITEC University, Taxila, Pakistan**  
+**Aug 2021 – Jan 2023**
 
-Certifications 
-======
-
-##  a. Certificates of Conferences:
----
-
-
-| Sr. No. | Conference          | Role     |   Location   |  From-To  |  Certificate |
-| :-----: | ------------------  |:---:     |   :---:      |  :---:    |                :---:                  |
-| 1.      | **_AAAI-26_** (40th Association for the Advancement of Artificial Intelligence (AAAI)) |   **_Oral Presenter in Main Track_** & Attendee  |  Singapore     | 20-27 January 2026   | [**Presentation**](https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf), [**Attendance**](../files/certificates/AAAI-26_certificate.jpeg)   |
-| 2.      | **XAI-World** (World Conference on eXplainable Artificial Intelligence) |   **_Oral Presenter in Main Track_** & Attendee  |  Valletta,Malta     | 17-19 July 2024   | [**Presentation**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1/), [**Attendance**](../files/certificates/xai_2024.png)   |
-| 3. | **_AAAI-24_** (38th Association for the Advancement of Artificial Intelligence (AAAI)) | **_Oral Presenter in Main Track_** & Attendee  |  Vancouver, Canada  | 22-27 Feb 2024   |     [**Presentation**](https://underline.io/speakers/254136-muhammad-rashid), [**Attendance**](../files/certificates/AAAI-24_Certificate.jpeg)   |
-| 4. | **_ECML-PKDD-23_** (European Conference on Machine Learning-PKDD) |    Attendee                 | Turin,Italy     | 18-22, Sep 2023    | [**Attendance**](../files/certificates/ECML_23.png) |
-| 5. | **_icSoftComputing_** (International Conferecne on Soft Computing and its Engineering Applications) |    Attendee                 | Remote     | 10-12, Dec 2024    | [**Attendance**](../files/certificates/icSoftComp2024.jpg) |
+- Designed and implemented machine learning and computer vision pipelines.
+- Mentored undergraduate students on AI, computer vision, and data science projects.
+- Supported research activities in medical imaging, surveillance, and pattern recognition.
 
 ---
 
+## Freelance Computer Vision & Machine Learning Developer  
+**Upwork & Fiverr**  
+**2018 – 2023**
 
-##  b. Certificates of Courses:
----
-
-| Sr. No. | Certificate Name                           | Issued By            |   Dated         | Course Length | Certificate |
-| :---: | ------------------                           | ------------         |   :---:         |   :---:   |     :---:   |
-| 1.    | [Build Basic Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/) | [DeepLearning.AI](https://www.deeplearning.ai/) |  04-02-2025    | 29 Hours   |  [LINK](https://www.coursera.org/account/accomplishments/verify/OVXPELXP2RAP?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)   |
-| 2.    | [OxML Generative AI & Representation Learning](https://www.oxfordml.school/replearning) | Oxford University,UK & [Global Goals](http://www.globalgoals.ai/) |  11-14 July 2024     | 22 Hours   |  [LINK](../files/certificates/OxML.png)   |
-| 3.   | [Oxford Machine Learning Health & Bio](https://www.oxfordml.school/health) | Oxford University,UK & [Global Goals](http://www.globalgoals.ai/) | 6-9 July 2024    | 22 Hours    |  [LINK](../files/certificates/OxML.png)   |
-| 4. | [Introduction to TensorFlow for Artificial Intelligence,Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) | [DeepLearning.AI](https://www.deeplearning.ai/)  | 12-Jun-2024                         |   17 Hours     |     [LINK](https://coursera.org/share/c92c13ff02cf8e09592af5bf8fcb0d0e)    |
-| 5. | [Introduction to Generative AI](https://www.cloudskillsboost.google/course_templates/536) | Google                            | 25-Mar-2024                         |   45 Minutes     |     [LINK](https://www.cloudskillsboost.google/public_profiles/3924a3ad-b31b-42f5-b55b-6753ba136fb0/badges/8435493?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share)   |
-| 6. | [Unlocking Grant Success with Funding Institutional](https://researcheracademy.elsevier.com/research-preparation/funding/unlocking-grant-success-funding-institutional) | Researcher Academy | 15-Mar-2024                         |   43 Minutes     |    [LINK](../files/certificates/ResearchGrant.png)    |
-| 7. | [How to Protect your Data](https://community.rulex.ai/rulex-academy)          | RuleX                            | 08-Jan-2024                          |   -------     |     [LINK](../files/certificates/protect_data.png) |
-| 8. | [AI for Health (Subject from School)](https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#ai-for-health)          | Bertinoro International Spring School (BISS-23)                  | 12-19 Mar 2023                        |   -------     |     [LINK]() |
-| 9. | [Hybrid Quantum Computing (Subject from School)](https://tempesta.cs.unibo.it/projects/BISS/2023/courses/#hybrid-quantum-computing)         | Bertinoro International Spring School (BISS-23)                  | 12-19 Mar 2023                         |   -------     |     [LINK](/) |
-| 10. | [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone)          | [DeepLearning.AI](https://www.deeplearning.ai/)                  | 12-19 Mar 2023                   | 6 Hours            |     [LINK](https://www.coursera.org/account/accomplishments/verify/XFEK65GWB3MF) |
-| 11. | PHP Programming (Web Development)          | Buraq Institute of Science and Technology                  | 12th-Apr-2014 ~ 1st-Jul-2014                      |   3 Months     |     [LINK](../files/certificates/php.jpg) |
-
-<!-- <div style='text-align: right;'> <a href='#'> <b>Go to TOP</b> </a> </div> -->
-
----
-##  c. Certificates of Workshops/Seminars/Journals:
-
-| Sr. No.| Certificate Name    | Issued By        |   Dated   | Certificate |
-| :---:  | ------------------  | ------------     |   :---:   |   :---:    |     
-| 1.  | International Conference on Neonatal Neuroimaging and Monitoring and III Neonatal Neuroimaging Workshop[1](https://formacion.fueca.org/doccurso/390178.pdf), [2](https://parenth2020.com/events-new/)  | Universidad de Cádiz     |   Nov, 2024   |   [**LINK**](../files/certificates/workshop_XAI.png)    |
-| 2.  | 9 AI Superpowers - Marketing Masterclass  | MMC Learning    |   7 Nov, 2024   |   [**LINK**](https://certified.mmclearning.com/d25a810b-d950-4220-9cd8-86ff61c0fb21), [**LINK 2**](../files/certificates/superpower_ai.png)    |
-| 3.  | Certificate of Reviewer | IJEECS    |   23 Nov, 2022   |   [**LINK**](../files/certificates/IJEECS_reviewer.png)    |
-
-Languages
-======
-
-|  Language | Level  | Certificate | 
-| --------- | ----- | ----- | 
-| English   | C1      | -- |
-| Italian   | A1      | [LINK](../files/certificates/Italian_A1.png) |
-| Urdu      |  Native | |
+- Delivered 10+ applied computer vision and machine learning projects.
+- Developed GUI-based applications for object detection, classification, and image analysis.
+- Worked on projects in medical imaging, surveillance, agriculture, and industrial inspection.
 
 ---
 
-<div style="text-align: right;">
-  <a href="#" 
-     style="
-        display: inline-block; 
-        padding: 5px 10px; 
-        background-color: #469B60; 
-        color: white; 
-        text-decoration: none; 
-        border-radius: 5px; 
-        font-weight: bold; 
-        font-size: 14px; 
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
-    Go to TOP
-  </a>
-</div>
+# Participation in Research Projects
 
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+## DistriMuSe — EU Project  
+**Use Case 3: Safe Interaction with Robots**
+
+Role: **Anomaly detection research, AI demonstrator development, and system integration**
+
+- Designed a real-time visual anomaly detection framework for collaborative robotics safety.
+- Developed an end-to-end pipeline covering ROS streams, preprocessing, masking, safety-area segmentation, model training, threshold calibration, and real-time inference.
+- Introduced localized anomaly detection across **RoboArm**, **ConvBelt**, **PLeft**, and **PRight**.
+- Used **ROS2** for critical safety messages and **Zenoh** for non-critical explainability streams.
+- Developed GUI tools for anomaly timelines, reconstruction inspection, and system monitoring.
+- Supported Demo 3.2 and Demo 3.3 with synthetic and real-world validation.
+- Achieved **99.61% accuracy**, **95.1% recall**, **90.9% F1-score**, and approximately **12.5 FPS** real-time inference.
+
+Repository: [ADVIS DistriMuSe UC3](https://github.com/rashidrao-pk/advis_distrimuse_unito_SR)
+
+---
+
+## NextPerception — EU Project  
+**Work Package 3: Distributed Intelligence**
+
+Role: **Explainable AI research and demonstrator improvement**
+
+- Contributed to explainable AI methods for perception systems.
+- Developed and evaluated improvements to LIME using stratified sampling.
+- Improved explanation stability and coverage for high-dimensional image data.
+
+---
+
+# Education
+
+## PhD in Computer Science  
+**University of Torino, Italy**  
+**Nov 2022 – Nov 2025**  
+Defended: **28 April 2026**
+
+**Thesis:** *Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries*
+
+**Supervisors:** Prof. Elvio G. Amparore, Prof. Marco Botta, Dr. Enrico Ferrari
+
+**Research Focus:** Explainable AI, Computer Vision, Visual Anomaly Detection, Industrial AI
+
+---
+
+## Master of Science in Computer Science  
+**COMSATS University Islamabad, Pakistan**  
+**2017 – 2019**
+
+- CGPA: **3.77/4.0**
+- Thesis: *Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network*
+- Supervisor: Prof. Dr. Muhammad Sharif
+- Research focus: object recognition, video surveillance, healthcare image analysis, feature fusion, and deep CNNs.
+
+---
+
+## Bachelor of Science in Computer Science  
+**Allama Iqbal Open University, Islamabad, Pakistan**  
+**2010 – 2016**
+
+- CGPA: **3.19/4.0**
+- Final Project: *Online Venue Booking and Tour Planning*
+- Focus: secure web application development using CodeIgniter and MVC architecture.
+
+---
+
+# Selected Publications
+
+## 1. ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study
+
+**Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, Damiano Verda**  
+QualITA Workshop @ ICPE 2026 (ACM)
+
+<p>
+  <a href="https://dl.acm.org/doi/10.1145/3777911.3800638" class="custom-btn btn-paper">PDF</a>
+  <a href="https://github.com/rashidrao-pk/XAD" class="custom-btn btn-code">Code</a>
+  <a href="https://rashidrao-pk.github.io/publication/p13_ShapBPT_AD" class="custom-btn btn-demo">Details</a>
+</p>
+
+---
+
+## 2. ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees
+
+**Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, Damiano Verda**  
+AAAI Conference on Artificial Intelligence (AAAI 2026)
+
+<p>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39699" class="custom-btn btn-paper">PDF</a>
+  <a href="https://arxiv.org/abs/2602.07047" class="custom-btn btn-arxiv">arXiv</a>
+  <a href="https://github.com/amparore/shap_bpt" class="custom-btn btn-code">Code</a>
+  <a href="https://github.com/rashidrao-pk/shap_bpt_tests" class="custom-btn btn-tests">Tests</a>
+  <a href="https://pypi.org/project/shap-bpt/" class="custom-btn btn-pypi">PyPI</a>
+  <a href="https://huggingface.co/spaces/rashidrao/shapbpt-user-study" class="custom-btn btn-demo">User Study</a>
+  <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
+</p>
+
+---
+
+## 3. Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI
+
+**Muhammad Rashid, Elvio Amparore, Enrico Ferrari, Damiano Verda**  
+World Conference on Explainable Artificial Intelligence (XAI 2024)
+
+<p>
+  <a href="https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13" class="custom-btn btn-paper">PDF</a>
+  <a href="https://github.com/rashidrao-pk/anomaly_detection_trust_case_study" class="custom-btn btn-code">Code</a>
+  <a href="https://muhammad-rashid.medium.com/explainable-anomaly-detection-in-images-using-self-supervised-learning-with-generative-ai-vae-gan-40a34af50dd4" class="custom-btn btn-demo">Blog</a>
+  <a href="https://rashidrao-pk.github.io/publication/p10_anomaly_detection_xai" class="custom-btn btn-demo">Details</a>
+</p>
+
+---
+
+## 4. Using Stratified Sampling to Improve LIME Image Explanations
+
+**Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, Damiano Verda**  
+AAAI Conference on Artificial Intelligence (AAAI 2024)
+
+<p>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29397" class="custom-btn btn-paper">PDF</a>
+  <a href="https://github.com/rashidrao-pk/lime_stratified" class="custom-btn btn-code">Code</a>
+  <a href="https://github.com/rashidrao-pk/lime-stratified-examples" class="custom-btn btn-tests">Examples</a>
+  <a href="https://pypi.org/project/lime-stratified/" class="custom-btn btn-pypi">PyPI</a>
+  <a href="https://muhammad-rashid.medium.com/stratified-lime-to-generate-image-explanation-an-improved-version-of-lime-image-6b9668f03f1f" class="custom-btn btn-demo">Blog</a>
+  <a href="https://rashidrao-pk.github.io/publication/p9_lime_stratified" class="custom-btn btn-demo">Details</a>
+</p>
+
+---
+
+[See full publication list](/publications/)
+
+---
+
+# Research Software
+
+| Project | Description | Link |
+|---|---|---|
+| ShapBPT | Data-aware Shapley explanations using Binary Partition Trees | [GitHub](https://github.com/amparore/shap_bpt) |
+| ShapBPT Tests | Experimental evaluation of ShapBPT across vision tasks | [GitHub](https://github.com/rashidrao-pk/shap_bpt_tests) |
+| XAD | ShapBPT for explainable anomaly detection | [GitHub](https://github.com/rashidrao-pk/XAD) |
+| LIME Stratified | Improved LIME Image with stratified sampling | [GitHub](https://github.com/rashidrao-pk/lime_stratified) |
+| LIME Stratified Examples | Experiments for LIME Stratified | [GitHub](https://github.com/rashidrao-pk/lime-stratified-examples) |
+| Explainable AD Case Study | VAE-GAN anomaly detection with XAI | [GitHub](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) |
+| ADVIS DistriMuSe | Real-time anomaly detection for robotics safety | [GitHub](https://github.com/rashidrao-pk/advis_distrimuse_unito_SR) |
+| AI on Edge Devices | AI deployment and optimization on Raspberry Pi | [GitHub](https://github.com/rashidrao-pk/AI_on_Edge_Devices) |
+
+---
+
+# Teaching Activities
+
+## Teaching Collaboration  
+**University of Torino, Italy**  
+**A.Y. 2023/2024**
+
+- Selected through a competitive departmental call for teaching support activities.
+- Supported the course **Sicurezza delle Reti e dei Sistemi**.
+- Contributed to exam sessions and student support activities.
+
+## Teaching Assistant  
+**HITEC University, Pakistan**  
+**Sep 2019 – Jun 2021**
+
+- Assisted courses in Web Engineering, Digital Image Processing, Programming Fundamentals, and Data Structures and Algorithms.
+- Supported laboratory sessions, assignments, and student evaluations.
+- Mentored students on programming and computer vision projects.
+
+---
+
+# Conferences and Presentations
+
+- **QualITA/ICPE 2026**, Florence, Italy — Presented *ShapBPT in Perspective*.
+- **AAAI 2026**, Singapore — Presented *ShapBPT*.
+- **XAI-World 2024**, Valletta, Malta — Presented *Can I Trust My Anomaly Detection System?*
+- **AAAI 2024**, Vancouver, Canada — Presented *Using Stratified Sampling to Improve LIME Image Explanations*.
+- **ECML-PKDD 2023**, Turin, Italy — Attendee.
+- **icSoftComputing 2024**, Remote — Attendee.
+
+---
+
+# Academic Service
+
+## Program Committee Member
+
+- ECML-PKDD 2026
+- AAAI 2026
+- ACDSA 2026
+- ICLR 2025
+- XAI-World 2026
+- XAI-World 2025
+- XAI-World 2024
+- NLDB 2024
+
+## Journal Reviewer
+
+- IEEE Transactions on Intelligent Transportation Systems
+- Signal, Image and Video Processing, Springer
+- Frontiers in Plant Science
+
+## Workshop Program Committee
+
+- INSAIT Workshop @ ICIAP 2025
+- DELTA Workshop @ ACM SIGKDD 2024
+
+## Research Network
+
+- Confederation of Laboratories for AI Research in Europe (CLAIRE)
+
+---
+
+# Awards and Scholarships
+
+| Award | Organization | Year |
+|---|---|---|
+| Research Scholarship for DistriMuSe activities | University of Torino | 2025 |
+| Erasmus+ Traineeship Scholarship | Erasmus+ | 2025 |
+| Innovative Industrial Doctoral Scholarship | MUR / NRRP Italy | 2022 |
+| National Laptop Award | Prime Minister Laptop Scheme | 2018 |
+
+---
+
+# Technical Skills
+
+## Programming Languages
+
+Python, MATLAB, C++, SQL, PHP
+
+## Frameworks and Libraries
+
+PyTorch, TensorFlow, Keras, OpenCV, Scikit-learn, Scikit-image, NumPy, Pandas, Matplotlib, LIME, SHAP
+
+## Tools and Platforms
+
+Git, LaTeX, ROS2, Zenoh, Raspberry Pi, Jupyter Notebook, Linux, Pixi
+
+## Domains
+
+Machine Learning, Deep Learning, Computer Vision, Explainable AI, Visual Anomaly Detection, Generative AI, Edge AI, Distributed Intelligence, Robotics Safety
+
+
+<p> See details here - 
+  <a href="/courses/" class="custom-btn btn-demo">📘 Courses & Training</a>
+  <a href="/certifications/" class="custom-btn btn-paper">🏅 Certifications</a>
+</p>
+
+---
+
+# Languages
+
+| Language | Level |
+|---|---|
+| 🇬🇧 English | C1 (Professional & Academic)|
+| 🇵🇰 Urdu | Native |
+| 🇮🇹 Italian | A1 (Basic Communication)|

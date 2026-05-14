@@ -135,7 +135,11 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**,
 - Applies ShapBPT to anomaly detection systems
 - Explains why an image or region is considered anomalous
 - Supports interpretation of black-box anomaly detection models  
-- Code: [github.com/rashidrao-pk/XAD](https://github.com/rashidrao-pk/XAD)
+  <p>
+    <a href="https://github.com/rashidrao-pk/XAD" class="custom-btn btn-code">Code</a>
+  </p>
+
+<!-- - Code: [github.com/rashidrao-pk/XAD](https://github.com/rashidrao-pk/XAD) -->
 
 ---
 
