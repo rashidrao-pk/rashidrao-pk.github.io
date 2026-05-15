@@ -36,13 +36,10 @@ date: 2026-04-28
 venue: "University of Torino"
 location: "Turin, Italy"
 
-thesisurl: "https://iris.unito.it/handle/2318/2137472"
+pdfurl: "https://iris.unito.it/handle/2318/2137472"
 conference: "https://iris.unito.it/handle/2318/2137472"
-
 codeurl: "https://github.com/rashidrao-pk"
-
-thumbnail: "/files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png"
-
+thumbnail: "../files/thesis/contributions.svg"
 author_profile: true
 
 toc: true
@@ -72,10 +69,10 @@ University of Torino, Italy<br><br>
 [🎓 Publications](/publications/){: .btn .btn--success}
 [🐍📦 Python Packages](https://pypi.org/user/mrashid/){: .btn .btn--success}
 
-<div align="center">
+<!-- <div align="center">
 <img src="/files/thesis/thesis_overview.svg" width="900">
 <p><em>Overview of the thesis contributions and explainable AI framework.</em></p>
-</div>
+</div> -->
 
 <div class="notice--info">
 <h4>Chapters Overview</h4>
@@ -131,7 +128,7 @@ This thesis addresses this gap by combining explainable computer vision with rob
 
 Modern AI systems are widely used in industrial automation, robotics, and safety-critical applications. Despite their impressive performance, deep learning models often behave as opaque black boxes, making their decisions difficult to interpret.
 
-<img src="https://rashidrao-pk.github.io/files/thesis/motivation.svg">
+<img src="/files/thesis/motivation.svg">
 
 In industrial environments where humans and robots collaborate, understanding *why* a model predicts an anomaly is as important as the prediction itself. A reliable AI system must therefore be:
 
@@ -161,7 +158,7 @@ The thesis investigates the following research questions:
 ## 1.3 Main Contributions {#sec-main-contributions}
 
 
-<img src="https://rashidrao-pk.github.io/files/thesis/contributions.svg">
+<img src="/files/thesis/contributions.svg">
 
 ### 1.3.1 LIME Stratified
 
