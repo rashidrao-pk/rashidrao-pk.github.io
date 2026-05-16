@@ -7,18 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- ── Top action buttons ── -->
 <p>
   <a href="{{ site.author.googlescholar }}" class="custom-btn btn-code">Google Scholar</a>
   <a href="{{ base_path }}/research-map/" class="custom-btn btn-demo">Research Map</a>
 </p>
 
-<!-- ── Search bar ── -->
 <div class="pub-search-box">
   <input type="text" id="pub-search" placeholder="🔍  Search by title, venue, keyword…" autocomplete="off" />
 </div>
 
-<!-- ── Sort + Filter controls ── -->
 <div class="pub-controls">
   <div class="pub-sort-box">
     <label for="pub-sort"><strong>Sort:</strong></label>
@@ -30,6 +27,7 @@ author_profile: true
       <option value="title-asc">Title A–Z</option>
     </select>
   </div>
+
   <div class="pub-filter-box">
     <label for="pub-filter"><strong>Area:</strong></label>
     <select id="pub-filter">
@@ -42,7 +40,6 @@ author_profile: true
   </div>
 </div>
 
-<!-- ── ALWAYS-VISIBLE category nav ── -->
 <nav class="pub-cat-nav" id="pub-cat-nav">
   <button class="pub-cat-btn active" data-cat="all">
     All <span class="pub-cat-count" id="count-all"></span>
@@ -58,92 +55,58 @@ author_profile: true
   </button>
 </nav>
 
-<!-- ── Status banner ── -->
 <div id="pub-banner" class="pub-featured-banner">
   ⭐ Sorted by publication quality &amp; venue impact
   <span class="pub-featured-hint">Click a category above to filter by type</span>
 </div>
 
-<!-- ── Single unified list ── -->
-<ol class="pub-category-list" id="pub-list"></ol>
+<ol class="pub-category-list" id="pub-list">
+  {% assign all_pubs = site.publications | sort: "date" | reverse %}
+  {% for post in all_pubs %}
 
-<!-- No results -->
+    {% assign cat = post.category %}
+    {% if cat == "manuscripts" %}
+      {% assign cat = "journals" %}
+    {% endif %}
+
+    <li
+      class="pub-list-item"
+      data-title="{{ post.title | downcase | escape }}"
+      data-venue="{{ post.venue | downcase | escape }}"
+      data-date="{{ post.date | date: '%Y-%m-%d' }}"
+      data-area="{{ post.research_area | join: ',' | downcase }}"
+      data-cat="{{ cat | downcase }}"
+      data-excerpt="{{ post.excerpt | downcase | escape }}"
+      data-slug="{{ post.permalink | split: '/' | last | downcase }}"
+    >
+      {% include archive-single.html %}
+    </li>
+  {% endfor %}
+</ol>
+
 <p id="pub-no-results" style="display:none; color:#888; font-style:italic; margin-top:1em;">
   No publications match your search.
 </p>
 
-<!-- ── Hidden source lists (Jekyll renders into these, JS reads from them) ── -->
-<div id="pub-source" style="display:none">
-
-  <div data-cat="journals">
-  {% assign journals = site.publications | where: "category", "journals" | sort: "date" | reverse %}
-  {% for post in journals %}
-    <div
-      class="pub-source-item"
-      data-title="{{ post.title | downcase | escape }}"
-      data-venue="{{ post.venue | downcase | escape }}"
-      data-date="{{ post.date | date: '%Y-%m-%d' }}"
-      data-area="{{ post.research_area | join: ',' | downcase }}"
-      data-cat="journals"
-      data-excerpt="{{ post.excerpt | downcase | escape }}"
-      data-slug="{{ post.permalink | split: '/' | last | downcase }}"
-    >{% include archive-single.html %}</div>
-  {% endfor %}
-  </div>
-
-  <div data-cat="conferences">
-  {% assign confs = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
-  {% for post in confs %}
-    <div
-      class="pub-source-item"
-      data-title="{{ post.title | downcase | escape }}"
-      data-venue="{{ post.venue | downcase | escape }}"
-      data-date="{{ post.date | date: '%Y-%m-%d' }}"
-      data-area="{{ post.research_area | join: ',' | downcase }}"
-      data-cat="conferences"
-      data-excerpt="{{ post.excerpt | downcase | escape }}"
-      data-slug="{{ post.permalink | split: '/' | last | downcase }}"
-    >{% include archive-single.html %}</div>
-  {% endfor %}
-  </div>
-
-  <div data-cat="thesis">
-  {% assign theses = site.publications | where: "category", "thesis" | sort: "date" | reverse %}
-  {% for post in theses %}
-    <div
-      class="pub-source-item"
-      data-title="{{ post.title | downcase | escape }}"
-      data-venue="{{ post.venue | downcase | escape }}"
-      data-date="{{ post.date | date: '%Y-%m-%d' }}"
-      data-area="{{ post.research_area | join: ',' | downcase }}"
-      data-cat="thesis"
-      data-excerpt="{{ post.excerpt | downcase | escape }}"
-      data-slug="{{ post.permalink | split: '/' | last | downcase }}"
-    >{% include archive-single.html %}</div>
-  {% endfor %}
-  </div>
-
-</div>
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  // ── Rank: lower = better, shown first in "featured" mode ──
   const RANK = {
-    "p12_shapbpt":               1,   // AAAI-26 main track
-    "p9_lime_stratified":        2,   // AAAI-24
-    "p10_anomaly_detection_xai": 3,   // xAI 2024 (Springer)
-    "p13_shapbpt_ad":            4,   // ICPE 2026 workshop
-    "p14_phd_thesis":            5,   // PhD thesis
-    "p8_unet_model":             6,   // Mathematics MDPI 2023
-    "p11_lukemia":               7,   // Journal 2025
-    "p1_obdc":                   8,   // Springer MTA
-    "p4_integrated_skin_lesion": 9,   // Springer NCA
-    "p2_classification_git":    10,   // Springer MTA
-    "p6_dcnn_endoscopic":       11,   // Taylor & Francis
-    "p5_breast_cancer":         12,   // Bentham Science
-    "p3_sustainable_od":        13,   // MDPI Sustainability
-    "p7_region_jseg":           14,   // Biomedical Research
+    "p12_shapbpt": 1,
+    "p9_lime_stratified": 2,
+    "p10_anomaly_detection_xai": 3,
+    "p13_shapbpt_ad": 4,
+    "p14_phd_thesis": 5,
+    "p8_unet_model": 6,
+    "p11_lukemia": 7,
+    "p1_obdc": 8,
+    "p4_integrated_skin_lesion": 9,
+    "p2_classification_git": 10,
+    "p6_dcnn_endoscopic": 11,
+    "p5_breast_cancer": 12,
+    "p3_sustainable_od": 13,
+    "p7_region_jseg": 14,
+    "p7_ms_thesis": 15
   };
 
   function getRank(slug) {
@@ -154,127 +117,109 @@ document.addEventListener("DOMContentLoaded", function () {
     return 99;
   }
 
-  // ── Collect all source items once ──
-  const sourceItems = Array.from(document.querySelectorAll(".pub-source-item")).map(el => {
-    return {
-      el:      el,
-      title:   el.dataset.title   || "",
-      venue:   el.dataset.venue   || "",
-      date:    el.dataset.date    || "",
-      area:    el.dataset.area    || "",
-      cat:     el.dataset.cat     || "",
-      excerpt: el.dataset.excerpt || "",
-      slug:    el.dataset.slug    || "",
-      rank:    getRank(el.dataset.slug),
-    };
+  const pubList = document.getElementById("pub-list");
+  const allItems = Array.from(document.querySelectorAll(".pub-list-item"));
+
+  allItems.forEach(item => {
+    item.dataset.rank = getRank(item.dataset.slug);
   });
 
   const cats = ["journals", "conferences", "thesis"];
 
-  // ── Set counts ──
-  const total = sourceItems.length;
-  document.getElementById("count-all").textContent = "(" + total + ")";
+  document.getElementById("count-all").textContent = "(" + allItems.length + ")";
   cats.forEach(cat => {
-    const n = sourceItems.filter(i => i.cat === cat).length;
-    document.getElementById("count-" + cat).textContent = "(" + n + ")";
+    const n = allItems.filter(i => i.dataset.cat === cat).length;
+    const countEl = document.getElementById("count-" + cat);
+    if (countEl) countEl.textContent = "(" + n + ")";
   });
 
-  // ── State ──
   let activeCat = "all";
 
-  const sortSelect   = document.getElementById("pub-sort");
+  const sortSelect = document.getElementById("pub-sort");
   const filterSelect = document.getElementById("pub-filter");
-  const searchInput  = document.getElementById("pub-search");
-  const pubList      = document.getElementById("pub-list");
-  const noResults    = document.getElementById("pub-no-results");
-  const banner       = document.getElementById("pub-banner");
+  const searchInput = document.getElementById("pub-search");
+  const noResults = document.getElementById("pub-no-results");
+  const banner = document.getElementById("pub-banner");
 
-  // ── Category button clicks ──
   document.querySelectorAll(".pub-cat-btn").forEach(btn => {
     btn.addEventListener("click", function () {
       activeCat = this.dataset.cat;
+
       document.querySelectorAll(".pub-cat-btn").forEach(b => b.classList.remove("active"));
       this.classList.add("active");
-      // When switching to a specific category, default to newest-first (not featured)
+
       if (activeCat !== "all" && sortSelect.value === "featured") {
         sortSelect.value = "date-desc";
       }
-      // When switching back to all, restore featured
+
       if (activeCat === "all") {
         sortSelect.value = "featured";
       }
+
       render();
     });
   });
 
-  sortSelect.addEventListener("change",  render);
+  sortSelect.addEventListener("change", render);
   filterSelect.addEventListener("change", render);
-  searchInput.addEventListener("input",   render);
+  searchInput.addEventListener("input", render);
 
   function render() {
-    const mode  = sortSelect.value;
-    const area  = filterSelect.value;
+    const mode = sortSelect.value;
+    const area = filterSelect.value;
     const query = searchInput.value.trim().toLowerCase();
 
-    // ── 1. Filter ──
-    let items = sourceItems.filter(item => {
-      const matchCat   = activeCat === "all" || item.cat === activeCat;
-      const matchArea  = area === "all" || item.area.includes(area);
+    let items = allItems.filter(item => {
+      const title = item.dataset.title || "";
+      const venue = item.dataset.venue || "";
+      const itemArea = item.dataset.area || "";
+      const cat = item.dataset.cat || "";
+      const excerpt = item.dataset.excerpt || "";
+
+      const matchCat = activeCat === "all" || cat === activeCat;
+      const matchArea = area === "all" || itemArea.includes(area);
       const matchQuery = !query ||
-        item.title.includes(query)   ||
-        item.venue.includes(query)   ||
-        item.excerpt.includes(query) ||
-        item.area.includes(query);
+        title.includes(query) ||
+        venue.includes(query) ||
+        excerpt.includes(query) ||
+        itemArea.includes(query);
+
       return matchCat && matchArea && matchQuery;
     });
 
-    // ── 2. Sort (within the filtered set, never mixing categories unless activeCat=all) ──
     items.sort(function (a, b) {
-      if (mode === "featured")  return a.rank - b.rank;
-      if (mode === "date-desc") return b.date.localeCompare(a.date);
-      if (mode === "date-asc")  return a.date.localeCompare(b.date);
-      if (mode === "venue-asc") return a.venue.localeCompare(b.venue);
-      if (mode === "title-asc") return a.title.localeCompare(b.title);
+      if (mode === "featured") return Number(a.dataset.rank) - Number(b.dataset.rank);
+      if (mode === "date-desc") return (b.dataset.date || "").localeCompare(a.dataset.date || "");
+      if (mode === "date-asc") return (a.dataset.date || "").localeCompare(b.dataset.date || "");
+      if (mode === "venue-asc") return (a.dataset.venue || "").localeCompare(b.dataset.venue || "");
+      if (mode === "title-asc") return (a.dataset.title || "").localeCompare(b.dataset.title || "");
       return 0;
     });
 
-    // ── 3. Update banner ──
-    const isFeatured = mode === "featured";
-    if (isFeatured && !query && area === "all") {
-      banner.innerHTML = '⭐ Sorted by publication quality &amp; venue impact'
-        + ' <span class="pub-featured-hint">Click a category above to filter by type</span>';
-    } else if (query) {
-      banner.innerHTML = '🔎 Search results: <strong>' + items.length + '</strong> publication'
-        + (items.length !== 1 ? 's' : '')
-        + ' <span class="pub-featured-hint">Sorted by: '
-        + sortSelect.options[sortSelect.selectedIndex].text + '</span>';
-    } else {
-      const catLabel = activeCat === "all" ? "All publications" :
-        activeCat.charAt(0).toUpperCase() + activeCat.slice(1);
-      banner.innerHTML = '📋 ' + catLabel + ': <strong>' + items.length + '</strong>'
-        + ' <span class="pub-featured-hint">Sorted by: '
-        + sortSelect.options[sortSelect.selectedIndex].text + '</span>';
-    }
+    allItems.forEach(item => item.style.display = "none");
 
-    // ── 4. Render list ──
-    pubList.innerHTML = "";
     items.forEach(item => {
-      const li = document.createElement("li");
-      li.className = "pub-list-item";
-      li.appendChild(item.el.cloneNode(true));
-      pubList.appendChild(li);
+      item.style.display = "";
+      pubList.appendChild(item);
     });
 
     noResults.style.display = items.length === 0 ? "" : "none";
+
+    if (mode === "featured" && !query && area === "all" && activeCat === "all") {
+      banner.innerHTML = '⭐ Sorted by publication quality &amp; venue impact <span class="pub-featured-hint">Click a category above to filter by type</span>';
+    } else if (query) {
+      banner.innerHTML = '🔎 Search results: <strong>' + items.length + '</strong> publication' + (items.length !== 1 ? 's' : '') + ' <span class="pub-featured-hint">Sorted by: ' + sortSelect.options[sortSelect.selectedIndex].text + '</span>';
+    } else {
+      const catLabel = activeCat === "all" ? "All publications" : activeCat.charAt(0).toUpperCase() + activeCat.slice(1);
+      banner.innerHTML = '📋 ' + catLabel + ': <strong>' + items.length + '</strong> <span class="pub-featured-hint">Sorted by: ' + sortSelect.options[sortSelect.selectedIndex].text + '</span>';
+    }
   }
 
-  // ── Initial render ──
   render();
 });
 </script>
 
 <style>
-/* Search */
 #pub-search {
   width: 100%;
   max-width: 480px;
@@ -284,19 +229,43 @@ document.addEventListener("DOMContentLoaded", function () {
   font-size: 15px;
   margin-bottom: 4px;
 }
+
 #pub-search:focus {
   outline: none;
   border-color: #469B60;
   box-shadow: 0 0 0 2px rgba(70,155,96,0.15);
 }
 
-/* Category nav — always visible */
+.pub-controls {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 16px 0 24px 0;
+}
+
+.pub-controls select {
+  background-color: #ffffff;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.pub-controls select:focus {
+  outline: none;
+  border-color: #469B60;
+  box-shadow: 0 0 0 2px rgba(70,155,96,0.15);
+}
+
 .pub-cat-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: 18px 0 10px 0;
 }
+
 .pub-cat-btn {
   padding: 7px 16px;
   border-radius: 20px;
@@ -308,23 +277,25 @@ document.addEventListener("DOMContentLoaded", function () {
   cursor: pointer;
   transition: all 0.18s;
 }
+
 .pub-cat-btn:hover {
   border-color: #469B60;
   color: #1e5a3c;
   background: #e8f5ee;
 }
+
 .pub-cat-btn.active {
   background: #469B60;
   border-color: #469B60;
   color: #fff;
 }
+
 .pub-cat-count {
   font-weight: 400;
   font-size: 0.85em;
   opacity: 0.8;
 }
 
-/* Banner */
 .pub-featured-banner {
   background: linear-gradient(135deg, #f0f9f4 0%, #e8f5ee 100%);
   border-left: 4px solid #469B60;
@@ -335,6 +306,7 @@ document.addEventListener("DOMContentLoaded", function () {
   color: #1e5a3c;
   font-size: 0.95em;
 }
+
 .pub-featured-hint {
   font-weight: 400;
   color: #666;
@@ -342,12 +314,48 @@ document.addEventListener("DOMContentLoaded", function () {
   margin-left: 10px;
 }
 
-/* List */
 .pub-category-list {
   list-style: none;
   padding-left: 0;
 }
+
 .pub-list-item {
   margin-bottom: 0;
+}
+
+/* Dark mode */
+html[data-theme="dark"] #pub-search,
+body.dark #pub-search,
+[data-theme="dark"] #pub-search {
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #666 !important;
+}
+
+html[data-theme="dark"] #pub-search::placeholder,
+body.dark #pub-search::placeholder,
+[data-theme="dark"] #pub-search::placeholder {
+  color: #bdbdbd !important;
+}
+
+html[data-theme="dark"] .pub-controls select,
+body.dark .pub-controls select,
+[data-theme="dark"] .pub-controls select {
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #666 !important;
+}
+
+html[data-theme="dark"] .pub-controls select option,
+body.dark .pub-controls select option,
+[data-theme="dark"] .pub-controls select option {
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+}
+
+html[data-theme="dark"] .pub-controls label,
+body.dark .pub-controls label,
+[data-theme="dark"] .pub-controls label {
+  color: #f5f5f5 !important;
 }
 </style>
