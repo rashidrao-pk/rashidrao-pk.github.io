@@ -9,7 +9,7 @@ date: 2021-01-01
 venue: "Current Medical Imaging (Bentham Science)"
 
 paperurl: "https://www.benthamdirect.com/content/journals/cmir/10.2174/1573405616666200423085826"
-
+thumbnail: "../files/papers_data/breast.png"
 research_area:
   - Medical Imaging
   - Computer Vision
@@ -27,6 +27,10 @@ Inzamam M. N., <u>Muhammad Rashid</u>, J. H. Shah, M. Sharif, M. Yahiya H. A., M
 ---
 
 This work proposes an optimized framework for **breast cancer classification** using histopathological images by combining **hybrid feature extraction techniques**. The approach integrates multiple feature representations to improve classification accuracy and robustness in medical image analysis.
+
+<center>
+<img src='../files/papers_data/breast.png'> 
+</center>
 
 ---
 

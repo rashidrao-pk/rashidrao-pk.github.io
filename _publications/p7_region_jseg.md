@@ -10,7 +10,7 @@ venue: "Biomedical Research"
 
 paperurl: "https://1stdirectory.co.uk/_assets/files_comp/ad6f229c-84db-4857-a481-2f6e9377461d.pdf"
 pdfurl: "https://1stdirectory.co.uk/_assets/files_comp/ad6f229c-84db-4857-a481-2f6e9377461d.pdf"
-
+thumbnail: "../files/papers_data/skin_cancer_2.png"
 research_area:
   - Medical Imaging
   - Computer Vision
@@ -38,6 +38,10 @@ Rabia Javed, Mohd Shafry Mohd Rahim, Tanzila Saba, **Muhammad Rashid**
 ---
 
 This work presents a **skin lesion segmentation framework** based on the fusion of **region-based active contour models** and **JSEG segmentation techniques**. The proposed approach improves segmentation accuracy by combining region homogeneity with boundary-based refinement, enabling better delineation of lesion structures in dermoscopic images.
+
+<center>
+<img src='../files/papers_data/skin_cancer_2.png'> 
+</center>
 
 ---
 

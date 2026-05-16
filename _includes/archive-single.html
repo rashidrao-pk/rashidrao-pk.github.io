@@ -39,7 +39,14 @@
             <span class="sr-only">Permalink</span>
           </a>
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> -->
+           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+
+          {% if post.category %}
+            <span class="pub-category-badge pub-category-{{ post.category | slugify }}">
+              {{ post.category }}
+            </span>
+          {% endif %}
         {% endif %}
       </h2>
 

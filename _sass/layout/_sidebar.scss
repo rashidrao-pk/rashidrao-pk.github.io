@@ -60,21 +60,40 @@
   }
 }
 
+// .sidebar__right {
+//   margin-bottom: 1em;
+
+//   @include breakpoint($large) {
+//     position: relative;
+//     float: right;
+//     width: $right-sidebar-width-narrow;
+//     margin-left: span(0.5 of 12);
+//     z-index: 10;
+//   }
+
+//   @include breakpoint($x-large) {
+//     width: $right-sidebar-width;
+//   }
+// }
+
 .sidebar__right {
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: relative;
+    position: sticky;          /* ← was: relative */
+    top: 2em;                  /* ← add this */
     float: right;
     width: $right-sidebar-width-narrow;
     margin-left: span(0.5 of 12);
     z-index: 10;
+    align-self: flex-start;    /* ← add this (needed if parent is flex) */
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
   }
 }
+
 
 /*
    Author profile and links

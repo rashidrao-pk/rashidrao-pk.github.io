@@ -10,7 +10,7 @@ venue: "Multimedia Tools and Applications (Springer)"
 
 paperurl: "https://link.springer.com/article/10.1007/s11042-019-07875-9"
 pdfurl: "https://link.springer.com/content/pdf/10.1007/s11042-019-07875-9.pdf"
-
+thumbnail: "../files/papers_data/gastro_1.png"
 research_area:
   - Medical Imaging
   - Computer Vision
@@ -39,6 +39,10 @@ Muhammad Attique Khan, **Muhammad Rashid**, Muhammad Sharif, Kashif Javed, Tallh
 ---
 
 This work presents a framework for **classification of gastrointestinal diseases** from **wireless capsule endoscopy (WCE) images** using an improved **saliency-based segmentation approach** combined with **discriminant feature selection**. The method enhances classification performance by focusing on relevant regions and selecting the most informative features.
+
+<center>
+<img src='../files/papers_data/gastro_1.png'> 
+</center>
 
 ---
 

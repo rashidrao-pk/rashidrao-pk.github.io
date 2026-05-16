@@ -10,7 +10,7 @@ venue: "Mathematics (MDPI)"
 
 paperurl: "https://www.mdpi.com/2227-7390/11/14/3245"
 pdfurl: "https://www.mdpi.com/2227-7390/11/14/3245/pdf"
-
+thumbnail: "../files/papers_data/unet.png"
 research_area:
   - Medical Imaging
   - Computer Vision
@@ -37,7 +37,9 @@ Mehreen Irshad, Mussarat Yasmin, Muhammad Imran Sharif, **Muhammad Rashid**, Muh
 ---
 
 This work proposes a **lightweight U-Net architecture** for accurate **left ventricle segmentation** from **MRI images**. The model is designed to reduce computational complexity while maintaining high segmentation performance, making it suitable for efficient medical image analysis.
-
+<center>
+<img src='../files/papers_data/unet.png'> 
+</center>
 ---
 
 ## Contributions 📃

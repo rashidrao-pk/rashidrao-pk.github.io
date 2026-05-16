@@ -1,0 +1,16 @@
+{% assign headings = include.html | split: '<h2' %}
+
+<ul class="toc__menu">
+  {% for heading in headings offset:1 %}
+    {% assign heading_part = heading | split: '</h2>' | first %}
+    {% assign id_part = heading_part | split: 'id="' %}
+    {% assign title_part = heading_part | split: '>' | last | strip_html | strip %}
+
+    {% if id_part.size > 1 and title_part != blank %}
+      {% assign id = id_part[1] | split: '"' | first %}
+      <li>
+        <a href="#{{ id }}">{{ title_part }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

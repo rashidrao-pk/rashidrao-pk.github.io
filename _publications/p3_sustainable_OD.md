@@ -9,6 +9,8 @@ venue: "Sustainability (MDPI)"
 
 paperurl: "https://www.mdpi.com/2071-1050/12/12/5037"
 pdfurl: "https://www.mdpi.com/2071-1050/12/12/5037/pdf"
+codeurl: "https://github.com/rashidrao-pk/sustainable-object-detection-DCNN"
+thumbnail: "../files/thesis/thesis_ms_2.jpg"
 
 research_area:
   - Computer Vision
@@ -38,6 +40,11 @@ tags:
 ---
 
 This work presents a sustainable deep learning framework for **object recognition** using multi-layer deep feature extraction, fusion, and selection. The method uses transfer learning with **VGG19** and **Inception V3**, extracts deep features from selected layers, fuses them using a **Parallel Maximum Covariance (PMC)** approach, and selects the most discriminative features using a **Multi Logistic Regression controlled Entropy-Variances (MRcEV)** method.
+
+
+<center>
+<img src="/files/thesis/thesis_ms_2.jpg">
+</center>
 
 The framework was evaluated on four public datasets: **Caltech-101**, **Birds**, **Butterflies**, and **CIFAR-100**. The reported accuracies were **95.5%**, **100%**, **98%**, and **68.80%**, respectively.
 

@@ -276,6 +276,9 @@ defaults:
       author_profile: true
       share: true
       comments: true
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
   # _portfolio
   - scope:
       path: ""

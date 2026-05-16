@@ -8,6 +8,7 @@ date: 2025-06-01
 venue: "Journal of Computing & Biomedical Informatics"
 paperurl: "https://www.jcbi.org/index.php/Main/article/view/1033"
 pdfurl: "https://www.jcbi.org/index.php/Main/article/view/1033/720"
+thumbnail: "../files/papers_data/lukemia.png"
 citation: "Yaseen, Faisal, Muhammad Rashid, Muhammad Yasir Shabir, Muhammad Attique Khan, and Nazar Hussain. (2025). Acute Lymphoblastic Leukemia Classification: Deep Learning Techniques for Blood Diseases Diagnosis. Journal of Computing & Biomedical Informatics, 9(01)."
 research_area:
   - Medical Imaging
@@ -26,7 +27,9 @@ tags:
 ---
 
 This work presents a deep learning-based approach for **Acute Lymphoblastic Leukemia (ALL) classification** using microscopic peripheral blood smear images. The study focuses on automatic classification of ALL and its subtypes to support early screening and assist healthcare professionals in laboratory diagnosis.
-
+<center>
+<img src='../files/papers_data/lukemia.png'> 
+</center>
 The proposed system uses a fine-tuned **EfficientNetB3** model trained on a publicly available Kaggle dataset of ALL blood smear images. The dataset contains **3,256 peripheral blood smear images** collected from **89 suspected ALL patients**, including benign samples and malignant ALL subtypes such as **Early Pre-B**, **Pre-B**, and **Pro-B**.
 
 <p>

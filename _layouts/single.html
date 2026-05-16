@@ -18,10 +18,24 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    {% if page.toc %}
+      <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+        <nav class="toc">
+          <header>
+            <h4 class="nav__title">
+              {{ page.toc_label | default: "On this page" }}
+            </h4>
+          </header>
+          {% include toc-custom.html html=content %}
+        </nav>
+      </aside>
+    {% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -74,49 +88,17 @@ layout: default
 
         {% if page.paperurl or page.pdfurl or page.arxivurl or page.codeurl or page.testurl or page.pypiurl or page.demourl or page.userstudyurl or page.slidesurl or page.posterurl or page.bibtexurl %}
           <p class="pub-buttons">
-            {% if page.paperurl %}
-              <a href="{{ page.paperurl }}" class="custom-btn btn-paper">Paper</a>
-            {% endif %}
-
-            {% if page.pdfurl %}
-              <a href="{{ page.pdfurl }}" class="custom-btn btn-paper">PDF</a>
-            {% endif %}
-
-            {% if page.arxivurl %}
-              <a href="{{ page.arxivurl }}" class="custom-btn btn-arxiv">arXiv</a>
-            {% endif %}
-
-            {% if page.codeurl %}
-              <a href="{{ page.codeurl }}" class="custom-btn btn-code">Code</a>
-            {% endif %}
-
-            {% if page.testurl %}
-              <a href="{{ page.testurl }}" class="custom-btn btn-tests">Tests</a>
-            {% endif %}
-
-            {% if page.pypiurl %}
-              <a href="{{ page.pypiurl }}" class="custom-btn btn-pypi">PyPI</a>
-            {% endif %}
-
-            {% if page.demourl %}
-              <a href="{{ page.demourl }}" class="custom-btn btn-demo">Demo</a>
-            {% endif %}
-
-            {% if page.userstudyurl %}
-              <a href="{{ page.userstudyurl }}" class="custom-btn btn-demo">User Study</a>
-            {% endif %}
-
-            {% if page.slidesurl %}
-              <a href="{{ page.slidesurl }}" class="custom-btn btn-slides">Slides</a>
-            {% endif %}
-
-            {% if page.posterurl %}
-              <a href="{{ page.posterurl }}" class="custom-btn btn-poster">Poster</a>
-            {% endif %}
-
-            {% if page.bibtexurl %}
-              <a href="{{ page.bibtexurl }}" class="custom-btn btn-tests">BibTeX</a>
-            {% endif %}
+            {% if page.paperurl %}<a href="{{ page.paperurl }}" class="custom-btn btn-paper">Paper</a>{% endif %}
+            {% if page.pdfurl %}<a href="{{ page.pdfurl }}" class="custom-btn btn-paper">PDF</a>{% endif %}
+            {% if page.arxivurl %}<a href="{{ page.arxivurl }}" class="custom-btn btn-arxiv">arXiv</a>{% endif %}
+            {% if page.codeurl %}<a href="{{ page.codeurl }}" class="custom-btn btn-code">Code</a>{% endif %}
+            {% if page.testurl %}<a href="{{ page.testurl }}" class="custom-btn btn-tests">Tests</a>{% endif %}
+            {% if page.pypiurl %}<a href="{{ page.pypiurl }}" class="custom-btn btn-pypi">PyPI</a>{% endif %}
+            {% if page.demourl %}<a href="{{ page.demourl }}" class="custom-btn btn-demo">Demo</a>{% endif %}
+            {% if page.userstudyurl %}<a href="{{ page.userstudyurl }}" class="custom-btn btn-demo">User Study</a>{% endif %}
+            {% if page.slidesurl %}<a href="{{ page.slidesurl }}" class="custom-btn btn-slides">Slides</a>{% endif %}
+            {% if page.posterurl %}<a href="{{ page.posterurl }}" class="custom-btn btn-poster">Poster</a>{% endif %}
+            {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}" class="custom-btn btn-tests">BibTeX</a>{% endif %}
           </p>
         {% endif %}
 
@@ -134,7 +116,6 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-    
       </footer>
 
       {% if page.share %}
@@ -164,5 +145,5 @@ layout: default
     </div>
   {% endif %}
 
-<script src="{{ base_path }}/assets/js/custom.js"></script>
+  <script src="{{ base_path }}/assets/js/custom.js"></script>
 </div>

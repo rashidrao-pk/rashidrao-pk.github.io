@@ -30,6 +30,10 @@ posterurl: "https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf"
 citation: 'Rashid,Muhammad et al. (2026). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 40.'
 PyPi : 'https://pypi.org/project/shap-bpt/'
 thumbnail: "../files/papers_data/Fig1_explain_bpt-1.png"
+
+toc: true
+toc_sticky: true
+toc_label: "On this page"
 ---
 
 Pixel-level **_feature attributions_** play a key role in **_Explainable Computer Vision (XCV)_** by revealing how visual features influence model predictions. While hierarchical **_Shapley_** methods based on the **_Owen formula_** offer a principled explanation framework, existing approaches overlook the multiscale and morphological structure of images, resulting in inefficient computation and weak semantic alignment.
@@ -45,16 +49,16 @@ To bridge this gap, we introduce **_ShapBPT_**, a data-aware **_XCV_** method th
 *   [PDF on ArXiv](https://www.arxiv.org/abs/2602.07047),  [**_Technical Appendix_**](https://zenodo.org/records/17570695).
 *   [https://github.com/rashidrao-pk/**shap_bpt_tests**](https://github.com/rashidrao-pk/shap_bpt_tests)
 
-Contributions 📃
-===
+## Contributions 📃
+
 In this research, we introduces;
 
 1.  A novel hierarchical model-agnostic XCV method for images, named \emph{ShapBPT}, that integrates an adaptive multi-scale partitioning algorithm with the Owen approximation of the Shapley coefficients. We repurpose the BPT (Binary Partition Tree) algorithm~\cite{salembier2000BPT} to effectively construct hierarchical structures for explainability. This approach overcomes the limitations of the inflexible hierarchies of state-of-the-art methods such as SHAP.
 2.  An empirical assessment of the proposed method on natural color images showcasing its efficacy across various scoring targets, in comparison to established state-of-the-art XCV methods, and a controlled human-subject study comparing explanation interpretability across methods.
 3. Open source code and Python package. (shap-bpt)
 
-How it Works?
-===
+## How it Works?
+
 
 <img src='../files/papers_data/Fig1_explain_bpt-1.png'> 
 <hr>
@@ -68,14 +72,13 @@ How it Works?
 <img src='../files/papers_data/bpt_plot.png'>
 <hr>
 
-Datasets and Models
-===
+## Datasets and Models
+
 
 *   **Dataset**:    ImageNet, MC Coco, MVTec, CelebA-HQ.
 *   **Model**:      ViT, SwinViT, ResNet-50, Yolo-v11, Custom CNN, VAE-GAN.
 
-Experiments Summary
-===
+## Experiments Summary
 
 
 | ID | Dataset | Size | Model | Short Description |
@@ -92,8 +95,8 @@ Experiments Summary
 
 ---
 
-Authors ✍️
-===
+## Authors ✍️
+
 
 | Sr. No. | Author Name | Affiliation | Google Scholar | 
 | :--:    | :--:        | :--:        | :--:           | 
@@ -102,13 +105,13 @@ Authors ✍️
 | 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
 | 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
 
-Keywords 🔍
-===
+## Keywords 🔍
+
 Shapley Values · Binary Partition Trees · eXplainable
 AI · XAI · Image Feature Attributions
 
 
-<h2>📖 Citation (BibTeX)</h2>
+## 📖 Citation (BibTeX)
 
 <div class="bibtex-box">
   <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>

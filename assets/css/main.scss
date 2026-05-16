@@ -426,3 +426,171 @@ body {
 .skiptranslate iframe {
   display: none !important;
 }
+
+
+// FOR TABLE OF CONTENTS (TOC)
+/* ===== Responsive 3-column layout ===== */
+
+
+
+
+// =============================================
+// FIX: TOC sticky in right column, zero flow height
+// =============================================
+@media (min-width: 925px) {
+
+  // Step 1: pull TOC out of vertical flow entirely
+  // height:0 + overflow:visible means it floats right
+  // but contributes ZERO height to the document flow
+  article.page {
+    overflow: visible !important;
+  }
+
+  .sidebar__right {
+    float: right !important;
+    position: sticky !important;
+    top: 2em !important;
+    width: 18% !important;
+    margin-right: -20% !important;
+    margin-left: 0 !important;
+    height: 0 !important;
+    overflow: visible !important;
+    clear: right;
+  }
+
+  // The actual nav inside has auto height — not affected by parent height:0
+  .sidebar__right nav.toc {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+
+.pub-toc {
+  background: #f4f6f9;
+  padding: 12px 18px;
+  border-left: 4px solid #469B60;
+  border-radius: 6px;
+  margin: 16px 0 28px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+.pub-toc a {
+  color: #1e5a3c;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #e8f5ee;
+}
+.pub-toc a:hover { background: #469B60; color: white; }
+
+// FOR CATEGORY IN PUBLICATIONS
+
+.pub-category-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  vertical-align: middle;
+  text-transform: capitalize;
+  background: #e5e7eb;
+  color: #374151;
+}
+
+/* Conference */
+.pub-category-conferences,
+.pub-category-conference {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+/* Journal */
+.pub-category-manuscripts,
+.pub-category-journal {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* Thesis */
+.pub-category-thesis {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Book */
+.pub-category-books,
+.pub-category-book {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+/* ===== Publication Search Input ===== */
+
+.pub-search-box input,
+#publication-search,
+input[type="search"] {
+
+  background-color: #ffffff;
+  color: #222;
+  border: 1px solid #ccc;
+
+}
+
+/* ===== DARK MODE ===== */
+
+html[data-theme="dark"] .pub-search-box input,
+html[data-theme="dark"] #publication-search,
+html[data-theme="dark"] input[type="search"] {
+
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #555 !important;
+
+}
+
+/* Placeholder color */
+
+html[data-theme="dark"] .pub-search-box input::placeholder,
+html[data-theme="dark"] #publication-search::placeholder {
+
+  color: #bdbdbd !important;
+
+}
+
+
+/* Sort + Area select boxes */
+.pub-controls select {
+  background-color: #ffffff;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.pub-controls select:focus {
+  outline: none;
+  border-color: #469B60;
+  box-shadow: 0 0 0 2px rgba(70,155,96,0.15);
+}
+
+/* Dark mode: select boxes */
+html[data-theme="dark"] .pub-controls select,
+body.dark .pub-controls select,
+[data-theme="dark"] .pub-controls select {
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #666 !important;
+}
+
+/* Dark mode: dropdown options */
+html[data-theme="dark"] .pub-controls select option,
+body.dark .pub-controls select option,
+[data-theme="dark"] .pub-controls select option {
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+}

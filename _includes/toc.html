@@ -1,0 +1,7 @@
+{% assign toc_html = include.html | toc_only %}
+
+{% if toc_html != blank %}
+  <ul class="{{ include.class | default: 'toc__menu' }}">
+    {{ toc_html }}
+  </ul>
+{% endif %}

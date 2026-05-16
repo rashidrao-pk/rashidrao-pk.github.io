@@ -10,7 +10,7 @@ venue: "Neural Computing and Applications (Springer)"
 
 paperurl: "https://link.springer.com/article/10.1007/s00521-019-04514-0"
 pdfurl: "https://link.springer.com/content/pdf/10.1007/s00521-019-04514-0.pdf"
-
+thumbnail: "../files/papers_data/skin_cancer_1.png"
 research_area:
   - Medical Imaging
   - Computer Vision
@@ -39,6 +39,10 @@ M. Attique Khan, Tallha Akram, Muhammad Sharif, Kashif Javed, **Muhammad Rashid*
 ---
 
 This work presents an integrated framework for **skin lesion detection and recognition** by combining **saliency-based segmentation** with **optimal deep feature selection**. The proposed method improves classification performance by focusing on the most discriminative regions and features extracted from dermoscopic images.
+
+<center>
+<img src='../files/papers_data/skin_cancer_1.png'> 
+</center>
 
 ---
 

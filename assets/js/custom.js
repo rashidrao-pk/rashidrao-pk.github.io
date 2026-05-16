@@ -10,3 +10,21 @@ function copyBibtex(button) {
     }, 1500);
   });
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  if (typeof jQuery !== "undefined") {
+
+    $('.popup-image').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      mainClass: 'mfp-img-mobile',
+      image: {
+        verticalFit: true
+      }
+    });
+
+  }
+
+});

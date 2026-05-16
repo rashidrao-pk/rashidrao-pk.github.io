@@ -23,7 +23,7 @@ Research activities focused on:
 
 | Date | Activity |
 |---|---|
-| **Nov 2025** | Presented project updates through a **5-minute technical talk** and **poster presentation** at the DistriMuSe consortium meeting hosted by the **University of Vigo, Spain**. |
+| **Nov 2025** | Presented project updates through a **5-minute technical talk** and **poster presentation** at the DistriMuSe consortium meeting hosted by the **University of Vigo, Spain**. <a href="/talks/VAE_GAN_Models_DM" target="_blank"><img src="https://img.shields.io/badge/Talk-Page-blue"></a> |
 | **May 2025** | Presented progress on anomaly detection and ADVIS integration during the consortium meeting hosted by **Brno University of Technology, Czech Republic**. |
 | **Jan–Aug 2025** | Visiting researcher at **ValeriaLab, University of Granada, Spain**, working on synthetic industrial data generation and explainable anomaly detection for robotics safety. |
 | **Nov 2024** | Participated in the DistriMuSe consortium meeting in **Stuttgart, Germany**. |
@@ -110,6 +110,9 @@ Accepted in the **Main Track** of the AAAI Conference on Artificial Intelligence
   <a href="https://pypi.org/project/lime-stratified/" class="custom-btn btn-pypi">PyPI</a>
   <a href="../publication/p9_lime_stratified" class="custom-btn btn-demo">Project Page</a>
 </p>
+
+
+
 
 ---
 

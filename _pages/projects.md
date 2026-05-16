@@ -8,31 +8,29 @@ This page highlights selected **research projects, industrial systems, and open-
 
 ---
 
-# 🇪🇺 EU & Industrial Projects
+## 🤖 ADVIS-DistriMuSe-SR — Safe Interaction with Robots
+<center>
+<img src="../files/projects/advis.png">
+</center>
+<a href="/projects/advis-distrimuse-sr/" class="custom-btn btn-paper">Project Page</a>
+<a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR" target="_blank" class="custom-btn btn-code">GitHub Repo</a>
 
-## 🤖 DistriMuSe — Safe Interaction with Robots
+A real-time **Anomaly Detection and Visual Intelligence System (ADVIS)** developed for the **DistriMuSe Use Case 3: Safe Interaction with Robots**. The system monitors industrial safety areas in collaborative robotics environments using **VAE/VAE-GAN models**, **ROS2 image streams**, **threshold calibration**, and **RuleX-compatible alert publishing**.
 
-<img src="../files/projects/advis.png" width="260">
-
-<a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR"
-   target="_blank"
-   rel="noopener noreferrer"
-   class="custom-btn btn-code">
-   GitHub Repo
-</a>
-
-Contributed to the **Safe Interaction with Robots** use case within the European project **DistriMuSe**, focusing on **explainable anomaly detection for industrial robotics**.
-
-### 🔬 Contributions
-- Zoned **VAE–GAN anomaly detection framework** for localized monitoring  
-- **Threshold calibration across 53 anomaly scoring methods**  
-- **ROS2-based real-time inference system**
+### 🔬 Main Contributions
+- Safety-area-based anomaly detection for `RoboArm`, `ConvBelt`, `PLeft`, and `PRight`
+- VAE/VAE-GAN training and reconstruction-based anomaly scoring
+- Threshold calibration for robust detection
+- ROS2 live inference from camera topics
+- GUI-based inspection with anomaly maps, reconstructions, and timeline visualization
+- RuleX-compatible message publishing for industrial integration
 
 ### 📊 Achievements
-- **99.61% accuracy**, **95.1% recall**, **90.9% F1-score**
-- ~**12.5 FPS real-time inference**
-- Interpretable anomaly maps for safety-critical environments
-
+- ~12.5 FPS real-time inference
+- 99.61% accuracy
+- 95.1% recall
+- 90.9% F1-score
+- Tested in Smart Robotics / DistriMuSe integration scenarios
 ---
 
 # 🧠 Core Research Projects (PhD)

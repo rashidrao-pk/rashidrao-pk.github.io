@@ -4,12 +4,13 @@ collection: publications
 category: journals
 permalink: /publication/p1_ObDC
 excerpt: "Object detection and classification using hybrid fusion of CNN and SIFT features."
-
 date: 2018-12-08
 venue: "Multimedia Tools and Applications (Springer)"
 
 paperurl: "https://link.springer.com/article/10.1007/s11042-018-7031-0"
 pdfurl: "https://link.springer.com/content/pdf/10.1007/s11042-018-7031-0.pdf"
+codeurl: "https://github.com/rashidrao-pk/sustainable-object-detection-DCNN"
+thumbnail: "../files/thesis/ms_thesis.jpg"
 
 research_area:
   - Computer Vision
@@ -38,6 +39,10 @@ tags:
 ---
 
 This work presents a hybrid framework for **object detection and classification** by combining **deep convolutional neural network (CNN) features** with **SIFT-based handcrafted features**. The proposed approach performs feature selection and fusion to improve classification performance by leveraging both deep and traditional feature representations.
+
+<center>
+<img src="/files/thesis/ms_thesis.jpg">
+</center>
 
 ---
 
