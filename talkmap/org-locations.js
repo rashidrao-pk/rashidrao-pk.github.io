@@ -5,9 +5,9 @@ var addressPoints = [
     14.5136607
   ],
   [
-    "ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees<br />Singapore Expo Centre; Singapore",
-    1.357107,
-    103.8194992
+    "Unexpected Condition Detector for Industrial Safety using Deep Generative Models<br />Universidad de Vigo; Vigo, Spain",
+    42.1986395,
+    -8.727956
   ],
   [
     "ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study<br />QualITA Workshop | ICPE 2026; Florence, Italy",
@@ -18,5 +18,10 @@ var addressPoints = [
     "Using Stratified Sampling to Improve LIME Image Explanations<br />Vancouver Convention Centre; Vancouver, Canada",
     49.2608724,
     -123.113952
+  ],
+  [
+    "ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees<br />Singapore Expo Centre; Singapore",
+    1.357107,
+    103.8194992
   ]
 ];
