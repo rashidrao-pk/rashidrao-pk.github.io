@@ -10,7 +10,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-focus" markdown="1">
 
-## 🔬 Research Focus
+## Research Focus
 
 - Explainable AI for trustworthy decision-making
 - Visual anomaly detection in industrial and robotic environments
@@ -24,7 +24,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-systems" markdown="1">
 
-## ⚙️ Systems & Engineering
+## Systems & Engineering
 
 - Real-time anomaly detection for robotics safety
 - ROS2-based live inference pipeline
@@ -42,7 +42,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-tools" markdown="1">
 
-## 🧠 Open Source & Tools
+## Open Source & Tools
 
 - **ShapBPT** — AAAI 2026 explainability framework
 - **XAD** — Explainable anomaly detection with ShapBPT
@@ -54,7 +54,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-publications" markdown="1">
 
-## 📄 Selected Publications
+## Selected Publications
 
 ### ShapBPT: Image Feature Attribution using Data-Aware Binary Partition Trees  
 *AAAI 2026*
@@ -103,7 +103,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-projects" markdown="1">
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🔧 Real-Time Anomaly Detection for Robotics
 
@@ -117,7 +117,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR" class="custom-btn btn-code">Code</a>
 </p>
 
-### 🧠 ShapBPT
+### ShapBPT
 
 - AAAI 2026 explainability method for images
 - Uses data-aware Binary Partition Trees
@@ -135,7 +135,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
 </p>
 
-### 🧪 XAD: Explainable Anomaly Detection
+### XAD: Explainable Anomaly Detection
 
 - Applies ShapBPT to anomaly detection systems
 - Explains why an image or region is considered anomalous
@@ -145,7 +145,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://github.com/rashidrao-pk/XAD" class="custom-btn btn-code">Code</a>
 </p>
 
-### 📊 LIME Stratified Sampling
+### LIME Stratified Sampling
 
 - Improves stability of LIME image explanations
 - Reduces variance in perturbation-based sampling
@@ -168,7 +168,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-collaboration" markdown="1">
 
-## 🤝 Collaboration
+## Collaboration
 
 I’m interested in collaborations on:
 
@@ -182,7 +182,7 @@ I’m interested in collaborations on:
 
 <div class="section-box section-box-contact" markdown="1">
 
-## 📫 Contact
+## Contact
 
 - 📧 Email: `{FIRSTNAME}.{LASTNAME}@unito.it`
 - 🔗 GitHub: [github.com/rashidrao-pk](https://github.com/rashidrao-pk)
