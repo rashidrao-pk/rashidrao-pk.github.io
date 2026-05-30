@@ -1,0 +1,125 @@
+{% include base_path %}
+
+{% if post.thumbnail %}
+  {% assign teaser = post.thumbnail %}
+{% elsif post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="project-card-wrapper">
+  <article class="archive__item pub-card project-card project-card-{{ post.category | slugify }}" itemscope itemtype="http://schema.org/CreativeWork">
+
+    {% if teaser %}
+      <div class="pub-thumb project-thumb">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="{{ post.title }}">
+      </div>
+    {% endif %}
+
+    <div class="pub-content project-content">
+
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+
+        {% if post.category %}
+          <span class="pub-category-badge pub-category-{{ post.category | slugify }}">
+            {{ post.category }}
+          </span>
+        {% endif %}
+      </h2>
+
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt">
+          {{ post.excerpt | markdownify | strip_html | truncate: 220 }}
+        </p>
+      {% endif %}
+
+      {% if post.status or post.project_type or post.year %}
+        <p class="pub-meta">
+          {% if post.project_type %}
+            <strong>Type:</strong> {{ post.project_type }}
+          {% endif %}
+
+          {% if post.status %}
+            {% if post.project_type %} · {% endif %}
+            <strong>Status:</strong> {{ post.status }}
+          {% endif %}
+
+          {% if post.year %}
+            {% if post.project_type or post.status %} · {% endif %}
+            <strong>Year:</strong> {{ post.year }}
+          {% endif %}
+        </p>
+      {% endif %}
+
+      <p class="pub-buttons">
+        <a href="{{ base_path }}{{ post.url }}" class="custom-btn btn-paper">Project Page</a>
+
+        {% if post.githuburl %}
+          <a href="{{ post.githuburl }}" target="_blank" class="custom-btn btn-code">GitHub</a>
+        {% endif %}
+
+        {% if post.feedbackurl %}
+          <a href="{{ post.feedbackurl }}" class="custom-btn btn-demo">Testimonials</a>
+        {% endif %}
+
+        {% if post.codeurl %}
+          <a href="{{ post.codeurl }}" target="_blank" class="custom-btn btn-code">Code</a>
+        {% endif %}
+
+        {% if post.docsurl %}
+          <a href="{{ post.docsurl }}" target="_blank" class="custom-btn btn-docs">Docs</a>
+        {% endif %}
+
+        {% if post.demourl %}
+          <a href="{{ post.demourl }}" target="_blank" class="custom-btn btn-demo">Demo</a>
+        {% endif %}
+
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank" class="custom-btn btn-paper">Paper</a>
+        {% endif %}
+
+        {% if post.publicationurl %}
+          <a href="{{ post.publicationurl }}" class="custom-btn btn-arxiv">Publication</a>
+        {% endif %}
+
+        {% if post.websiteurl %}
+          <a href="{{ post.websiteurl }}" target="_blank" class="custom-btn btn-pypi">Website</a>
+        {% endif %}
+
+        {% if post.videourl %}
+          <a href="{{ post.videourl }}" target="_blank" class="custom-btn btn-poster">Video</a>
+        {% endif %}
+      </p>
+
+      {% if post.research_area %}
+        <p class="pub-meta">
+          <strong>Research Area:</strong>
+          {{ post.research_area | join: ", " }}
+        </p>
+      {% endif %}
+
+      {% if post.technologies %}
+        <p class="pub-meta">
+          <strong>Technologies:</strong>
+          {{ post.technologies | join: ", " }}
+        </p>
+      {% endif %}
+
+    </div>
+
+  </article>
+</div>

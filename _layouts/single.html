@@ -84,9 +84,8 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
 
-        {% if page.paperurl or page.pdfurl or page.arxivurl or page.codeurl or page.testurl or page.pypiurl or page.demourl or page.userstudyurl or page.slidesurl or page.posterurl or page.bibtexurl %}
+        {% if page.paperurl or page.pdfurl or page.arxivurl or page.codeurl or page.testurl or page.pypiurl or page.docsurl or page.demourl or page.userstudyurl or page.slidesurl or page.posterurl or page.bibtexurl %}
           <p class="pub-buttons">
             {% if page.paperurl %}<a href="{{ page.paperurl }}" class="custom-btn btn-paper">Paper</a>{% endif %}
             {% if page.pdfurl %}<a href="{{ page.pdfurl }}" class="custom-btn btn-paper">PDF</a>{% endif %}
@@ -94,6 +93,7 @@ layout: default
             {% if page.codeurl %}<a href="{{ page.codeurl }}" class="custom-btn btn-code">Code</a>{% endif %}
             {% if page.testurl %}<a href="{{ page.testurl }}" class="custom-btn btn-tests">Tests</a>{% endif %}
             {% if page.pypiurl %}<a href="{{ page.pypiurl }}" class="custom-btn btn-pypi">PyPI</a>{% endif %}
+            {% if page.docsurl %}<a href="{{ page.docsurl }}" class="custom-btn btn-docs">Docs</a>{% endif %}
             {% if page.demourl %}<a href="{{ page.demourl }}" class="custom-btn btn-demo">Demo</a>{% endif %}
             {% if page.userstudyurl %}<a href="{{ page.userstudyurl }}" class="custom-btn btn-demo">User Study</a>{% endif %}
             {% if page.slidesurl %}<a href="{{ page.slidesurl }}" class="custom-btn btn-slides">Slides</a>{% endif %}
@@ -102,6 +102,7 @@ layout: default
           </p>
         {% endif %}
 
+
         {% if page.link %}
           <div>
             <a href="{{ page.link }}" class="btn">
@@ -109,6 +110,7 @@ layout: default
             </a>
           </div>
         {% endif %}
+        {{ content }}
       </section>
 
       <footer class="page__meta">

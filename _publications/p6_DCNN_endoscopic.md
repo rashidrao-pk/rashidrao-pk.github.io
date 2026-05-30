@@ -10,7 +10,7 @@ venue: "Journal of Experimental & Theoretical Artificial Intelligence (Taylor & 
 
 paperurl: "https://www.tandfonline.com/doi/abs/10.1080/0952813X.2019.1572657"
 pdfurl: "https://www.tandfonline.com/doi/pdf/10.1080/0952813X.2019.1572657"
-
+thumbnail: "../files/papers_data/DCNN.png"
 research_area:
   - Medical Imaging
   - Computer Vision

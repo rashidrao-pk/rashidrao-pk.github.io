@@ -3,7 +3,7 @@ title: "ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Tr
 collection: publications
 category: conferences
 permalink: /publication/p12_ShapBPT
-excerpt: 'A Novel XAI method to integrate the Data Aware Method (BPT) into Generating Image Features Attributions'
+excerpt: "A data-aware XAI method for image feature attribution using Binary Partition Trees and hierarchical Shapley values."
 research_area:
   - Explainable AI
   - Computer Vision
@@ -18,17 +18,17 @@ tags:
   - BPT
   - feature attribution
 date: 2026-01-24
-venue: 'AAAI-26 | 40th Annual AAAI Conference on Artificial Intelligence'
-location: 'Singapore'
+venue: "AAAI-26 | 40th Annual AAAI Conference on Artificial Intelligence"
+location: "Singapore"
 paperurl: "https://ojs.aaai.org/index.php/AAAI/article/view/39699"
 arxivurl: "https://www.arxiv.org/abs/2602.07047"
 codeurl: "https://github.com/amparore/shap_bpt"
 testurl: "https://github.com/rashidrao-pk/shap_bpt_tests"
 pypiurl: "https://pypi.org/project/shap-bpt/"
+docsurl: "https://shapbpt.readthedocs.io/en/latest/"
 userstudyurl: "https://huggingface.co/spaces/rashidrao/shapbpt-user-study"
-posterurl: "https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf"
-citation: 'Rashid,Muhammad et al. (2026). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 40.'
-PyPi : 'https://pypi.org/project/shap-bpt/'
+posterurl: "https://underline.io/lecture/141841-shapbpt-image-feature-attributions-using-data-aware-binary-partition-trees"
+citation: "Rashid, Muhammad, Amparore, Elvio G., Ferrari, Enrico, and Verda, Damiano. (2026). ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees. Proceedings of the AAAI Conference on Artificial Intelligence, 40."
 thumbnail: "../files/papers_data/Fig1_explain_bpt-1.png"
 
 toc: true
@@ -36,80 +36,110 @@ toc_sticky: true
 toc_label: "On this page"
 ---
 
-Pixel-level **_feature attributions_** play a key role in **_Explainable Computer Vision (XCV)_** by revealing how visual features influence model predictions. While hierarchical **_Shapley_** methods based on the **_Owen formula_** offer a principled explanation framework, existing approaches overlook the multiscale and morphological structure of images, resulting in inefficient computation and weak semantic alignment.
+Pixel-level **feature attribution** plays a central role in **Explainable Computer Vision (XCV)** by showing which image regions influence a model prediction. Although hierarchical Shapley-based methods provide a principled explanation framework, many existing approaches rely on rigid image partitions that do not follow the natural structure of visual content.
 
-To bridge this gap, we introduce **_ShapBPT_**, a data-aware **_XCV_** method that integrates hierarchical Shapley values with a **_Binary Partition Tree (BPT)_** representation of images. By assigning Shapley coefficients directly to a multiscale, image-adaptive hierarchy, ShapBPT produces explanations that align naturally with intrinsic image structures while significantly reducing computational cost. Experimental results demonstrate improved efficiency and structural faithfulness compared to existing XCV methods, and a **_20-subject user study_** confirms that ShapBPT explanations are consistently preferred by humans.
+**ShapBPT** addresses this limitation by combining hierarchical Shapley values with a **data-aware Binary Partition Tree (BPT)** representation of images. Instead of explaining images through arbitrary grid-based regions, ShapBPT builds a multiscale hierarchy that follows image morphology and object structure. This produces explanations that are more interpretable, structurally faithful, and computationally efficient.
 
-*   Main Technical Track: **_ShapBPT_** for improved **Image Feature Attributions using Binary Partition Trees**
-*   The method is available under: [https://github.com/amparore/**shap_bpt**](https://github.com/amparore/shap_bpt).
-*   Conference: **_AAAI-2026_** (40th Annual AAAI Conference on Artificial Intelligence)
-*   Link to talk:   [**_https://aaai.org/wp-content/uploads/2026/01/Main-track-poster-presentations-1.pdf_**](https://aaai.org/wp-content/uploads/2026/01/Main-track-poster-presentations-1.pdf)
-*   Python Package: [https://pypi.org/project/shap-bpt/](https://pypi.org/project/shap-bpt/) - **`pip install shap-bpt`**
-*   **_Poster in PDF_**: [**_https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf_**](https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf)
-*   [PDF on ArXiv](https://www.arxiv.org/abs/2602.07047),  [**_Technical Appendix_**](https://zenodo.org/records/17570695).
-*   [https://github.com/rashidrao-pk/**shap_bpt_tests**](https://github.com/rashidrao-pk/shap_bpt_tests)
+## Overview
+
+**ShapBPT** is a model-agnostic XAI method for image feature attribution. It integrates the **Owen approximation of Shapley values** with an adaptive image hierarchy constructed using **Binary Partition Trees**. The method is designed to generate explanations that better align with meaningful visual regions and object boundaries.
+
+> 📚 The paper, source code, documentation, reproducibility tests, Python package, user study, and presentation materials can be accessed directly through the buttons above.
+
+### Highlights
+
+- 🎓 Accepted in the **Main Technical Track of AAAI 2026**.
+- 🌳 Introduces **data-aware Binary Partition Trees** for hierarchical image explanations.
+- ⚡ Reduces computational cost compared with conventional hierarchical Shapley-based methods.
+- 🎯 Produces explanations that better follow image structure and object morphology.
+- 👥 Validated through a **20-participant user study**, where ShapBPT explanations were consistently preferred.
+- 📦 Released as an open-source Python package.
+
+### Installation
+
+<pre><code class="language-bash">pip install shap-bpt</code></pre>
+
+### Resources
+
+Use the buttons above to access the paper, arXiv version, source code, documentation, PyPI package, reproducibility tests, user study, and presentation material.
 
 ## Contributions 📃
 
-In this research, we introduces;
+This research makes the following contributions:
 
-1.  A novel hierarchical model-agnostic XCV method for images, named \emph{ShapBPT}, that integrates an adaptive multi-scale partitioning algorithm with the Owen approximation of the Shapley coefficients. We repurpose the BPT (Binary Partition Tree) algorithm~\cite{salembier2000BPT} to effectively construct hierarchical structures for explainability. This approach overcomes the limitations of the inflexible hierarchies of state-of-the-art methods such as SHAP.
-2.  An empirical assessment of the proposed method on natural color images showcasing its efficacy across various scoring targets, in comparison to established state-of-the-art XCV methods, and a controlled human-subject study comparing explanation interpretability across methods.
-3. Open source code and Python package. (shap-bpt)
+1. We introduce **ShapBPT**, a hierarchical model-agnostic XCV method that combines adaptive multiscale image partitioning with the Owen approximation of Shapley values.
+
+2. We repurpose **Binary Partition Trees (BPTs)** to construct data-aware hierarchical coalition structures for visual explanation, overcoming the limitations of rigid and inflexible partitioning strategies used by existing methods.
+
+3. We evaluate ShapBPT on multiple image datasets and model architectures, demonstrating improved explanation efficiency and structural faithfulness.
+
+4. We conduct a controlled human-subject study showing that users consistently prefer ShapBPT explanations over competing XCV methods.
+
+5. We release the source code, documentation, reproducibility tests, and Python package to support open and reproducible research.
 
 ## How it Works?
 
+ShapBPT first constructs a data-aware image hierarchy using a Binary Partition Tree. This hierarchy represents the image at multiple levels of granularity, from coarse regions to fine visual structures. Shapley-based attribution scores are then computed over this hierarchy, allowing the method to assign importance values to meaningful image regions instead of arbitrary pixel grids.
 
-<img src='../files/papers_data/Fig1_explain_bpt-1.png'> 
+<img src="../files/papers_data/Fig1_explain_bpt-1.png">
+
 <hr>
-<img src='../files/papers_data/bpt-animation.gif'> 
-<img src='../files/papers_data/sequence_aa.gif'> <img src='../files/papers_data/sequence_bpt.gif'> 
+
+<img src="../files/papers_data/bpt-animation.gif">
+
 <hr>
-<img src='../files/papers_data/Fig3_sequence_explanations-1.png'> 
+
+<img src="../files/papers_data/sequence_aa.gif">
+<img src="../files/papers_data/sequence_bpt.gif">
+
 <hr>
-<img src='../files/papers_data/aa_plot.png'>
+
+<img src="../files/papers_data/Fig3_sequence_explanations-1.png">
+
 <hr>
-<img src='../files/papers_data/bpt_plot.png'>
+
+<img src="../files/papers_data/aa_plot.png">
+
+<hr>
+
+<img src="../files/papers_data/bpt_plot.png">
+
 <hr>
 
 ## Datasets and Models
 
+ShapBPT was evaluated across different computer vision tasks, datasets, and model architectures.
 
-*   **Dataset**:    ImageNet, MC Coco, MVTec, CelebA-HQ.
-*   **Model**:      ViT, SwinViT, ResNet-50, Yolo-v11, Custom CNN, VAE-GAN.
+- **Datasets:** ImageNet, MS-COCO, MVTec, and CelebA-HQ.
+- **Models:** ResNet-50, ViT, SwinViT, YOLOv11, custom CNN, and VAE-GAN.
 
 ## Experiments Summary
 
-
 | ID | Dataset | Size | Model | Short Description |
 |:--:|:--------|:----:|:------|:------------------|
-| E1 | ImageNet-S<sub>50</sub> | 574 | ResNet50 | Common ImageNet setup |
-| E2 | ImageNet-S<sub>50</sub> | 574 | Ideal | Linear ideal model |
-| E3 | ImageNet-S<sub>50</sub> | 621 | SwinViT | Vision Transformer |
-| E4 | MS-COCO | 274 | YOLO11s | Object detection |
-| E5 | CelebA | 400 | CNN | Facial attribute localization |
-| E6 | MVTec | 280 | VAE-GAN | Anomaly Detection |
-| E7 | ImageNet-S<sub>50</sub> | 593 | ViT-Base16 | Vision Transformer |
-| E8 | — | — | — | User preference study using E1 saliency maps |
-
+| E1 | ImageNet-S<sub>50</sub> | 574 | ResNet-50 | Common ImageNet classification setup |
+| E2 | ImageNet-S<sub>50</sub> | 574 | Ideal | Linear ideal attribution model |
+| E3 | ImageNet-S<sub>50</sub> | 621 | SwinViT | Vision Transformer-based classification |
+| E4 | MS-COCO | 274 | YOLOv11s | Object detection explanations |
+| E5 | CelebA-HQ | 400 | Custom CNN | Facial attribute localization |
+| E6 | MVTec | 280 | VAE-GAN | Explainable anomaly detection |
+| E7 | ImageNet-S<sub>50</sub> | 593 | ViT-Base16 | Vision Transformer explanations |
+| E8 | User Study | — | — | Human preference study using saliency maps |
 
 ---
 
 ## Authors ✍️
 
-
-| Sr. No. | Author Name | Affiliation | Google Scholar | 
-| :--:    | :--:        | :--:        | :--:           | 
-| 1. | Muhammad Rashid | University of Torino, Dept. of Computer Science, Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) | 
-| 2. | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) | 
-| 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
-| 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
+| Sr. No. | Author Name | Affiliation | Google Scholar |
+|:--:|:--|:--|:--|
+| 1 | Muhammad Rashid | University of Torino, Dept. of Computer Science, Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) |
+| 2 | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
+| 3 | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) |
+| 4 | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
 
 ## Keywords 🔍
 
-Shapley Values · Binary Partition Trees · eXplainable
-AI · XAI · Image Feature Attributions
-
+Shapley Values · Binary Partition Trees · Explainable AI · XAI · Image Feature Attribution · Explainable Computer Vision
 
 ## 📖 Citation (BibTeX)
 
@@ -127,5 +157,3 @@ AI · XAI · Image Feature Attributions
   url       = {https://doi.org/10.1609/aaai.v40i30.39699}
 }</code></pre>
 </div>
-
-

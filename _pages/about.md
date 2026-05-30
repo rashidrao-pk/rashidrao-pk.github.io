@@ -3,7 +3,6 @@ layout: single
 title: Home
 permalink: /
 ---
-
 # Muhammad Rashid
 
 Machine Learning Researcher specializing in **Explainable AI (XAI)**,  

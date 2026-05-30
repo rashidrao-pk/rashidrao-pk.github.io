@@ -14,11 +14,11 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item pub-card" itemscope itemtype="http://schema.org/CreativeWork">
-
+<div class="publication-card-wrapper">
+  <!-- <article class="archive__item pub-card publication-card publication-card-{{ post.category | slugify }}" itemscope itemtype="http://schema.org/CreativeWork"> -->
+  <article class="archive__item pub-card publication-card publication-card-{{ post.category | slugify }}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
-      <div class="pub-thumb">
+      <div class="pub-thumb publication-thumb">
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
@@ -29,7 +29,7 @@
       </div>
     {% endif %}
 
-    <div class="pub-content">
+    <div class="pub-content publication-content">
 
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
@@ -39,8 +39,7 @@
             <span class="sr-only">Permalink</span>
           </a>
         {% else %}
-          <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> -->
-           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
 
           {% if post.category %}
             <span class="pub-category-badge pub-category-{{ post.category | slugify }}">
@@ -57,50 +56,63 @@
         </p>
       {% endif %}
 
-      {% if post.paperurl or post.pdfurl or post.arxivurl or post.codeurl or post.testurl or post.pypiurl or post.demourl or post.userstudyurl or post.slidesurl or post.posterurl or post.bibtexurl %}
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt">
+          {{ post.excerpt | markdownify | strip_html | truncate: 220 }}
+        </p>
+      {% endif %}
+
+      {% if post.paperurl or post.pdfurl or post.arxivurl or post.codeurl or post.testurl or post.pypiurl or post.docsurl or post.demourl or post.userstudyurl or post.slidesurl or post.posterurl or post.bibtexurl %}
         <p class="pub-buttons">
+
+          <a href="{{ base_path }}{{ post.url }}" class="custom-btn btn-paper">Publication Page</a>
+
           {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="custom-btn btn-paper">Paper</a>
+            <a href="{{ post.paperurl }}" target="_blank" class="custom-btn btn-paper">Paper</a>
           {% endif %}
 
           {% if post.pdfurl %}
-            <a href="{{ post.pdfurl }}" class="custom-btn btn-paper">PDF</a>
+            <a href="{{ post.pdfurl }}" target="_blank" class="custom-btn btn-paper">PDF</a>
           {% endif %}
 
           {% if post.arxivurl %}
-            <a href="{{ post.arxivurl }}" class="custom-btn btn-arxiv">arXiv</a>
+            <a href="{{ post.arxivurl }}" target="_blank" class="custom-btn btn-arxiv">arXiv</a>
           {% endif %}
 
           {% if post.codeurl %}
-            <a href="{{ post.codeurl }}" class="custom-btn btn-code">Code</a>
+            <a href="{{ post.codeurl }}" target="_blank" class="custom-btn btn-code">Code</a>
           {% endif %}
 
           {% if post.testurl %}
-            <a href="{{ post.testurl }}" class="custom-btn btn-tests">Tests</a>
+            <a href="{{ post.testurl }}" target="_blank" class="custom-btn btn-tests">Tests</a>
           {% endif %}
 
           {% if post.pypiurl %}
-            <a href="{{ post.pypiurl }}" class="custom-btn btn-pypi">PyPI</a>
+            <a href="{{ post.pypiurl }}" target="_blank" class="custom-btn btn-pypi">PyPI</a>
+          {% endif %}
+
+          {% if post.docsurl %}
+            <a href="{{ post.docsurl }}" target="_blank" class="custom-btn btn-docs">Docs</a>
           {% endif %}
 
           {% if post.demourl %}
-            <a href="{{ post.demourl }}" class="custom-btn btn-demo">Demo</a>
+            <a href="{{ post.demourl }}" target="_blank" class="custom-btn btn-demo">Demo</a>
           {% endif %}
 
           {% if post.userstudyurl %}
-            <a href="{{ post.userstudyurl }}" class="custom-btn btn-demo">User Study</a>
+            <a href="{{ post.userstudyurl }}" target="_blank" class="custom-btn btn-demo">User Study</a>
           {% endif %}
 
           {% if post.slidesurl %}
-            <a href="{{ post.slidesurl }}" class="custom-btn btn-slides">Slides</a>
+            <a href="{{ post.slidesurl }}" target="_blank" class="custom-btn btn-slides">Slides</a>
           {% endif %}
 
           {% if post.posterurl %}
-            <a href="{{ post.posterurl }}" class="custom-btn btn-poster">Poster</a>
+            <a href="{{ post.posterurl }}" target="_blank" class="custom-btn btn-poster">Poster</a>
           {% endif %}
 
           {% if post.bibtexurl %}
-            <a href="{{ post.bibtexurl }}" class="custom-btn btn-tests">BibTeX</a>
+            <a href="{{ post.bibtexurl }}" target="_blank" class="custom-btn btn-tests">BibTeX</a>
           {% endif %}
         </p>
       {% endif %}
@@ -118,14 +130,6 @@
           {{ post.subcategory | join: ", " }}
         </p>
       {% endif %}
-
-      <!-- {% if post.tags %}
-        <p class="pub-tags">
-          {% for tag in post.tags %}
-            <a href="{{ base_path }}/tags/#{{ tag | slugify }}" class="tag">{{ tag }}</a>
-          {% endfor %}
-        </p>
-      {% endif %} -->
 
     </div>
 

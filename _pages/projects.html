@@ -1,0 +1,17 @@
+---
+layout: archive
+permalink: /projects/
+title: "Projects & Research Work"
+author_profile: true
+---
+
+<p>
+  This page highlights selected <strong>research projects, industrial systems, and open-source contributions</strong>
+  spanning <strong>Explainable AI, Computer Vision, Anomaly Detection, and Industrial AI</strong>.
+</p>
+
+{% assign sorted_projects = site.projects | sort: "date" | reverse %}
+
+{% for post in sorted_projects %}
+  {% include project-single.html %}
+{% endfor %}

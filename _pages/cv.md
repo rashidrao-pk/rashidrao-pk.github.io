@@ -34,6 +34,9 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
 | Google Scholar | 9 | 788+ | 13 |
 | Scopus | 7 | 539+ | 11 |
 
+➡️ [See details on Google Scholar](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ)
+
+
 ---
 
 # Research Areas
@@ -57,7 +60,7 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
 **University of Torino, Italy**  
 **Nov 2025 – Present**
 
-Working within the **DistriMuSe** project under the supervision of Prof. Elvio G. Amparore.
+Working within the [**DistriMuSe**](https://distrimuse.eu/) EU project under the supervision of [Prof. Elvio G. Amparore](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore).
 
 - Leading validation and optimization of anomaly detection pipelines for industrial robotics safety.
 - Evaluating robustness on synthetic and real industrial datasets.
@@ -71,7 +74,7 @@ Working within the **DistriMuSe** project under the supervision of Prof. Elvio G
 **Jan 2025 – Aug 2025**
 
 - Completed an in-person research stay from **19 Jan 2025 to 19 Apr 2025**, followed by remote collaboration until **31 Aug 2025**.
-- Worked on the **DistriMuSe EU project**, focusing on safe interaction with robots in smart industrial environments.
+- Worked on the [**DistriMuSe**](https://distrimuse.eu/) EU project, focusing on safe interaction with robots in smart industrial environments.
 - Contributed to synthetic palletizing dataset development for Demo 3.2.
 - Tested and validated the ADVIS anomaly detection framework on synthetic robotic scenarios.
 - Supervisor: [Prof. Jesús Garrido](https://valeria.ugr.es/author/jesus-garrido/)
@@ -83,11 +86,15 @@ Working within the **DistriMuSe** project under the supervision of Prof. Elvio G
 **Nov 2022 – Oct 2025**
 
 - Conducted PhD research on trustworthy AI, explainable computer vision, and visual anomaly detection.
-- Developed XAI methods including **LIME Stratified** and **ShapBPT**.
+- Developed XAI methods including [**LIME Stratified**](/publication/p9_lime_stratified) and [**ShapBPT**](/publication/p12_ShapBPT).
 - Built explainable anomaly detection systems using VAE-GANs.
 - Contributed to EU-funded projects including **DistriMuSe** and **NextPerception**.
 - Completed the thesis:  
   *Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries.*
+Supervised by: 
+  - <strong>Academic Supervisor:</strong> [Prof. Elvio G. Amparore](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore#tab-profilo)<br>
+  - <strong>Industrial Supervisor:</strong> [Dr. Enrico Ferrari](https://www.rulex.ai/about-us/) ([RuleX Innovation Labs](https://www.rulex.ai/))<br>
+
 
 ---
 

@@ -1,9 +1,28 @@
 ---
 title: "ADVIS-DistriMuSe-SR: Real-Time Anomaly Detection for Safe Human–Robot Interaction"
 permalink: /projects/advis-distrimuse-sr/
+category: Anomaly Detection
+excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection"
+thumbnail: "../files/projects/advis.png"
+date: 2026-04-14
+year: 2026
+project_type: "Deployment Project"
+status: "Completed"
+research_area:
+  - Edge AI
+  - Computer Vision
+  - Embedded AI
+technologies:
+  - Python
+  - Raspberry Pi
+  - TensorFlow Lite
+  - OpenCV
+codeurl: "https://github.com/rashidrao-pk/AI_on_Edge_Devices"
+
 author_profile: true
 toc: true
-toc_label: "Project Contents"
+toc_sticky: true
+toc_label: "On this page"
 toc_icon: "robot"
 ---
 
