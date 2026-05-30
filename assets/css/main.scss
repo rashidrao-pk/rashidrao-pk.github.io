@@ -1254,3 +1254,18 @@ body.dark .custom-btn:hover,
   border-color: #6b7280 !important;
   color: #ffffff !important;
 }
+
+
+.research-metrics-card {
+  background: var(--global-card-bg);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1rem 0 2rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.metrics-updated {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

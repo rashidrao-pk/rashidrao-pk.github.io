@@ -26,33 +26,37 @@ I am a researcher in **Computer Vision**, **Explainable AI (XAI)**, and **Visual
 My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection with **VAE-GANs**, and **ADVIS**, a real-time anomaly detection and visual intelligence system for human safety in collaborative robotics.
 
 ---
+<!-- DEBUG: {{ site.data.research_metrics }} -->
 
-# Research Metrics
+<table class="research-metrics-table">
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>h-index</th>
+      <th>Citations</th>
+      <th>Publications</th>
+    </tr>
+  </thead>
 
-<!-- | Source | h-index | Citations | Publications |
-|---|---:|---:|---:|
-| Google Scholar | 9 | 788+ | 13 |
-| Scopus | 7 | 539+ | 11 | -->
+  <tbody>
+    <tr>
+      <td>Google Scholar</td>
+      <td>{{ site.data.research_metrics.scholar_hindex }}</td>
+      <td>{{ site.data.research_metrics.scholar_citations }}+</td>
+      <td>{{ site.data.research_metrics.scholar_publications }}</td>
+    </tr>
 
-<table>
-<tr>
-  <th>Source</th>
-  <th>h-index</th>
-  <th>Citations</th>
-  <th>Publications</th>
-</tr>
-
-<tr>
-  <td>Google Scholar</td>
-  <td>{{ site.data.research_metrics.scholar_hindex }}</td>
-  <td>{{ site.data.research_metrics.scholar_citations }}+</td>
-  <td>{{ site.data.research_metrics.scholar_publications }}</td>
-</tr>
+    <tr>
+      <td>Scopus</td>
+      <td>7</td>
+      <td>539+</td>
+      <td>11</td>
+    </tr>
+  </tbody>
 </table>
 
-<p>
-Last updated:
-{{ site.data.research_metrics.updated }}
+<p class="metrics-updated">
+  Last updated: {{ site.data.research_metrics.updated }}
 </p>
 
 
