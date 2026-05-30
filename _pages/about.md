@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Muhammad Rashid, Explainable AI Researcher"
+title: "Muhammad Rashid"
 permalink: /
 ---
 
