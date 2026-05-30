@@ -27,6 +27,7 @@ jobs:
       - name: Update metrics
         run: |
           python scripts/update_scholar.py
+        continue-on-error: true  # Don't fail the entire workflow on transient errors
 
       - name: Commit changes
         run: |
