@@ -157,7 +157,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 <div class="section-box section-box-experience" markdown="1">
 
-## 🌍 Experience
+## Experience
 
 - 🎓 PhD Researcher — University of Turin, Italy
 - 🏭 Industrial Research — RuleX Innovation Labs
