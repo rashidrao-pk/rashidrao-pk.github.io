@@ -9,15 +9,20 @@ year: 2026
 project_type: "Deployment Project"
 status: "Completed"
 research_area:
-  - Edge AI
   - Computer Vision
-  - Embedded AI
+  - Edge AI
+  - Anomaly Detection
+  - Industrial Safety
+
 technologies:
   - Python
-  - Raspberry Pi
-  - TensorFlow Lite
+  - Edge Devides
+  - PyTorch
   - OpenCV
-codeurl: "https://github.com/rashidrao-pk/AI_on_Edge_Devices"
+  - VAE-GAN models
+  - ROS2
+  - Zenoh messages
+codeurl: "https://github.com/rashidrao-pk/advis_distrimuse_unito_SR"
 
 author_profile: true
 toc: true
@@ -39,7 +44,7 @@ toc_icon: "robot"
 
 ## Project Summary
 
-The project focuses on monitoring industrial safety zones in collaborative robotics environments. It uses **VAE/VAE-GAN models** to learn normal visual patterns and detect unexpected or unsafe conditions through reconstruction-based anomaly scoring.
+The project is built for the activities in use-case of the EU project [**_DistriMuSe_**](https://cordis.europa.eu/project/id/101139769) focuses on monitoring industrial safety zones in collaborative robotics environments. It uses **VAE/VAE-GAN models** to learn normal visual patterns and detect unexpected or unsafe conditions through reconstruction-based anomaly scoring.
 
 The system is designed for real-time deployment with:
 

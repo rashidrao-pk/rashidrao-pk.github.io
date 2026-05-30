@@ -53,10 +53,8 @@ classes: wide
 COMSATS University Islamabad, Wah Campus, Pakistan<br><br>
 
 <strong>Candidate:</strong> Muhammad Rashid<br>
-<strong>Registration No.:</strong> CIIT/SP17-RCS-009/Wah<br>
-<strong>Supervisor:</strong> Dr. Muhammad Sharif<br>
+<strong>Supervisor:</strong> [Dr. Muhammad Sharif](https://orcid.org/0000-0002-1355-2168)<br>
 <strong>Department:</strong> Computer Science<br>
-<strong>Session:</strong> Fall 2018<br>
 
 </div>
 

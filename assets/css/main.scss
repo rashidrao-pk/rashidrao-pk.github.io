@@ -977,3 +977,67 @@ body.dark .pub-controls select option,
     color: #155e75;
 }
 
+
+//  MAIN PAGE STYLES
+/* ==========================================
+   Reusable Page Section Boxes
+   ========================================== */
+
+.section-box {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-left: 6px solid #64748b;
+    border-radius: 18px;
+    padding: 24px 26px;
+    margin: 28px 0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    transition: all 0.25s ease;
+}
+
+.section-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+}
+
+.section-box h2,
+.section-box h3 {
+    margin-top: 0;
+}
+
+.section-box p:last-child,
+.section-box ul:last-child {
+    margin-bottom: 0;
+}
+
+.section-box-focus {
+    border-left-color: #2563eb;
+}
+
+.section-box-systems {
+    border-left-color: #16a34a;
+}
+
+.section-box-tools {
+    border-left-color: #7c3aed;
+}
+
+.section-box-publications {
+    border-left-color: #ea580c;
+}
+
+.section-box-projects {
+    border-left-color: #0891b2;
+}
+
+.section-box-experience {
+    border-left-color: #9333ea;
+}
+
+.section-box-collaboration {
+    border-left-color: #dc2626;
+}
+
+.section-box-contact {
+    border-left-color: #0f766e;
+}
+

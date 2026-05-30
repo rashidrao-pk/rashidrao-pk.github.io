@@ -29,10 +29,32 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
 
 # Research Metrics
 
-| Source | h-index | Citations | Publications |
+<!-- | Source | h-index | Citations | Publications |
 |---|---:|---:|---:|
 | Google Scholar | 9 | 788+ | 13 |
-| Scopus | 7 | 539+ | 11 |
+| Scopus | 7 | 539+ | 11 | -->
+
+<table>
+<tr>
+  <th>Source</th>
+  <th>h-index</th>
+  <th>Citations</th>
+  <th>Publications</th>
+</tr>
+
+<tr>
+  <td>Google Scholar</td>
+  <td>{{ site.data.research_metrics.scholar_hindex }}</td>
+  <td>{{ site.data.research_metrics.scholar_citations }}+</td>
+  <td>{{ site.data.research_metrics.scholar_publications }}</td>
+</tr>
+</table>
+
+<p>
+Last updated:
+{{ site.data.research_metrics.updated }}
+</p>
+
 
 ➡️ [See details on Google Scholar](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ)
 

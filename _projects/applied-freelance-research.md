@@ -99,7 +99,7 @@ Figure 5. Image Denoising: Examples of applied AI systems including computer vis
 <figure class="project-figure">
 <img src="https://user-images.githubusercontent.com/25412736/183263811-4fdd11c0-b272-4498-89e0-41d9422327b6.gif" alt="Applied AI Research Projects by Muhammad Rashid Rao">
 <figcaption>
-Figure 5. Plaque Identification: Examples of applied AI systems including medical imaging, computer vision applications, intelligent decision systems, and machine learning solutions delivered during freelance and research collaborations.
+Figure 6. Plaque Identification: Examples of applied AI systems including medical imaging, computer vision applications, intelligent decision systems, and machine learning solutions delivered during freelance and research collaborations.
 </figcaption>
 </figure>
 
