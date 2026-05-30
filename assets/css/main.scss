@@ -1041,3 +1041,216 @@ body.dark .pub-controls select option,
     border-left-color: #0f766e;
 }
 
+
+/* ==========================================
+   DARK MODE FIXES FOR CUSTOM CARDS / BOXES
+   Add this block at the END of main.scss
+   ========================================== */
+
+html[data-theme="dark"] .section-box,
+body.dark .section-box,
+[data-theme="dark"] .section-box,
+html[data-theme="dark"] .project-card,
+body.dark .project-card,
+[data-theme="dark"] .project-card,
+html[data-theme="dark"] .publication-card,
+body.dark .publication-card,
+[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .talk-card,
+body.dark .talk-card,
+[data-theme="dark"] .talk-card,
+html[data-theme="dark"] .project-showcase,
+body.dark .project-showcase,
+[data-theme="dark"] .project-showcase,
+html[data-theme="dark"] .research-card,
+body.dark .research-card,
+[data-theme="dark"] .research-card {
+  background: #1f2937 !important;
+  color: #f3f4f6 !important;
+  border-color: #374151 !important;
+}
+
+html[data-theme="dark"] .section-box h1,
+html[data-theme="dark"] .section-box h2,
+html[data-theme="dark"] .section-box h3,
+html[data-theme="dark"] .section-box h4,
+html[data-theme="dark"] .section-box strong,
+html[data-theme="dark"] .project-card h1,
+html[data-theme="dark"] .project-card h2,
+html[data-theme="dark"] .project-card h3,
+html[data-theme="dark"] .project-card h4,
+html[data-theme="dark"] .project-card strong,
+html[data-theme="dark"] .publication-card h1,
+html[data-theme="dark"] .publication-card h2,
+html[data-theme="dark"] .publication-card h3,
+html[data-theme="dark"] .publication-card h4,
+html[data-theme="dark"] .publication-card strong,
+html[data-theme="dark"] .talk-card h1,
+html[data-theme="dark"] .talk-card h2,
+html[data-theme="dark"] .talk-card h3,
+html[data-theme="dark"] .talk-card h4,
+html[data-theme="dark"] .talk-card strong,
+body.dark .section-box h1,
+body.dark .section-box h2,
+body.dark .section-box h3,
+body.dark .section-box h4,
+body.dark .section-box strong,
+body.dark .project-card h1,
+body.dark .project-card h2,
+body.dark .project-card h3,
+body.dark .project-card h4,
+body.dark .project-card strong,
+body.dark .publication-card h1,
+body.dark .publication-card h2,
+body.dark .publication-card h3,
+body.dark .publication-card h4,
+body.dark .publication-card strong,
+body.dark .talk-card h1,
+body.dark .talk-card h2,
+body.dark .talk-card h3,
+body.dark .talk-card h4,
+body.dark .talk-card strong,
+[data-theme="dark"] .section-box h1,
+[data-theme="dark"] .section-box h2,
+[data-theme="dark"] .section-box h3,
+[data-theme="dark"] .section-box h4,
+[data-theme="dark"] .section-box strong,
+[data-theme="dark"] .project-card h1,
+[data-theme="dark"] .project-card h2,
+[data-theme="dark"] .project-card h3,
+[data-theme="dark"] .project-card h4,
+[data-theme="dark"] .project-card strong,
+[data-theme="dark"] .publication-card h1,
+[data-theme="dark"] .publication-card h2,
+[data-theme="dark"] .publication-card h3,
+[data-theme="dark"] .publication-card h4,
+[data-theme="dark"] .publication-card strong,
+[data-theme="dark"] .talk-card h1,
+[data-theme="dark"] .talk-card h2,
+[data-theme="dark"] .talk-card h3,
+[data-theme="dark"] .talk-card h4,
+[data-theme="dark"] .talk-card strong {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .section-box p,
+html[data-theme="dark"] .section-box li,
+html[data-theme="dark"] .project-card p,
+html[data-theme="dark"] .project-card li,
+html[data-theme="dark"] .publication-card p,
+html[data-theme="dark"] .publication-card li,
+html[data-theme="dark"] .talk-card p,
+html[data-theme="dark"] .talk-card li,
+body.dark .section-box p,
+body.dark .section-box li,
+body.dark .project-card p,
+body.dark .project-card li,
+body.dark .publication-card p,
+body.dark .publication-card li,
+body.dark .talk-card p,
+body.dark .talk-card li,
+[data-theme="dark"] .section-box p,
+[data-theme="dark"] .section-box li,
+[data-theme="dark"] .project-card p,
+[data-theme="dark"] .project-card li,
+[data-theme="dark"] .publication-card p,
+[data-theme="dark"] .publication-card li,
+[data-theme="dark"] .talk-card p,
+[data-theme="dark"] .talk-card li {
+  color: #e5e7eb !important;
+}
+
+html[data-theme="dark"] .archive__item-excerpt,
+html[data-theme="dark"] .pub-meta,
+html[data-theme="dark"] .project-showcase-subtitle,
+html[data-theme="dark"] .project-figure figcaption,
+body.dark .archive__item-excerpt,
+body.dark .pub-meta,
+body.dark .project-showcase-subtitle,
+body.dark .project-figure figcaption,
+[data-theme="dark"] .archive__item-excerpt,
+[data-theme="dark"] .pub-meta,
+[data-theme="dark"] .project-showcase-subtitle,
+[data-theme="dark"] .project-figure figcaption {
+  color: #d1d5db !important;
+}
+
+html[data-theme="dark"] .section-box a:not(.custom-btn),
+html[data-theme="dark"] .project-card a:not(.custom-btn),
+html[data-theme="dark"] .publication-card a:not(.custom-btn),
+html[data-theme="dark"] .talk-card a:not(.custom-btn),
+body.dark .section-box a:not(.custom-btn),
+body.dark .project-card a:not(.custom-btn),
+body.dark .publication-card a:not(.custom-btn),
+body.dark .talk-card a:not(.custom-btn),
+[data-theme="dark"] .section-box a:not(.custom-btn),
+[data-theme="dark"] .project-card a:not(.custom-btn),
+[data-theme="dark"] .publication-card a:not(.custom-btn),
+[data-theme="dark"] .talk-card a:not(.custom-btn) {
+  color: #60a5fa !important;
+}
+
+html[data-theme="dark"] .project-card .pub-thumb img,
+html[data-theme="dark"] .publication-card .publication-thumb img,
+html[data-theme="dark"] .talk-card .talk-thumb img,
+html[data-theme="dark"] .project-figure img,
+body.dark .project-card .pub-thumb img,
+body.dark .publication-card .publication-thumb img,
+body.dark .talk-card .talk-thumb img,
+body.dark .project-figure img,
+[data-theme="dark"] .project-card .pub-thumb img,
+[data-theme="dark"] .publication-card .publication-thumb img,
+[data-theme="dark"] .talk-card .talk-thumb img,
+[data-theme="dark"] .project-figure img {
+  border-color: #374151 !important;
+}
+
+html[data-theme="dark"] .project-card .pub-meta,
+body.dark .project-card .pub-meta,
+[data-theme="dark"] .project-card .pub-meta {
+  border-top-color: #374151 !important;
+}
+
+html[data-theme="dark"] .pub-toc,
+body.dark .pub-toc,
+[data-theme="dark"] .pub-toc {
+  background: #111827 !important;
+  border-left-color: #469B60 !important;
+}
+
+html[data-theme="dark"] .pub-toc a,
+body.dark .pub-toc a,
+[data-theme="dark"] .pub-toc a {
+  background: #1f2937 !important;
+  color: #bbf7d0 !important;
+}
+
+html[data-theme="dark"] .tag,
+body.dark .tag,
+[data-theme="dark"] .tag {
+  background: #374151 !important;
+  color: #f3f4f6 !important;
+}
+
+html[data-theme="dark"] .tag:hover,
+body.dark .tag:hover,
+[data-theme="dark"] .tag:hover {
+  background: #4b5563 !important;
+  color: #ffffff !important;
+}
+
+/* Keep category badges readable in dark mode */
+html[data-theme="dark"] .pub-category-badge,
+body.dark .pub-category-badge,
+[data-theme="dark"] .pub-category-badge {
+  border: 1px solid rgba(255,255,255,0.12) !important;
+}
+
+/* Better dark-mode hover for custom buttons */
+html[data-theme="dark"] .custom-btn:hover,
+body.dark .custom-btn:hover,
+[data-theme="dark"] .custom-btn:hover {
+  background-color: #111827 !important;
+  border-color: #6b7280 !important;
+  color: #ffffff !important;
+}
