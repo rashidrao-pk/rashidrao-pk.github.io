@@ -4,7 +4,7 @@ layout: single
 permalink: /
 ---
 
-<!-- # Muhammad Rashid -->
+# Muhammad Rashid
 
 Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer Vision**, and **Visual Anomaly Detection** for real-world and safety-critical systems.
 
