@@ -1,13 +1,13 @@
 ---
-title: "ADVIS-DistriMuSe-SR: Real-Time Anomaly Detection for Safe Human–Robot Interaction"
+title: "ADVIS-SR: Real-Time Anomaly Detection for Safe Human–Robot Interaction in real industrial scenario"
 permalink: /projects/advis-distrimuse-sr/
-category: Anomaly Detection
-excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection"
+category: EU Project 🇪🇺
+excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection on real world"
 thumbnail: "../files/projects/advis.png"
 date: 2026-04-14
 year: 2026
 project_type: "Deployment Project"
-status: "Completed"
+status: "Development"
 research_area:
   - Computer Vision
   - Edge AI
@@ -31,7 +31,7 @@ toc_label: "On this page"
 toc_icon: "robot"
 ---
 
-**ADVIS-DistriMuSe-SR** is a real-time anomaly detection and visual intelligence system developed for the **DistriMuSe Use Case 3 — Safe Interaction with Robots**.
+**ADVIS-SR** is a real-time anomaly detection and visual intelligence system developed for the **DistriMuSe Use Case 3 — Safe Interaction with Robots**.
 
 <center>
 <img src="/files/projects/advis.png">

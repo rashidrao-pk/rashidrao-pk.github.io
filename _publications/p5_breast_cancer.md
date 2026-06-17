@@ -21,8 +21,8 @@ subcategory:
   - Hybrid Feature Engineering
 ---
 
-**Authors:**  
-Inzamam M. N., <u>Muhammad Rashid</u>, J. H. Shah, M. Sharif, M. Yahiya H. A., Monagi H. A.
+**Authors:**
+Nasir, Inzamam M., <b>Muhammad Rashid</b>, Jamal Hussain Shah, Muhammad Sharif, Muhammad YH Awan, and Monagi H. Alkinani. "An optimized approach for breast cancer classification for histopathological images based on hybrid feature set." Current Medical Imaging Reviews 17, no. 1 (2021): 136-147. [DOI-10.2174/1573405616666200423085826](https://doi.org/10.2174/1573405616666200423085826)
 
 ---
 

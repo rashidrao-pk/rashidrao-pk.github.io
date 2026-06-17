@@ -1,7 +1,7 @@
 ---
 title: "AI on Edge Devices"
 collection: projects
-category: Edge AI
+category: Research/Edge AI
 permalink: /projects/ai-on-edge-devices/
 excerpt: "Lightweight AI deployment on edge devices, including Raspberry Pi-based computer vision systems."
 thumbnail: "../files/projects/edge_ai.png"
