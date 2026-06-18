@@ -29,6 +29,11 @@ conference: "https://icpe2026.spec.org/"
 thumbnail: "../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png"
 ---
 
+
+### XAD Workflow
+<img src="../files/papers_data/shapbpt_ad/workflow.png">
+
+
 This paper presents **ShapBPT in Perspective**, a consolidated review and practical case study of **ShapBPT** for **eXplainable Anomaly Detection (XAD)**. The work bridges **hierarchical Shapley-based explanations** with real-world anomaly detection systems, demonstrating how structured feature attributions can improve the interpretability of black-box models.
 
 Unlike traditional explanation methods based on fixed partitions, **ShapBPT leverages a data-aware Binary Partition Tree (BPT)** to generate **multiscale, semantically aligned explanations**. This enables more faithful localization of anomalous regions and provides clearer insight into model behavior.
@@ -57,13 +62,23 @@ Unlike traditional explanation methods based on fixed partitions, **ShapBPT leve
 
 ShapBPT explains anomaly detection decisions by assigning **attribution scores to image regions** using a **hierarchical, data-driven partitioning** strategy.
 
+## HOW BPT is build for image
+
+<center>
+<img src='../files/papers_data/shapbpt_ad/BPT.svg' width='60%'> 
+</center>
+
 ### Example Explanation
 <img src="../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png">
 
 ---
 
-### XAD Workflow
-<img src="../files/papers_data/shapbpt_ad/workflow.png">
+## Evaluation Setup
+
+<center>
+<img src='../files/papers_data/shapbpt_ad/xai_evaluation.svg' width='50%'> 
+</center>
+Shapley/Owen values for AA and BPT coalitionstructures, for different values of the budget 𝑏.
 
 ---
 
@@ -80,6 +95,25 @@ This approach enables explanations to follow **intrinsic image structure**, impr
 
 ---
 
+## 🖼️ Sample Output
+
+<img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png">
+
+---
+## Results over All Applications
+
+<center>
+<img src='../files/papers_data/shapbpt_ad/results_shapbpt_qualt.svg'> 
+</center>
+
+
+## 🔑 Keywords
+
+ShapBPT · Explainable Anomaly Detection · XAI · Shapley Values · Binary Partition Trees · Computer Vision · ICPE 2026
+
+---
+
+
 ## 👥 Authors
 
 | Sr. No. | Author Name | Affiliation | Google Scholar | 
@@ -88,18 +122,6 @@ This approach enables explanations to follow **intrinsic image structure**, impr
 | 2. | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) | 
 | 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
 | 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
-
----
-
-## 🖼️ Sample Output
-
-<img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png">
-
----
-
-## 🔑 Keywords
-
-ShapBPT · Explainable Anomaly Detection · XAI · Shapley Values · Binary Partition Trees · Computer Vision · ICPE 2026
 
 ---
 
