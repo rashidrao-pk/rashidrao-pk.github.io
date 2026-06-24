@@ -102,6 +102,10 @@ Contributed to deliverables:
 - [**D4.6** Second release of the reference implementation for the distributed platform](https://distrimuse.eu/results/)
   - Section: SW-025 Unexpected Condition Detector -  for communication between application and worker nodes.
 
+- [**D4.5** Updated requirements and design of the distributed platform,design and simulation tools](https://distrimuse.eu/wp-content/uploads/2026/06/DistriMuSe_Deliverable_D4.5_v1.0.pdf):
+  -  _SW-025 - AI-powered anomaly detection system_
+
+
 ## RGB-Based Anomaly Detection Application
 
 Developed the complete RGB anomaly detection pipeline used as the validation use case.
