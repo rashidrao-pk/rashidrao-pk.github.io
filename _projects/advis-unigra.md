@@ -86,6 +86,22 @@ My contribution focused on developing the anomaly detection application and vali
 
 # My Contributions
 
+## Project Deliverables:
+
+Contributed to deliverables:
+
+- [**D5.3** Results of the first evaluation and stage 2 feedback](https://distrimuse.eu/wp-content/uploads/2026/06/D5.3_DistriMuSe_v1.01.pdf):
+  - Section: Unexpected situations detection and localization by UniTO and RULEX ([section 5.1.2.4 of D5.3](https://distrimuse.eu/wp-content/uploads/2026/06/D5.3_DistriMuSe_v1.01.pdf))
+
+- [**D3.6** First set of machine learning algorithms](https://distrimuse.eu/results/):
+  - [Section 2.1.22 UNITO and RULEX](https://distrimuse.eu/results/)
+
+- [**D3.5**  Privacy-preserving trustworthy ML solutions](https://distrimuse.eu/results/):
+  - Section: Building Trustworthiness, Achieving Trustworthiness by Explainability and Explainable AI for Computer Vision with Robotics Focus by using [**ShapBPT**](https://rashidrao-pk.github.io//publication/p12_ShapBPT) for Robotics.
+  - Section 2: Achieving Trustworthiness by System Quality Improvement -  2.2.2 Unexpected Condition Detector: 
+- [**D4.6** Second release of the reference implementation for the distributed platform](https://distrimuse.eu/results/)
+  - Section: SW-025 Unexpected Condition Detector -  for communication between application and worker nodes.
+
 ## RGB-Based Anomaly Detection Application
 
 Developed the complete RGB anomaly detection pipeline used as the validation use case.

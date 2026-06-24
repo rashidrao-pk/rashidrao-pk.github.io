@@ -21,6 +21,10 @@ Research activities focused on:
 - Synthetic data generation
 - ROS2-based industrial AI systems
 
+---
+
+**See consortium meetings** [here - https://distrimuse.eu/events/](https://distrimuse.eu/events/).
+
 | Date | Activity |
 |---|---|
 | **Nov 2025** | Presented project updates through a **5-minute technical talk** and **poster presentation** at the DistriMuSe consortium meeting hosted by the **University of Vigo, Spain**. <a href="/talks/VAE_GAN_Models_DM" target="_blank"><img src="https://img.shields.io/badge/Talk-Page-blue"></a> |

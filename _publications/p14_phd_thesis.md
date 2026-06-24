@@ -36,10 +36,9 @@ date: 2026-04-28
 venue: "University of Torino"
 location: "Turin, Italy"
 
-pdfurl: "https://iris.unito.it/handle/2318/2137472"
-conference: "https://iris.unito.it/handle/2318/2137472"
-codeurl: "https://github.com/rashidrao-pk"
-thumbnail: "../files/thesis/contributions.svg"
+pdfurl: "https://iris.unito.it/retrieve/925261dc-f0d7-46b6-b2ba-9e996c3ce58c/Thesis-Rashid-Muhammad_.pdf"
+conference: "https://hdl.handle.net/2318/2145710"
+thumbnail: "../files/thesis/thumbnail_phd_thesis.png"
 author_profile: true
 
 toc: true
@@ -64,7 +63,7 @@ University of Torino, Italy<br><br>
 
 </div>
 
-[📄 View Thesis on IRIS](https://iris.unito.it/handle/2318/2137472){: .btn .btn--primary}
+[📄 View Thesis on IRIS](https://hdl.handle.net/2318/2145710){: .btn .btn--primary}
 [💻 GitHub Profile](https://github.com/rashidrao-pk){: .btn .btn--info}
 [🎓 Publications](/publications/){: .btn .btn--success}
 [🐍📦 Python Packages](https://pypi.org/user/mrashid/){: .btn .btn--success}
