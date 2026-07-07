@@ -91,6 +91,8 @@ Selected contributions to open-source machine learning, anomaly detection, expla
 
 <!-- </div> -->
 
+{% raw %}
+
 <script>
 const contributions = [
   {
@@ -330,3 +332,5 @@ document.addEventListener("DOMContentLoaded", async () => {
   margin: 0.15rem;
 }
 </style>
+
+{% endraw %}

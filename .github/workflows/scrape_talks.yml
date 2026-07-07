@@ -3,37 +3,37 @@ name: Scrape Talk Locations
 on:
   push:
     paths:
-      - 'talks/**'
-      - '_talks/**'
-      - 'talkmap.ipynb'
+      - "talks/**"
+      - "_talks/**"
+      - "talkmap.ipynb"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write           # This workflow pushes to the repository
+      contents: write # This workflow pushes to the repository
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.9'   # Specify the Python version you need
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9" # Specify the Python version you need
 
-    - name: Install dependencies
-      run: |
-        pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
-        pip install getorg --upgrade
+      - name: Install dependencies
+        run: |
+          pip install jupyter pandas requests beautifulsoup4 geopy python-frontmatter  # Add other dependencies as needed
+          pip install getorg --upgrade
 
-    - name: Run Jupyter Notebook
-      run: |
-        jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
+      - name: Run Jupyter Notebook
+        run: |
+          jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
-    - name: Commit changes
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add .
-        git commit -m "Automated update of talk locations" || echo "No changes to commit"
-        git push
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Automated update of talk locations" || echo "No changes to commit"
+          git push
