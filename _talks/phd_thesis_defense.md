@@ -5,7 +5,7 @@ type: "PhD Thesis Defense"
 permalink: /talks/phd_thesis_defense
 venue: "University of Torino"
 date: 2026-04-28
-location: "Turin, Italy 🇮🇹"
+location: "Turin, Italy"
 coordinates: [45.0703, 7.6869]
 
 conference: "Final PhD Defense – PhD in Computer Science"
