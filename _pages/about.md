@@ -163,10 +163,25 @@ _XAI World 2024_
 
 ## Experience
 
-- 🎓 PhD Researcher — University of Turin, Italy
+- 🎓 PhD Researcher — University of Turin, Italy ([details here](https://rashidrao-pk.github.io//cv/#:~:text=Doctoral%20Researcher%20%E2%80%93%20R%26D%20Projects))
 - 🏭 Industrial Research — RuleX Innovation Labs
 - 🇪🇺 EU Project — DistriMuSe: Robotics Safety & AI
-- 🌐 Visiting Researcher — University of Granada, Spain
+- 🌐 Visiting Researcher — University of Granada, Spain ([details here](https://rashidrao-pk.github.io//cv/#:~:text=Visiting%20Doctoral%20Researcher))
+
+</div>
+
+<div class="section-box section-box-packages" markdown="1">
+
+## Published Python Packages
+
+Python packages released for explainable AI and reproducible research.
+
+| Package             | Focus                                  | Registry | Version                                                              | Links                                                                                                       |
+| ------------------- | -------------------------------------- | -------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **lime-stratified** | Stable LIME image explanations         | PyPI     | <span class="pypi-version" data-package="lime-stratified">...</span> | [PyPI](https://pypi.org/project/lime-stratified/) · [Code](https://github.com/rashidrao-pk/lime_stratified) |
+| **shap-bpt**        | Hierarchical Shapley image attribution | PyPI     | <span class="pypi-version" data-package="shap-bpt">...</span>        | [PyPI](https://pypi.org/project/shap-bpt/) · [Docs](https://shapbpt.readthedocs.io/en/latest/)              |
+
+➡️ [View all Python packages](/packages/)
 
 </div>
 
@@ -322,4 +337,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", async () => {
+  document.querySelectorAll(".pypi-version").forEach(async (el) => {
+    const pkg = el.dataset.package;
+
+    try {
+      const res = await fetch(`https://pypi.org/pypi/${pkg}/json`);
+      const data = await res.json();
+      el.textContent = data.info.version || "—";
+    } catch {
+      el.textContent = "—";
+    }
+  });
+});
+
 </script>
