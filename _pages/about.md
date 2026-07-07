@@ -17,8 +17,8 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 - Pixel-level feature attribution using Shapley-based methods
 - Robust and efficient explanation methods for computer vision
 
-📌 **AAAI 2026**: *ShapBPT — Image Feature Attribution using Data-Aware Binary Partition Trees*  
-📌 **ICPE 2026 / QualITA Workshop**: *ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study*
+📌 **AAAI 2026**: _ShapBPT — Image Feature Attribution using Data-Aware Binary Partition Trees_  
+📌 **ICPE 2026 / QualITA Workshop**: _ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study_
 
 </div>
 
@@ -56,8 +56,9 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 ## Selected Publications
 
-### ShapBPT: Image Feature Attribution using Data-Aware Binary Partition Trees  
-*AAAI 2026*
+### [ShapBPT: Image Feature Attribution using Data-Aware Binary Partition Trees](/publication/p12_shapbpt/)
+
+_AAAI 2026_
 
 <p>
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39699" class="custom-btn btn-paper">PDF</a>
@@ -70,16 +71,18 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
 </p>
 
-### ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study  
-*QualITA Workshop, ICPE 2026*
+### [ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study](/publication/p13_ShapBPT_AD/)
+
+_QualITA Workshop, ICPE 2026_
 
 <p>
   <a href="https://dl.acm.org/doi/10.1145/3777911.3800638" class="custom-btn btn-paper">Paper</a>
   <a href="https://github.com/rashidrao-pk/XAD" class="custom-btn btn-code">Code</a>
 </p>
 
-### Using Stratified Sampling to Improve LIME Image Explanations  
-*AAAI 2024*
+### [Using Stratified Sampling to Improve LIME Image Explanations](/publication/p9_lime_stratified/)
+
+_AAAI 2024_
 
 <p>
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29397" class="custom-btn btn-paper">Paper</a>
@@ -89,8 +92,9 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://rashidrao-pk.github.io/files/st_lime_slides.pdf" class="custom-btn btn-slides">Slides</a>
 </p>
 
-### Can I Trust My Anomaly Detection System?  
-*XAI World 2024*
+### [Can I Trust My Anomaly Detection System?](/publication/p10_anomaly_detection_xai/)
+
+_XAI World 2024_
 
 <p>
   <a href="https://arxiv.org/abs/2407.19951" class="custom-btn btn-arxiv">arXiv</a>
@@ -105,7 +109,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 ## Featured Projects
 
-### 🔧 Real-Time Anomaly Detection for Robotics
+### 🔧 [Real-Time Anomaly Detection for Robotics](/projects/advis-distrimuse-sr/)
 
 - Industrial safety monitoring system
 - Multi-area detection: RoboArm, Conveyor Belt, Pallet Left, Pallet Right
@@ -117,7 +121,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR" class="custom-btn btn-code">Code</a>
 </p>
 
-### ShapBPT
+### [ShapBPT](/projects/shap-bpt/)
 
 - AAAI 2026 explainability method for images
 - Uses data-aware Binary Partition Trees
@@ -135,7 +139,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
 </p>
 
-### XAD: Explainable Anomaly Detection
+### [XAD: Explainable Anomaly Detection](/projects/explainable-anomaly-detection/)
 
 - Applies ShapBPT to anomaly detection systems
 - Explains why an image or region is considered anomalous
@@ -145,7 +149,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
   <a href="https://github.com/rashidrao-pk/XAD" class="custom-btn btn-code">Code</a>
 </p>
 
-### LIME Stratified Sampling
+### [LIME Stratified Sampling](/projects/lime-stratified-sampling/)
 
 - Improves stability of LIME image explanations
 - Reduces variance in perturbation-based sampling
@@ -166,6 +170,87 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 </div>
 
+<div class="section-box section-box-opensource" markdown="1">
+
+## Open Source Contributions
+
+Selected contributions to open-source machine learning, anomaly detection, and data science software.
+
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Organization</th>
+      <th>Focus</th>
+      <th>Stars</th>
+      <th>Contribution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/open-edge-platform/anomalib">Anomalib</a></td>
+      <td> <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/open/project-catalog.html">Intel/Open Edge Platform</a></td>
+      <td>Visual Anomaly Detection</td>
+      <td><span class="github-stars" data-repo="open-edge-platform/anomalib">Loading...</span></td>
+      <td><a href="https://github.com/open-edge-platform/anomalib/pull/3630">PatchCore docs</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/microsoft/FLAML">FLAML</a></td>
+      <td>Microsoft</td>
+      <td>AutoML / ML Systems</td>
+      <td><span class="github-stars" data-repo="microsoft/FLAML">Loading...</span></td>
+      <td><a href="https://github.com/microsoft/FLAML/issues/413">Anomaly detection support</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Data-Centric-AI-Community/awesome-python-for-data-science">Awesome Python for Data Science</a></td>
+      <td>Data-Centric AI Community</td>
+      <td>Data Science Education</td>
+      <td><span class="github-stars" data-repo="Data-Centric-AI-Community/awesome-python-for-data-science">Loading...</span></td>
+      <td><a href="https://github.com/Data-Centric-AI-Community/awesome-python-for-data-science/pull/42">Anomaly detection tutorial</a></td>
+    </tr>
+  </tbody>
+</table>
+
+➡️ [View all open-source contributions](/opensource/)
+
+</div>
+
+<div class="section-box section-box-github" markdown="1">
+
+## GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=rashidrao-pk&show_icons=true&theme=default&hide_border=true"
+    alt="GitHub stats for Muhammad Rashid"
+    style="max-width:100%; height:auto;"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rashidrao-pk&layout=compact&hide_border=true"
+    alt="Top programming languages"
+    style="max-width:100%; height:auto;"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=rashidrao-pk&theme=minimal&hide_border=true&area=true"
+    alt="GitHub contribution activity graph"
+    style="max-width:100%; height:auto;"
+  />
+</p>
+
+<p align="center">
+  <a href="https://github.com/rashidrao-pk">
+    View my GitHub profile
+  </a>
+</p>
+
+</div>
+
 <div class="section-box section-box-collaboration" markdown="1">
 
 ## Collaboration
@@ -180,6 +265,30 @@ I’m interested in collaborations on:
 
 </div>
 
+<!-- <div class="section-box section-box-github" markdown="1">
+
+## GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rashidrao-pk&show_icons=true&count_private=true&hide_border=true" alt="Muhammad Rashid GitHub stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rashidrao-pk&hide_border=true" alt="Muhammad Rashid GitHub streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rashidrao-pk&hide_border=true" alt="Muhammad Rashid GitHub activity graph" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/rashidrao-pk">
+    <img src="https://github-profile-trophy.vercel.app/?username=rashidrao-pk&margin-w=10&margin-h=10&no-frame=true" alt="Muhammad Rashid GitHub trophies" />
+  </a>
+</p>
+
+</div> -->
+
 <div class="section-box section-box-contact" markdown="1">
 
 ## Contact
@@ -189,3 +298,28 @@ I’m interested in collaborations on:
 - 📚 Google Scholar: [Muhammad Rashid](https://scholar.google.com.pk/citations?user=F5u_Z5MAAAAJ)
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const starElements = document.querySelectorAll(".github-stars");
+
+  starElements.forEach(async function (el) {
+    const repo = el.dataset.repo;
+    const url = `https://api.github.com/repos/${repo}`;
+
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+
+      if (data.stargazers_count !== undefined) {
+        const stars = data.stargazers_count;
+        el.textContent = stars >= 1000 ? (stars / 1000).toFixed(1) + "k" : stars;
+      } else {
+        el.textContent = "—";
+      }
+    } catch (error) {
+      el.textContent = "—";
+    }
+  });
+});
+</script>

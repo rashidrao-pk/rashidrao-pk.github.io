@@ -29,10 +29,9 @@ conference: "https://icpe2026.spec.org/"
 thumbnail: "../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png"
 ---
 
-
 ### XAD Workflow
-<img src="../files/papers_data/shapbpt_ad/workflow.png">
 
+<img src="../files/papers_data/shapbpt_ad/workflow.png">
 
 This paper presents **ShapBPT in Perspective**, a consolidated review and practical case study of **ShapBPT** for **eXplainable Anomaly Detection (XAD)**. The work bridges **hierarchical Shapley-based explanations** with real-world anomaly detection systems, demonstrating how structured feature attributions can improve the interpretability of black-box models.
 
@@ -42,10 +41,10 @@ Unlike traditional explanation methods based on fixed partitions, **ShapBPT leve
 
 ## 🔗 Resources
 
-- **Paper**: [ACM Digital Library](https://dl.acm.org/doi/10.1145/3777911.3800638)  
-- **Code**: [XAD GitHub Repository](https://github.com/rashidrao-pk/XAD)  
-- **Workshop**: [QualITA Workshop](https://qualitawg.github.io/)  
-- **Conference**: [ICPE 2026](https://icpe2026.spec.org/)  
+- **Paper**: [ACM Digital Library](https://dl.acm.org/doi/10.1145/3777911.3800638)
+- **Code**: [XAD GitHub Repository](https://github.com/rashidrao-pk/XAD)
+- **Workshop**: [QualITA Workshop](https://qualitawg.github.io/)
+- **Conference**: [ICPE 2026](https://icpe2026.spec.org/)
 
 ---
 
@@ -69,6 +68,7 @@ ShapBPT explains anomaly detection decisions by assigning **attribution scores t
 </center>
 
 ### Example Explanation
+
 <img src="../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png">
 
 ---
@@ -88,10 +88,10 @@ This approach enables explanations to follow **intrinsic image structure**, impr
 
 ## 🧪 Experimental Setup
 
-- **Task**: Explainable Anomaly Detection  
-- **Method**: ShapBPT  
-- **Model Type**: Black-box anomaly detection models (e.g., VAE-GAN)  
-- **Explanation Level**: Pixel-level and region-level attribution  
+- **Task**: Explainable Anomaly Detection
+- **Method**: ShapBPT
+- **Model Type**: Black-box anomaly detection models (e.g., VAE-GAN)
+- **Explanation Level**: Pixel-level and region-level attribution
 
 ---
 
@@ -100,12 +100,12 @@ This approach enables explanations to follow **intrinsic image structure**, impr
 <img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png">
 
 ---
+
 ## Results over All Applications
 
 <center>
 <img src='../files/papers_data/shapbpt_ad/results_shapbpt_qualt.svg'> 
 </center>
-
 
 ## 🔑 Keywords
 
@@ -113,15 +113,14 @@ ShapBPT · Explainable Anomaly Detection · XAI · Shapley Values · Binary Part
 
 ---
 
-
 ## 👥 Authors
 
-| Sr. No. | Author Name | Affiliation | Google Scholar | 
-| :--:    | :--:        | :--:        | :--:           | 
-| 1. | Muhammad Rashid | University of Torino, Dept. of Computer Science, Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) | 
-| 2. | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) | 
-| 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
-| 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
+| Sr. No. |    Author Name    |                          Affiliation                           |                                     Google Scholar                                      |
+| :-----: | :---------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+|   1.    |  Muhammad Rashid  | University of Torino, Dept. of Computer Science, Torino, Italy |     [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en)     |
+|   2.    | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
+|   3.    |  Enrico Ferrari   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |  [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao)   |
+|   4.    |   Damiano Verda   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |   [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao)   |
 
 ---
 

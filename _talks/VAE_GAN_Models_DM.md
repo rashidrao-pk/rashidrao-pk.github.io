@@ -6,7 +6,6 @@ permalink: /talks/VAE_GAN_Models_DM
 venue: "Universidad de Vigo"
 date: 2025-11-13
 location: "Vigo, Spain"
-# Used by your webpage
 location_display: "Vigo, Spain 🇪🇸"
 coordinates: [42.2399, -8.6834]
 

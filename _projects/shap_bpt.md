@@ -8,7 +8,7 @@ subcategory:
   - Shapley Values
   - Binary Partition Trees
 
-permalink: /publication/p12_ShapBPT
+permalink: /projects/shap-bpt/
 excerpt: "A data-aware XAI method for image feature attribution using Binary Partition Trees and hierarchical Shapley values."
 research_area:
   - Explainable AI

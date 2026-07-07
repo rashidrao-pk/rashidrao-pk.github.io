@@ -3,7 +3,7 @@ title: "Can I trust my anomaly detection system? A case study based on explainab
 collection: publications
 category: conferences
 permalink: /publication/p10_anomaly_detection_xai
-excerpt: 'A Case study to highlight use of VAE-GAN based Gen-AI approach to detect Anomalies in Industrial Inspection systems.'
+excerpt: "A Case study to highlight use of VAE-GAN based Gen-AI approach to detect Anomalies in Industrial Inspection systems."
 research_area:
   - Explainable AI
   - Anomaly Detection
@@ -16,58 +16,57 @@ tags:
   - VAE-GAN
   - industrial AI
 date: 2024-07-17
-venue: 'xAI 2024 | Explainable Artificial Intelligence'
+venue: "xAI 2024 | Explainable Artificial Intelligence"
 location: "La Valletta, Malta"
-paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13'
+paperurl: "https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13"
 arxivurl: "https://arxiv.org/abs/2407.19951"
 codeurl: "https://github.com/rashidrao-pk/anomaly_detection_trust_case_study"
-slidesurl: 'http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf'
+slidesurl: "http://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf"
 thumbnail: "../files/papers_data/anomaly_detection_xai.gif"
 
-citation: 'Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In World Conference on Explainable Artificial Intelligence, pp. 243-254. Cham: Springer Nature Switzerland, 2024</i>.'
+citation: "Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In World Conference on Explainable Artificial Intelligence, pp. 243-254. Cham: Springer Nature Switzerland, 2024</i>."
 ---
 
-Generative models based on variational autoencoders are a popular technique for detecting anomalies in images in a semi-supervised context. A common approach employs the anomaly score to detect the presence of anomalies, and it is known to reach high level of accuracy on benchmark datasets. However, since anomaly scores are computed from reconstruction disparities, they often obscure the detection of various spurious features, raising concerns regarding their actual efficacy. 
-This case study explores the robustness of an anomaly detection system based on variational autoencoder generative models through the use of eXplainable AI methods. The goal is to get a different perspective on the real performances of anomaly detectors that use reconstruction differences. In our case study we discovered that, in many cases, samples are detected as anomalous for the wrong or misleading factors. 
+Generative models based on variational autoencoders are a popular technique for detecting anomalies in images in a semi-supervised context. A common approach employs the anomaly score to detect the presence of anomalies, and it is known to reach high level of accuracy on benchmark datasets. However, since anomaly scores are computed from reconstruction disparities, they often obscure the detection of various spurious features, raising concerns regarding their actual efficacy.
+This case study explores the robustness of an anomaly detection system based on variational autoencoder generative models through the use of eXplainable AI methods. The goal is to get a different perspective on the real performances of anomaly detectors that use reconstruction differences. In our case study we discovered that, in many cases, samples are detected as anomalous for the wrong or misleading factors.
 
+- Special Session: **_Explainable AI_** for improved **_human-computer interaction_**
+- Conference: **_xAI-2024_** (Explainable Artificial Intelligence)
+- Link to talk: [**_https://xaiworldconference.com/2024/timetable/event/s-17-a-1_**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1)
 
-*   Special Session: **_Explainable AI_** for improved **_human-computer interaction_**
-*   Conference: **_xAI-2024_** (Explainable Artificial Intelligence)
-*   Link to talk:   [**_https://xaiworldconference.com/2024/timetable/event/s-17-a-1_**](https://xaiworldconference.com/2024/timetable/event/s-17-a-1)
+# Contributions 📃
 
-Contributions 📃
-===
 In this research, we:
 
-1. *Review an explainable Anomaly Detection system architecture that combines VAE-GAN
-models with the LIME and SHAP explanation methods;*
-2. *Quantify the capacity of the Anomaly Detection system in performing anomaly detection
-using anomaly scores;*
-3. *Use XAI methods to determine if anomalies are actually detected for the
-right reason by comparing with a ground truth. Results show that it is not
-uncommon to find samples that were classified as anomalous, but for the
-wrong reason. We adopt a methodology based on optimal Jaccard score to
-detect such samples.*
+1. _Review an explainable Anomaly Detection system architecture that combines VAE-GAN
+   models with the LIME and SHAP explanation methods;_
+2. _Quantify the capacity of the Anomaly Detection system in performing anomaly detection
+   using anomaly scores;_
+3. _Use XAI methods to determine if anomalies are actually detected for the
+   right reason by comparing with a ground truth. Results show that it is not
+   uncommon to find samples that were classified as anomalous, but for the
+   wrong reason. We adopt a methodology based on optimal Jaccard score to
+   detect such samples._
 
-Method Availability
-===
-*   The method is available under: [https://github.com/rashidrao-pk/**anomaly_detection_trust_case_study**](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study)
-*   Links: [GitHub](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) [Paper PDF on **_Arxiv_**](https://arxiv.org/abs/2407.19951) [Proceedings of **_XAI_**](https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13), [**_Download Slides_**](https://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf) 
+# Method Availability
 
-Datasets and Models
-===
-*   **Dataset**:    MVTec (Hazelnut and Screw)
-*   **Model**:      Variational_AutoEncoder-Generative_Adverserial_Network (**_VAE-GAN_**) 
+- The method is available under: [https://github.com/rashidrao-pk/**anomaly_detection_trust_case_study**](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study)
+- Links: [GitHub](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) [Paper PDF on **_Arxiv_**](https://arxiv.org/abs/2407.19951) [Proceedings of **_XAI_**](https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13), [**_Download Slides_**](https://rashidrao-pk.github.io/files/anomaly_detection_xai_w_slides.pdf)
 
-Workflow
-===
+# Datasets and Models
+
+- **Dataset**: MVTec (Hazelnut and Screw)
+- **Model**: Variational*AutoEncoder-Generative_Adverserial_Network (\*\*\_VAE-GAN*\*\*)
+
+# Workflow
+
 <center>
 <img  width='80%' src='../files/papers_data/anomaly_detection_xai.gif'> 
 <br><caption> Workflow of <b>eXplainable Anomaly Detection (XAD)</b> Methods </caption>
 </center>
 
-Results
-===
+# Results
+
 <center>
 <img  width='80%' src='../files/papers_data/results_xad.jpg'> 
 <br><caption> Explained Anomalies on Hazelnut and Screw Dataset from <b>MVTec database</b> using <b>LIME</b> and <b>SHap XAI</b> Methods </caption>
@@ -75,18 +74,17 @@ Results
 
 ---
 
-Authors ✍️
-===
+# Authors ✍️
 
-| Sr. No. | Author Name | Affiliation | Google Scholar | 
-| :--:    | :--:        | :--:        | :--:           | 
-| 1. | Muhammad Rashid | University of Torino, Dept. of Computer Science, Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) | 
-| 2. | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) | 
-| 3. | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) | 
-| 4. | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
+| Sr. No. |    Author Name    |                          Affiliation                           |                                     Google Scholar                                      |
+| :-----: | :---------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+|   1.    |  Muhammad Rashid  | University of Torino, Dept. of Computer Science, Torino, Italy |     [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en)     |
+|   2.    | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
+|   3.    |  Enrico Ferrari   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |  [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao)   |
+|   4.    |   Damiano Verda   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |   [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao)   |
 
-Keywords 🔍
-===
+# Keywords 🔍
+
 Anomaly detection · variational autoencoder · eXplainable
 AI
 
@@ -106,4 +104,3 @@ AI
   pages     = {243--254}
 }</code></pre>
 </div>
-
