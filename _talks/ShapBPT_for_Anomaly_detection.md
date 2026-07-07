@@ -5,7 +5,9 @@ type: "Oral Presentation"
 permalink: /talks/qualita_shapbpt_xad
 venue: "QualITA Workshop | ICPE 2026"
 date: 2026-05-03
-location: "Florence, Italy 🇮🇹"
+location: "Florence, Italy"
+# Used by your webpage
+location_display: "Florence, Italy 🇮🇹"
 coordinates: [43.7696, 11.2558]
 conference: "ICPE 2026"
 workshop: "QualITA Workshop"

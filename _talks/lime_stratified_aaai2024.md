@@ -5,7 +5,10 @@ type: "Conference Poster Presentation"
 permalink: /talks/lime_stratified_aaai
 venue: "Vancouver Convention Centre"
 date: 21-02-2024
-location: "Vancouver, Canada 🇨🇦"
+location: "Vancouver, Canada"
+# Used by your webpage
+location_display: "Vancouver, Canada 🇨🇦"
+
 coordinates: [49.2884, -123.1116]
 Special Session: Main Track - Poster Talk
 Conference: AAAI-24 | The 38th Annual AAAI Conference on Artificial Intelligence
