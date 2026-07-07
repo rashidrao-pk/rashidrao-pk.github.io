@@ -1,11 +1,11 @@
 ---
 title: "Unexpected Condition Detector for Industrial Safety using Deep Generative Models"
 collection: talks
-type: "Consortium Meeting"
+type: "Oral Presentation - Consortium Meeting"
 permalink: /talks/VAE_GAN_Models_DM
 venue: "Universidad de Vigo"
 date: 2025-11-13
-location: "Vigo, Spain"
+location: "Vigo, Spain 🇪🇸"
 coordinates: [42.2399, -8.6834]
 
 conference: "Project Consortium Meeting - DistriMuSe EU Project"

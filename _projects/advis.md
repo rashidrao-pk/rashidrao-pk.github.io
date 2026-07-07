@@ -1,13 +1,19 @@
 ---
 title: "ADVIS-SR: Real-Time Anomaly Detection for Safe Human–Robot Interaction in real industrial scenario"
 permalink: /projects/advis-distrimuse-sr/
+
 category: EU Project 🇪🇺
+subcategory: "Industrial AI"
+
 excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection on real world"
 thumbnail: "../files/projects/advis.png"
+
 date: 2026-04-14
 year: 2026
+
 project_type: "Deployment Project"
-status: "Development"
+status: "Completed"
+
 research_area:
   - Computer Vision
   - Edge AI
@@ -37,7 +43,6 @@ toc_icon: "robot"
 <img src="/files/projects/advis.png">
 </center>
 
-
 <a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR" target="_blank" class="custom-btn btn-code">GitHub Repo</a>
 
 ---
@@ -66,25 +71,25 @@ Contributed to deliverables:
 - [**D3.6** First set of machine learning algorithms](https://distrimuse.eu/results/):
   - [Section 2.1.22 UNITO and RULEX](https://distrimuse.eu/results/)
 
-- [**D3.5**  Privacy-preserving trustworthy ML solutions](https://distrimuse.eu/results/):
+- [**D3.5** Privacy-preserving trustworthy ML solutions](https://distrimuse.eu/results/):
   - Section: Building Trustworthiness, Achieving Trustworthiness by Explainability and Explainable AI for Computer Vision with Robotics Focus by using [**ShapBPT**](https://rashidrao-pk.github.io//publication/p12_ShapBPT) for Robotics.
-  - Section 2: Achieving Trustworthiness by System Quality Improvement -  2.2.2 Unexpected Condition Detector: 
+  - Section 2: Achieving Trustworthiness by System Quality Improvement - 2.2.2 Unexpected Condition Detector:
 - [**D4.6** Second release of the reference implementation for the distributed platform](https://distrimuse.eu/results/)
-  - Section: SW-025 Unexpected Condition Detector -  for communication between application and worker nodes.
+  - Section: SW-025 Unexpected Condition Detector - for communication between application and worker nodes.
 
 - [**D4.5** Updated requirements and design of the distributed platform,design and simulation tools](https://distrimuse.eu/wp-content/uploads/2026/06/DistriMuSe_Deliverable_D4.5_v1.0.pdf):
-  -  _SW-025 - AI-powered anomaly detection system_
+  - _SW-025 - AI-powered anomaly detection system_
 
 ---
 
 ## Safety Areas
 
-| Safety Area | Description |
-|---|---|
-| `RoboArm` | Robot arm zone |
-| `ConvBelt` | Conveyor belt zone |
-| `PLeft` | Left personnel safety area |
-| `PRight` | Right personnel safety area |
+| Safety Area | Description                 |
+| ----------- | --------------------------- |
+| `RoboArm`   | Robot arm zone              |
+| `ConvBelt`  | Conveyor belt zone          |
+| `PLeft`     | Left personnel safety area  |
+| `PRight`    | Right personnel safety area |
 
 ---
 
@@ -109,12 +114,12 @@ Live Inference / Alert Publishing
 
 The industrial scene is decomposed into multiple monitored safety zones.
 
-| Safety Area | Description |
-|---|---|
-| RoboArm | Robotic arm operational zone |
-| ConvBelt | Conveyor belt monitoring area |
-| PLeft | Left personnel interaction area |
-| PRight | Right personnel interaction area |
+| Safety Area | Description                      |
+| ----------- | -------------------------------- |
+| RoboArm     | Robotic arm operational zone     |
+| ConvBelt    | Conveyor belt monitoring area    |
+| PLeft       | Left personnel interaction area  |
+| PRight      | Right personnel interaction area |
 
 Each zone is processed independently using dedicated anomaly detection models.
 
@@ -222,11 +227,11 @@ The GUI interface supports:
 
 ## Experimental Results
 
-| Metric | Result |
-|---|---:|
-| Accuracy | 99.61% |
-| Recall | 95.1% |
-| F1-score | 90.9% |
+| Metric          |    Result |
+| --------------- | --------: |
+| Accuracy        |    99.61% |
+| Recall          |     95.1% |
+| F1-score        |     90.9% |
 | Real-time Speed | ~12.5 FPS |
 
 ---
@@ -288,7 +293,7 @@ The full project implementation is publicly available on GitHub.
    target="_blank"
    rel="noopener noreferrer"
    class="custom-btn btn-code">
-   View Repository
+View Repository
 </a>
 
 ---

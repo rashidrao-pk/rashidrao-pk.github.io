@@ -5,7 +5,7 @@ type: "Conference Talk"
 permalink: /talks/anomaly_detection_talk_xai_w
 venue: "Mediterranean Conference Centre"
 date: 2024-07-17
-location: "La Valletta, Malta"
+location: "La Valletta, Malta 🇲🇹"
 coordinates: [35.8989, 14.5146]
 
 conference: "XAI 2024 | World Conference on Explainable Artificial Intelligence"

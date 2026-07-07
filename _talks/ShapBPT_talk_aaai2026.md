@@ -1,11 +1,11 @@
 ---
 title: "ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees"
 collection: talks
-type: "Conference Talk"
+type: "Conference Poster Presentation"
 permalink: /talks/shapbpt_aaai
 venue: "Singapore Expo Centre"
 date: 2026-01-25
-location: "Singapore"
+location: "Singapore 🇸🇬"
 coordinates: [1.3521, 103.8198]
 
 conference: "AAAI 2026 | 40th Annual AAAI Conference on Artificial Intelligence"

@@ -98,6 +98,13 @@
           {{ post.research_area | join: ", " }}
         </p>
       {% endif %}
+      {% if post.subcategory %}
+      <hr>
+      <p class="project-meta">
+        <strong>Subcategory:</strong>
+        {{ post.subcategory | join: ", " }}
+      </p>
+      {% endif %}
 
     </div>
 

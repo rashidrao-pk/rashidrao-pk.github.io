@@ -46,26 +46,7 @@
           {{ post.excerpt | markdownify | strip_html | truncate: 220 }}
         </p>
       {% endif %}
-
-      {% if post.status or post.project_type or post.year %}
-        <p class="pub-meta">
-          {% if post.project_type %}
-            <strong>Type:</strong> {{ post.project_type }}
-          {% endif %}
-
-          {% if post.status %}
-            {% if post.project_type %} · {% endif %}
-            <strong>Status:</strong> {{ post.status }}
-          {% endif %}
-
-          {% if post.year %}
-            {% if post.project_type or post.status %} · {% endif %}
-            <strong>Year:</strong> {{ post.year }}
-          {% endif %}
-        </p>
-      {% endif %}
-
-      <p class="pub-buttons">
+       <p class="pub-buttons">
         <a href="{{ base_path }}{{ post.url }}" class="custom-btn btn-paper">Project Page</a>
 
         {% if post.githuburl %}
@@ -105,11 +86,37 @@
         {% endif %}
       </p>
 
+      {% if post.status or post.project_type or post.year %}
+        <p class="pub-meta">
+          {% if post.project_type %}
+            <strong>Type:</strong> {{ post.project_type }}
+          {% endif %}
+
+          {% if post.status %}
+            {% if post.project_type %} · {% endif %}
+            <strong>Status:</strong> {{ post.status }}
+          {% endif %}
+
+          {% if post.year %}
+            {% if post.project_type or post.status %} · {% endif %}
+            <strong>Year:</strong> {{ post.year }}
+          {% endif %}
+        </p>
+      {% endif %}
+
+     
+
       {% if post.research_area %}
         <p class="pub-meta">
           <strong>Research Area:</strong>
           {{ post.research_area | join: ", " }}
         </p>
+      {% endif %}
+      {% if post.subcategory %}
+      <p class="pub-meta">
+        <strong>Subcategory:</strong>
+        {{ post.subcategory | join: ", " }}
+      </p>
       {% endif %}
 
       {% if post.technologies %}

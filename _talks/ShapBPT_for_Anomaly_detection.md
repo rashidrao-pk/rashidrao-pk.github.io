@@ -1,11 +1,11 @@
 ---
 title: "ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study"
 collection: talks
-type: "Workshop Presentation"
+type: "Oral Presentation"
 permalink: /talks/qualita_shapbpt_xad
 venue: "QualITA Workshop | ICPE 2026"
 date: 2026-05-03
-location: "Florence, Italy"
+location: "Florence, Italy 🇮🇹"
 coordinates: [43.7696, 11.2558]
 conference: "ICPE 2026"
 workshop: "QualITA Workshop"

@@ -1,31 +1,57 @@
 ---
 title: "ADVIS-UniGra: RGB Anomaly Detection for Safe Human–Robot Collaboration"
 permalink: /projects/advis-unigra/
-category: EU Project 🇪🇺
-excerpt: "RGB-based anomaly detection application for safety monitoring in collaborative robotics environments using synthetic industrial data."
-thumbnail: "../files/projects/advis/workflow.svg"
+
+# High-level classification
+category: "EU Projects 🇪🇺"
+subcategory: "Industrial AI"
+
+# Status
+status: "Prototype Delievered"
+project_type: "Research Application"
+
 date: 2026-04-14
 year: 2026
-project_type: "Research Application"
-status: "Published"
+
+excerpt: "RGB-based anomaly detection application for safety monitoring in collaborative robotics environments using synthetic industrial data."
+
+thumbnail: "../files/projects/advis/workflow.svg"
 
 research_area:
   - Computer Vision
   - Anomaly Detection
   - Explainable AI
+
+application_domain:
   - Human-Robot Collaboration
   - Industrial Safety
-  - Trustworthy AI
+  - Smart Manufacturing
+
+techniques:
+  - VAE-GAN
+  - Explainable AI
+  - Threshold Calibration
+  - One-Class Learning
 
 technologies:
   - Python
   - PyTorch
   - OpenCV
-  - VAE-GAN
   - ROS2
-  - Synthetic Data
-  - Explainable AI
-  - Threshold Calibration
+  - Zenoh
+
+datasets:
+  - DistriMuSe Synthetic
+  - ADVIS-UniGra
+
+partners:
+  - University of Turin
+  - University of Granada
+  - DistriMuSe Consortium
+
+funding:
+  - Horizon Europe
+  - DistriMuSe
 
 codeurl: "https://github.com/rashidrao-pk/advis_distrimuse_unito"
 
@@ -96,15 +122,14 @@ Contributed to deliverables:
 - [**D3.6** First set of machine learning algorithms](https://distrimuse.eu/results/):
   - [Section 2.1.22 UNITO and RULEX](https://distrimuse.eu/results/)
 
-- [**D3.5**  Privacy-preserving trustworthy ML solutions](https://distrimuse.eu/results/):
+- [**D3.5** Privacy-preserving trustworthy ML solutions](https://distrimuse.eu/results/):
   - Section: Building Trustworthiness, Achieving Trustworthiness by Explainability and Explainable AI for Computer Vision with Robotics Focus by using [**ShapBPT**](https://rashidrao-pk.github.io//publication/p12_ShapBPT) for Robotics.
-  - Section 2: Achieving Trustworthiness by System Quality Improvement -  2.2.2 Unexpected Condition Detector: 
+  - Section 2: Achieving Trustworthiness by System Quality Improvement - 2.2.2 Unexpected Condition Detector:
 - [**D4.6** Second release of the reference implementation for the distributed platform](https://distrimuse.eu/results/)
-  - Section: SW-025 Unexpected Condition Detector -  for communication between application and worker nodes.
+  - Section: SW-025 Unexpected Condition Detector - for communication between application and worker nodes.
 
 - [**D4.5** Updated requirements and design of the distributed platform,design and simulation tools](https://distrimuse.eu/wp-content/uploads/2026/06/DistriMuSe_Deliverable_D4.5_v1.0.pdf):
-  -  _SW-025 - AI-powered anomaly detection system_
-
+  - _SW-025 - AI-powered anomaly detection system_
 
 ## RGB-Based Anomaly Detection Application
 
@@ -125,10 +150,10 @@ Evaluated multiple releases of the synthetic dataset and provided feedback regar
 ## Safety-Area Monitoring
 
 Designed a monitoring strategy based on operational safety areas instead of processing the entire image as a single scene.
+
 <center>
 <img src="/files/projects/advis/preprocessing.svg">
 </center>
-
 
 ## Area-Specific Models
 
@@ -152,12 +177,12 @@ Generated anomaly maps and visual explanations to support operator understanding
 
 The industrial scene is decomposed into operationally meaningful safety zones.
 
-| Safety Area | Description |
-|-------------|-------------|
-| PLeft | Left pallet area |
-| PRight | Right pallet area |
-| RoboArm | Robot operating zone |
-| ConvBelt | Conveyor belt monitoring area |
+| Safety Area | Description                   |
+| ----------- | ----------------------------- |
+| PLeft       | Left pallet area              |
+| PRight      | Right pallet area             |
+| RoboArm     | Robot operating zone          |
+| ConvBelt    | Conveyor belt monitoring area |
 
 Each area is monitored independently using a dedicated anomaly detection model.
 
@@ -342,24 +367,24 @@ The final system achieved strong performance across monitored safety areas.
 
 ## Overall Performance
 
-| Metric | Result |
-|----------|----------:|
-| Accuracy | 99.61% |
-| Precision | 87.4% |
-| Recall | 95.1% |
-| F1-score | 90.9% |
-| Runtime | ~12.5 FPS |
+| Metric    |    Result |
+| --------- | --------: |
+| Accuracy  |    99.61% |
+| Precision |     87.4% |
+| Recall    |     95.1% |
+| F1-score  |     90.9% |
+| Runtime   | ~12.5 FPS |
 
 ---
 
 # Area-Level Results
 
-| Area | Accuracy | Precision | Recall | F1 |
-|------|-----------:|-----------:|-----------:|-----------:|
-| PLeft | 99.6% | 94.5% | 93.9% | 94.2% |
-| PRight | 99.8% | 97.1% | 80.9% | 88.3% |
-| RoboArm | 98.9% | 25.9% | 84.0% | 39.6% |
-| Overall | 99.6% | 87.4% | 85.1% | 90.9% |
+| Area    | Accuracy | Precision | Recall |    F1 |
+| ------- | -------: | --------: | -----: | ----: |
+| PLeft   |    99.6% |     94.5% |  93.9% | 94.2% |
+| PRight  |    99.8% |     97.1% |  80.9% | 88.3% |
+| RoboArm |    98.9% |     25.9% |  84.0% | 39.6% |
+| Overall |    99.6% |     87.4% |  85.1% | 90.9% |
 
 ---
 

@@ -8,76 +8,50 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
-@import
-    "vendor/breakpoint/breakpoint",
-
-    "themes",
-    "theme/default",
-    "theme/dark",
-
-    "include/mixins",
-    "vendor/susy/susy",
-
-    "layout/reset",
-    "layout/base",
-
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
-
-    "layout/forms",
-
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
-;
-
+@import "vendor/breakpoint/breakpoint", "themes", "theme/default", "theme/dark",
+  "include/mixins", "vendor/susy/susy", "layout/reset", "layout/base",
+  "include/utilities", "layout/tables", "layout/buttons", "layout/notices",
+  "layout/masthead", "layout/navigation", "layout/footer", "syntax",
+  "layout/forms", "layout/page", "layout/archive", "layout/sidebar",
+  "vendor/font-awesome/fontawesome", "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands";
 
 /* ===== Skill radio visualization (1–5) ===== */
-.skill-row{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:14px;
-  margin:8px 0;
+.skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 8px 0;
 }
 
-.skill-name{
+.skill-name {
   min-width: 240px; /* adjust */
   font-weight: 600;
 }
 
-.skill-radio{
-  display:flex;
-  gap:8px;
-  align-items:center;
+.skill-radio {
+  display: flex;
+  gap: 8px;
+  align-items: center;
   flex: 1;
 }
 
-.skill-radio .dot{
+.skill-radio .dot {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 2px solid rgba(0,0,0,0.35);
+  border: 2px solid rgba(0, 0, 0, 0.35);
   background: transparent;
   box-sizing: border-box;
 }
 
-.skill-radio .dot.on{
-  background: #469B60;
-  border-color: #469B60;
+.skill-radio .dot.on {
+  background: #469b60;
+  border-color: #469b60;
 }
 
-.skill-score{
+.skill-score {
   min-width: 52px;
   text-align: right;
   opacity: 0.85;
@@ -86,8 +60,8 @@
 
 /* dark-mode friendly */
 html[data-theme="dark"] .skill-radio .dot,
-body.dark .skill-radio .dot{
-  border-color: rgba(255,255,255,0.45);
+body.dark .skill-radio .dot {
+  border-color: rgba(255, 255, 255, 0.45);
 }
 
 .custom-btn {
@@ -200,8 +174,6 @@ a.custom-btn {
   font-weight: 600;
   margin-bottom: 4px;
 }
-
-
 
 // ===== Responsive adjustments =====
 
@@ -388,7 +360,6 @@ a.custom-btn {
   margin-left: 6px;
 }
 
-
 // GOOGLE TRASNLATE WIDGET
 
 /* Google Translate Styling */
@@ -427,18 +398,13 @@ body {
   display: none !important;
 }
 
-
 // FOR TABLE OF CONTENTS (TOC)
 /* ===== Responsive 3-column layout ===== */
-
-
-
 
 // =============================================
 // FIX: TOC sticky in right column, zero flow height
 // =============================================
 @media (min-width: 925px) {
-
   // Step 1: pull TOC out of vertical flow entirely
   // height:0 + overflow:visible means it floats right
   // but contributes ZERO height to the document flow
@@ -468,7 +434,7 @@ body {
 .pub-toc {
   background: #f4f6f9;
   padding: 12px 18px;
-  border-left: 4px solid #469B60;
+  border-left: 4px solid #469b60;
   border-radius: 6px;
   margin: 16px 0 28px 0;
   display: flex;
@@ -484,7 +450,10 @@ body {
   border-radius: 4px;
   background: #e8f5ee;
 }
-.pub-toc a:hover { background: #469B60; color: white; }
+.pub-toc a:hover {
+  background: #469b60;
+  color: white;
+}
 
 // FOR CATEGORY IN PUBLICATIONS
 
@@ -533,11 +502,9 @@ body {
 .pub-search-box input,
 #publication-search,
 input[type="search"] {
-
   background-color: #ffffff;
   color: #222;
   border: 1px solid #ccc;
-
 }
 
 /* ===== DARK MODE ===== */
@@ -545,22 +512,17 @@ input[type="search"] {
 html[data-theme="dark"] .pub-search-box input,
 html[data-theme="dark"] #publication-search,
 html[data-theme="dark"] input[type="search"] {
-
   background-color: #2b2b2b !important;
   color: #f5f5f5 !important;
   border: 1px solid #555 !important;
-
 }
 
 /* Placeholder color */
 
 html[data-theme="dark"] .pub-search-box input::placeholder,
 html[data-theme="dark"] #publication-search::placeholder {
-
   color: #bdbdbd !important;
-
 }
-
 
 /* Sort + Area select boxes */
 .pub-controls select {
@@ -574,8 +536,8 @@ html[data-theme="dark"] #publication-search::placeholder {
 
 .pub-controls select:focus {
   outline: none;
-  border-color: #469B60;
-  box-shadow: 0 0 0 2px rgba(70,155,96,0.15);
+  border-color: #469b60;
+  box-shadow: 0 0 0 2px rgba(70, 155, 96, 0.15);
 }
 
 /* Dark mode: select boxes */
@@ -595,76 +557,74 @@ body.dark .pub-controls select option,
   color: #f5f5f5 !important;
 }
 
-
 // PORTFOLIO PAGE
 /* ==========================================
    Applied Research Showcase
    ========================================== */
 
 .project-figure {
-    text-align: center;
-    margin: 0 auto 35px auto;
+  text-align: center;
+  margin: 0 auto 35px auto;
 }
 
 .project-figure img {
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-figure figcaption {
-    display: block;
-    margin: 12px auto 0 auto;
-    max-width: 900px;
+  display: block;
+  margin: 12px auto 0 auto;
+  max-width: 900px;
 
-    padding: 0 15px;
+  padding: 0 15px;
 
-    text-align: center;
-    font-size: 0.95em;
-    font-style: italic;
-    color: #6b7280;
+  text-align: center;
+  font-size: 0.95em;
+  font-style: italic;
+  color: #6b7280;
 
-    white-space: normal;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
 }
 
 .project-figure figcaption {
-    white-space: normal !important;
+  white-space: normal !important;
 }
-
 
 /* Fix project showcase captions */
 .project-showcase figure,
 .project-showcase figcaption {
-    max-width: 100% !important;
-    overflow: visible !important;
+  max-width: 100% !important;
+  overflow: visible !important;
 }
 
 .project-showcase figcaption {
-    display: block !important;
-    width: auto !important;
-    max-width: 850px !important;
-    margin: 12px auto 0 auto !important;
-    padding: 0 16px !important;
+  display: block !important;
+  width: auto !important;
+  max-width: 850px !important;
+  margin: 12px auto 0 auto !important;
+  padding: 0 16px !important;
 
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-    word-break: normal !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
 
-    text-align: center !important;
-    line-height: 1.55 !important;
-    font-size: 0.9em !important;
-    font-style: italic !important;
-    color: #666 !important;
+  text-align: center !important;
+  line-height: 1.55 !important;
+  font-size: 0.9em !important;
+  font-style: italic !important;
+  color: #666 !important;
 }
 
 // PROJECT SHOWCASE BUTTONS
@@ -673,79 +633,79 @@ body.dark .pub-controls select option,
    ========================================== */
 
 .project-card {
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-left: 5px solid #3b82f6;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 5px solid #3b82f6;
 
-    border-radius: 18px;
+  border-radius: 18px;
 
-    padding: 22px;
-    margin: 25px 0;
+  padding: 22px;
+  margin: 25px 0;
 
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 
-    transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-    border-color: #cbd5e1;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  border-color: #cbd5e1;
 }
 
 .project-card .pub-thumb {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .project-card .pub-thumb img {
-    width: 100%;
-    border-radius: 12px;
-    border: 1px solid #e5e7eb;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
 }
 
 .project-card .archive__item-title {
-    margin-top: 0;
-    margin-bottom: 12px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .project-card .archive__item-title a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .project-card .archive__item-excerpt {
-    color: #555;
-    line-height: 1.6;
+  color: #555;
+  line-height: 1.6;
 }
 
 .project-card .pub-meta {
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid #f1f5f9;
-    font-size: 0.95em;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #f1f5f9;
+  font-size: 0.95em;
 }
 
 .project-card .pub-buttons {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .project-card .pub-buttons .custom-btn {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .project-card-industrial-ai {
-    border-left-color: #2563eb;
+  border-left-color: #2563eb;
 }
 
 .project-card-explainable-ai {
-    border-left-color: #16a34a;
+  border-left-color: #16a34a;
 }
 
 .project-card-applied-ai {
-    border-left-color: #d97706;
+  border-left-color: #d97706;
 }
 
 .project-card-edge-ai {
-    border-left-color: #7c3aed;
+  border-left-color: #7c3aed;
 }
 
 // TALKS
@@ -754,173 +714,173 @@ body.dark .pub-controls select option,
    ========================================== */
 
 .talk-card-wrapper {
-    margin: 28px 0;
+  margin: 28px 0;
 }
 
 .talk-card {
-    display: flex;
-    gap: 22px;
-    align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
 
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-left: 6px solid #0ea5e9;
-    border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 6px solid #0ea5e9;
+  border-radius: 18px;
 
-    padding: 24px;
-    margin: 0;
+  padding: 24px;
+  margin: 0;
 
-    box-shadow: 0 6px 20px rgba(0,0,0,0.07);
-    transition: all 0.25s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  transition: all 0.25s ease;
 }
 
 .talk-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .talk-card .talk-thumb {
-    flex: 0 0 210px;
-    margin: 0;
+  flex: 0 0 210px;
+  margin: 0;
 }
 
 .talk-card .talk-thumb img {
-    width: 210px;
-    max-width: 210px;
-    height: auto;
-    border-radius: 12px;
-    border: 1px solid #e5e7eb;
+  width: 210px;
+  max-width: 210px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
 }
 
 .talk-card .talk-content {
-    flex: 1;
-    min-width: 0;
+  flex: 1;
+  min-width: 0;
 }
 
 .talk-card .archive__item-title {
-    margin-top: 0;
-    margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .talk-card .archive__item-excerpt {
-    color: #4b5563;
-    line-height: 1.6;
+  color: #4b5563;
+  line-height: 1.6;
 }
 
 .talk-card .pub-buttons {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .pub-category-talk {
-    background: #e0f2fe;
-    color: #075985;
+  background: #e0f2fe;
+  color: #075985;
 }
 
 @media (max-width: 768px) {
-    .talk-card {
-        flex-direction: column;
-    }
+  .talk-card {
+    flex-direction: column;
+  }
 
-    .talk-card .talk-thumb {
-        flex: none;
-        width: 100%;
-    }
+  .talk-card .talk-thumb {
+    flex: none;
+    width: 100%;
+  }
 
-    .talk-card .talk-thumb img {
-        width: 100%;
-        max-width: 100%;
-    }
+  .talk-card .talk-thumb img {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
-// PUBLICATION DETAIL PAGE 
+// PUBLICATION DETAIL PAGE
 /* ==========================================
    Publication Cards
    ========================================== */
 
 .publication-card-wrapper {
-    margin: 28px 0;
+  margin: 28px 0;
 }
 
 .publication-card {
-    display: flex;
-    gap: 22px;
-    align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
 
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-left: 6px solid #14b8a6;
-    border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 6px solid #14b8a6;
+  border-radius: 18px;
 
-    padding: 24px;
-    margin: 0;
+  padding: 24px;
+  margin: 0;
 
-    box-shadow: 0 6px 20px rgba(0,0,0,0.07);
-    transition: all 0.25s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  transition: all 0.25s ease;
 }
 
 .publication-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .publication-card .publication-thumb {
-    flex: 0 0 210px;
-    margin: 0;
+  flex: 0 0 210px;
+  margin: 0;
 }
 
 .publication-card .publication-thumb img {
-    width: 210px;
-    max-width: 210px;
-    height: auto;
-    border-radius: 12px;
-    border: 1px solid #e5e7eb;
+  width: 210px;
+  max-width: 210px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
 }
 
 .publication-card .publication-content {
-    flex: 1;
-    min-width: 0;
+  flex: 1;
+  min-width: 0;
 }
 
 .publication-card .archive__item-title {
-    margin-top: 0;
-    margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .publication-card .archive__item-excerpt {
-    color: #4b5563;
-    line-height: 1.6;
+  color: #4b5563;
+  line-height: 1.6;
 }
 
 .publication-card .pub-buttons {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .publication-card-journals {
-    border-left-color: #2563eb;
+  border-left-color: #2563eb;
 }
 
 .publication-card-conferences {
-    border-left-color: #16a34a;
+  border-left-color: #16a34a;
 }
 
 .publication-card-thesis {
-    border-left-color: #7c3aed;
+  border-left-color: #7c3aed;
 }
 
 @media (max-width: 768px) {
-    .publication-card {
-        flex-direction: column;
-    }
+  .publication-card {
+    flex-direction: column;
+  }
 
-    .publication-card .publication-thumb {
-        flex: none;
-        width: 100%;
-    }
+  .publication-card .publication-thumb {
+    flex: none;
+    width: 100%;
+  }
 
-    .publication-card .publication-thumb img {
-        width: 100%;
-        max-width: 100%;
-    }
+  .publication-card .publication-thumb img {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 /* ==========================================
@@ -929,54 +889,53 @@ body.dark .pub-controls select option,
 
 /* Conference Papers */
 .publication-card-conferences {
-    border-left: 6px solid #16a34a;
+  border-left: 6px solid #16a34a;
 }
 
 /* Journal Papers */
 .publication-card-journals {
-    border-left: 6px solid #2563eb;
+  border-left: 6px solid #2563eb;
 }
 
 /* PhD / MSc Thesis */
 .publication-card-thesis {
-    border-left: 6px solid #7c3aed;
+  border-left: 6px solid #7c3aed;
 }
 
 /* Workshop Papers */
 .publication-card-workshops {
-    border-left: 6px solid #ea580c;
+  border-left: 6px solid #ea580c;
 }
 
 /* Preprints */
 .publication-card-preprints {
-    border-left: 6px solid #0891b2;
+  border-left: 6px solid #0891b2;
 }
 
 .pub-category-conferences {
-    background: #dcfce7;
-    color: #166534;
+  background: #dcfce7;
+  color: #166534;
 }
 
 .pub-category-journals {
-    background: #dbeafe;
-    color: #1d4ed8;
+  background: #dbeafe;
+  color: #1d4ed8;
 }
 
 .pub-category-thesis {
-    background: #ede9fe;
-    color: #6d28d9;
+  background: #ede9fe;
+  color: #6d28d9;
 }
 
 .pub-category-workshops {
-    background: #ffedd5;
-    color: #c2410c;
+  background: #ffedd5;
+  color: #c2410c;
 }
 
 .pub-category-preprints {
-    background: #cffafe;
-    color: #155e75;
+  background: #cffafe;
+  color: #155e75;
 }
-
 
 //  MAIN PAGE STYLES
 /* ==========================================
@@ -984,63 +943,62 @@ body.dark .pub-controls select option,
    ========================================== */
 
 .section-box {
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-left: 6px solid #64748b;
-    border-radius: 18px;
-    padding: 24px 26px;
-    margin: 28px 0;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-    transition: all 0.25s ease;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 6px solid #64748b;
+  border-radius: 18px;
+  padding: 24px 26px;
+  margin: 28px 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease;
 }
 
 .section-box:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
 .section-box h2,
 .section-box h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .section-box p:last-child,
 .section-box ul:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .section-box-focus {
-    border-left-color: #2563eb;
+  border-left-color: #2563eb;
 }
 
 .section-box-systems {
-    border-left-color: #16a34a;
+  border-left-color: #16a34a;
 }
 
 .section-box-tools {
-    border-left-color: #7c3aed;
+  border-left-color: #7c3aed;
 }
 
 .section-box-publications {
-    border-left-color: #ea580c;
+  border-left-color: #ea580c;
 }
 
 .section-box-projects {
-    border-left-color: #0891b2;
+  border-left-color: #0891b2;
 }
 
 .section-box-experience {
-    border-left-color: #9333ea;
+  border-left-color: #9333ea;
 }
 
 .section-box-collaboration {
-    border-left-color: #dc2626;
+  border-left-color: #dc2626;
 }
 
 .section-box-contact {
-    border-left-color: #0f766e;
+  border-left-color: #0f766e;
 }
-
 
 /* ==========================================
    DARK MODE FIXES FOR CUSTOM CARDS / BOXES
@@ -1215,7 +1173,7 @@ html[data-theme="dark"] .pub-toc,
 body.dark .pub-toc,
 [data-theme="dark"] .pub-toc {
   background: #111827 !important;
-  border-left-color: #469B60 !important;
+  border-left-color: #469b60 !important;
 }
 
 html[data-theme="dark"] .pub-toc a,
@@ -1243,7 +1201,7 @@ body.dark .tag:hover,
 html[data-theme="dark"] .pub-category-badge,
 body.dark .pub-category-badge,
 [data-theme="dark"] .pub-category-badge {
-  border: 1px solid rgba(255,255,255,0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 /* Better dark-mode hover for custom buttons */
@@ -1255,13 +1213,12 @@ body.dark .custom-btn:hover,
   color: #ffffff !important;
 }
 
-
 .research-metrics-card {
   background: var(--global-card-bg);
   border-radius: 16px;
   padding: 1.5rem;
   margin: 1rem 0 2rem;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
 
 .metrics-updated {
@@ -1269,8 +1226,6 @@ body.dark .custom-btn:hover,
   font-size: 0.9rem;
   opacity: 0.8;
 }
-
-
 
 .btn-dataset {
   background: #16a34a;
@@ -1322,7 +1277,7 @@ body.dark .custom-btn:hover,
   border-radius: 10px;
   border: 1px solid #cbd5e1;
   background: #000;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.4);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
 }
 
 .project-figure figcaption {
@@ -1332,7 +1287,6 @@ body.dark .custom-btn:hover,
   color: #475569;
   text-align: center;
 }
-
 
 .project-showcase {
   width: 100%;
@@ -1407,28 +1361,27 @@ body.dark .custom-btn:hover,
   font-weight: 600;
 }
 
-
 #freelanceTable {
-    width: 100%;
-    font-size: 0.95rem;
+  width: 100%;
+  font-size: 0.95rem;
 }
 
 #freelanceTable thead th {
-    background: #2563eb;
-    color: white;
+  background: #2563eb;
+  color: white;
 }
 
 .dataTables_wrapper {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .dataTables_filter input {
-    border-radius: 8px;
-    padding: 6px;
+  border-radius: 8px;
+  padding: 6px;
 }
 
 .dataTables_length select {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 #freelanceTable th {
@@ -1446,4 +1399,35 @@ body.dark .custom-btn:hover,
   font-size: 0.8rem;
   color: #2563eb;
   margin-left: 4px;
+}
+
+.project-meta {
+  margin: 6px 0;
+  line-height: 1.45;
+}
+
+html[data-theme="dark"] .pub-meta,
+body.dark .pub-meta {
+  border-top: 1px solid #374151;
+  color: #d1d5db;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.project-card .pub-meta {
+  margin: 6px 0 !important;
+  padding: 6px 0 0 0 !important;
+  border-top: none !important;
+  line-height: 1.45 !important;
+  font-size: 0.95rem;
+}
+
+.project-card .pub-meta + .pub-meta {
+  margin-top: 4px !important;
+}
+
+.project-card hr {
+  display: none !important;
 }

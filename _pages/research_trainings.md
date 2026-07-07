@@ -15,6 +15,7 @@ This page summarizes my research activities, international collaborations, docto
 ## Distributed Multi-Sensor Systems for Human Safety and Health
 
 Research activities focused on:
+
 - Explainable AI for robotics safety
 - Visual anomaly detection
 - Human–robot collaboration
@@ -25,12 +26,12 @@ Research activities focused on:
 
 **See consortium meetings** [here - https://distrimuse.eu/events/](https://distrimuse.eu/events/).
 
-| Date | Activity |
-|---|---|
-| **Nov 2025** | Presented project updates through a **5-minute technical talk** and **poster presentation** at the DistriMuSe consortium meeting hosted by the **University of Vigo, Spain**. <a href="/talks/VAE_GAN_Models_DM" target="_blank"><img src="https://img.shields.io/badge/Talk-Page-blue"></a> |
-| **May 2025** | Presented progress on anomaly detection and ADVIS integration during the consortium meeting hosted by **Brno University of Technology, Czech Republic**. |
-| **Jan–Aug 2025** | Visiting researcher at **ValeriaLab, University of Granada, Spain**, working on synthetic industrial data generation and explainable anomaly detection for robotics safety. |
-| **Nov 2024** | Participated in the DistriMuSe consortium meeting in **Stuttgart, Germany**. |
+| Date             | Activity                                                                                                                                                                                                                                                                                     |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nov 2025**     | Presented project updates through a **5-minute technical talk** and **poster presentation** at the DistriMuSe consortium meeting hosted by the **University of Vigo, Spain**. <a href="/talks/VAE_GAN_Models_DM" target="_blank"><img src="https://img.shields.io/badge/Talk-Page-blue"></a> |
+| **May 2025**     | Presented progress on anomaly detection and ADVIS integration during the consortium meeting hosted by **Brno University of Technology, Czech Republic**.                                                                                                                                     |
+| **Jan–Aug 2025** | Visiting researcher at **ValeriaLab, University of Granada, Spain**, working on synthetic industrial data generation and explainable anomaly detection for robotics safety.                                                                                                                  |
+| **Nov 2024**     | Participated in the DistriMuSe consortium meeting in **Stuttgart, Germany**.                                                                                                                                                                                                                 |
 
 <p>
   <a href="https://distrimuse.eu/about-the-project/" class="custom-btn btn-demo">Project Website</a>
@@ -43,13 +44,14 @@ Research activities focused on:
 # 🇪🇺 EU Project — NextPerception
 
 Research focused on:
+
 - Explainable Artificial Intelligence (XAI)
 - Trustworthy computer vision
 - Improved LIME explanations
 - Visual interpretability in AI systems
 
-| Date | Activity |
-|---|---|
+| Date         | Activity                                                                                                                                                       |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Feb 2024** | Contributed to Explainable AI research by improving LIME Image explanations using stratified sampling; research presented at **AAAI 2024**, Vancouver, Canada. |
 
 <p>
@@ -66,7 +68,7 @@ Research focused on:
 
 **ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees**
 
-Accepted in the **Main Track** of the AAAI Conference on Artificial Intelligence 2026.
+Presented in the **Main Track** of the AAAI Conference on Artificial Intelligence 2026.
 
 <p>
   <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39699" class="custom-btn btn-paper">PDF</a>
@@ -115,20 +117,17 @@ Accepted in the **Main Track** of the AAAI Conference on Artificial Intelligence
   <a href="../publication/p9_lime_stratified" class="custom-btn btn-demo">Project Page</a>
 </p>
 
-
-
-
 ---
 
 # 🎓 Doctoral Research & Training
 
-| Date | Activity |
-|---|---|
-| **Apr 2026** | Successfully defended the PhD thesis: *Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries*. |
-| **Jan–Aug 2025** | Erasmus+ international mobility period at the **University of Granada, Spain**. |
-| **Oct–Dec 2024** | Industrial research placement at **RuleX Innovation Labs**, Italy. |
-| **Oct 2023–Jan 2024** | Initial industrial placement at **RuleX Innovation Labs** focused on trustworthy AI for industrial applications. |
-| **Apr 2024** | Presented doctoral research at the **COMETE PhD Workshop**, University of Torino. |
+| Date                  | Activity                                                                                                                                                                     |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Apr 2026**          | Successfully defended the PhD thesis: _Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries_. |
+| **Jan–Aug 2025**      | Erasmus+ international mobility period at the **University of Granada, Spain**.                                                                                              |
+| **Oct–Dec 2024**      | Industrial research placement at **RuleX Innovation Labs**, Italy.                                                                                                           |
+| **Oct 2023–Jan 2024** | Initial industrial placement at **RuleX Innovation Labs** focused on trustworthy AI for industrial applications.                                                             |
+| **Apr 2024**          | Presented doctoral research at the **COMETE PhD Workshop**, University of Torino.                                                                                            |
 
 <p>
   <a href="../files/certificates/erasmus_funding.png" class="custom-btn btn-paper">Erasmus+ Certificate</a>
@@ -140,12 +139,12 @@ Accepted in the **Main Track** of the AAAI Conference on Artificial Intelligence
 
 # 🌍 Conferences, Schools & Workshops
 
-| Event | Location | Date | Links |
-|---|---|---|---|
-| Oxford Machine Learning Summer School | Oxford, UK | Jul 2024 | <a href="../files/certificates/OxML.png" class="custom-btn btn-paper">Certificate</a> |
-| XAI-World 2024 | Valletta, Malta | Jul 2024 | <a href="../files/certificates/xai_2024.png" class="custom-btn btn-paper">Certificate</a> |
-| AAAI 2024 | Vancouver, Canada | Feb 2024 | <a href="../files/certificates/AAAI-24_Certificate.jpeg" class="custom-btn btn-paper">Certificate</a> |
-| ECML-PKDD 2023 | Turin, Italy | Sep 2023 | <a href="../files/certificates/ECML_23.png" class="custom-btn btn-paper">Certificate</a> |
+| Event                                 | Location          | Date     | Links                                                                                                 |
+| ------------------------------------- | ----------------- | -------- | ----------------------------------------------------------------------------------------------------- |
+| Oxford Machine Learning Summer School | Oxford, UK        | Jul 2024 | <a href="../files/certificates/OxML.png" class="custom-btn btn-paper">Certificate</a>                 |
+| XAI-World 2024                        | Valletta, Malta   | Jul 2024 | <a href="../files/certificates/xai_2024.png" class="custom-btn btn-paper">Certificate</a>             |
+| AAAI 2024                             | Vancouver, Canada | Feb 2024 | <a href="../files/certificates/AAAI-24_Certificate.jpeg" class="custom-btn btn-paper">Certificate</a> |
+| ECML-PKDD 2023                        | Turin, Italy      | Sep 2023 | <a href="../files/certificates/ECML_23.png" class="custom-btn btn-paper">Certificate</a>              |
 
 <p>
   <a href="/courses/" class="custom-btn btn-demo">📘 Courses & Training</a>
