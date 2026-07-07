@@ -6,7 +6,7 @@ permalink: /packages/
 
 <div class="section-box section-box-packages" markdown="1">
 
-# Published Python Packages
+<!-- # Published Python Packages -->
 
 This page summarizes my published Python packages for Explainable AI (XAI), Computer Vision, and reproducible machine learning research.
 
