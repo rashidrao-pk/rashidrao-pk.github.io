@@ -103,28 +103,28 @@ This research makes the following contributions:
 
 ShapBPT first constructs a data-aware image hierarchy using a Binary Partition Tree. This hierarchy represents the image at multiple levels of granularity, from coarse regions to fine visual structures. Shapley-based attribution scores are then computed over this hierarchy, allowing the method to assign importance values to meaningful image regions instead of arbitrary pixel grids.
 
-<img src="../files/papers_data/Fig1_explain_bpt-1.png">
+<img src="{{ '/files/papers_data/Fig1_explain_bpt-1.png' | relative_url }}" alt="ShapBPT overview">
 
 <hr>
 
-<img src="../files/papers_data/bpt-animation.gif">
+<img src="{{ '/files/papers_data/bpt-animation.gif' | relative_url }}" alt="Binary Partition Tree animation">
 
 <hr>
 
-<img src="../files/papers_data/sequence_aa.gif">
-<img src="../files/papers_data/sequence_bpt.gif">
+<img src="{{ '/files/papers_data/sequence_aa.gif' | relative_url }}" alt="Agglomerative algorithm sequence">
+<img src="{{ '/files/papers_data/sequence_bpt.gif' | relative_url }}" alt="Binary Partition Tree sequence">
 
 <hr>
 
-<img src="../files/papers_data/Fig3_sequence_explanations-1.png">
+<img src="{{ '/files/papers_data/Fig3_sequence_explanations-1.png' | relative_url }}" alt="ShapBPT explanation sequence">
 
 <hr>
 
-<img src="../files/papers_data/aa_plot.png">
+<img src="{{ '/files/papers_data/aa_plot.png' | relative_url }}" alt="Agglomerative algorithm plot">
 
 <hr>
 
-<img src="../files/papers_data/bpt_plot.png">
+<img src="{{ '/files/papers_data/bpt_plot.png' | relative_url }}" alt="Binary Partition Tree plot">
 
 <hr>
 
