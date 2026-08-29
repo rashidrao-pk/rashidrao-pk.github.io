@@ -203,6 +203,13 @@ Selected contributions to open-source machine learning, anomaly detection, and d
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/deel-ai/xplique">Xplique</a></td>
+      <td>DEEL</td>
+      <td>Explainable AI</td>
+      <td><span class="github-stars" data-repo="deel-ai/xplique">Loading...</span></td>
+      <td><a href="https://github.com/deel-ai/xplique/pull/184">Tabular plot colorbar fix</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/open-edge-platform/anomalib">Anomalib</a></td>
       <td> <a href="https://www.intel.com/content/www/us/en/developer/topic-technology/open/project-catalog.html">Intel/Open Edge Platform</a></td>
       <td>Visual Anomaly Detection</td>
@@ -234,21 +241,7 @@ Selected contributions to open-source machine learning, anomaly detection, and d
 
 ## GitHub Activity
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=rashidrao-pk&show_icons=true&theme=default&hide_border=true"
-    alt="GitHub stats for Muhammad Rashid"
-    style="max-width:100%; height:auto;"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rashidrao-pk&layout=compact&hide_border=true"
-    alt="Top programming languages"
-    style="max-width:100%; height:auto;"
-  />
-</p>
+[![Top Langs](https://gh-stats.skiddph.com/api/top-langs?username=rashidrao-pk&layout=compact&langs_count=10&hide=html,css&exclude_repo=old-project&theme=tokyonight)](https://github.com/rashidrao-pk)
 
 <p align="center">
   <img

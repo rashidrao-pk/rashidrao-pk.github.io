@@ -26,6 +26,16 @@ Selected contributions to open-source machine learning, anomaly detection, expla
 </thead>
 <tbody>
 <tr>
+<td><a href="https://github.com/deel-ai/xplique"><strong>Xplique</strong></a></td>
+<td>DEEL</td>
+<td><span class="github-stars" data-repo="deel-ai/xplique">...</span></td>
+<td><span class="github-language" data-repo="deel-ai/xplique">...</span></td>
+<td>Tabular plot colorbar fix and regression test</td>
+<td>✅ Merged</td>
+<td><a href="https://github.com/deel-ai/xplique/pull/184">PR</a></td>
+</tr>
+
+<tr>
 <td><a href="https://github.com/open-edge-platform/anomalib"><strong>Anomalib</strong></a></td>
 <td>Open Edge Platform</td>
 <td><span class="github-stars" data-repo="open-edge-platform/anomalib">...</span></td>
@@ -95,6 +105,16 @@ Selected contributions to open-source machine learning, anomaly detection, expla
 
 <script>
 const contributions = [
+  {
+    repo: "deel-ai/xplique",
+    org: "DEEL",
+    contribution: "Fixed tabular summary-plot colorbar compatibility with recent Matplotlib versions and added a regression test",
+    type: "Bug Fix / Testing",
+    status: "✅ Merged",
+    pr: "https://github.com/deel-ai/xplique/pull/184",
+    issue: "https://github.com/deel-ai/xplique/issues/159",
+    tags: ["Explainable AI", "Visualization", "Matplotlib", "Testing"]
+  },
   {
     repo: "open-edge-platform/anomalib",
     org: "Open Edge Platform",
