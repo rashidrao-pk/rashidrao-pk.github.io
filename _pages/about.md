@@ -69,7 +69,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 <div class="publication-card-content">
 
 <img
-src="../files/papers_data/Fig3_sequence_explanations-1.png"
+src="../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 alt="ShapBPT"
 class="publication-thumbnail">
 
@@ -90,7 +90,7 @@ href="https://ojs.aaai.org/index.php/AAAI/article/view/39699"
 class="custom-btn btn-paper"
 target="_blank"
 rel="noopener noreferrer">
-PDF
+Paper PDF
 </a>
 
 <a
@@ -142,7 +142,7 @@ User Study
 </a>
 
 <a
-href="/files/AAAI_26_poster.pdf"
+href="https://underline.io/lecture/141841-shapbpt-image-feature-attributions-using-data-aware-binary-partition-trees"
 class="custom-btn btn-poster"
 target="_blank"
 rel="noopener noreferrer">
@@ -164,7 +164,7 @@ Poster
 <div class="publication-card-content">
 
 <img
-src="../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png"
+src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 alt="ShapBPT in Perspective"
 class="publication-thumbnail">
 
@@ -185,7 +185,7 @@ href="https://dl.acm.org/doi/10.1145/3777911.3800638"
 class="custom-btn btn-paper"
 target="_blank"
 rel="noopener noreferrer">
-Paper
+Paper PDF
 </a>
 
 <a
@@ -211,7 +211,7 @@ Code
 <div class="publication-card-content">
 
 <img
-src="/files/papers_data/LIME-Image-workflow.png"
+src="/files/papers_data/lime/LIME-Image-workflow.png"
 alt="Using Stratified Sampling to Improve LIME Image Explanations"
 class="publication-thumbnail">
 
@@ -232,7 +232,7 @@ href="https://ojs.aaai.org/index.php/AAAI/article/view/29397"
 class="custom-btn btn-paper"
 target="_blank"
 rel="noopener noreferrer">
-Paper
+Paper PDF
 </a>
 
 <a
@@ -268,7 +268,15 @@ PyPI
 </a>
 
 <a
-href="/files/st_lime_slides.pdf"
+href="/files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf"
+class="custom-btn btn-tests"
+target="_blank"
+rel="noopener noreferrer">
+Poster
+</a>
+
+<a
+href="/files/papers_data/lime/st_lime_slides.pdf"
 class="custom-btn btn-slides"
 target="_blank"
 rel="noopener noreferrer">
@@ -290,7 +298,7 @@ Slides
 <div class="publication-card-content">
 
 <img
-src="../files/papers_data/anomaly_detection_xai.gif"
+src="../files/papers_data/XAD/anomaly_detection_xai.gif"
 alt="Can I Trust My Anomaly Detection System?"
 class="publication-thumbnail">
 
@@ -306,6 +314,16 @@ Can I Trust My Anomaly Detection System?
 
 <div class="publication-actions">
 
+<!-- codeurl: "https://github.com/rashidrao-pk/anomaly_detection_trust_case_study" -->
+
+<a
+href="https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13"
+class="custom-btn btn-arxiv"
+target="_blank"
+rel="noopener noreferrer">
+Paper PDF
+</a>
+
 <a
 href="https://arxiv.org/abs/2407.19951"
 class="custom-btn btn-arxiv"
@@ -320,6 +338,14 @@ class="custom-btn btn-code"
 target="_blank"
 rel="noopener noreferrer">
 Code
+</a>
+
+<a
+href="https://rashidrao-pk.github.io/files/papers_data/XAD/anomaly_detection_xai_w_slides.pdf"
+class="custom-btn btn-code"
+target="_blank"
+rel="noopener noreferrer">
+Slides
 </a>
 
 </div>
@@ -438,7 +464,7 @@ Dataset
 </div>
 
 <img
-src="/files/projects/advis/workflow.svg"
+src="/files/projects/advis/ADVIS_Detection_results.png"
 alt="ADVIS-UniGra anomaly detection workflow"
 class="project-thumbnail">
 
@@ -471,7 +497,7 @@ and Shapley-based feature attribution.
 class="custom-btn btn-paper"
 target="_blank"
 rel="noopener noreferrer">
-PDF
+Paper PDF
 </a>
 
 <a href="https://www.arxiv.org/abs/2602.07047"
@@ -507,7 +533,7 @@ Docs
 </div>
 
 <img
-src="../files/papers_data/Fig3_sequence_explanations-1.png"
+src="../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 alt="ShapBPT"
 class="project-thumbnail">
 
@@ -553,7 +579,7 @@ Code
 </div>
 
 <img
-src="../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png"
+src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 alt="XAD Explainable Anomaly Detection"
 class="project-thumbnail">
 
@@ -606,7 +632,7 @@ PyPI
 </div>
 
 <img
-src="/files/papers_data/LIME-Image-workflow.png"
+src="/files/papers_data/lime/LIME-Image-workflow.png"
 alt="LIME Stratified Sampling"
 class="project-thumbnail">
 

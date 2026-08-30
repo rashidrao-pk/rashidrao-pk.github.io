@@ -4,7 +4,7 @@ collection: projects
 category: Explainable AI
 permalink: /projects/explainable-anomaly-detection/
 excerpt: "A case study on building trust in anomaly detection systems using VAE-GAN models and explainable AI."
-thumbnail: "../files/papers_data/anomaly_detection_xai.gif"
+thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"
 date: 2024-07-01
 year: 2024
 project_type: "Research Project"

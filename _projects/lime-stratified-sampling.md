@@ -4,7 +4,7 @@ collection: projects
 category: Explainable AI
 permalink: /projects/lime-stratified-sampling/
 excerpt: "An improved LIME sampling strategy for generating more stable and reliable image explanations."
-thumbnail: "../files/papers_data/LIME-Image-workflow.png"
+thumbnail: "../files/papers_data/lime/LIME-Image-workflow.png"
 date: 2024-01-01
 year: 2024
 project_type: "Research Project"
@@ -22,7 +22,7 @@ paperurl: "https://ojs.aaai.org/index.php/AAAI/article/view/29397"
 codeurl: "https://github.com/rashidrao-pk/lime_stratified"
 testurl: "https://github.com/rashidrao-pk/lime-stratified-examples"
 pypiurl: "https://pypi.org/project/lime-stratified/"
-slidesurl: "https://rashidrao-pk.github.io/files/st_lime_slides.pdf"
+slidesurl: "https://rashidrao-pk.github.io/files/papers_data/lime/st_lime_slides.pdf"
 
 toc: true
 toc_sticky: true

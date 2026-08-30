@@ -21,7 +21,7 @@ location: "La Valletta, Malta"
 paperurl: "https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13"
 arxivurl: "https://arxiv.org/abs/2407.19951"
 codeurl: "https://github.com/rashidrao-pk/anomaly_detection_trust_case_study"
-slidesurl: "http://rashidrao-pk.github.io/files/XAD/anomaly_detection_xai_w_slides.pdf"
+slidesurl: "http://rashidrao-pk.github.io/files/papers_data/XAD/anomaly_detection_xai_w_slides.pdf"
 thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"
 
 citation: "Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In World Conference on Explainable Artificial Intelligence, pp. 243-254. Cham: Springer Nature Switzerland, 2024</i>."

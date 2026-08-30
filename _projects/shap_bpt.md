@@ -51,7 +51,7 @@ docsurl: "https://shapbpt.readthedocs.io/en/latest/"
 userstudyurl: "https://huggingface.co/spaces/rashidrao/shapbpt-user-study"
 posterurl: "https://underline.io/lecture/141841-shapbpt-image-feature-attributions-using-data-aware-binary-partition-trees"
 citation: "Rashid, Muhammad, Amparore, Elvio G., Ferrari, Enrico, and Verda, Damiano. (2026). ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees. Proceedings of the AAAI Conference on Artificial Intelligence, 40."
-thumbnail: "../files/papers_data/Fig1_explain_bpt-1.png"
+thumbnail: "../files/papers_data/shapbpt/Fig1_explain_bpt-1.png"
 
 toc: true
 toc_sticky: true

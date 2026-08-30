@@ -246,7 +246,8 @@ AAAI Conference on Artificial Intelligence (AAAI 2026)
   <a href="https://github.com/rashidrao-pk/shap_bpt_tests" class="custom-btn btn-tests">Tests</a>
   <a href="https://pypi.org/project/shap-bpt/" class="custom-btn btn-pypi">PyPI</a>
   <a href="https://huggingface.co/spaces/rashidrao/shapbpt-user-study" class="custom-btn btn-demo">User Study</a>
-  <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
+  <a href="https://underline.io/lecture/141841-shapbpt-image-feature-attributions-using-data-aware-binary-partition-trees" class="custom-btn btn-poster">Poster</a>
+  <a href="https://rashidrao-pk.github.io/publication/p12_ShapBPT" class="custom-btn btn-demo">Details</a>
 </p>
 
 ---
@@ -276,7 +277,10 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
   <a href="https://github.com/rashidrao-pk/lime-stratified-examples" class="custom-btn btn-tests">Examples</a>
   <a href="https://pypi.org/project/lime-stratified/" class="custom-btn btn-pypi">PyPI</a>
   <a href="https://muhammad-rashid.medium.com/stratified-lime-to-generate-image-explanation-an-improved-version-of-lime-image-6b9668f03f1f" class="custom-btn btn-demo">Blog</a>
+  <a href="https://rashidrao-pk.github.io//files/papers_data/lime/st_lime_slides.pdf" class="custom-btn btn-demo">Slides</a>
+  <a href="https://rashidrao-pk.github.io/files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf" class="custom-btn btn-demo">Poster</a>
   <a href="https://rashidrao-pk.github.io/publication/p9_lime_stratified" class="custom-btn btn-demo">Details</a>
+
 </p>
 
 ---
