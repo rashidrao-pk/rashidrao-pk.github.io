@@ -21,9 +21,20 @@ Turin, Italy
 
 # Professional Summary
 
-I am a researcher in **Computer Vision**, **Explainable AI (XAI)**, and **Visual Anomaly Detection**, with a focus on trustworthy AI systems for safety-critical industrial environments. My PhD research at the **University of Torino** and **RuleX Innovation Labs** focused on improving trust in black-box AI models through explainable visual attribution methods and robust anomaly detection frameworks for smart industries.
+I am a **Research Fellow in Computer Science at the University of Torino**
+specializing in **Explainable Artificial Intelligence (XAI)**,
+**Computer Vision**, and **Visual Anomaly Detection**, with a focus on
+trustworthy and deployable AI for safety-critical and industrial environments.
 
-My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection with **VAE-GANs**, and **ADVIS**, a real-time anomaly detection and visual intelligence system for human safety in collaborative robotics.
+My research spans explainable computer vision, Shapley-value-based attribution,
+normal-only anomaly detection, generative models, industrial robotics safety,
+and real-time AI systems. I have developed methods and systems including
+**LIME Stratified**, **ShapBPT**, **XAD**, and **ADVIS**, with research
+published at venues including **AAAI, ACM ICPE/QualITA, and XAI**.
+
+Alongside my core research, I contribute to open-source machine learning
+software and collaborate on ongoing research in time-series and video anomaly
+detection, interpretable machine learning, cybersecurity, and trustworthy AI.
 
 ---
 
@@ -67,16 +78,16 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
 
 # Research Areas
 
-- Explainable Artificial Intelligence (XAI)
-- Explainable Computer Vision
-- Shapley-value-based explanations
-- LIME, SHAP, ShapBPT
-- Visual anomaly detection
-- VAE-GAN and deep generative models
-- Industrial AI and safety-critical systems
-- Human–robot collaboration
-- Medical image analysis
-- Edge AI and model deployment
+- Explainable Artificial Intelligence (XAI) and Trustworthy AI
+- Explainable Computer Vision and Feature Attribution
+- Visual and Video Anomaly Detection
+- Time-Series Anomaly Detection
+- Shapley-value-based Explanations
+- Generative Models and One-Class Learning
+- Industrial AI and Smart Manufacturing
+- Human–Robot Collaboration and Robotics Safety
+- Edge AI and Real-Time Machine Learning
+- Multimodal and Vision-Language AI
 
 ---
 
@@ -89,10 +100,11 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
 
 Working within the [**DistriMuSe**](https://distrimuse.eu/) EU project under the supervision of [Prof. Elvio G. Amparore](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore).
 
-- Leading validation and optimization of anomaly detection pipelines for industrial robotics safety.
-- Evaluating robustness on synthetic and real industrial datasets.
-- Supporting integration of anomaly detection models into distributed robotics architectures.
-- Improving ADVIS for real-time safety monitoring in collaborative robotic environments.
+- Developing and validating visual anomaly detection systems for industrial robotics safety.
+- Evaluating robustness across synthetic and real-world industrial environments.
+- Developing RGB-based safety-area monitoring and normal-only anomaly detection pipelines.
+- Supporting real-time integration using ROS2 and distributed robotics architectures.
+- Investigating explainability, threshold calibration, and deployment of anomaly detection systems.
 
 ---
 
@@ -139,32 +151,44 @@ Working within the [**DistriMuSe**](https://distrimuse.eu/) EU project under the
 
 ## Freelance Computer Vision & Machine Learning Developer
 
-**Upwork & Fiverr**  
-**2018 – 2023**
+**Independent / Upwork / Fiverr**  
+**2017 – 2023**
 
-- Delivered 10+ applied computer vision and machine learning projects.
-- Developed GUI-based applications for object detection, classification, and image analysis.
-- Worked on projects in medical imaging, surveillance, agriculture, and industrial inspection.
+- Delivered 10+ applied machine learning, computer vision, and image-analysis projects.
+- Developed end-to-end solutions spanning data preprocessing, model development,
+  evaluation, visualization, and GUI-based deployment.
+- Worked across medical imaging, surveillance, agriculture, object recognition,
+  and industrial image analysis.
 
 ---
 
 # Participation in Research Projects
 
-## DistriMuSe — EU Project
+## DistriMuSe — EU Horizon Europe Project
 
-**Use Case 3: Safe Interaction with Robots**
+**Use Case 3: Safe Interaction and Cooperation with Robots**
 
-Role: **Anomaly detection research, AI demonstrator development, and system integration**
+Role: **Visual anomaly detection, AI demonstrator development, validation, and system integration**
 
-- Designed a real-time visual anomaly detection framework for collaborative robotics safety.
-- Developed an end-to-end pipeline covering ROS streams, preprocessing, masking, safety-area segmentation, model training, threshold calibration, and real-time inference.
-- Introduced localized anomaly detection across **RoboArm**, **ConvBelt**, **PLeft**, and **PRight**.
-- Used **ROS2** for critical safety messages and **Zenoh** for non-critical explainability streams.
-- Developed GUI tools for anomaly timelines, reconstruction inspection, and system monitoring.
-- Supported Demo 3.2 and Demo 3.3 with synthetic and real-world validation.
-- Achieved **99.61% accuracy**, **95.1% recall**, **90.9% F1-score**, and approximately **12.5 FPS** real-time inference.
+### ADVIS-UniGra — Synthetic Industrial Environment
 
-Repository: [ADVIS DistriMuSe UC3](https://github.com/rashidrao-pk/advis_distrimuse_unito_SR)
+- Developed an RGB anomaly detection framework for collaborative robotics safety.
+- Designed safety-area-specific anomaly detection for PLeft, PRight, RoboArm, and ConvBelt.
+- Developed area-specific VAE-GAN models with normal-only training.
+- Evaluated L1, L2, SSIM, RAVI, and spatially tolerant anomaly scoring.
+- Achieved approximately **99.6% accuracy** and **12.5 FPS** inference.
+- Contributed to validation activities and technical deliverables within DistriMuSe.
+- Github Repository: [ADVIS-UniGra](https://github.com/rashidrao-pk/advis_distrimuse_unito)
+
+### ADVIS-SR — Real Industrial Environment
+
+- Extended ADVIS from simulation to a real robotic palletizing environment.
+- Developed multi-area RGB monitoring for unexpected-condition detection.
+- Integrated real-time inference with **ROS2** and distributed communication.
+- Developed visualization tools for anomaly timelines, reconstruction analysis,
+  safety-area monitoring, and explainability.
+- Evaluated the system on real multi-camera industrial data.
+- Github Repository: [ADVIS-SR](https://github.com/rashidrao-pk/advis_distrimuse_unito_SR)
 
 ---
 
@@ -179,6 +203,31 @@ Role: **Explainable AI research and demonstrator improvement**
 - Improved explanation stability and coverage for high-dimensional image data.
 
 ---
+
+# Ongoing Research & Collaborations
+
+### Video Anomaly Detection
+
+Developing a comprehensive study of the evolution of deep learning for video
+anomaly detection, from reconstruction- and prediction-based approaches to
+transformers, foundation models, and reasoning-oriented methods.
+
+### NIDS-SCNN — Explainable Network Intrusion Detection
+
+Developing a lightweight CNN-based network intrusion detection framework using
+time-frequency representations and explainable AI for interpretable binary and
+multiclass attack classification.
+
+### Interpretable Machine Learning for Electrical Discharge Machining
+
+Investigating hierarchical and interpretable machine learning for small-sample
+prediction of surface and tribological responses in advanced manufacturing.
+
+### Time-Series Anomaly Detection
+
+Investigating deep learning and one-class approaches for time-series anomaly
+detection, including robust training, threshold calibration, and benchmark
+evaluation.
 
 # Education
 
@@ -268,7 +317,7 @@ World Conference on Explainable Artificial Intelligence (XAI 2024)
 
 ## 4. Using Stratified Sampling to Improve LIME Image Explanations
 
-Authors: **Muhammad Rashid**, Elvio G. Amparore, Enrico Ferrari, Damiano Verda\*\*  
+Authors: **Muhammad Rashid**, Elvio G. Amparore, Enrico Ferrari, Damiano Verda  
 AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 <p>
@@ -303,6 +352,23 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 | AI on Edge Devices        | AI deployment and optimization on Raspberry Pi               | [GitHub](https://github.com/rashidrao-pk/AI_on_Edge_Devices)                 |
 
 ---
+
+# Selected Open-Source Contributions
+
+- **Xplique (DEEL)** — Fixed tabular explanation colorbar/axes handling and added regression tests.
+  [Repository](https://github.com/deel-ai/xplique) · [PR #184](https://github.com/deel-ai/xplique/pull/184)
+
+- **Anomalib (Open Edge Platform)** — Contributed PatchCore backbone documentation improvements and participated in discussions around explainability for visual anomaly detection.
+  [Repository](https://github.com/open-edge-platform/anomalib) · [PR #3630](https://github.com/open-edge-platform/anomalib/pull/3630) · [Issue #1144](https://github.com/open-edge-platform/anomalib/issues/1144)
+
+- **Alibi Detect (Seldon)** — Contributed a Keras 3 compatibility fix for anomaly/outlier detection functionality.
+  [Repository](https://github.com/SeldonIO/alibi-detect) · [PR #955](https://github.com/SeldonIO/alibi-detect/pull/955)
+
+- **FLAML (Microsoft)** — Contributing native anomaly detection support, including the initial `anomaly_detection` task and Isolation Forest integration.
+  [Repository](https://github.com/microsoft/FLAML) · [PR #1567](https://github.com/microsoft/FLAML/pull/1567) · [Issue #413](https://github.com/microsoft/FLAML/issues/413)
+
+- **Awesome Python for Data Science (Data-Centric AI Community)** — Contributed an anomaly detection tutorial/resource to the community-maintained data science collection.
+  [Repository](https://github.com/Data-Centric-AI-Community/awesome-python-for-data-science) · [PR #42](https://github.com/Data-Centric-AI-Community/awesome-python-for-data-science/pull/42) · [Issue #28](https://github.com/Data-Centric-AI-Community/awesome-python-for-data-science/issues/28)
 
 # Teaching Activities
 
@@ -381,21 +447,32 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 # Technical Skills
 
-## Programming Languages
+## Programming
 
-Python, MATLAB, C++, SQL, PHP
+Python, MATLAB, C++, SQL
 
-## Frameworks and Libraries
+## Machine Learning & Deep Learning
 
-PyTorch, TensorFlow, Keras, OpenCV, Scikit-learn, Scikit-image, NumPy, Pandas, Matplotlib, LIME, SHAP
+PyTorch, TensorFlow/Keras, Scikit-learn, Torchvision, timm
 
-## Tools and Platforms
+## Computer Vision & XAI
 
-Git, LaTeX, ROS2, Zenoh, Raspberry Pi, Jupyter Notebook, Linux, Pixi
+OpenCV, SHAP, LIME, Captum, Grad-CAM, Integrated Gradients,
+Shapley-value attribution, SAM/SAM2
 
-## Domains
+## Anomaly Detection
 
-Machine Learning, Deep Learning, Computer Vision, Explainable AI, Visual Anomaly Detection, Generative AI, Edge AI, Distributed Intelligence, Robotics Safety
+VAE/VAE-GAN, reconstruction-based anomaly detection, PatchCore,
+one-class learning, visual anomaly detection, time-series anomaly detection
+
+## Engineering & Deployment
+
+Git/GitHub, Linux, ROS2, Zenoh, Docker, Raspberry Pi, HPC/SLURM,
+Jupyter, LaTeX
+
+## Data & Scientific Computing
+
+NumPy, Pandas, SciPy, Matplotlib, Scikit-image
 
 <p> See details here - 
   <a href="/courses/" class="custom-btn btn-demo">📘 Courses & Training</a>

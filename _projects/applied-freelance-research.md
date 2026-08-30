@@ -8,6 +8,7 @@ thumbnail: "../files/projects/freelance.png"
 date: 2022-01-01
 year: "2017–2022"
 project_type: "Applied Research"
+project_group: "freelance"
 status: "Completed"
 research_area:
   - Medical Imaging
@@ -39,7 +40,6 @@ These projects covered a wide range of academic and industrial problems in **med
 <img src="/files/projects/freelance.png">
 </center>
 
-
 ## Domains
 
 - Medical imaging using MRI, CT, dermoscopy, and fundus images.
@@ -57,7 +57,6 @@ These projects covered a wide range of academic and industrial problems in **med
 ## Completed Research Projects
 
 Before and during my early research career, I completed a wide range of applied research and freelance projects in **Computer Vision**, **Machine Learning**, **Medical Imaging**, and **Image Processing**. These projects were delivered for international clients, academic collaborators, and student researchers, with several implementations made publicly available on GitHub. The original project archive is available here: [Completed Projects Repository](https://github.com/rashidrao-pk/rashidrao-pk/tree/main/project_completed). :contentReference[oaicite:0]{index=0}
-
 
 <div class="project-showcase">
 
@@ -122,7 +121,6 @@ Project 5. Image Denoising: Examples of applied AI systems including computer vi
 Project 6. Plaque Identification: Examples of applied AI systems including medical imaging, computer vision applications, intelligent decision systems, and machine learning solutions delivered during freelance and research collaborations.
 </figcaption>
 </figure>
-
 
 </div>
 
@@ -402,7 +400,6 @@ These applied projects helped me build strong practical experience in transformi
 ## Technologies
 
 MATLAB · Python · Deep Learning · Machine Learning · Image Processing · Computer Vision
-
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 

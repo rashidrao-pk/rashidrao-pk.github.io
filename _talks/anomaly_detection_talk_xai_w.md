@@ -12,7 +12,7 @@ coordinates: [35.8989, 14.5146]
 
 conference: "XAI 2024 | World Conference on Explainable Artificial Intelligence"
 session: "Explainable AI for Improved Human–Computer Interaction"
-
+thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"
 talkurl: "https://xaiworldconference.com/2024/timetable/event/s-17-a-1/"
 paperurl: "https://arxiv.org/abs/2407.19951"
 springerurl: "https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13"

@@ -6,7 +6,9 @@ permalink: /
 
 <!-- # Muhammad Rashid -->
 
-Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer Vision**, and **Visual Anomaly Detection** for real-world and safety-critical systems.
+**Research Fellow in Computer Science** specializing in **Explainable AI (XAI)**,
+**Computer Vision**, and **Visual Anomaly Detection**, with a focus on trustworthy
+and deployable AI for industrial and safety-critical systems.
 
 <div class="section-box section-box-focus" markdown="1">
 
@@ -27,29 +29,30 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 
 ## Systems & Engineering
 
-- Real-time anomaly detection for robotics safety
-- ROS2-based live inference pipeline
+- Real-time computer vision and anomaly detection for robotics safety
+- ROS2 and Zenoh-based distributed inference pipelines
 - VAE / VAE-GAN models for industrial anomaly detection
 - Multi-camera monitoring and safety-area segmentation
-- End-to-end workflow: training → threshold calibration → live deployment
+- GPU/HPC experimentation and model evaluation
+- End-to-end ML workflow: training → calibration → validation → deployment
 
-**Achieved:**
+**Selected results:**
 
-- ~12 FPS real-time inference
-- ~99.6% detection accuracy in industrial scenarios
+- ~12.5 FPS real-time inference
+- ~99.6% detection accuracy in evaluated industrial scenarios
 - Explainable anomaly maps for safety-critical decision support
 
 </div>
 
 <div class="section-box section-box-tools" markdown="1">
 
-## Open Source & Tools
+## Research Software & Tools
 
-- **ShapBPT** — AAAI 2026 explainability framework
-- **XAD** — Explainable anomaly detection with ShapBPT
-- **LIME Stratified Sampling** — Improved explanation stability
-- **AI on Edge Devices** — Lightweight deployment pipelines
-- XAI evaluation tools for saliency, attribution, and benchmarking
+- **ShapBPT** — Hierarchical Shapley-based image explanations
+- **LIME Stratified** — More stable LIME image explanations
+- **XAD** — Explainable visual anomaly detection
+- **ADVIS** — Real-time anomaly detection for robotics safety
+- **AI on Edge Devices** — Lightweight AI deployment experiments
 
 </div>
 
@@ -69,7 +72,7 @@ Machine Learning Researcher specializing in **Explainable AI (XAI)**, **Computer
 <div class="publication-card-content">
 
 <img
-src="../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
+src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 alt="ShapBPT"
 class="publication-thumbnail">
 
@@ -164,7 +167,7 @@ Poster
 <div class="publication-card-content">
 
 <img
-src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
+src="/files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 alt="ShapBPT in Perspective"
 class="publication-thumbnail">
 
@@ -269,7 +272,7 @@ PyPI
 
 <a
 href="/files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf"
-class="custom-btn btn-tests"
+class="custom-btn btn-poster"
 target="_blank"
 rel="noopener noreferrer">
 Poster
@@ -298,7 +301,7 @@ Slides
 <div class="publication-card-content">
 
 <img
-src="../files/papers_data/XAD/anomaly_detection_xai.gif"
+src="/files/papers_data/XAD/anomaly_detection_xai.gif"
 alt="Can I Trust My Anomaly Detection System?"
 class="publication-thumbnail">
 
@@ -318,7 +321,7 @@ Can I Trust My Anomaly Detection System?
 
 <a
 href="https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13"
-class="custom-btn btn-arxiv"
+class="custom-btn btn-paper"
 target="_blank"
 rel="noopener noreferrer">
 Paper PDF
@@ -342,7 +345,7 @@ Code
 
 <a
 href="https://rashidrao-pk.github.io/files/papers_data/XAD/anomaly_detection_xai_w_slides.pdf"
-class="custom-btn btn-code"
+class="custom-btn btn-slides"
 target="_blank"
 rel="noopener noreferrer">
 Slides
@@ -376,7 +379,7 @@ Slides
 
 <div class="project-info">
 
-<span class="project-badge">Industrial AI · Robotics Safety</span>
+<span class="project-badge">ADVIS · Real Factory · ROS2 · EU Project</span>
 
 <h3>
 <a href="/projects/advis-distrimuse-sr/">
@@ -408,7 +411,7 @@ Code
 </div>
 
 <img
-src="../files/projects/advis.png"
+src="/files/projects/advis.png"
 alt="Real-Time Anomaly Detection for Robotics"
 class="project-thumbnail">
 
@@ -424,7 +427,7 @@ class="project-thumbnail">
 
 <div class="project-info">
 
-<span class="project-badge">EU Project · Industrial AI</span>
+<span class="project-badge">ADVIS · Synthetic Environment · EU Project</span>
 
 <h3>
 <a href="/projects/advis-unigra/">
@@ -533,7 +536,7 @@ Docs
 </div>
 
 <img
-src="../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
+src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 alt="ShapBPT"
 class="project-thumbnail">
 
@@ -579,7 +582,7 @@ Code
 </div>
 
 <img
-src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
+src="/files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 alt="XAD Explainable Anomaly Detection"
 class="project-thumbnail">
 
@@ -653,10 +656,11 @@ class="project-thumbnail">
 
 ## Experience
 
-- 🎓 PhD Researcher — University of Turin, Italy ([details here](https://rashidrao-pk.github.io/cv/#:~:text=Doctoral%20Researcher%20%E2%80%93%20R%26D%20Projects))
-- 🏭 Industrial Research — RuleX Innovation Labs
-- 🇪🇺 EU Project — DistriMuSe: Robotics Safety & AI
-- 🌐 Visiting Researcher — University of Granada, Spain ([details here](https://rashidrao-pk.github.io/cv/#:~:text=Visiting%20Doctoral%20Researcher))
+- 🔬 **Research Fellow** — University of Turin, Italy ([details](/cv/#research-fellow))
+- 🇪🇺 **DistriMuSe EU Project** — Visual Anomaly Detection & Robotics Safety
+- 🎓 **PhD in Computer Science** — University of Turin, Italy
+- 🏭 **Industrial Research** — RuleX Innovation Labs, Italy
+- 🌐 **Visiting Researcher** — University of Granada, Spain
 
 </div>
 
@@ -748,7 +752,7 @@ PatchCore docs
 <span class="github-stars" data-repo="microsoft/FLAML">Loading...</span>
 </td>
 <td>
-<a href="https://github.com/microsoft/FLAML/issues/413">
+<a href="https://github.com/microsoft/FLAML/pull/1567">
 Anomaly detection support
 </a>
 </td>
@@ -782,12 +786,38 @@ Anomaly detection tutorial
 ➡️ [View all open-source contributions](/opensource/)
 
 </div>
+<!-- =========================================================
+     ONGOING RESEARCH
+     ========================================================= -->
+
+<div class="section-box section-box-github" markdown="1">
+
+<div class="ongoing-research-preview">
+
+<h3>Ongoing Research</h3>
+
+<p>
+Current research includes
+<strong>video anomaly detection</strong>,
+<strong>time-series anomaly detection</strong>,
+<strong>interpretable machine learning</strong>, and
+<strong>explainable network intrusion detection</strong>.
+</p>
+
+<p>
+<a href="/projects/#ongoing-research--collaborations:~:text=Ongoing%20Research%20%26%20Collaborations">
+➡️ Explore ongoing research
+</a>
+</p>
+
+</div>
+</div>
 
 <!-- =========================================================
      GITHUB ACTIVITY
      ========================================================= -->
 
-<div class="section-box section-box-github" markdown="1">
+<!-- <div class="section-box section-box-github" markdown="1">
 
 ## GitHub Activity
 
@@ -806,7 +836,7 @@ View my GitHub profile
 </a>
 </p>
 
-</div>
+</div> -->
 
 <!-- =========================================================
      COLLABORATION

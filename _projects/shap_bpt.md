@@ -2,7 +2,7 @@
 title: "ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees"
 collection: publications
 
-category: Research
+category: Research/XAI
 subcategory:
   - Image Feature Attribution
   - Shapley Values

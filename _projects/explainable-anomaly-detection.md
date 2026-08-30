@@ -1,7 +1,7 @@
 ---
 title: "Explainable Anomaly Detection"
 collection: projects
-category: Explainable AI
+category: Research/XAI, AD
 permalink: /projects/explainable-anomaly-detection/
 excerpt: "A case study on building trust in anomaly detection systems using VAE-GAN models and explainable AI."
 thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"

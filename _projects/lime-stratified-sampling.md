@@ -1,7 +1,7 @@
 ---
 title: "LIME Stratified Sampling"
 collection: projects
-category: Explainable AI
+category: Research/XAI
 permalink: /projects/lime-stratified-sampling/
 excerpt: "An improved LIME sampling strategy for generating more stable and reliable image explanations."
 thumbnail: "../files/papers_data/lime/LIME-Image-workflow.png"

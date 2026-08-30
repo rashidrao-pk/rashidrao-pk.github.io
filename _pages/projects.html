@@ -6,12 +6,87 @@ author_profile: true
 ---
 
 <p>
-  This page highlights selected <strong>research projects, industrial systems, and open-source contributions</strong>
-  spanning <strong>Explainable AI, Computer Vision, Anomaly Detection, and Industrial AI</strong>.
+  This page highlights selected
+  <strong>
+    research projects, industrial systems, ongoing collaborations, open-source
+    contributions, and applied machine learning work
+  </strong>
+  spanning
+  <strong>
+    Explainable AI, Computer Vision, Anomaly Detection, Trustworthy Machine
+    Learning, and Industrial AI </strong
+  >.
 </p>
 
 {% assign sorted_projects = site.projects | sort: "date" | reverse %}
 
-{% for post in sorted_projects %}
-  {% include project-single.html %}
-{% endfor %}
+<!-- =========================================================
+     ADVIS
+     ========================================================= -->
+
+<h2>ADVIS — Industrial AI & Robotics Safety</h2>
+
+<p>
+  Research and deployed systems developed around visual anomaly detection,
+  human–robot collaboration, and safety monitoring for industrial environments.
+</p>
+
+{% for post in sorted_projects %} {% if post.project_group == "advis" %} {%
+include project-single.html %} {% endif %} {% endfor %}
+
+<!-- =========================================================
+     COMPLETED & FEATURED RESEARCH
+     ========================================================= -->
+
+<h2>Completed & Featured Research</h2>
+
+<p>
+  Selected completed research projects, published methods, and open-source
+  research contributions.
+</p>
+
+{% for post in sorted_projects %} {% assign status_normalized = post.status |
+downcase | strip %} {% unless post.project_group == "advis" or
+post.project_group == "freelance" %} {% unless status_normalized == "ongoing" or
+status_normalized == "ongoing research" or status_normalized == "ongoing
+collaboration" or status_normalized == "early-stage research" or
+status_normalized == "manuscript in preparation" or status_normalized ==
+"ongoing open-source research" or status_normalized == "exploratory research" or
+status_normalized == "dataset in preparation" %} {% include project-single.html
+%} {% endunless %} {% endunless %} {% endfor %}
+
+<!-- =========================================================
+     ONGOING RESEARCH
+     ========================================================= -->
+
+<h2>Ongoing Research & Collaborations</h2>
+
+<p>
+  Active research directions, manuscripts in preparation, collaborative
+  projects, datasets, and open-source research currently under development.
+</p>
+
+{% for post in sorted_projects %} {% assign status_normalized = post.status |
+downcase | strip %} {% unless post.project_group == "advis" or
+post.project_group == "freelance" %} {% if status_normalized == "ongoing" or
+status_normalized == "ongoing research" or status_normalized == "ongoing
+collaboration" or status_normalized == "early-stage research" or
+status_normalized == "manuscript in preparation" or status_normalized ==
+"ongoing open-source research" or status_normalized == "exploratory research" or
+status_normalized == "dataset in preparation" %} {% include project-single.html
+%} {% endif %} {% endunless %} {% endfor %}
+
+<!-- =========================================================
+     FREELANCE & APPLIED PROJECTS
+     ========================================================= -->
+
+<h2>Freelance & Applied Projects</h2>
+
+<p>
+  Selected client-oriented and independent projects applying machine learning,
+  computer vision, image processing, and data analysis to practical problems
+  across different application domains.
+</p>
+
+{% for post in sorted_projects %} {% if post.project_group == "freelance" %} {%
+include project-single.html %} {% endif %} {% endfor %}

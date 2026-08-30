@@ -10,6 +10,8 @@ subcategory: "Industrial AI"
 status: "Prototype Delievered"
 project_type: "Research Application"
 
+project_group: "advis"
+
 date: 2026-04-14
 year: 2026
 

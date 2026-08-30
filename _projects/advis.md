@@ -4,15 +4,15 @@ permalink: /projects/advis-distrimuse-sr/
 
 category: EU Project 🇪🇺
 subcategory: "Industrial AI"
-
+project_group: "advis"
 excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection on real world"
 thumbnail: "../files/projects/advis.png"
+status: "Ongoing Research"
 
-date: 2026-04-14
+date: 2026-08-30
 year: 2026
 
 project_type: "Deployment Project"
-status: "Completed"
 
 research_area:
   - Computer Vision

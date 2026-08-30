@@ -20,7 +20,7 @@ codeurl: "https://github.com/amparore/shap_bpt"
 testurl: "https://github.com/rashidrao-pk/shap_bpt_tests"
 pypiurl: "https://pypi.org/project/shap-bpt/"
 posterurl: "https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf"
-
+thumbnail: "../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 excerpt: "Introduces ShapBPT, a data-aware hierarchical Shapley-based method for image feature attribution that improves efficiency, structural alignment, and interpretability in computer vision models."
 ---
 
