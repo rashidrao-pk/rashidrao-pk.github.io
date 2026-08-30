@@ -6,8 +6,7 @@ permalink: /talks/lime_stratified_aaai
 venue: "Vancouver Convention Centre"
 date: 21-02-2024
 location: "Vancouver, Canada"
-# Used by your webpage
-location_display: "Vancouver, Canada 🇨🇦"
+location_display: "Vancouver, Canada"
 paperurl: "https://ojs.aaai.org/index.php/AAAI/article/view/29397"
 arxivurl: "https://arxiv.org/abs/2403.17742"
 codeurl: "https://github.com/rashidrao-pk/lime_stratified"
@@ -34,3 +33,63 @@ The poster session provided an opportunity to present our approach for improving
 A recorded presentation is also available through the official AAAI-24 collection on Underline.
 
 **Authors:** Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, and Damiano Verda
+
+<div class="publication-buttons">
+
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/29397"
+     class="pub-btn pub-btn-paper"
+     target="_blank"
+     rel="noopener noreferrer">
+<i class="fas fa-file-alt"></i>
+<span>AAAI Paper</span>
+</a>
+
+<a href="https://underline.io/lecture/93133-using-stratified-sampling-to-improve-lime-image-explanations-video"
+     class="pub-btn pub-btn-video"
+     target="_blank"
+     rel="noopener noreferrer">
+<i class="fas fa-play-circle"></i>
+<span>Presentation Video</span>
+</a>
+
+<a href="/files/papers_data/Poster_St_LIME_AAAI_24.pdf"
+     class="pub-btn pub-btn-poster"
+     target="_blank"
+     rel="noopener noreferrer">
+<i class="fas fa-image"></i>
+<span>Conference Poster</span>
+</a>
+
+<a href="https://doi.org/10.48448/hb71-wg04"
+     class="pub-btn pub-btn-doi"
+     target="_blank"
+     rel="noopener noreferrer">
+<i class="fas fa-link"></i>
+<span>Presentation DOI</span>
+</a>
+
+<a href="https://arxiv.org/abs/2403.17742"
+   class="pub-btn pub-btn-arxiv"
+   target="_blank"
+   rel="noopener noreferrer">
+<i class="fas fa-file-pdf"></i>
+<span>arXiv</span>
+</a>
+
+<a href="https://github.com/rashidrao-pk/lime_stratified"
+   class="pub-btn pub-btn-github"
+   target="_blank"
+   rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+<span>Code</span>
+</a>
+
+<a href="https://pypi.org/project/lime-stratified/"
+   class="pub-btn pub-btn-pypi"
+   target="_blank"
+   rel="noopener noreferrer">
+<i class="fab fa-python"></i>
+<span>PyPI</span>
+</a>
+
+</div>

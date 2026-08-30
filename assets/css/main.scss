@@ -1431,3 +1431,575 @@ hr {
 .project-card hr {
   display: none !important;
 }
+
+//
+/* =========================================================
+   Publication / Talk Resource Buttons
+   ========================================================= */
+
+.publication-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  padding: 0.65rem 1rem;
+
+  border-radius: 8px;
+  border: none;
+
+  color: #ffffff !important;
+  text-decoration: none !important;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.14);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    filter 0.2s ease;
+}
+
+.pub-btn:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+
+  filter: brightness(1.08);
+}
+
+.pub-btn i {
+  color: #ffffff !important;
+}
+
+/* Paper — Blue */
+
+.pub-btn-paper {
+  background: #2563eb;
+}
+
+/* Video — Red */
+
+.pub-btn-video {
+  background: #dc2626;
+}
+
+/* Poster — Purple */
+
+.pub-btn-poster {
+  background: #7c3aed;
+}
+
+/* DOI — Green */
+
+.pub-btn-doi {
+  background: #059669;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .publication-buttons {
+    flex-direction: column;
+  }
+
+  .pub-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+//
+/* ==========================================================
+   SELECTED PUBLICATION CARDS
+   ========================================================== */
+
+.publication-card {
+  position: relative;
+  padding: 1.4rem 1.5rem 1.2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 5px solid #64748b;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+.publication-card h3 {
+  margin-top: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+
+.publication-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* Venue badge */
+
+.publication-venue {
+  display: inline-block;
+  padding: 0.28rem 0.7rem;
+
+  border-radius: 999px;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+
+  color: white;
+}
+
+/* ----------------------------------------------------------
+   Individual publication accents
+   ---------------------------------------------------------- */
+
+.publication-aaai26 {
+  border-left-color: #2563eb;
+}
+
+.publication-aaai26 .publication-venue {
+  background: #2563eb;
+}
+
+.publication-icpe26 {
+  border-left-color: #7c3aed;
+}
+
+.publication-icpe26 .publication-venue {
+  background: #7c3aed;
+}
+
+.publication-aaai24 {
+  border-left-color: #059669;
+}
+
+.publication-aaai24 .publication-venue {
+  background: #059669;
+}
+
+.publication-xai24 {
+  border-left-color: #ea580c;
+}
+
+.publication-xai24 .publication-venue {
+  background: #ea580c;
+}
+
+/* ----------------------------------------------------------
+   Dark mode
+   ---------------------------------------------------------- */
+
+html[data-theme="dark"] .publication-card,
+body.dark .publication-card,
+[data-theme="dark"] .publication-card {
+  background: #202124;
+  border-top-color: #34363a;
+  border-right-color: #34363a;
+  border-bottom-color: #34363a;
+}
+
+html[data-theme="dark"] .publication-card h3 a,
+body.dark .publication-card h3 a,
+[data-theme="dark"] .publication-card h3 a {
+  color: #f1f5f9;
+}
+
+/* ----------------------------------------------------------
+   Mobile
+   ---------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .publication-card {
+    padding: 1.1rem;
+    margin: 1rem 0;
+  }
+}
+
+/* =========================================================
+   Compact publication cards
+   ========================================================= */
+
+.publication-card {
+  padding: 0.85rem;
+  margin: 0.85rem 0;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #64748b;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.09);
+}
+
+.publication-card-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.publication-thumbnail {
+  width: 110px;
+  height: 82px;
+
+  object-fit: cover;
+
+  border-radius: 7px;
+  border: 1px solid #e5e7eb;
+
+  flex-shrink: 0;
+}
+
+.publication-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-info h3 {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.96rem;
+  line-height: 1.35;
+}
+
+.publication-info h3 a {
+  text-decoration: none;
+}
+
+.publication-venue {
+  display: inline-block;
+
+  padding: 0.17rem 0.52rem;
+
+  border-radius: 999px;
+
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+}
+
+.publication-actions .custom-btn {
+  padding: 0.26rem 0.5rem !important;
+  font-size: 0.66rem !important;
+  border-radius: 5px !important;
+  line-height: 1.2;
+}
+
+/* Accent colors */
+
+.publication-aaai26 {
+  border-left-color: #2563eb;
+}
+
+.publication-aaai26 .publication-venue {
+  background: #2563eb;
+}
+
+.publication-icpe26 {
+  border-left-color: #7c3aed;
+}
+
+.publication-icpe26 .publication-venue {
+  background: #7c3aed;
+}
+
+.publication-aaai24 {
+  border-left-color: #059669;
+}
+
+.publication-aaai24 .publication-venue {
+  background: #059669;
+}
+
+.publication-xai24 {
+  border-left-color: #ea580c;
+}
+
+.publication-xai24 .publication-venue {
+  background: #ea580c;
+}
+
+/* Full publication list link */
+
+.publications-all-link {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+/* Dark mode */
+
+html[data-theme="dark"] .publication-card,
+body.dark .publication-card,
+[data-theme="dark"] .publication-card {
+  background: #202124;
+  border-top-color: #34363a;
+  border-right-color: #34363a;
+  border-bottom-color: #34363a;
+}
+
+html[data-theme="dark"] .publication-info h3 a,
+body.dark .publication-info h3 a,
+[data-theme="dark"] .publication-info h3 a {
+  color: #f1f5f9;
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  .publication-card-content {
+    align-items: flex-start;
+  }
+
+  .publication-thumbnail {
+    width: 82px;
+    height: 66px;
+  }
+
+  .publication-info h3 {
+    font-size: 0.88rem;
+  }
+
+  .publication-actions .custom-btn {
+    font-size: 0.62rem !important;
+    padding: 0.23rem 0.42rem !important;
+  }
+}
+
+/* =========================================================
+   Compact project cards with thumbnail on right
+   ========================================================= */
+
+.project-card {
+  padding: 0.9rem;
+  margin: 0.9rem 0;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-right: 4px solid #64748b;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.09);
+}
+
+.project-card-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-info h3 {
+  margin: 0.35rem 0 0.45rem;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.project-info h3 a {
+  text-decoration: none;
+}
+
+.project-info p {
+  margin: 0 0 0.6rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.project-thumbnail {
+  width: 120px;
+  height: 88px;
+
+  object-fit: cover;
+
+  border-radius: 7px;
+  border: 1px solid #e5e7eb;
+
+  flex-shrink: 0;
+}
+
+.project-badge {
+  display: inline-block;
+
+  padding: 0.17rem 0.52rem;
+  border-radius: 999px;
+
+  font-size: 0.63rem;
+  font-weight: 700;
+
+  color: #ffffff;
+  background: #475569;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+}
+
+.project-actions .custom-btn {
+  padding: 0.26rem 0.5rem !important;
+  font-size: 0.66rem !important;
+  border-radius: 5px !important;
+}
+
+/* Individual accents */
+
+.project-robotics {
+  border-right-color: #dc2626;
+}
+
+.project-robotics .project-badge {
+  background: #dc2626;
+}
+
+.project-shapbpt {
+  border-right-color: #2563eb;
+}
+
+.project-shapbpt .project-badge {
+  background: #2563eb;
+}
+
+.project-xad {
+  border-right-color: #7c3aed;
+}
+
+.project-xad .project-badge {
+  background: #7c3aed;
+}
+
+.project-lime {
+  border-right-color: #059669;
+}
+
+.project-lime .project-badge {
+  background: #059669;
+}
+
+/* Dark mode */
+
+html[data-theme="dark"] .project-card,
+body.dark .project-card,
+[data-theme="dark"] .project-card {
+  background: #202124;
+  border-top-color: #34363a;
+  border-left-color: #34363a;
+  border-bottom-color: #34363a;
+}
+
+html[data-theme="dark"] .project-info h3 a,
+body.dark .project-info h3 a,
+[data-theme="dark"] .project-info h3 a {
+  color: #f1f5f9;
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  .project-card-content {
+    align-items: flex-start;
+  }
+
+  .project-thumbnail {
+    width: 90px;
+    height: 70px;
+  }
+
+  .project-info h3 {
+    font-size: 0.9rem;
+  }
+
+  .project-info p {
+    font-size: 0.78rem;
+  }
+
+  .project-actions .custom-btn {
+    font-size: 0.62rem !important;
+    padding: 0.23rem 0.42rem !important;
+  }
+}
+
+/* =========================================================
+   Thumbnails — preserve original aspect ratio
+   ========================================================= */
+
+/* Publication thumbnails — LEFT */
+.publication-thumbnail {
+  width: auto;
+  height: auto;
+
+  max-width: 150px;
+  max-height: 105px;
+
+  object-fit: contain;
+
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+
+  flex-shrink: 0;
+}
+
+/* Project thumbnails — RIGHT */
+.project-thumbnail {
+  width: auto;
+  height: auto;
+
+  max-width: 170px;
+  max-height: 115px;
+
+  object-fit: contain;
+
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+
+  flex-shrink: 0;
+}

@@ -29,7 +29,7 @@ docsurl: "https://shapbpt.readthedocs.io/en/latest/"
 userstudyurl: "https://huggingface.co/spaces/rashidrao/shapbpt-user-study"
 posterurl: "https://underline.io/lecture/141841-shapbpt-image-feature-attributions-using-data-aware-binary-partition-trees"
 citation: "Rashid, Muhammad, Amparore, Elvio G., Ferrari, Enrico, and Verda, Damiano. (2026). ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees. Proceedings of the AAAI Conference on Artificial Intelligence, 40."
-thumbnail: "../files/papers_data/Fig1_explain_bpt-1.png"
+thumbnail: "../files/papers_data/shapbpt/Fig1_explain_bpt-Thumbnail.png"
 
 toc: true
 toc_sticky: true
@@ -81,28 +81,28 @@ This research makes the following contributions:
 
 ShapBPT first constructs a data-aware image hierarchy using a Binary Partition Tree. This hierarchy represents the image at multiple levels of granularity, from coarse regions to fine visual structures. Shapley-based attribution scores are then computed over this hierarchy, allowing the method to assign importance values to meaningful image regions instead of arbitrary pixel grids.
 
-<img src="../files/papers_data/Fig1_explain_bpt-1.png">
+<img src="/files/papers_data/shapbpt/Fig1_explain_bpt-1.png">
 
 <hr>
 
-<img src="../files/papers_data/bpt-animation.gif">
+<img src="/files/papers_data/shapbpt/bpt-animation.gif">
 
 <hr>
 
-<img src="../files/papers_data/sequence_aa.gif">
-<img src="../files/papers_data/sequence_bpt.gif">
+<img src="/files/papers_data/shapbpt/sequence_aa.gif">
+<img src="/files/papers_data/shapbpt/sequence_bpt.gif">
 
 <hr>
 
-<img src="../files/papers_data/Fig3_sequence_explanations-1.png">
+<img src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png">
 
 <hr>
 
-<img src="../files/papers_data/aa_plot.png">
+<img src="/files/papers_data/shapbpt/aa_plot.png">
 
 <hr>
 
-<img src="../files/papers_data/bpt_plot.png">
+<img src="/files/papers_data/shapbpt/bpt_plot.png">
 
 <hr>
 
@@ -115,27 +115,27 @@ ShapBPT was evaluated across different computer vision tasks, datasets, and mode
 
 ## Experiments Summary
 
-| ID | Dataset | Size | Model | Short Description |
-|:--:|:--------|:----:|:------|:------------------|
-| E1 | ImageNet-S<sub>50</sub> | 574 | ResNet-50 | Common ImageNet classification setup |
-| E2 | ImageNet-S<sub>50</sub> | 574 | Ideal | Linear ideal attribution model |
-| E3 | ImageNet-S<sub>50</sub> | 621 | SwinViT | Vision Transformer-based classification |
-| E4 | MS-COCO | 274 | YOLOv11s | Object detection explanations |
-| E5 | CelebA-HQ | 400 | Custom CNN | Facial attribute localization |
-| E6 | MVTec | 280 | VAE-GAN | Explainable anomaly detection |
-| E7 | ImageNet-S<sub>50</sub> | 593 | ViT-Base16 | Vision Transformer explanations |
-| E8 | User Study | — | — | Human preference study using saliency maps |
+| ID  | Dataset                 | Size | Model      | Short Description                          |
+| :-: | :---------------------- | :--: | :--------- | :----------------------------------------- |
+| E1  | ImageNet-S<sub>50</sub> | 574  | ResNet-50  | Common ImageNet classification setup       |
+| E2  | ImageNet-S<sub>50</sub> | 574  | Ideal      | Linear ideal attribution model             |
+| E3  | ImageNet-S<sub>50</sub> | 621  | SwinViT    | Vision Transformer-based classification    |
+| E4  | MS-COCO                 | 274  | YOLOv11s   | Object detection explanations              |
+| E5  | CelebA-HQ               | 400  | Custom CNN | Facial attribute localization              |
+| E6  | MVTec                   | 280  | VAE-GAN    | Explainable anomaly detection              |
+| E7  | ImageNet-S<sub>50</sub> | 593  | ViT-Base16 | Vision Transformer explanations            |
+| E8  | User Study              |  —   | —          | Human preference study using saliency maps |
 
 ---
 
 ## Authors ✍️
 
-| Sr. No. | Author Name | Affiliation | Google Scholar |
-|:--:|:--|:--|:--|
-| 1 | Muhammad Rashid | University of Torino, Dept. of Computer Science, Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en) |
-| 2 | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
-| 3 | Enrico Ferrari | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao) |
-| 4 | Damiano Verda | Rulex Innovation Labs, Rulex Inc., Genova, Italy | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao) |
+| Sr. No. | Author Name       | Affiliation                                                    | Google Scholar                                                                          |
+| :-----: | :---------------- | :------------------------------------------------------------- | :-------------------------------------------------------------------------------------- |
+|    1    | Muhammad Rashid   | University of Torino, Dept. of Computer Science, Torino, Italy | [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en)         |
+|    2    | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
+|    3    | Enrico Ferrari    | Rulex Innovation Labs, Rulex Inc., Genova, Italy               | [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao)    |
+|    4    | Damiano Verda     | Rulex Innovation Labs, Rulex Inc., Genova, Italy               | [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao)     |
 
 ## Keywords 🔍
 

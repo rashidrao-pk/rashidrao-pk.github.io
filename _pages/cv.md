@@ -13,7 +13,7 @@ redirect_from:
 
 **PhD in Computer Science**  
 **Computer Vision | Explainable AI | Machine Learning | Visual Anomaly Detection**  
-Turin, Italy  
+Turin, Italy
 
 [Website](https://rashidrao-pk.github.io) · [Google Scholar](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ) · [GitHub](https://github.com/rashidrao-pk) · [LinkedIn](https://www.linkedin.com/in/r4ssh1d)
 
@@ -26,6 +26,7 @@ I am a researcher in **Computer Vision**, **Explainable AI (XAI)**, and **Visual
 My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection with **VAE-GANs**, and **ADVIS**, a real-time anomaly detection and visual intelligence system for human safety in collaborative robotics.
 
 ---
+
 <!-- DEBUG: {{ site.data.research_metrics }} -->
 
 <table class="research-metrics-table">
@@ -52,6 +53,7 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
       <td>539+</td>
       <td>11</td>
     </tr>
+
   </tbody>
 </table>
 
@@ -59,9 +61,7 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
   Last updated: {{ site.data.research_metrics.updated }}
 </p>
 
-
 ➡️ [See details on Google Scholar](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ)
-
 
 ---
 
@@ -82,7 +82,8 @@ My work includes **LIME Stratified**, **ShapBPT**, explainable anomaly detection
 
 # Experience
 
-## Research Fellow  
+## Research Fellow
+
 **University of Torino, Italy**  
 **Nov 2025 – Present**
 
@@ -95,7 +96,8 @@ Working within the [**DistriMuSe**](https://distrimuse.eu/) EU project under the
 
 ---
 
-## Visiting Doctoral Researcher  
+## Visiting Doctoral Researcher
+
 **Valeria Lab, University of Granada, Spain**  
 **Jan 2025 – Aug 2025**
 
@@ -107,7 +109,8 @@ Working within the [**DistriMuSe**](https://distrimuse.eu/) EU project under the
 
 ---
 
-## Doctoral Researcher – R&D Projects  
+## Doctoral Researcher – R&D Projects
+
 **University of Torino & RuleX Innovation Labs, Italy**  
 **Nov 2022 – Oct 2025**
 
@@ -116,15 +119,15 @@ Working within the [**DistriMuSe**](https://distrimuse.eu/) EU project under the
 - Built explainable anomaly detection systems using VAE-GANs.
 - Contributed to EU-funded projects including **DistriMuSe** and **NextPerception**.
 - Completed the thesis:  
-  *Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries.*
-Supervised by: 
+   _Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries._
+  Supervised by:
   - <strong>Academic Supervisor:</strong> [Prof. Elvio G. Amparore](https://informatica.unito.it/do/docenti.pl/Alias?elviogilberto.amparore#tab-profilo)<br>
   - <strong>Industrial Supervisor:</strong> [Dr. Enrico Ferrari](https://www.rulex.ai/about-us/) ([RuleX Innovation Labs](https://www.rulex.ai/))<br>
 
-
 ---
 
-## Research Assistant  
+## Research Assistant
+
 **HITEC University, Taxila, Pakistan**  
 **Aug 2021 – Jan 2023**
 
@@ -134,7 +137,8 @@ Supervised by:
 
 ---
 
-## Freelance Computer Vision & Machine Learning Developer  
+## Freelance Computer Vision & Machine Learning Developer
+
 **Upwork & Fiverr**  
 **2018 – 2023**
 
@@ -146,7 +150,8 @@ Supervised by:
 
 # Participation in Research Projects
 
-## DistriMuSe — EU Project  
+## DistriMuSe — EU Project
+
 **Use Case 3: Safe Interaction with Robots**
 
 Role: **Anomaly detection research, AI demonstrator development, and system integration**
@@ -163,7 +168,8 @@ Repository: [ADVIS DistriMuSe UC3](https://github.com/rashidrao-pk/advis_distrim
 
 ---
 
-## NextPerception — EU Project  
+## NextPerception — EU Project
+
 **Work Package 3: Distributed Intelligence**
 
 Role: **Explainable AI research and demonstrator improvement**
@@ -176,12 +182,13 @@ Role: **Explainable AI research and demonstrator improvement**
 
 # Education
 
-## PhD in Computer Science  
+## PhD in Computer Science
+
 **University of Torino, Italy**  
 **Nov 2022 – Nov 2025**  
 Defended: **28 April 2026**
 
-**Thesis:** *Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries*
+**Thesis:** _Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries_
 
 **Supervisors:** Prof. Elvio G. Amparore, Prof. Marco Botta, Dr. Enrico Ferrari
 
@@ -189,23 +196,25 @@ Defended: **28 April 2026**
 
 ---
 
-## Master of Science in Computer Science  
+## Master of Science in Computer Science
+
 **COMSATS University Islamabad, Pakistan**  
 **2017 – 2019**
 
 - CGPA: **3.77/4.0**
-- Thesis: *Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network*
+- Thesis: _Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network_
 - Supervisor: Prof. Dr. Muhammad Sharif
 - Research focus: object recognition, video surveillance, healthcare image analysis, feature fusion, and deep CNNs.
 
 ---
 
-## Bachelor of Science in Computer Science  
+## Bachelor of Science in Computer Science
+
 **Allama Iqbal Open University, Islamabad, Pakistan**  
 **2010 – 2016**
 
 - CGPA: **3.19/4.0**
-- Final Project: *Online Venue Booking and Tour Planning*
+- Final Project: _Online Venue Booking and Tour Planning_
 - Focus: secure web application development using CodeIgniter and MVC architecture.
 
 ---
@@ -214,7 +223,7 @@ Defended: **28 April 2026**
 
 ## 1. ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study
 
-**Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, Damiano Verda**  
+Authors: **Muhammad Rashid**, Elvio G. Amparore, Enrico Ferrari, Damiano Verda  
 QualITA Workshop @ ICPE 2026 (ACM)
 
 <p>
@@ -227,7 +236,7 @@ QualITA Workshop @ ICPE 2026 (ACM)
 
 ## 2. ShapBPT: Image Feature Attributions using Data-Aware Binary Partition Trees
 
-**Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, Damiano Verda**  
+Authors: **Muhammad Rashid**, Elvio G. Amparore, Enrico Ferrari, Damiano Verda
 AAAI Conference on Artificial Intelligence (AAAI 2026)
 
 <p>
@@ -244,7 +253,7 @@ AAAI Conference on Artificial Intelligence (AAAI 2026)
 
 ## 3. Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI
 
-**Muhammad Rashid, Elvio Amparore, Enrico Ferrari, Damiano Verda**  
+Authors: **Muhammad Rashid**, Elvio Amparore, Enrico Ferrari, Damiano Verda  
 World Conference on Explainable Artificial Intelligence (XAI 2024)
 
 <p>
@@ -258,7 +267,7 @@ World Conference on Explainable Artificial Intelligence (XAI 2024)
 
 ## 4. Using Stratified Sampling to Improve LIME Image Explanations
 
-**Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, Damiano Verda**  
+Authors: **Muhammad Rashid**, Elvio G. Amparore, Enrico Ferrari, Damiano Verda\*\*  
 AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 <p>
@@ -278,22 +287,23 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 # Research Software
 
-| Project | Description | Link |
-|---|---|---|
-| ShapBPT | Data-aware Shapley explanations using Binary Partition Trees | [GitHub](https://github.com/amparore/shap_bpt) |
-| ShapBPT Tests | Experimental evaluation of ShapBPT across vision tasks | [GitHub](https://github.com/rashidrao-pk/shap_bpt_tests) |
-| XAD | ShapBPT for explainable anomaly detection | [GitHub](https://github.com/rashidrao-pk/XAD) |
-| LIME Stratified | Improved LIME Image with stratified sampling | [GitHub](https://github.com/rashidrao-pk/lime_stratified) |
-| LIME Stratified Examples | Experiments for LIME Stratified | [GitHub](https://github.com/rashidrao-pk/lime-stratified-examples) |
-| Explainable AD Case Study | VAE-GAN anomaly detection with XAI | [GitHub](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) |
-| ADVIS DistriMuSe | Real-time anomaly detection for robotics safety | [GitHub](https://github.com/rashidrao-pk/advis_distrimuse_unito_SR) |
-| AI on Edge Devices | AI deployment and optimization on Raspberry Pi | [GitHub](https://github.com/rashidrao-pk/AI_on_Edge_Devices) |
+| Project                   | Description                                                  | Link                                                                         |
+| ------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| ShapBPT                   | Data-aware Shapley explanations using Binary Partition Trees | [GitHub](https://github.com/amparore/shap_bpt)                               |
+| ShapBPT Tests             | Experimental evaluation of ShapBPT across vision tasks       | [GitHub](https://github.com/rashidrao-pk/shap_bpt_tests)                     |
+| XAD                       | ShapBPT for explainable anomaly detection                    | [GitHub](https://github.com/rashidrao-pk/XAD)                                |
+| LIME Stratified           | Improved LIME Image with stratified sampling                 | [GitHub](https://github.com/rashidrao-pk/lime_stratified)                    |
+| LIME Stratified Examples  | Experiments for LIME Stratified                              | [GitHub](https://github.com/rashidrao-pk/lime-stratified-examples)           |
+| Explainable AD Case Study | VAE-GAN anomaly detection with XAI                           | [GitHub](https://github.com/rashidrao-pk/anomaly_detection_trust_case_study) |
+| ADVIS DistriMuSe          | Real-time anomaly detection for robotics safety              | [GitHub](https://github.com/rashidrao-pk/advis_distrimuse_unito_SR)          |
+| AI on Edge Devices        | AI deployment and optimization on Raspberry Pi               | [GitHub](https://github.com/rashidrao-pk/AI_on_Edge_Devices)                 |
 
 ---
 
 # Teaching Activities
 
-## Teaching Collaboration  
+## Teaching Collaboration
+
 **University of Torino, Italy**  
 **A.Y. 2023/2024**
 
@@ -301,7 +311,8 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 - Supported the course **Sicurezza delle Reti e dei Sistemi**.
 - Contributed to exam sessions and student support activities.
 
-## Teaching Assistant  
+## Teaching Assistant
+
 **HITEC University, Pakistan**  
 **Sep 2019 – Jun 2021**
 
@@ -313,10 +324,10 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 # Conferences and Presentations
 
-- **QualITA/ICPE 2026**, Florence, Italy — Presented *ShapBPT in Perspective*.
-- **AAAI 2026**, Singapore — Presented *ShapBPT*.
-- **XAI-World 2024**, Valletta, Malta — Presented *Can I Trust My Anomaly Detection System?*
-- **AAAI 2024**, Vancouver, Canada — Presented *Using Stratified Sampling to Improve LIME Image Explanations*.
+- **QualITA/ICPE 2026**, Florence, Italy — Presented _ShapBPT in Perspective_.
+- **AAAI 2026**, Singapore — Presented _ShapBPT_.
+- **XAI-World 2024**, Valletta, Malta — Presented _Can I Trust My Anomaly Detection System?_
+- **AAAI 2024**, Vancouver, Canada — Presented _Using Stratified Sampling to Improve LIME Image Explanations_.
 - **ECML-PKDD 2023**, Turin, Italy — Attendee.
 - **icSoftComputing 2024**, Remote — Attendee.
 
@@ -326,6 +337,7 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 ## Program Committee Member
 
+- AAAI 2027
 - ECML-PKDD 2026
 - AAAI 2026
 - ACDSA 2026
@@ -354,12 +366,12 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 # Awards and Scholarships
 
-| Award | Organization | Year |
-|---|---|---|
-| Research Scholarship for DistriMuSe activities | University of Torino | 2025 |
-| Erasmus+ Traineeship Scholarship | Erasmus+ | 2025 |
-| Innovative Industrial Doctoral Scholarship | MUR / NRRP Italy | 2022 |
-| National Laptop Award | Prime Minister Laptop Scheme | 2018 |
+| Award                                          | Organization                 | Year |
+| ---------------------------------------------- | ---------------------------- | ---- |
+| Research Scholarship for DistriMuSe activities | University of Torino         | 2025 |
+| Erasmus+ Traineeship Scholarship               | Erasmus+                     | 2025 |
+| Innovative Industrial Doctoral Scholarship     | MUR / NRRP Italy             | 2022 |
+| National Laptop Award                          | Prime Minister Laptop Scheme | 2018 |
 
 ---
 
@@ -381,7 +393,6 @@ Git, LaTeX, ROS2, Zenoh, Raspberry Pi, Jupyter Notebook, Linux, Pixi
 
 Machine Learning, Deep Learning, Computer Vision, Explainable AI, Visual Anomaly Detection, Generative AI, Edge AI, Distributed Intelligence, Robotics Safety
 
-
 <p> See details here - 
   <a href="/courses/" class="custom-btn btn-demo">📘 Courses & Training</a>
   <a href="/certifications/" class="custom-btn btn-paper">🏅 Certifications</a>
@@ -391,8 +402,8 @@ Machine Learning, Deep Learning, Computer Vision, Explainable AI, Visual Anomaly
 
 # Languages
 
-| Language | Level |
-|---|---|
-| 🇬🇧 English | C1 (Professional & Academic)|
-| 🇵🇰 Urdu | Native |
-| 🇮🇹 Italian | A1 (Basic Communication)|
+| Language   | Level                        |
+| ---------- | ---------------------------- |
+| 🇬🇧 English | C1 (Professional & Academic) |
+| 🇮🇹 Italian | A1 (Basic Communication)     |
+| 🇵🇰 Urdu    | Native                       |
