@@ -31,7 +31,7 @@ thumbnail: "../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 
 ### XAD Workflow
 
-<img src="../files/papers_data/shapbpt_ad/workflow.png">
+<img src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png">
 
 This paper presents **ShapBPT in Perspective**, a consolidated review and practical case study of **ShapBPT** for **eXplainable Anomaly Detection (XAD)**. The work bridges **hierarchical Shapley-based explanations** with real-world anomaly detection systems, demonstrating how structured feature attributions can improve the interpretability of black-box models.
 
@@ -112,15 +112,6 @@ This approach enables explanations to follow **intrinsic image structure**, impr
 ShapBPT · Explainable Anomaly Detection · XAI · Shapley Values · Binary Partition Trees · Computer Vision · ICPE 2026
 
 ---
-
-## 👥 Authors
-
-| Sr. No. |    Author Name    |                          Affiliation                           |                                     Google Scholar                                      |
-| :-----: | :---------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-|   1.    |  Muhammad Rashid  | University of Torino, Dept. of Computer Science, Torino, Italy |     [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en)     |
-|   2.    | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
-|   3.    |  Enrico Ferrari   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |  [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao)   |
-|   4.    |   Damiano Verda   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |   [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao)   |
 
 ---
 

@@ -15,7 +15,7 @@ paperurl: "https://dl.acm.org/doi/10.1145/3777911.3800638"
 codeurl: "https://github.com/rashidrao-pk/XAD"
 workshopurl: "https://qualitawg.github.io/"
 conferenceurl: "https://icpe2026.spec.org/"
-thumbnail: "../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
+thumbnail: "../files/talks/papers/QualITA-ICPE-ShapBPT-AD.jpg"
 ---
 
 This talk presents **ShapBPT in Perspective**, a consolidated review and practical case study of **ShapBPT** for **eXplainable Anomaly Detection (XAD)**.
@@ -42,6 +42,8 @@ The work connects **hierarchical Shapley-based explanations** with real-world an
 - Applied ShapBPT to **visual anomaly detection**.
 - Showed how explanations can help interpret black-box anomaly detection systems.
 
+<img src="/files/talks/papers/QualITA-ICPE-ShapBPT-AD.jpg">
+
 ---
 
 ## ⚙️ Method Overview
@@ -54,7 +56,7 @@ ShapBPT explains anomaly detection decisions by assigning attribution scores to 
 
 ## 🔍 Explainable Anomaly Detection Workflow
 
-<img src="../files/papers_data/shapbpt_ad/workflow.png">
+<img src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png">
 
 ---
 

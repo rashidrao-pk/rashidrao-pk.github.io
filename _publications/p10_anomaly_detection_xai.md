@@ -61,27 +61,18 @@ In this research, we:
 # Workflow
 
 <center>
-<img  width='80%' src='../files/papers_data/anomaly_detection_xai.gif'> 
+<img  width='80%' src='../files/papers_data/XAD/anomaly_detection_xai.gif'> 
 <br><caption> Workflow of <b>eXplainable Anomaly Detection (XAD)</b> Methods </caption>
 </center>
 
 # Results
 
 <center>
-<img  width='80%' src='../files/papers_data/results_xad.jpg'> 
+<img  width='80%' src='../files/papers_data/XAD/results_xad.jpg'> 
 <br><caption> Explained Anomalies on Hazelnut and Screw Dataset from <b>MVTec database</b> using <b>LIME</b> and <b>SHap XAI</b> Methods </caption>
 </center>
 
 ---
-
-# Authors ✍️
-
-| Sr. No. |    Author Name    |                          Affiliation                           |                                     Google Scholar                                      |
-| :-----: | :---------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-|   1.    |  Muhammad Rashid  | University of Torino, Dept. of Computer Science, Torino, Italy |     [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en)     |
-|   2.    | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
-|   3.    |  Enrico Ferrari   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |  [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao)   |
-|   4.    |   Damiano Verda   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |   [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao)   |
 
 # Keywords 🔍
 

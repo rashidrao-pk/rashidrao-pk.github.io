@@ -16,7 +16,7 @@ session: "Industrial PhD Thesis Defense"
 paperurl: "https://rashidrao-pk.github.io/publication/p14_phd_thesis/"
 pdfurl: "https://iris.unito.it/retrieve/925261dc-f0d7-46b6-b2ba-9e996c3ce58c/Thesis-Rashid-Muhammad_.pdf"
 
-# thumbnail: "../files/thesis/thumbnail_phd_thesis.png"
+thumbnail: "../files/talks/PhD_defence_1.JPG"
 
 excerpt: "PhD thesis defense presenting explainable AI and anomaly detection frameworks for trustworthy human safety monitoring in industrial environments."
 ---
@@ -30,6 +30,12 @@ The thesis investigates how **Explainable Artificial Intelligence (XAI)** and **
 Rather than treating explainability and anomaly detection as separate research areas, the work integrates them into a unified framework capable of detecting unexpected situations while simultaneously explaining the reasons behind AI decisions.
 
 ---
+
+<img src="/files/talks/PhD_defence_1.JPG">
+
+<img src="/files/talks/thesis_defence.JPG">
+
+<img src="/files/talks/phd_thesis_hardcopy.jpg">
 
 ## 🎯 Research Motivation
 

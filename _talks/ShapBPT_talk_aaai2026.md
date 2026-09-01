@@ -20,7 +20,7 @@ codeurl: "https://github.com/amparore/shap_bpt"
 testurl: "https://github.com/rashidrao-pk/shap_bpt_tests"
 pypiurl: "https://pypi.org/project/shap-bpt/"
 posterurl: "https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf"
-thumbnail: "../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
+thumbnail: "../files/talks/papers/aaai_poster_talk.jpg"
 excerpt: "Introduces ShapBPT, a data-aware hierarchical Shapley-based method for image feature attribution that improves efficiency, structural alignment, and interpretability in computer vision models."
 ---
 
@@ -68,29 +68,31 @@ to create a **data-aware hierarchical representation** of images.
 
 ---
 
+<img src="/files/talks/papers/aaai_poster_talk.jpg">
+
 ## 🧪 Method Overview
 
 ShapBPT explains model predictions by assigning attribution scores to image regions through a **hierarchical decomposition**:
 
-<img src="../files/papers_data/Fig1_explain_bpt-1.png">
+<img src="../files/papers_data/shapbpt/Fig1_explain_bpt-1.png">
 
 ---
 
 ## 🔄 Explanation Process
 
-<img src="../files/papers_data/bpt-animation.gif">
+<img src="../files/papers_data/shapbpt/bpt-animation.gif">
 
-<img src="../files/papers_data/sequence_aa.gif">
-<img src="../files/papers_data/sequence_bpt.gif">
+<img src="../files/papers_data/shapbpt/sequence_aa.gif">
+<img src="../files/papers_data/shapbpt/sequence_bpt.gif">
 
 ---
 
 ## 📊 Results & Comparisons
 
-<img src="../files/papers_data/Fig3_sequence_explanations-1.png">
+<img src="../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png">
 
-<img src="../files/papers_data/aa_plot.png">
-<img src="../files/papers_data/bpt_plot.png">
+<img src="../files/papers_data/shapbpt/aa_plot.png">
+<img src="../files/papers_data/shapbpt/bpt_plot.png">
 
 ---
 

@@ -31,6 +31,10 @@ This project focuses on deploying lightweight AI models on edge devices such as 
 
 The goal of this work is to move AI inference closer to the data source by deploying optimized computer vision models on resource-constrained hardware.
 
+<center>
+<img src='/files/projects/edge_ai.png'> 
+</center>
+
 ## Main Contributions
 
 - Lightweight model deployment on edge devices.

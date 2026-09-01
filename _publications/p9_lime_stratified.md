@@ -53,20 +53,11 @@ In this paper we:
 
 ## How LIME_Image Works
 
-<img  src='../files/papers_data/LIME-Image-workflow.png' style="background-color: white;">
+<img  src='../files/papers_data/lime/LIME-Image-workflow.png' style="background-color: white;">
 
 ### Keywords
 
 XAI · LIME · Stratified Sampling . ML: Transparent, Interpretable, Explainable ML, RU: Stochastic Optimization, SO: Sampling/Simulation-based Search
-
-### Authors
-
-| Sr. No. |    Author Name    |                          Affiliation                           |                                     Google Scholar                                      |
-| :-----: | :---------------: | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-|   1.    |  Muhammad Rashid  | University of Torino, Dept. of Computer Science, Torino, Italy |     [Muhammad Rashid](https://scholar.google.com/citations?user=F5u_Z5MAAAAJ&hl=en)     |
-|   2.    | Elvio G. Amparore | University of Torino, Dept. of Computer Science, Torino, Italy | [Elvio G. Amparore](https://scholar.google.com/citations?user=Hivlp1kAAAAJ&hl=en&oi=ao) |
-|   3.    |  Enrico Ferrari   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |  [Enrico Ferrari](https://scholar.google.com/citations?user=QOflGNIAAAAJ&hl=en&oi=ao)   |
-|   4.    |   Damiano Verda   |        Rulex Innovation Labs, Rulex Inc., Genova, Italy        |   [Damiano Verda](https://scholar.google.com/citations?user=t6o9YSsAAAAJ&hl=en&oi=ao)   |
 
 ## 📖 Citation (BibTeX)
 
