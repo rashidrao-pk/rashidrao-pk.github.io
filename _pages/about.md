@@ -214,7 +214,7 @@ Code
 <div class="publication-card-content">
 
 <img
-src="/files/papers_data/lime/LIME-Image-workflow.png"
+src="/files/papers_data/lime/LIME_Thumbnail.png"
 alt="Using Stratified Sampling to Improve LIME Image Explanations"
 class="publication-thumbnail">
 
@@ -411,7 +411,7 @@ Code
 </div>
 
 <img
-src="/files/projects/advis.png"
+src="/files/projects/advis/Thumbnail_ADVIS_SR_2.png"
 alt="Real-Time Anomaly Detection for Robotics"
 class="project-thumbnail">
 
@@ -467,7 +467,7 @@ Dataset
 </div>
 
 <img
-src="/files/projects/advis/ADVIS_Detection_results.png"
+src="/files/projects/advis/advis_unigra_full.svg"
 alt="ADVIS-UniGra anomaly detection workflow"
 class="project-thumbnail">
 
@@ -635,7 +635,7 @@ PyPI
 </div>
 
 <img
-src="/files/papers_data/lime/LIME-Image-workflow.png"
+src="/files/papers_data/lime/LIME_Thumbnail.png"
 alt="LIME Stratified Sampling"
 class="project-thumbnail">
 
