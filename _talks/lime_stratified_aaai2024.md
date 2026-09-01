@@ -32,6 +32,11 @@ The poster session provided an opportunity to present our approach for improving
 
 A recorded presentation is also available through the official AAAI-24 collection on Underline.
 
+<div class="talk-image-container">
+<img src="/files/talks/papers/aaai_24_presentation_lime.jpg" alt="Poster Presentation at AAAI-24 in Vancouver" class="talk-image">
+<p class="talk-image-caption"> Poster Presentation at AAAI-24 in Vancouver </p>
+</div>
+
 **Authors:** Muhammad Rashid, Elvio G. Amparore, Enrico Ferrari, and Damiano Verda
 
 <div class="publication-buttons">

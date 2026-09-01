@@ -68,31 +68,49 @@ to create a **data-aware hierarchical representation** of images.
 
 ---
 
-<img src="/files/talks/papers/aaai_poster_talk.jpg">
+<div class="talk-image-container">
+<img src="/files/talks/papers/aaai_poster_talk.jpg" alt="Poster Talk at AAAI-2026 on ShapBPT" class="talk-image">
+<p class="talk-image-caption"> Poster Talk at AAAI-2026 on ShapBPT </p>
+</div>
 
 ## 🧪 Method Overview
 
 ShapBPT explains model predictions by assigning attribution scores to image regions through a **hierarchical decomposition**:
 
-<img src="../files/papers_data/shapbpt/Fig1_explain_bpt-1.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/Fig1_explain_bpt-1.png" alt="Fig 1 Explain BPT" class="talk-image">
+<p class="talk-image-caption"> Fig 2 Explain BPT</p>
+</div>
 
 ---
 
 ## 🔄 Explanation Process
 
-<img src="../files/papers_data/shapbpt/bpt-animation.gif">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/bpt-animation.gif" alt="BPT Generation Animation" class="talk-image">
+<p class="talk-image-caption"> BPT Generation Animation</p>
+</div>
 
-<img src="../files/papers_data/shapbpt/sequence_aa.gif">
-<img src="../files/papers_data/shapbpt/sequence_bpt.gif">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/sequence_aa.gif" alt="AA Splits">
+<img src="../files/papers_data/shapbpt/sequence_bpt.gif" alt="AA Splits" >
+<p class="talk-image-caption"> AA Splits</p>
+</div>
 
 ---
 
 ## 📊 Results & Comparisons
 
-<img src="../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png" alt="Figure 3: Evaluation of Explanations " class="talk-image">
+<p class="talk-image-caption"> Figure 3: Evaluation of Explanations </p>
+</div>
 
-<img src="../files/papers_data/shapbpt/aa_plot.png">
-<img src="../files/papers_data/shapbpt/bpt_plot.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/aa_plot.png" alt="Shap-AA v/s ShapBPT " class="talk-image">
+<img src="/files/papers_data/shapbpt/bpt_plot.png" alt="Shap-AA v/s ShapBPT " class="talk-image">
+<p class="talk-image-caption"> Figure 4: Shap-AA v/s ShapBPT  </p>
+</div>
 
 ---
 
