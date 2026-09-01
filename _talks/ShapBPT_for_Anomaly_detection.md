@@ -42,7 +42,12 @@ The work connects **hierarchical Shapley-based explanations** with real-world an
 - Applied ShapBPT to **visual anomaly detection**.
 - Showed how explanations can help interpret black-box anomaly detection systems.
 
-<img src="/files/talks/papers/QualITA-ICPE-ShapBPT-AD.jpg">
+<div class="talk-image-container">
+<img src="/files/talks/papers/QualITA-ICPE-ShapBPT-AD.jpg" alt="Oral Talk on ShapBPT for Visual Anomaly Detection" class="talk-image">
+<p class="talk-image-caption">    Oral Talk on ShapBPT for Visual Anomaly Detection </p>
+</div>
+
+<img src="">
 
 ---
 
@@ -50,19 +55,28 @@ The work connects **hierarchical Shapley-based explanations** with real-world an
 
 ShapBPT explains anomaly detection decisions by assigning attribution scores to image regions. Instead of using fixed geometric partitions, it relies on a **Binary Partition Tree (BPT)** to follow the intrinsic structure of the image.
 
-<img src="../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png" alt="Explain Anomaly Detection" class="talk-image">
+<p class="talk-image-caption">    Overview of Explaining Anomaly Detection with SHAP </p>
+</div>
 
 ---
 
 ## 🔍 Explainable Anomaly Detection Workflow
 
-<img src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png" alt="Explainable Anomaly Detection Workflow" class="talk-image">
+<p class="talk-image-caption">    Explainable Anomaly Detection Workflow </p>
+</div>
 
 ---
 
 ## 🖼️ Sample Output
 
-<img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png">
+<div class="talk-image-container">
+<img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png" alt="sample_result" class="talk-image">
+<p class="talk-image-caption">    Sample Result </p>
+</div>
 
 ---
 

@@ -13,7 +13,7 @@ codeurl: "https://github.com/rashidrao-pk/lime_stratified"
 testurl: "https://github.com/rashidrao-pk/lime-stratified-examples"
 pypiurl: "https://pypi.org/project/lime-stratified/"
 slidesurl: "https://rashidrao-pk.github.io/files/papers_data/lime/st_lime_slides.pdf"
-thumbnail: "../files/papers_data/lime/LIME-Image-workflow.png"
+thumbnail: "../files/talks/papers/aaai_24_presentation_lime.jpg"
 coordinates: [49.2884, -123.1116]
 Special Session: Main Track - Poster Talk
 Conference: AAAI-24 | The 38th Annual AAAI Conference on Artificial Intelligence

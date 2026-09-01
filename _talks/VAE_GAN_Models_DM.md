@@ -11,7 +11,7 @@ coordinates: [42.2399, -8.6834]
 
 conference: "Project Consortium Meeting - DistriMuSe EU Project"
 session: "Use Case 3: Safe Interaction with Robots"
-
+thumbnail: "../files/talks/talk_vae_gan_dm_vigo.JPG"
 excerpt: "A consortium presentation on VAE-GAN based unexpected condition detection for industrial safety monitoring in robotic environments, developed within UC3 of the DistriMuSe EU project."
 ---
 
@@ -22,6 +22,16 @@ This talk presented our work on an **Unexpected Condition Detector** for **indus
 The goal is to detect deviations from expected operating conditions in safety-critical robotic workspaces, where unexpected situations are difficult to define exhaustively and collect in advance.
 
 Instead of relying on fully labelled abnormal data, the system is trained mainly on **normal operating conditions** and learns to identify unexpected situations through reconstruction-based anomaly detection.
+
+<div class="talk-image-container">
+<img src="/files/talks/talk_vae_gan_dm_vigo.JPG" alt="Oral Talk on VAE-GAN models" class="talk-image">
+<p class="talk-image-caption">    Oral Talk on VAE-GAN Models </p>
+</div>
+
+<div class="talk-image-container">
+<img src="/files/talks/poster_talk_vae-gan_dm_vigo.JPG" alt="Oral Talk on VAE-GAN models" class="talk-image">
+<p class="talk-image-caption">    Poster Talk on VAE-GAN models </p>
+</div>
 
 ---
 

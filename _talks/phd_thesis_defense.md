@@ -31,11 +31,20 @@ Rather than treating explainability and anomaly detection as separate research a
 
 ---
 
-<img src="/files/talks/PhD_defence_1.JPG">
+<div class="talk-image-container">
+<img src="/files/talks/PhD_defence_1.JPG" alt="PhD Thesis Defence" class="talk-image">
+<p class="talk-image-caption"> PhD Thesis Defence </p>
+</div>
 
-<img src="/files/talks/thesis_defence.JPG">
+<div class="talk-image-container">
+<img src="/files/talks/thesis_defence.JPG" alt="A Picture With Academic and Industrial Supervisor After Thesis defence" class="talk-image">
+<p class="talk-image-caption"> A Picture With Academic and Industrial Supervisor After Thesis defence </p>
+</div>
 
-<img src="/files/talks/phd_thesis_hardcopy.jpg">
+<div class="talk-image-container">
+<img src="/files/talks/phd_thesis_hardcopy.JPG" alt="Printed Copy of PhD Thesis" class="talk-image">
+<p class="talk-image-caption"> Printed Copy of PhD Thesis </p>
+</div>
 
 ## 🎯 Research Motivation
 

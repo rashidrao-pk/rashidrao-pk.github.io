@@ -47,7 +47,10 @@ Using **Explainable AI (XAI)** techniques, the study analyzes the internal behav
 
 ---
 
-<img src="/files/talks/papers/xai_world_oral_talk.jpg">
+<div class="talk-image-container">
+<img src="/files/talks/papers/xai_world_oral_talk.jpg" alt="Oral Talk on Anomaly Detection Trust Case Study" class="talk-image">
+<p class="talk-image-caption">    Oral Talk on Anomaly Detection Trust Case Study </p>
+</div>
 
 ## 🔗 Resources
 
