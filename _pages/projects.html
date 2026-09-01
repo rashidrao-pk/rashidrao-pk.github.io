@@ -56,6 +56,21 @@ status_normalized == "dataset in preparation" %} {% include project-single.html
 %} {% endunless %} {% endunless %} {% endfor %}
 
 <!-- =========================================================
+     FREELANCE & APPLIED PROJECTS
+     ========================================================= -->
+
+<h2>Freelance & Applied Projects</h2>
+
+<p>
+  Selected client-oriented and independent projects applying machine learning,
+  computer vision, image processing, and data analysis to practical problems
+  across different application domains.
+</p>
+
+{% for post in sorted_projects %} {% if post.project_group == "freelance" %} {%
+include project-single.html %} {% endif %} {% endfor %}
+
+<!-- =========================================================
      ONGOING RESEARCH
      ========================================================= -->
 
@@ -75,18 +90,3 @@ status_normalized == "manuscript in preparation" or status_normalized ==
 "ongoing open-source research" or status_normalized == "exploratory research" or
 status_normalized == "dataset in preparation" %} {% include project-single.html
 %} {% endif %} {% endunless %} {% endfor %}
-
-<!-- =========================================================
-     FREELANCE & APPLIED PROJECTS
-     ========================================================= -->
-
-<h2>Freelance & Applied Projects</h2>
-
-<p>
-  Selected client-oriented and independent projects applying machine learning,
-  computer vision, image processing, and data analysis to practical problems
-  across different application domains.
-</p>
-
-{% for post in sorted_projects %} {% if post.project_group == "freelance" %} {%
-include project-single.html %} {% endif %} {% endfor %}
