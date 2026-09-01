@@ -31,7 +31,10 @@ thumbnail: "../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 
 ### XAD Workflow
 
-<img src="../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png" alt="ShapBPT Workflow for Visual Anomaly Detection" class="talk-image">
+<p class="talk-image-caption"> ShapBPT Workflow for Visual Anomaly Detection </p>
+</div>
 
 This paper presents **ShapBPT in Perspective**, a consolidated review and practical case study of **ShapBPT** for **eXplainable Anomaly Detection (XAD)**. The work bridges **hierarchical Shapley-based explanations** with real-world anomaly detection systems, demonstrating how structured feature attributions can improve the interpretability of black-box models.
 
@@ -63,21 +66,26 @@ ShapBPT explains anomaly detection decisions by assigning **attribution scores t
 
 ## HOW BPT is build for image
 
-<center>
-<img src='../files/papers_data/shapbpt_ad/BPT.svg' width='60%'> 
-</center>
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt_ad/BPT.svg" alt="How BPT is build on Images" class="talk-image">
+<p class="talk-image-caption"> How BPT is build on Images </p>
+</div>
 
 ### Example Explanation
 
-<img src="../files/papers_data/shapbpt_ad/Fig1_explain_bpt-Hazelnut.png">
-
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/Fig1_explain_bpt-1.png" alt="Fig 1 Explain BPT" class="talk-image">
+<p class="talk-image-caption"> Fig 2 Explain BPT</p>
+</div>
 ---
 
 ## Evaluation Setup
 
-<center>
-<img src='../files/papers_data/shapbpt_ad/xai_evaluation.svg' width='50%'> 
-</center>
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt_ad/xai_evaluation.svg" alt="XAI Evaluation for Visual Anomaly Detection" class="talk-image">
+<p class="talk-image-caption"> XAI Evaluation for Visual Anomaly Detection </p>
+</div>
+
 Shapley/Owen values for AA and BPT coalitionstructures, for different values of the budget 𝑏.
 
 ---
@@ -97,15 +105,19 @@ This approach enables explanations to follow **intrinsic image structure**, impr
 
 ## 🖼️ Sample Output
 
-<img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png">
+<div class="talk-image-container">
+<img src="https://raw.githubusercontent.com/rashidrao-pk/XAD/main/docs/sample_result.png" alt="sample_result" class="talk-image">
+<p class="talk-image-caption">    Sample Result </p>
+</div>
 
 ---
 
 ## Results over All Applications
 
-<center>
-<img src='../files/papers_data/shapbpt_ad/results_shapbpt_qualt.svg'> 
-</center>
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt_ad/results_shapbpt_qualt.svg" alt="Boxplot Results on all experiments" class="talk-image" style="background-color: white;">
+<p class="talk-image-caption">    Boxplot Results on all experiments </p>
+</div>
 
 ## 🔑 Keywords
 

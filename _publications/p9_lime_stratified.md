@@ -24,7 +24,7 @@ testurl: "https://github.com/rashidrao-pk/lime-stratified-examples"
 pypiurl: "https://pypi.org/project/lime-stratified/"
 slidesurl: "https://rashidrao-pk.github.io/files/papers_data/lime/st_lime_slides.pdf"
 posterurl: "https://rashidrao-pk.github.io/files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf"
-thumbnail: "../files/papers_data/lime/LIME-Image-workflow.png"
+thumbnail: "../files/papers_data/lime/LIME_Thumbnail.png"
 citation: "Rashid,Muhammad et al. (2024). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13)."
 ---
 
@@ -53,8 +53,11 @@ In this paper we:
 
 ## How LIME_Image Works
 
-<img  src='../files/papers_data/lime/LIME-Image-workflow.png' style="background-color: white;">
-
+<div class="talk-image-container">
+<img src="/files/papers_data/lime/LIME-Image-workflow.png" alt="How Standard LIME Image Works and why it fails " class="talk-image">
+<p class="talk-image-caption"> How Standard LIME Image Works and why it fails  </p>
+</div>
+<!-- style="background-color: white;" -->
 ### Keywords
 
 XAI · LIME · Stratified Sampling . ML: Transparent, Interpretable, Explainable ML, RU: Stochastic Optimization, SO: Sampling/Simulation-based Search

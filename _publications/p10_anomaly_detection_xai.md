@@ -60,17 +60,17 @@ In this research, we:
 
 # Workflow
 
-<center>
-<img  width='80%' src='../files/papers_data/XAD/anomaly_detection_xai.gif'> 
-<br><caption> Workflow of <b>eXplainable Anomaly Detection (XAD)</b> Methods </caption>
-</center>
+<div class="talk-image-container">
+<img src="/files/papers_data/XAD/anomaly_detection_xai.gif" alt="Anomaly Detection Trust Case Study Overview" class="talk-image">
+<p class="talk-image-caption"> Anomaly Detection Trust Case Study Overview </p>
+</div>
 
 # Results
 
-<center>
-<img  width='80%' src='../files/papers_data/XAD/results_xad.jpg'> 
-<br><caption> Explained Anomalies on Hazelnut and Screw Dataset from <b>MVTec database</b> using <b>LIME</b> and <b>SHap XAI</b> Methods </caption>
-</center>
+<div class="talk-image-container">
+<img src="/files/papers_data/XAD/results_xad.jpg" alt="Anomaly Detection Trust Case Study Overview" class="talk-image">
+<p class="talk-image-caption"> Anomaly Detection Trust Case Study Results on Two Datasets in MVTec </p>
+</div>
 
 ---
 

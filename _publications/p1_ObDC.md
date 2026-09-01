@@ -40,9 +40,10 @@ tags:
 
 This work presents a hybrid framework for **object detection and classification** by combining **deep convolutional neural network (CNN) features** with **SIFT-based handcrafted features**. The proposed approach performs feature selection and fusion to improve classification performance by leveraging both deep and traditional feature representations.
 
-<center>
-<img src="/files/thesis/ms_thesis.jpg">
-</center>
+<div class="talk-image-container">
+<img src="/files/thesis/ms_thesis.jpg" alt="Master Degree Thesis on Object Detection and Classification" class="talk-image" style="background-color: white;">
+<p class="talk-image-caption"> Master Degree Thesis</p>
+</div>
 
 ---
 

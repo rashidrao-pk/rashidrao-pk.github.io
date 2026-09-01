@@ -37,16 +37,18 @@ Mehreen Irshad, Mussarat Yasmin, Muhammad Imran Sharif, **Muhammad Rashid**, Muh
 ---
 
 This work proposes a **lightweight U-Net architecture** for accurate **left ventricle segmentation** from **MRI images**. The model is designed to reduce computational complexity while maintaining high segmentation performance, making it suitable for efficient medical image analysis.
-<center>
-<img src='../files/papers_data/unet.png'> 
-</center>
+
+<div class="talk-image-container">
+<img src="/files/papers_data/unet.png" alt="UNet for Cardio Disease Segmentation" class="talk-image" style="background-color: white;">
+<p class="talk-image-caption"> UNet for Cardio Disease Segmentation</p>
+</div>
 ---
 
 ## Contributions 📃
 
-1. A **lightweight U-Net model** for medical image segmentation.  
-2. Improved segmentation accuracy for **left ventricle detection**.  
-3. Reduced computational complexity compared to standard U-Net.  
+1. A **lightweight U-Net model** for medical image segmentation.
+2. Improved segmentation accuracy for **left ventricle detection**.
+3. Reduced computational complexity compared to standard U-Net.
 4. Evaluation on MRI datasets demonstrating robust performance.
 
 ---

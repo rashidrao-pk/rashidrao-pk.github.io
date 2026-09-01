@@ -6,7 +6,7 @@ category: EU Project 🇪🇺
 subcategory: "Industrial AI"
 project_group: "advis"
 excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection on real world"
-thumbnail: "../files/projects/advis.png"
+thumbnail: "../files/projects/advis/Thumbnail_ADVIS_SR_2.png"
 status: "Ongoing Research"
 
 date: 2026-08-30

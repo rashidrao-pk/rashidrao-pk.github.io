@@ -123,7 +123,10 @@ This thesis addresses this gap by combining explainable computer vision with rob
 
 Modern AI systems are widely used in industrial automation, robotics, and safety-critical applications. Despite their impressive performance, deep learning models often behave as opaque black boxes, making their decisions difficult to interpret.
 
-<img src="/files/thesis/motivation.svg">
+<div class="talk-image-container">
+<img src="/files/thesis/motivation.svg" alt="Research Motivation" class="talk-image" style="background-color: white;">
+<p class="talk-image-caption">    Research Motivation </p>
+</div>
 
 In industrial environments where humans and robots collaborate, understanding _why_ a model predicts an anomaly is as important as the prediction itself. A reliable AI system must therefore be:
 
@@ -151,7 +154,10 @@ The thesis investigates the following research questions:
 
 ## 1.3 Main Contributions {#sec-main-contributions}
 
-<img src="/files/thesis/contributions.svg">
+<div class="talk-image-container">
+<img src="/files/thesis/contributions.svg" alt="Research Contributions" class="talk-image" style="background-color: white;">
+<p class="talk-image-caption">  Research Contributions</p>
+</div>
 
 ### 1.3.1 LIME Stratified
 

@@ -81,28 +81,40 @@ This research makes the following contributions:
 
 ShapBPT first constructs a data-aware image hierarchy using a Binary Partition Tree. This hierarchy represents the image at multiple levels of granularity, from coarse regions to fine visual structures. Shapley-based attribution scores are then computed over this hierarchy, allowing the method to assign importance values to meaningful image regions instead of arbitrary pixel grids.
 
-<img src="/files/papers_data/shapbpt/Fig1_explain_bpt-1.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/Fig1_explain_bpt-1.png" alt="Fig 1 Explain BPT" class="talk-image">
+<p class="talk-image-caption"> Fig 2 Explain BPT</p>
+</div>
 
 <hr>
 
-<img src="/files/papers_data/shapbpt/bpt-animation.gif">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/bpt-animation.gif" alt="BPT Generation Animation" class="talk-image">
+<p class="talk-image-caption"> BPT Generation Animation</p>
+</div>
 
 <hr>
 
-<img src="/files/papers_data/shapbpt/sequence_aa.gif">
-<img src="/files/papers_data/shapbpt/sequence_bpt.gif">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/sequence_aa.gif" alt="AA Splits">
+<img src="../files/papers_data/shapbpt/sequence_bpt.gif" alt="AA Splits" >
+<p class="talk-image-caption"> AA Splits</p>
+</div>
 
 <hr>
 
-<img src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png" alt="Figure 3: Evaluation of Explanations " class="talk-image">
+<p class="talk-image-caption"> Figure 3: Evaluation of Explanations </p>
+</div>
 
 <hr>
 
-<img src="/files/papers_data/shapbpt/aa_plot.png">
-
-<hr>
-
-<img src="/files/papers_data/shapbpt/bpt_plot.png">
+<div class="talk-image-container">
+<img src="/files/papers_data/shapbpt/aa_plot.png" alt="Shap-AA v/s ShapBPT " class="talk-image">
+<img src="/files/papers_data/shapbpt/bpt_plot.png" alt="Shap-AA v/s ShapBPT " class="talk-image">
+<p class="talk-image-caption"> Figure 4: Shap-AA v/s ShapBPT  </p>
+</div>
 
 <hr>
 

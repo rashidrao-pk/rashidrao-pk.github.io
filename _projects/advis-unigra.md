@@ -17,7 +17,7 @@ year: 2026
 
 excerpt: "RGB-based anomaly detection application for safety monitoring in collaborative robotics environments using synthetic industrial data."
 
-thumbnail: "../files/projects/advis/workflow.svg"
+thumbnail: "../files/projects/advis/advis_unigra_full.svg"
 
 research_area:
   - Computer Vision
@@ -68,9 +68,10 @@ toc_icon: "robot"
 
 The framework was developed as a validation application on top of the synthetic industrial environment created within the European DistriMuSe project. The objective is to automatically identify unsafe situations, unexpected human presence, and abnormal operating conditions that may affect safe human–robot collaboration.
 
-<center>
-<img src="/files/projects/advis/workflow.svg">
-</center>
+<div class="talk-image-container">
+<img src="/files/projects/advis/workflow.svg" alt="Advis Full Framework and Results " class="talk-image">
+<p class="talk-image-caption"> ADVIS Full Framework and Results </p>
+</div>
 
 <br>
 
@@ -153,17 +154,19 @@ Evaluated multiple releases of the synthetic dataset and provided feedback regar
 
 Designed a monitoring strategy based on operational safety areas instead of processing the entire image as a single scene.
 
-<center>
-<img src="/files/projects/advis/preprocessing.svg">
-</center>
+<div class="talk-image-container">
+<img src="/files/projects/advis/preprocessing.svg" alt="ADVIS Data Preproceesing " class="talk-image">
+<p class="talk-image-caption"> ADVIS Data Preproceesing </p>
+</div>
 
 ## Area-Specific Models
 
 Implemented dedicated VAE-GAN models for each monitored safety area.
 
-<center>
-<img src="/files/projects/advis/VAE_GAN_Model.svg">
-</center>
+<div class="talk-image-container">
+<img src="/files/projects/advis/VAE_GAN_Model.svg" alt="ADVIS - VAE-GAN Model Architecture " class="talk-image">
+<p class="talk-image-caption"> ADVIS - VAE-GAN Model Architecture </p>
+</div>
 
 ## Threshold Calibration
 
@@ -329,9 +332,10 @@ Heatmaps highlighting suspicious regions.
 
 Evolution of anomaly scores over time.
 
-<center>
-<img src="/files/projects/advis/timeline.svg">
-</center>
+<div class="talk-image-container">
+<img src="/files/projects/advis/timeline.svg" alt="ADVIS Temporal Alignment of Detected Anomalies" class="talk-image">
+<p class="talk-image-caption"> ADVIS Temporal Alignment of Detected Anomalies </p>
+</div>
 
 These visualizations help engineers understand:
 
@@ -363,9 +367,10 @@ The resulting experiments demonstrated that synthetic data can effectively suppo
 
 The final system achieved strong performance across monitored safety areas.
 
-<center>
-<img src="/files/projects/advis/sample_results.svg">
-</center>
+<div class="talk-image-container">
+<img src="/files/projects/advis/sample_results.svg" alt="ADVIS - Sample Results" class="talk-image">
+<p class="talk-image-caption"> ADVIS - Sample Results </p>
+</div>
 
 ## Overall Performance
 
