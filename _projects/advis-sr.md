@@ -110,6 +110,11 @@ Live Inference / Alert Publishing
 
 ```
 
+<div class="talk-image-container">
+<img src="/files/projects/advis/Annotation_Generation.svg" alt="ADVIS-SR Annotation_Generation " class="talk-image">
+<p class="talk-image-caption"> ADVIS-SR Annotation Generation </p>
+</div>
+
 # Safety Monitoring Areas
 
 The industrial scene is decomposed into multiple monitored safety zones.
@@ -130,6 +135,11 @@ Each zone is processed independently using dedicated anomaly detection models.
 ## VAE / VAE-GAN Framework
 
 The system uses Variational Autoencoder-based models trained only on normal operating conditions.
+
+<div class="talk-image-container">
+<img src="/files/projects/advis/VAE_GAN_Model.svg" alt="ADVIS - VAE-GAN Model Architecture " class="talk-image">
+<p class="talk-image-caption"> ADVIS - VAE-GAN Model Architecture </p>
+</div>
 
 During inference:
 
