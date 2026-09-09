@@ -409,7 +409,7 @@ AAAI Conference on Artificial Intelligence (AAAI 2024)
 
 - AAAI 2027
 - ECML-PKDD 2026
-- AAAI 2026
+- [AAAI 2026](<https://aaai.org/conference/aaai/aaai-26/2026-program-committee/#:~:text=Muhammad%20Rashid%20(University%20of%20Turin%2C%20Italy)>)
 - ACDSA 2026
 - ICLR 2025
 - XAI-World 2026

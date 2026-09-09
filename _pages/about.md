@@ -8,7 +8,7 @@ permalink: /
 
 **Research Fellow in Computer Science** specializing in **Explainable AI (XAI)**,
 **Computer Vision**, and **Visual Anomaly Detection**, with a focus on trustworthy
-and deployable AI for industrial and safety-critical systems.
+and deployable AI for industrial and safety-critical systems. He holds a **PhD** (innovative **Industrial** needs based) in **Artificial Intelligence** from UniTo, Italy.
 
 <div class="section-box section-box-focus" markdown="1">
 
@@ -658,7 +658,7 @@ class="project-thumbnail">
 
 - 🔬 **Research Fellow** — University of Turin, Italy ([details](/cv/#research-fellow))
 - 🇪🇺 **DistriMuSe EU Project** — Visual Anomaly Detection & Robotics Safety
-- 🎓 **PhD in Computer Science** — University of Turin, Italy
+- 🎓 **Industrial PhD in Computer Science** — University of Turin, Italy
 - 🏭 **Industrial Research** — RuleX Innovation Labs, Italy
 - 🌐 **Visiting Researcher** — University of Granada, Spain
 
