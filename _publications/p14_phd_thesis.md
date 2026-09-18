@@ -111,6 +111,12 @@ Third, the thesis studies the dependability of anomaly detection systems by tigh
 
 Finally, a new zoned anomaly detection and visual intelligence system for industrial safety monitoring, called ADVIS, is introduced in this thesis. ADVIS combines area-specific VAE-GAN-based detectors,anomaly scoring and saliency-based explanations in order to produce accurate, interpretable, and real-time safety evaluations. Validation on realistic synthetic palletizing scenarios, like human-robot interaction data, highlights high precision and recall and provides interpretable outputs that can be acted on by the engineers and safety operators. Overall, this thesis makes methodical contributions to boost the robustness, faithfulness and practicality of XAI methods and verify their effectiveness in real industrial scenarios. The work concludes by identifying open challenges and future research directions, including multimodal explainability, integration of XAI with vision-language models, and scalable deployment of trustworthy AI in dynamic industrial environments.
 
+<center>
+<img src="/files/thesis/thumbnail_phd_thesis.png"
+     alt="AI on Edge Devices — TensorFlow Lite and Raspberry Pi deployment"
+     style="max-width: 650px; width: 100%;">
+</center>
+
 # 1. Introduction {#sec-chap-1-introduction}
 
 Artificial intelligence is increasingly used in industrial inspection, robotics, healthcare, and other safety-critical domains. Although deep learning models achieve strong predictive performance, their black-box nature limits trust, especially when their decisions affect human safety. In industrial settings, a correct prediction is not sufficient; engineers and operators also need to understand why a model raises an alarm.
