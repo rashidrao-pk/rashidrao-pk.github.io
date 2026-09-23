@@ -657,10 +657,10 @@ class="project-thumbnail">
 ## Experience
 
 - 🔬 **Research Fellow** — University of Turin, Italy ([details](/cv/#research-fellow))
-- 🇪🇺 **DistriMuSe EU Project** — Visual Anomaly Detection & Robotics Safety
+- 🇪🇺 **DistriMuSe EU Project** — [Visual Anomaly Detection & Robotics Safety](https://cordis.europa.eu/project/id/101139769/results/it)
 - 🎓 **Industrial PhD in Computer Science** — University of Turin, Italy
 - 🏭 **Industrial Research** — RuleX Innovation Labs, Italy
-- 🌐 **Visiting Researcher** — University of Granada, Spain
+- 🌐 **Visiting Researcher** — [Valeria LAB, University of Granada, Spain](https://valeria.ugr.es/)
 
 </div>
 
