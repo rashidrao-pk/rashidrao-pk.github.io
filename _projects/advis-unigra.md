@@ -13,7 +13,7 @@ project_type: "Research Application"
 project_group: "advis"
 
 date: 2026-04-14
-year: 2026
+year: 2025
 
 excerpt: "RGB-based anomaly detection application for safety monitoring in collaborative robotics environments using synthetic industrial data."
 
@@ -56,7 +56,7 @@ funding:
   - DistriMuSe
 
 codeurl: "https://github.com/rashidrao-pk/advis_distrimuse_unito"
-
+docsurl: "https://informatica.unito.it/do/progetti.pl/Show?_id=n2h1"
 author_profile: true
 toc: true
 toc_sticky: true

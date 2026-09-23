@@ -87,7 +87,7 @@ pip install shap-bpt
 <a href="https://pypi.org/project/shap-bpt/" class="custom-btn btn-pypi">PyPI</a>
 <a href="https://github.com/amparore/shap_bpt" class="custom-btn btn-code">Source Code</a>
 <a href="https://shapbpt.readthedocs.io/en/latest/" class="custom-btn btn-docs">Documentation</a>
-<a href="/publication/p12_shapbpt/" class="custom-btn btn-paper">Publication</a>
+<a href="/publication/p12_ShapBPT/" class="custom-btn btn-paper">Publication</a>
 <a href="https://huggingface.co/spaces/rashidrao/shapbpt-user-study" class="custom-btn btn-demo">Demo</a>
 </p>
 

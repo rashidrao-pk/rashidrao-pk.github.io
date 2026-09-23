@@ -29,6 +29,7 @@ technologies:
   - ROS2
   - Zenoh messages
 codeurl: "https://github.com/rashidrao-pk/advis_distrimuse_unito_SR"
+docsurl: "https://informatica.unito.it/do/progetti.pl/Show?_id=n2h1"
 
 author_profile: true
 toc: true
