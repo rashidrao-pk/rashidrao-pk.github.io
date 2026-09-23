@@ -81,7 +81,7 @@ class="publication-thumbnail">
 <span class="publication-venue">AAAI 2026</span>
 
 <h3>
-<a href="//publication/p12_ShapBPT">
+<a href="/publication/p12_ShapBPT">
 ShapBPT: Image Feature Attribution using Data-Aware Binary Partition Trees
 </a>
 </h3>
@@ -176,7 +176,7 @@ class="publication-thumbnail">
 <span class="publication-venue">ICPE 2026 · QualITA</span>
 
 <h3>
-<a href="//publication/p13_ShapBPT_AD">
+<a href="/publication/p13_ShapBPT_AD">
 ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study
 </a>
 </h3>
@@ -223,7 +223,7 @@ class="publication-thumbnail">
 <span class="publication-venue">AAAI 2024</span>
 
 <h3>
-<a href="//publication/p9_lime_stratified">
+<a href="/publication/p9_lime_stratified">
 Using Stratified Sampling to Improve LIME Image Explanations
 </a>
 </h3>
@@ -310,7 +310,7 @@ class="publication-thumbnail">
 <span class="publication-venue">XAI World 2024</span>
 
 <h3>
-<a href="//publication/p10_anomaly_detection_xai">
+<a href="/publication/p10_anomaly_detection_xai">
 Can I Trust My Anomaly Detection System?
 </a>
 </h3>
