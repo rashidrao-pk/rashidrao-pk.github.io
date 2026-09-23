@@ -379,7 +379,7 @@ Slides
 
 <div class="project-info">
 
-<span class="project-badge">ADVIS · Real Factory · ROS2 · EU Project</span>
+<span class="project-badge">ADVIS · Real Industrial Safety · EU Project · HORIZON HEU · KDT</span>
 
 <h3>
 <a href="/projects/advis-distrimuse-sr/">
@@ -406,6 +406,10 @@ rel="noopener noreferrer">
 Code
 </a>
 
+<a href="https://cordis.europa.eu/project/id/101139769/results/it" class="custom-btn btn-dataset" target="_blank" rel="noopener noreferrer"> HORIZON cordis Page </a>
+
+<a href="https://informatica.unito.it/do/progetti.pl/Show?_id=n2h1" class="custom-btn btn-docs" target="_blank" rel="noopener noreferrer"> UniTo Page </a>
+
 </div>
 
 </div>
@@ -427,7 +431,7 @@ class="project-thumbnail">
 
 <div class="project-info">
 
-<span class="project-badge">ADVIS · Synthetic Environment · EU Project</span>
+<span class="project-badge">ADVIS · Synthetic Environment · EU Project · HORIZON HEU · KDT</span>
 
 <h3>
 <a href="/projects/advis-unigra/">
@@ -443,24 +447,15 @@ explainable anomaly maps.
 
 <div class="project-actions">
 
-<a href="/projects/advis-unigra/"
-class="custom-btn btn-paper">
-Project Page
-</a>
+<a href="/projects/advis-unigra/" class="custom-btn btn-paper"> Project Page </a>
 
-<a href="https://github.com/rashidrao-pk/advis_distrimuse_unito"
-class="custom-btn btn-code"
-target="_blank"
-rel="noopener noreferrer">
-Code
-</a>
+<a href="https://github.com/rashidrao-pk/advis_distrimuse_unito" class="custom-btn btn-code" target="_blank" rel="noopener noreferrer"> Code </a>
 
-<a href="https://zenodo.org/records/18742241"
-class="custom-btn btn-dataset"
-target="_blank"
-rel="noopener noreferrer">
-Dataset
-</a>
+<a href="https://cordis.europa.eu/project/id/101139769/results/it" class="custom-btn btn-dataset" target="_blank" rel="noopener noreferrer"> HORIZON cordis Page </a>
+
+<a href="https://informatica.unito.it/do/progetti.pl/Show?_id=n2h1" class="custom-btn btn-docs" target="_blank" rel="noopener noreferrer"> UniTo Page </a>
+
+<a href="https://zenodo.org/records/18742241" class="custom-btn btn-dataset" target="_blank" rel="noopener noreferrer"> Dataset </a>
 
 </div>
 

@@ -45,6 +45,10 @@ toc_icon: "robot"
 </center>
 
 <a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR" target="_blank" class="custom-btn btn-code">GitHub Repo</a>
+<a href="https://cordis.europa.eu/project/id/101139769/results/it" class="custom-btn btn-dataset" target="_blank" rel="noopener noreferrer"> HORIZON cordis Page </a>
+<a href="https://informatica.unito.it/do/progetti.pl/Show?_id=n2h1" class="custom-btn btn-docs" target="_blank" rel="noopener noreferrer"> UniTo Page </a>
+<a href="https://gitlab.di.unito.it/rashid/dm_checkpoints_demo33" class="custom-btn btn-dataset" target="_blank" rel="noopener noreferrer"> Model Checkpoints GiT</a>
+<a href="https://huggingface.co/rashidrao/ADVIS_SR_DISTRIMUSE" class="custom-btn btn-dataset" target="_blank" rel="noopener noreferrer"> Model Checkpoints HF</a>
 
 ---
 
