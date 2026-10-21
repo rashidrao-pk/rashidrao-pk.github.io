@@ -414,10 +414,23 @@ Code
 
 </div>
 
-<img
+<!-- <img
 src="/files/projects/advis/Thumbnail_ADVIS_SR_2.png"
 alt="Real-Time Anomaly Detection for Robotics"
-class="project-thumbnail">
+class="project-thumbnail"> -->
+
+{% assign advis_home = site.projects | where: "permalink", "/projects/advis-distrimuse-sr/" | first %}
+{% if advis_home %}
+
+<div class="project-thumbnail-slider" markdown="0">
+
+{% include home-project-slider.html
+  permalink="/projects/advis-distrimuse-sr/"
+  fallback="/files/projects/advis/Thumbnail_ADVIS_SR_2.png"
+  title="Real-Time Anomaly Detection for Robotics" %}
+
+</div>
+{% endif %}
 
 </div>
 </div>
@@ -461,10 +474,23 @@ explainable anomaly maps.
 
 </div>
 
-<img
+<!-- <img
 src="/files/projects/advis/advis_unigra_full.svg"
 alt="ADVIS-UniGra anomaly detection workflow"
-class="project-thumbnail">
+class="project-thumbnail"> -->
+
+{% assign advis_home = site.projects | where: "permalink", "/projects/advis-distrimuse-sr/" | first %}
+{% if advis_home %}
+
+<div class="project-thumbnail-slider" markdown="0">
+
+{% include home-project-slider.html
+  permalink="/projects/advis-unigra/"
+  fallback="/files/projects/advis/advis_unigra_full.svg"
+  title="ADVIS-UniGra" %}
+
+</div>
+{% endif %}
 
 </div>
 </div>
@@ -530,10 +556,23 @@ Docs
 
 </div>
 
-<img
+<!-- <img
 src="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 alt="ShapBPT"
-class="project-thumbnail">
+class="project-thumbnail"> -->
+
+{% assign advis_home = site.projects | where: "permalink", "/projects/advis-distrimuse-sr/" | first %}
+{% if advis_home %}
+
+<div class="project-thumbnail-slider" markdown="0">
+
+{% include home-project-slider.html
+  permalink="/projects/shap-bpt/"
+  fallback="/files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
+  title="ShapBPT" %}
+
+</div>
+{% endif %}
 
 </div>
 </div>
@@ -576,10 +615,23 @@ Code
 
 </div>
 
-<img
+<!-- <img
 src="/files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
 alt="XAD Explainable Anomaly Detection"
-class="project-thumbnail">
+class="project-thumbnail"> -->
+
+{% assign advis_home = site.projects | where: "permalink", "/projects/advis-distrimuse-sr/" | first %}
+{% if advis_home %}
+
+<div class="project-thumbnail-slider" markdown="0">
+
+{% include home-project-slider.html
+  permalink="/projects/explainable-anomaly-detection/"
+  fallback="/files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
+  title="XAD Explainable Anomaly Detection" %}
+
+</div>
+{% endif %}
 
 </div>
 </div>
@@ -629,10 +681,23 @@ PyPI
 
 </div>
 
-<img
+<!-- <img
 src="/files/papers_data/lime/LIME_Thumbnail.png"
 alt="LIME Stratified Sampling"
-class="project-thumbnail">
+class="project-thumbnail"> -->
+
+{% assign advis_home = site.projects | where: "permalink", "/projects/advis-distrimuse-sr/" | first %}
+{% if advis_home %}
+
+<div class="project-thumbnail-slider" markdown="0">
+
+{% include home-project-slider.html
+  permalink="/projects/lime-stratified-sampling/"
+  fallback="/files/papers_data/lime/LIME_Thumbnail.png"
+  title="LIME Stratified Sampling" %}
+
+</div>
+{% endif %}
 
 </div>
 </div>

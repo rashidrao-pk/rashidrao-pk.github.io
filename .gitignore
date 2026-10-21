@@ -14,4 +14,4 @@ package-lock.json
 
 # Ignore the vendor file and bundle for alternative installation
 vendor/
-.bundle/
+.bundle/files/distrimuse/demo/DEMO_ADVIS.gif

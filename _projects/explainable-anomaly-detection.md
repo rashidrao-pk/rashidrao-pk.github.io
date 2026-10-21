@@ -5,6 +5,19 @@ category: Research/XAI, AD
 permalink: /projects/explainable-anomaly-detection/
 excerpt: "A case study on building trust in anomaly detection systems using VAE-GAN models and explainable AI."
 thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"
+thumbnails:
+  - src: "../files/papers_data/XAD/anomaly_detection_xai.gif"
+    alt: "XAD - Explainable Anomaly Detection"
+
+  - src: "../files/papers_data/XAD/results_xad.jpg"
+    alt: "Results for Explainable Anomaly Detection"
+
+  - src: "../files/papers_data/XAD/dataset-xad.png"
+    alt: "Dataset XAI"
+
+  - src: "../files/papers_data/XAD/anomaly_detection_xai.jpg"
+    alt: ""
+
 date: 2024-07-01
 year: 2024
 project_type: "Research Project"

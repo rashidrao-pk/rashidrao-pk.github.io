@@ -53,6 +53,24 @@ posterurl: "https://underline.io/lecture/141841-shapbpt-image-feature-attributio
 citation: "Rashid, Muhammad, Amparore, Elvio G., Ferrari, Enrico, and Verda, Damiano. (2026). ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees. Proceedings of the AAAI Conference on Artificial Intelligence, 40."
 thumbnail: "../files/papers_data/shapbpt/shapbpt_thumbnail.png"
 
+thumbnails:
+  - src: "../files/papers_data/shapbpt/shapbpt_thumbnail.png"
+    alt: "ShapBPT - AAAI-26"
+
+  - src: "../files/papers_data/shapbpt/bpt-animation.gif"
+    alt: "Real-time anomaly detection demonstration"
+
+  - src: "../files/papers_data/shapbpt/sequence_aa.gif"
+    alt: "AxisAligned Partition Approach"
+
+  - src: "../files/papers_data/shapbpt/sequence_bpt.gif"
+    alt: "BPT Partition Approach"
+
+  - src: "../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
+    alt: "Explanations"
+    
+
+
 toc: true
 toc_sticky: true
 toc_label: "On this page"

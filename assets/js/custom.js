@@ -11,20 +11,15 @@ function copyBibtex(button) {
   });
 }
 
-
 document.addEventListener("DOMContentLoaded", function () {
-
   if (typeof jQuery !== "undefined") {
-
-    $('.popup-image').magnificPopup({
-      type: 'image',
+    $(".popup-image").magnificPopup({
+      type: "image",
       closeOnContentClick: true,
-      mainClass: 'mfp-img-mobile',
+      mainClass: "mfp-img-mobile",
       image: {
-        verticalFit: true
-      }
+        verticalFit: true,
+      },
     });
-
   }
-
 });

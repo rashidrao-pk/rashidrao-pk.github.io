@@ -40,6 +40,109 @@ Research activities focused on:
   <a href="https://github.com/rashidrao-pk/advis_distrimuse_unito_SR" class="custom-btn btn-code">ADVIS Repository</a>
 </p>
 
+<!-- DistriMuSe Consortium Meeting Gallery -->
+
+<div class="dm-gallery" id="distrimuse-gallery">
+<div class="dm-gallery-heading">
+<h3>📸 DistriMuSe Consortium Meetings — Photo Gallery</h3>
+<p>Highlights from international consortium meetings, technical presentations, and research collaborations.</p>
+</div>
+
+<div class="dm-slider" aria-label="DistriMuSe meeting photographs">
+
+<div class="dm-slide active">
+<a href="/files/distrimuse/meetings/Brno.jpg" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/Brno.jpg" alt="Video Presentation for DistriMuSe consortium meeting, Brno, Czech Republic" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Brno, Czech Republic 🇨🇿</strong>
+<span>May 2025 · Brno University of Technology</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/Feuerbach_Stuttgart.jpg" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/Feuerbach_Stuttgart.jpg" alt="DistriMuSe meeting in Feuerbach, Stuttgart, Germany" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Technical Presentation — Feuerbach, Stuttgart, Germany 🇩🇪 </strong>
+<span>Nov 2024 · DistriMuSe Consortium Meeting</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/Feuerbach_Stuttgart_UC3.png" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/Feuerbach_Stuttgart_UC3.png" alt="DistriMuSe meeting in Feuerbach, Stuttgart, Germany" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Technical Presentation — Feuerbach, Stuttgart, Germany 🇩🇪 </strong>
+<span>Nov 2024 · DistriMuSe Consortium Meeting</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/Brno.jpg" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/Brno.jpg" alt="Video Presentation for DistriMuSe consortium meeting, Brno, Czech Republic" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Brno, Czech Republic 🇨🇿</strong>
+<span>May 2025 · Brno University of Technology</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/Vigo.png" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/Vigo.png" alt="Technical presentation at the DistriMuSe meeting in Vigo, Spain" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Technical Presentation — Vigo Spain 🇪🇸 </strong>
+<span>Nov 2025 · DistriMuSe Consortium Meeting</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/Ghent.jpg" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/Ghent.jpg" alt="Technical Poster presentation at the DistriMuSe meeting in Ghent" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Technical Presentation — Ghent Belgium 🇧🇪</strong>
+<span>May 2026 · DistriMuSe Consortium Meeting</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/SR_Intergration_Week.jpeg" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/SR_Intergration_Week.jpeg" alt="DistriMuSe meeting in Feuerbach, Stuttgart, Germany" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Pilot Integration — Smart Robotics, BEST, Netherlands 🇳🇱  </strong>
+<span>April 2026 · DistriMuSe Integration Testing</span>
+</div>
+</div>
+
+<div class="dm-slide">
+<a href="/files/distrimuse/meetings/SR_April.jpeg" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/meetings/SR_April.jpeg" alt="DistriMuSe meeting in Feuerbach, Stuttgart, Germany" loading="lazy">
+</a>
+<div class="dm-caption">
+<strong>Pilot Integration — Smart Robotics, BEST, Netherlands 🇳🇱  </strong>
+<span>April 2026 · DistriMuSe Integration Testing</span>
+</div>
+</div>
+
+<button class="dm-prev" type="button" aria-label="Previous image">❮</button>
+<button class="dm-next" type="button" aria-label="Next image">❯</button>
+
+</div>
+
+<div class="dm-gallery-footer">
+<div class="dm-dots" aria-label="Select gallery image"></div>
+<button class="dm-play-toggle" type="button">⏸ Pause</button>
+</div>
+
+<p class="dm-counter" aria-live="polite">1 / 1</p>
+</div>
+
 ---
 
 # 🇪🇺 EU Project — NextPerception
@@ -179,3 +282,111 @@ Presented in the **Main Track** of the AAAI Conference on Artificial Intelligenc
     ↑ Top
   </a>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.querySelector("#distrimuse-gallery");
+  if (!gallery) return;
+
+  const slides = Array.from(gallery.querySelectorAll(".dm-slide"));
+  const dotsContainer = gallery.querySelector(".dm-dots");
+  const counter = gallery.querySelector(".dm-counter");
+  const prev = gallery.querySelector(".dm-prev");
+  const next = gallery.querySelector(".dm-next");
+  const toggle = gallery.querySelector(".dm-play-toggle");
+
+  if (!slides.length) return;
+
+  let current = 0;
+  let playing = true;
+  let timer = null;
+  const interval = 5000;
+
+  slides.forEach((slide, index) => {
+    const dot = document.createElement("button");
+    dot.type = "button";
+    dot.className = "dm-dot";
+    dot.setAttribute("aria-label", "Show image " + (index + 1));
+    dot.addEventListener("click", () => {
+      showSlide(index);
+      restart();
+    });
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = Array.from(dotsContainer.children);
+
+  function showSlide(index) {
+    current = (index + slides.length) % slides.length;
+
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("active", i === current);
+      slide.setAttribute("aria-hidden", String(i !== current));
+    });
+
+    dots.forEach((dot, i) => {
+      dot.classList.toggle("active", i === current);
+      dot.setAttribute("aria-current", i === current ? "true" : "false");
+    });
+
+    counter.textContent = (current + 1) + " / " + slides.length;
+  }
+
+  function stop() {
+    if (timer) clearInterval(timer);
+    timer = null;
+  }
+
+  function start() {
+    stop();
+    if (!playing || slides.length < 2) return;
+
+    timer = setInterval(() => {
+      showSlide(current + 1);
+    }, interval);
+  }
+
+  function restart() {
+    if (playing) start();
+  }
+
+  prev.addEventListener("click", () => {
+    showSlide(current - 1);
+    restart();
+  });
+
+  next.addEventListener("click", () => {
+    showSlide(current + 1);
+    restart();
+  });
+
+  toggle.addEventListener("click", () => {
+    playing = !playing;
+    toggle.textContent = playing ? "⏸ Pause" : "▶ Play";
+    start();
+  });
+
+  gallery.addEventListener("mouseenter", stop);
+  gallery.addEventListener("mouseleave", () => {
+    if (playing) start();
+  });
+
+  gallery.addEventListener("focusin", stop);
+  gallery.addEventListener("focusout", (event) => {
+    if (!gallery.contains(event.relatedTarget) && playing) start();
+  });
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) stop();
+    else if (playing) start();
+  });
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    playing = false;
+    toggle.textContent = "▶ Play";
+  }
+
+  showSlide(0);
+  start();
+});
+</script>

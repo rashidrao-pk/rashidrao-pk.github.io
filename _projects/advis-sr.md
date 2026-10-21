@@ -7,6 +7,20 @@ subcategory: "Industrial AI"
 project_group: "advis"
 excerpt: "Industrial Safety Detector using deep Generative models based Anomaly Detection on real world"
 thumbnail: "../files/projects/advis/Thumbnail_ADVIS_SR_2.png"
+
+thumbnails:
+  - src: "../files/projects/advis/Thumbnail_ADVIS_SR_2.png"
+    alt: "ADVIS industrial safety system"
+
+  - src: "../files/distrimuse/demo/DEMO_ADVIS.gif"
+    alt: "Real-time anomaly detection demonstration"
+
+  - src: "../files/projects/advis/Annotation_Generation.svg"
+    alt: "..Safety-area annotation generation"
+
+  - src: "../files/projects/advis/VAE_GAN_Model.svg"
+    alt: "VAE-GAN model architecture"
+
 status: "Ongoing Research"
 
 date: 2026-08-30
@@ -40,6 +54,17 @@ toc_icon: "robot"
 
 **ADVIS-SR** is a real-time anomaly detection and visual intelligence system developed for the **DistriMuSe Use Case 3 — Safe Interaction with Robots**.
 
+## Demo
+
+<!-- <div class="dm-slide"> -->
+<a href="/files/distrimuse/demo/DEMO_ADVIS.gif" target="_blank" rel="noopener noreferrer">
+<img src="/files/distrimuse/demo/DEMO_ADVIS.gif" alt="Technical Poster presentation at the DistriMuSe meeting in Ghent">
+</a>
+<!-- <div class="dm-caption"> -->
+<!-- <strong>Technical Presentation — Ghent Belgium 🇧🇪</strong> -->
+<!-- <span>May 2026 · DistriMuSe Consortium Meeting</span> -->
+<!-- </div>
+</div> -->
 <center>
 <img src="/files/projects/advis.png">
 </center>

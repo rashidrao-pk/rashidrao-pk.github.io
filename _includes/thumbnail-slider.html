@@ -1,0 +1,54 @@
+{% assign slides = include.item.thumbnails %} {% assign fallback =
+include.item.thumbnail | default: include.teaser %} {% if slides and slides.size
+> 0 %}
+<div
+  class="portfolio-thumb-slider"
+  tabindex="0"
+  aria-label="Image gallery for {{ include.item.title | escape }}"
+>
+  {% for slide in slides %}
+  <div
+    class="portfolio-thumb-slide{% if forloop.first %} is-active{% endif %}"
+    {%
+    unless
+    forloop.first
+    %}
+    hidden{%
+    endunless
+    %}
+  >
+    <img
+      src="{{ slide.src | relative_url }}"
+      alt="{{ slide.alt | default: include.item.title | escape }}"
+      loading="lazy"
+    />
+  </div>
+  {% endfor %} {% if slides.size > 1 %}
+  <button
+    type="button"
+    class="portfolio-thumb-prev"
+    aria-label="Previous image"
+  >
+    ❮
+  </button>
+  <button type="button" class="portfolio-thumb-next" aria-label="Next image">
+    ❯
+  </button>
+  <div class="portfolio-thumb-counter">1 / {{ slides.size }}</div>
+  {% endif %}
+</div>
+{% elsif fallback %}
+<div class="portfolio-thumb-slider">
+  <div class="portfolio-thumb-slide is-active">
+    {% assign first_char = fallback | slice: 0, 1 %} {% if fallback contains
+    "://" %} {% assign image_url = fallback %} {% elsif first_char == "/" %} {%
+    assign image_url = fallback | relative_url %} {% else %} {% assign image_url
+    = fallback | prepend: "/images/" | relative_url %} {% endif %}
+    <img
+      src="{{ image_url }}"
+      alt="{{ include.item.title | escape }}"
+      loading="lazy"
+    />
+  </div>
+</div>
+{% endif %}

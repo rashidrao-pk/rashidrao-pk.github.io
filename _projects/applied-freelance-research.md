@@ -5,6 +5,23 @@ category: Applied AI
 permalink: /projects/applied-freelance-research/
 excerpt: "Applied research and freelance projects in medical imaging, computer vision, machine learning, and intelligent decision systems."
 thumbnail: "../files/projects/freelance.png"
+
+thumbnails:
+  - src: "../files/projects/freelance.png"
+    alt: "Freelance Projects"
+
+  - src: "https://user-images.githubusercontent.com/25412736/183263988-60ad12af-8bdf-4448-a611-59a43e936e03.gif"
+    alt: "Computer Vision and Machine Learning Projects"
+
+  - src: "https://user-images.githubusercontent.com/25412736/183264046-d8f60eba-43b0-4a57-91e5-1a86e0a94f70.gif"
+    alt: "Computer Vision and Machine Learning Projects"
+
+  - src: "https://user-images.githubusercontent.com/25412736/183263897-fb624ff8-806b-4ef3-b2d6-8db269e0e550.gif"
+    alt: ""
+
+  - src: "https://user-images.githubusercontent.com/25412736/174874688-b422977e-281a-4d6d-b397-d95902593f72.png"
+    alt: ""
+
 date: 2022-01-01
 year: "2017–2022"
 project_type: "Applied Research"

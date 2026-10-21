@@ -2068,3 +2068,621 @@ body.dark .project-info h3 a,
     border-radius: 9px;
   }
 }
+
+/* ==========================================================
+   DistriMuSe Consortium Meeting Photo Gallery
+   ========================================================== */
+
+.dm-gallery {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 20px;
+  background: #202b3a;
+  border: 1px solid #38516a;
+  border-radius: 16px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.14);
+}
+
+.dm-gallery-heading {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #f5f8ff;
+
+  h3 {
+    margin: 0 0 8px;
+    color: #ffffff;
+    font-size: 1.15rem;
+  }
+
+  p {
+    color: #bfcddd;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+}
+
+.dm-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #111c29;
+}
+
+.dm-slide {
+  display: none;
+  position: relative;
+  animation: dmFade 0.55s ease;
+}
+
+.dm-slide.active {
+  display: block;
+}
+
+.dm-slide a {
+  display: block;
+}
+
+.dm-slide img {
+  display: block;
+  width: 100%;
+  height: 440px;
+  object-fit: contain;
+  background: #111c29;
+  border-radius: 12px;
+}
+
+.dm-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 22px 20px 14px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  pointer-events: none;
+
+  strong {
+    font-size: 0.95rem;
+    color: #fff;
+  }
+
+  span {
+    font-size: 0.78rem;
+    color: #e0e7ef;
+  }
+}
+
+.dm-prev,
+.dm-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  z-index: 5;
+  font-size: 19px;
+  transition: background 0.2s ease;
+}
+
+.dm-prev:hover,
+.dm-next:hover {
+  background: rgba(40, 130, 210, 0.85);
+}
+
+.dm-prev {
+  left: 12px;
+}
+.dm-next {
+  right: 12px;
+}
+
+.dm-gallery-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 15px;
+}
+
+.dm-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  justify-content: center;
+}
+
+.dm-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #718399;
+  cursor: pointer;
+}
+
+.dm-dot.active {
+  background: #55b8ff;
+  transform: scale(1.25);
+}
+
+.dm-play-toggle {
+  background: #32465b;
+  color: white;
+  border: 1px solid #536d85;
+  border-radius: 7px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.dm-counter {
+  text-align: center;
+  margin: 10px 0 0;
+  font-size: 0.75rem;
+  color: #c3d1e1;
+}
+
+@keyframes dmFade {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  .dm-gallery {
+    padding: 12px;
+  }
+
+  .dm-slide img {
+    height: 280px;
+  }
+
+  .dm-caption {
+    padding: 25px 12px 10px;
+  }
+
+  .dm-prev,
+  .dm-next {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dm-slide {
+    animation: none;
+  }
+}
+
+/* ==========================================================
+   Universal Portfolio Thumbnail Slider
+   Projects / Publications / Talks
+   ========================================================== */
+
+.portfolio-thumb-slider {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  margin: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  padding: 5px;
+  background: #fff;
+
+  border: 1px solid rgba(100, 120, 140, 0.35);
+  border-radius: 12px;
+
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-thumb-slide {
+  width: 100%;
+}
+
+.portfolio-thumb-slide[hidden] {
+  display: none !important;
+}
+
+.portfolio-thumb-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #f5f7fa;
+  border-radius: 7px;
+}
+
+.portfolio-thumb-prev,
+.portfolio-thumb-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 28px;
+  height: 28px;
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  background: rgba(20, 30, 45, 0.75);
+  color: #fff;
+  font-size: 13px;
+
+  cursor: pointer;
+  z-index: 3;
+}
+
+.portfolio-thumb-prev {
+  left: 9px;
+}
+
+.portfolio-thumb-next {
+  right: 9px;
+}
+
+.portfolio-thumb-prev:hover,
+.portfolio-thumb-next:hover {
+  background: #2878b8;
+}
+
+.portfolio-thumb-counter {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  padding: 3px 7px;
+  border-radius: 6px;
+
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+@media (max-width: 650px) {
+  .portfolio-thumb-slider {
+    max-width: 140px;
+    padding: 4px;
+  }
+
+  .portfolio-thumb-slide img {
+    height: 135px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-thumb-slider * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+// SLIDER FOR PROJECT SHOWCASE MOCKUPS
+
+/* Portfolio slider fixes */
+
+.project-thumb .portfolio-thumb-slider {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.project-thumb .portfolio-thumb-slide {
+  display: block;
+  width: 100%;
+}
+
+.project-thumb .portfolio-thumb-slide[hidden] {
+  display: none !important;
+}
+
+.project-thumb .portfolio-thumb-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.project-thumb .portfolio-thumb-prev,
+.project-thumb .portfolio-thumb-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  cursor: pointer;
+}
+
+.project-thumb .portfolio-thumb-prev {
+  left: 8px;
+}
+
+.project-thumb .portfolio-thumb-next {
+  right: 8px;
+}
+
+/* Taller project thumbnail slider */
+
+.project-thumb {
+  width: 220px;
+  min-width: 220px;
+  flex-shrink: 0;
+}
+
+.project-thumb .portfolio-thumb-slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-thumb .portfolio-thumb-slide img {
+  display: block;
+  width: 100%;
+  height: 300px; /* Increase this value */
+  object-fit: contain;
+}
+
+/* Mobile responsive */
+@media (max-width: 650px) {
+  .project-thumb {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .project-thumb .portfolio-thumb-slide img {
+    height: 220px;
+  }
+}
+
+/* ==========================================================
+   HOMEPAGE — Larger Publication & Project Thumbnails
+   ========================================================== */
+
+/* Publication cards */
+.section-box-publications .publication-card-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.section-box-publications .publication-thumbnail {
+  width: 100px;
+  height: 250px;
+  max-width: none;
+  flex: 0 0 280px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Project cards */
+.section-box-projects .project-card-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.section-box-projects .project-thumbnail {
+  width: 100px;
+  height: 250px;
+  max-width: none;
+  flex: 0 0 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Allow text to shrink without overflowing */
+.section-box-publications .publication-info,
+.section-box-projects .project-info {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* Responsive tablet */
+@media (max-width: 1000px) {
+  .section-box-publications .publication-thumbnail,
+  .section-box-projects .project-thumbnail {
+    width: 220px;
+    height: 200px;
+    flex-basis: 220px;
+  }
+}
+
+/* Responsive mobile */
+@media (max-width: 650px) {
+  .section-box-publications .publication-card-content,
+  .section-box-projects .project-card-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .section-box-publications .publication-thumbnail,
+  .section-box-projects .project-thumbnail {
+    width: 100%;
+    height: 220px;
+    max-width: 100%;
+    flex: none;
+  }
+}
+
+/* ==========================================================
+   HOMEPAGE — Featured Projects Thumbnail Slider
+   ========================================================== */
+
+.section-box-projects .project-thumbnail-slider {
+  width: 250px;
+  flex: 0 0 300px;
+  min-width: 0;
+}
+
+.section-box-projects .project-thumbnail-slider .portfolio-thumb-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-box-projects .project-thumbnail-slider .portfolio-thumb-slide {
+  display: none !important;
+}
+
+.section-box-projects
+  .project-thumbnail-slider
+  .portfolio-thumb-slide.is-active {
+  display: block !important;
+}
+
+.section-box-projects .project-thumbnail-slider .portfolio-thumb-slide[hidden] {
+  display: none !important;
+}
+
+.section-box-projects .project-thumbnail-slider .portfolio-thumb-slide img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.section-box-projects .project-thumbnail-slider .portfolio-thumb-prev,
+.section-box-projects .project-thumbnail-slider .portfolio-thumb-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .section-box-projects .project-thumbnail-slider {
+    width: 220px;
+    flex-basis: 220px;
+  }
+
+  .section-box-projects .project-thumbnail-slider .portfolio-thumb-slide img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 650px) {
+  .section-box-projects .project-thumbnail-slider {
+    width: 100%;
+    flex: none;
+  }
+
+  .section-box-projects .project-thumbnail-slider .portfolio-thumb-slide img {
+    height: 220px;
+  }
+}
+
+/* ==========================================================
+   HOMEPAGE — Align project thumbnails further right
+   ========================================================== */
+
+@media (min-width: 651px) {
+  .section-box-projects .project-card-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .section-box-projects .project-info {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .section-box-projects .project-thumbnail-slider {
+    margin-left: auto;
+    margin-right: 0;
+    flex: 0 0 240px;
+    width: 240px;
+    max-width: 60%;
+  }
+}
+
+/* ==========================================================
+   HOMEPAGE — Shift thumbnail right, keep text close
+   ========================================================== */
+
+@media (min-width: 651px) {
+  .section-box-projects .project-card-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    align-items: center;
+    column-gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Text fills the space immediately before the thumbnail */
+  .section-box-projects .project-info {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+  }
+
+  /* Thumbnail occupies the rightmost grid column */
+  .section-box-projects .project-thumbnail-slider {
+    width: 240px;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    justify-self: end;
+  }
+}
+
+/* Mobile: keep the stacked layout */
+@media (max-width: 650px) {
+  .section-box-projects .project-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .section-box-projects .project-thumbnail-slider {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+/* ==========================================================
+   PROJECTS PAGE — Align thumbnail with heading
+   ========================================================== */
+
+.project-card-wrapper .project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+/* Thumbnail starts at the top */
+.project-card-wrapper .project-thumb {
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+/* Remove extra top spacing from heading */
+.project-card-wrapper .project-content {
+  align-self: flex-start;
+  min-width: 0;
+}
+
+.project-card-wrapper .project-content h2,
+.project-card-wrapper .project-content h3 {
+  margin-top: 0;
+}

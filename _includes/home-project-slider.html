@@ -1,0 +1,17 @@
+{% assign homepage_project = site.projects | where: "permalink",
+include.permalink | first %}
+
+<div class="project-thumbnail-slider">
+  {% if homepage_project %} {% include thumbnail-slider.html
+  item=homepage_project teaser=include.fallback %} {% else %}
+  <div class="portfolio-thumb-slider">
+    <div class="portfolio-thumb-slide is-active">
+      <img
+        src="{{ include.fallback | relative_url }}"
+        alt="{{ include.title | escape }}"
+        loading="lazy"
+      />
+    </div>
+  </div>
+  {% endif %}
+</div>

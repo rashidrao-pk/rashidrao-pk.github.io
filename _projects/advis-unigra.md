@@ -19,6 +19,19 @@ excerpt: "RGB-based anomaly detection application for safety monitoring in colla
 
 thumbnail: "../files/projects/advis/advis_unigra_full.svg"
 
+thumbnails:
+  - src: "../files/projects/advis/advis_unigra_full.svg"
+    alt: "ADVIS industrial safety system"
+
+  - src: "../files/projects/advis/preprocessing.svg"
+    alt: "Real-time anomaly detection demonstration"
+
+  - src: "../files/projects/advis/VAE_GAN_Model.svg"
+    alt: "VAE-GAN model architecture"
+
+  - src: "../files/projects/advis/sample_results.svg"
+    alt: "..Safety-area annotation generation"
+
 research_area:
   - Computer Vision
   - Anomaly Detection
