@@ -94,6 +94,14 @@
         </li>
       {% endif %}
 
+      {% if author.huggingface %}
+        <li>
+          <a href="{{ author.huggingface }}" target="_blank" rel="noopener noreferrer">
+            <span class="icon-pad-right" aria-hidden="true">🤗</span>Hugging Face
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      

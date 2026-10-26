@@ -65,7 +65,7 @@ Research activities focused on:
 <img src="/files/distrimuse/meetings/Feuerbach_Stuttgart.jpg" alt="DistriMuSe meeting in Feuerbach, Stuttgart, Germany" loading="lazy">
 </a>
 <div class="dm-caption">
-<strong>Technical Presentation — Feuerbach, Stuttgart, Germany 🇩🇪 </strong>
+<strong>Participation/Discussion — Feuerbach, Stuttgart, Germany 🇩🇪 </strong>
 <span>Nov 2024 · DistriMuSe Consortium Meeting</span>
 </div>
 </div>
@@ -75,7 +75,7 @@ Research activities focused on:
 <img src="/files/distrimuse/meetings/Feuerbach_Stuttgart_UC3.png" alt="DistriMuSe meeting in Feuerbach, Stuttgart, Germany" loading="lazy">
 </a>
 <div class="dm-caption">
-<strong>Technical Presentation — Feuerbach, Stuttgart, Germany 🇩🇪 </strong>
+<strong>Participation/Discussion — Feuerbach, Stuttgart, Germany 🇩🇪 </strong>
 <span>Nov 2024 · DistriMuSe Consortium Meeting</span>
 </div>
 </div>
