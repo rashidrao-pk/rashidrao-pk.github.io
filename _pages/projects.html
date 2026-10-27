@@ -5,88 +5,386 @@ title: "Projects & Research Work"
 author_profile: true
 ---
 
-<p>
-  This page highlights selected
-  <strong>
-    research projects, industrial systems, ongoing collaborations, open-source
-    contributions, and applied machine learning work
-  </strong>
-  spanning
-  <strong>
-    Explainable AI, Computer Vision, Anomaly Detection, Trustworthy Machine
-    Learning, and Industrial AI </strong
-  >.
-</p>
-
-{% assign sorted_projects = site.projects | sort: "date" | reverse %}
-
-<!-- =========================================================
-     ADVIS
-     ========================================================= -->
-
-<h2>ADVIS — Industrial AI & Robotics Safety</h2>
+{% include base_path %}
 
 <p>
-  Research and deployed systems developed around visual anomaly detection,
-  human–robot collaboration, and safety monitoring for industrial environments.
+  This page highlights selected <strong>research projects, industrial systems,
+  ongoing collaborations, open-source contributions, and applied machine learning work</strong>
+  spanning <strong>Explainable AI, Computer Vision, Anomaly Detection,
+  Trustworthy Machine Learning, and Industrial AI</strong>.
 </p>
 
-{% for post in sorted_projects %} {% if post.project_group == "advis" %} {%
-include project-single.html %} {% endif %} {% endfor %}
+<div class="pub-search-box">
+  <input
+    type="search"
+    id="project-search"
+    placeholder="🔍  Search projects, research areas, technologies…"
+    aria-label="Search projects"
+    autocomplete="off"
+  />
+</div>
 
-<!-- =========================================================
-     COMPLETED & FEATURED RESEARCH
-     ========================================================= -->
+<div class="pub-controls">
+  <div class="pub-sort-box">
+    <label for="project-sort"><strong>Sort:</strong></label>
+    <select id="project-sort">
+      <option value="featured" selected>⭐ Best / Featured first</option>
+      <option value="date-desc">Newest first</option>
+      <option value="date-asc">Oldest first</option>
+      <option value="title-asc">Title A–Z</option>
+    </select>
+  </div>
+</div>
 
-<h2>Completed & Featured Research</h2>
+<nav class="pub-cat-nav" id="project-cat-nav" aria-label="Project categories">
+  <button type="button" class="pub-cat-btn active" data-project-cat="all" aria-pressed="true">
+    All Projects <span class="pub-cat-count" id="project-count-all"></span>
+  </button>
+  <button type="button" class="pub-cat-btn" data-project-cat="eu" aria-pressed="false">
+    🇪🇺 EU Projects <span class="pub-cat-count" id="project-count-eu"></span>
+  </button>
+  <button type="button" class="pub-cat-btn" data-project-cat="research" aria-pressed="false">
+    🔬 Research Projects <span class="pub-cat-count" id="project-count-research"></span>
+  </button>
+  <button type="button" class="pub-cat-btn" data-project-cat="freelance" aria-pressed="false">
+    💻 Freelance <span class="pub-cat-count" id="project-count-freelance"></span>
+  </button>
+  <button type="button" class="pub-cat-btn" data-project-cat="ongoing" aria-pressed="false">
+    🚀 Ongoing Projects <span class="pub-cat-count" id="project-count-ongoing"></span>
+  </button>
+</nav>
 
-<p>
-  Selected completed research projects, published methods, and open-source
-  research contributions.
+<div id="project-banner" class="pub-featured-banner" role="status" aria-live="polite">
+  ⭐ Featured research and selected projects
+</div>
+
+<div id="project-list">
+  {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+  {% for post in sorted_projects %}
+
+    {% assign project_group = post.project_group | default: "" | downcase | strip %}
+    {% assign project_category = post.category | default: "" | downcase %}
+    {% assign project_status = post.status | default: "" | downcase | strip %}
+
+    {% assign is_eu = false %}
+    {% if project_category contains "eu project" %}
+      {% assign is_eu = true %}
+    {% endif %}
+
+    {% assign is_freelance = false %}
+    {% if project_group == "freelance" %}
+      {% assign is_freelance = true %}
+    {% endif %}
+
+    {% assign is_ongoing = false %}
+    {% if project_status contains "ongoing" or project_status contains "in preparation" or project_status contains "exploratory" or project_status contains "early-stage" %}
+      {% assign is_ongoing = true %}
+    {% endif %}
+
+    {% assign is_research = true %}
+    {% if is_eu or is_freelance %}
+      {% assign is_research = false %}
+    {% endif %}
+
+    {% assign default_rank = 100 %}
+    {% case post.slug %}
+      {% when "shap_bpt" %}
+        {% assign default_rank = 1 %}
+      {% when "lime-stratified-sampling" %}
+        {% assign default_rank = 2 %}
+      {% when "advis-sr" %}
+        {% assign default_rank = 3 %}
+      {% when "advis-unigra" %}
+        {% assign default_rank = 4 %}
+      {% when "explainable-anomaly-detection" %}
+        {% assign default_rank = 5 %}
+    {% endcase %}
+
+    <div
+      class="project-filter-item"
+      data-title="{{ post.title | default: '' | downcase | escape }}"
+      data-excerpt="{{ post.excerpt | default: '' | markdownify | strip_html | downcase | escape }}"
+      data-area="{{ post.research_area | join: ',' | downcase | escape }}"
+      data-technologies="{{ post.technologies | join: ',' | downcase | escape }}"
+      data-category="{{ project_category | escape }}"
+      data-status="{{ project_status | escape }}"
+      data-date="{{ post.date | date: '%Y-%m-%d' }}"
+      data-rank="{{ post.featured_rank | default: default_rank }}"
+      data-eu="{{ is_eu }}"
+      data-research="{{ is_research }}"
+      data-freelance="{{ is_freelance }}"
+      data-ongoing="{{ is_ongoing }}"
+    >
+      {% include project-single.html %}
+    </div>
+
+  {% endfor %}
+</div>
+
+<p id="project-no-results" hidden>
+  No projects match your search or selected category.
 </p>
 
-{% for post in sorted_projects %} {% assign status_normalized = post.status |
-downcase | strip %} {% unless post.project_group == "advis" or
-post.project_group == "freelance" %} {% unless status_normalized == "ongoing" or
-status_normalized == "ongoing research" or status_normalized == "ongoing
-collaboration" or status_normalized == "early-stage research" or
-status_normalized == "manuscript in preparation" or status_normalized ==
-"ongoing open-source research" or status_normalized == "exploratory research" or
-status_normalized == "dataset in preparation" %} {% include project-single.html
-%} {% endunless %} {% endunless %} {% endfor %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const list = document.getElementById("project-list");
+  const items = Array.from(list.querySelectorAll(".project-filter-item"));
+  const search = document.getElementById("project-search");
+  const sort = document.getElementById("project-sort");
+  const banner = document.getElementById("project-banner");
+  const noResults = document.getElementById("project-no-results");
+  const buttons = Array.from(document.querySelectorAll("[data-project-cat]"));
 
-<!-- =========================================================
-     FREELANCE & APPLIED PROJECTS
-     ========================================================= -->
+  const categories = {
+    all: "All Projects",
+    eu: "EU Projects",
+    research: "Research Projects",
+    freelance: "Freelance",
+    ongoing: "Ongoing Projects"
+  };
 
-<h2>Freelance & Applied Projects</h2>
+  let activeCategory = "all";
 
-<p>
-  Selected client-oriented and independent projects applying machine learning,
-  computer vision, image processing, and data analysis to practical problems
-  across different application domains.
-</p>
+  function belongsTo(item, category) {
+    return category === "all" || item.dataset[category] === "true";
+  }
 
-{% for post in sorted_projects %} {% if post.project_group == "freelance" %} {%
-include project-single.html %} {% endif %} {% endfor %}
+  Object.keys(categories).forEach(category => {
+    const count = items.filter(item => belongsTo(item, category)).length;
+    document.getElementById("project-count-" + category).textContent =
+      "(" + count + ")";
+  });
 
-<!-- =========================================================
-     ONGOING RESEARCH
-     ========================================================= -->
+  function render() {
+    const query = search.value.trim().toLowerCase();
+    const mode = sort.value;
 
-<h2>Ongoing Research & Collaborations</h2>
+    const visible = items.filter(item => {
+      const matchesCategory = belongsTo(item, activeCategory);
 
-<p>
-  Active research directions, manuscripts in preparation, collaborative
-  projects, datasets, and open-source research currently under development.
-</p>
+      const searchableText = [
+        item.dataset.title,
+        item.dataset.excerpt,
+        item.dataset.area,
+        item.dataset.technologies,
+        item.dataset.category,
+        item.dataset.status
+      ].join(" ");
 
-{% for post in sorted_projects %} {% assign status_normalized = post.status |
-downcase | strip %} {% unless post.project_group == "advis" or
-post.project_group == "freelance" %} {% if status_normalized == "ongoing" or
-status_normalized == "ongoing research" or status_normalized == "ongoing
-collaboration" or status_normalized == "early-stage research" or
-status_normalized == "manuscript in preparation" or status_normalized ==
-"ongoing open-source research" or status_normalized == "exploratory research" or
-status_normalized == "dataset in preparation" %} {% include project-single.html
-%} {% endif %} {% endunless %} {% endfor %}
+      return matchesCategory && (!query || searchableText.includes(query));
+    });
+
+    visible.sort((a, b) => {
+      if (mode === "featured") {
+        return Number(a.dataset.rank) - Number(b.dataset.rank) ||
+          (b.dataset.date || "").localeCompare(a.dataset.date || "");
+      }
+      if (mode === "date-desc") {
+        return (b.dataset.date || "").localeCompare(a.dataset.date || "");
+      }
+      if (mode === "date-asc") {
+        return (a.dataset.date || "").localeCompare(b.dataset.date || "");
+      }
+      if (mode === "title-asc") {
+        return (a.dataset.title || "").localeCompare(b.dataset.title || "");
+      }
+      return 0;
+    });
+
+    items.forEach(item => { item.hidden = true; });
+
+    visible.forEach(item => {
+      item.hidden = false;
+      list.appendChild(item);
+    });
+
+    noResults.hidden = visible.length !== 0;
+
+    const countText = visible.length + " project" +
+      (visible.length === 1 ? "" : "s");
+
+    if (query) {
+      banner.textContent = "🔎 Search results: " + countText;
+    } else if (mode === "featured" && activeCategory === "all") {
+      banner.textContent = "⭐ Featured research and selected projects · " + countText;
+    } else {
+      banner.textContent = "📋 " + categories[activeCategory] + ": " +
+        countText + " · " + sort.options[sort.selectedIndex].text;
+    }
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      activeCategory = this.dataset.projectCat;
+
+      buttons.forEach(other => {
+        const selected = other === this;
+        other.classList.toggle("active", selected);
+        other.setAttribute("aria-pressed", String(selected));
+      });
+
+      render();
+    });
+  });
+
+  search.addEventListener("input", render);
+  sort.addEventListener("change", render);
+
+  render();
+});
+</script>
+
+<style>
+#project-search {
+  width: 100%;
+  max-width: 480px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+#project-search:focus {
+  outline: none;
+  border-color: #469B60;
+  box-shadow: 0 0 0 2px rgba(70,155,96,0.15);
+}
+
+.pub-controls {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 16px 0 24px;
+}
+
+.pub-controls select {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.pub-cat-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 10px;
+}
+
+.pub-cat-btn {
+  padding: 7px 16px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.pub-cat-btn:hover {
+  border-color: #469B60;
+  color: #1e5a3c;
+  background: #e8f5ee;
+}
+
+.pub-cat-btn.active {
+  background: #469B60;
+  border-color: #469B60;
+  color: #fff;
+}
+
+.pub-cat-count {
+  font-weight: 400;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.pub-featured-banner {
+  background: linear-gradient(135deg, #f0f9f4 0%, #e8f5ee 100%);
+  border-left: 4px solid #469B60;
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin: 8px 0 20px;
+  font-weight: 600;
+  color: #1e5a3c;
+  font-size: 0.95em;
+}
+
+.project-filter-item {
+  margin-bottom: 0;
+}
+
+.project-filter-item[hidden],
+#project-no-results[hidden] {
+  display: none !important;
+}
+
+#project-no-results {
+  color: #888;
+  font-style: italic;
+  margin-top: 1em;
+}
+
+html[data-theme="dark"] #project-search,
+body.dark #project-search,
+[data-theme="dark"] #project-search,
+html[data-theme="dark"] .pub-controls select,
+body.dark .pub-controls select,
+[data-theme="dark"] .pub-controls select {
+  background-color: #2b2b2b !important;
+  color: #f5f5f5 !important;
+  border: 1px solid #666 !important;
+}
+
+html[data-theme="dark"] #project-search::placeholder,
+body.dark #project-search::placeholder,
+[data-theme="dark"] #project-search::placeholder {
+  color: #bdbdbd !important;
+}
+
+html[data-theme="dark"] .pub-controls label,
+body.dark .pub-controls label,
+[data-theme="dark"] .pub-controls label {
+  color: #f5f5f5 !important;
+}
+
+html[data-theme="dark"] .pub-cat-btn,
+body.dark .pub-cat-btn,
+[data-theme="dark"] .pub-cat-btn {
+  background: #333;
+  color: #ddd;
+  border-color: #666;
+}
+
+html[data-theme="dark"] .pub-cat-btn.active,
+body.dark .pub-cat-btn.active,
+[data-theme="dark"] .pub-cat-btn.active {
+  background: #469B60;
+  border-color: #469B60;
+  color: #fff;
+}
+
+html[data-theme="dark"] .pub-featured-banner,
+body.dark .pub-featured-banner,
+[data-theme="dark"] .pub-featured-banner {
+  background: #24392d;
+  color: #c7f0d3;
+}
+
+@media (max-width: 600px) {
+  #project-search {
+    max-width: 100%;
+  }
+
+  .pub-cat-btn {
+    padding: 7px 11px;
+    font-size: 13px;
+  }
+}
+</style>
