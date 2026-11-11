@@ -32,6 +32,8 @@ technologies:
   - VAE-GAN
   - XAI
 codeurl: "https://github.com/rashidrao-pk/anomaly_detection_trust_case_study"
+demourl: "https://anomaly-detection-trust.readthedocs.io/en/latest/demos/trust/index.html"
+docsurl: "https://anomaly-detection-trust.readthedocs.io/en/latest/index.html"
 
 toc: true
 toc_sticky: true

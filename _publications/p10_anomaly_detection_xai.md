@@ -21,6 +21,8 @@ location: "La Valletta, Malta"
 paperurl: "https://link.springer.com/chapter/10.1007/978-3-031-63803-9_13"
 arxivurl: "https://arxiv.org/abs/2407.19951"
 codeurl: "https://github.com/rashidrao-pk/anomaly_detection_trust_case_study"
+demourl: "https://anomaly-detection-trust.readthedocs.io/en/latest/demos/trust/index.html"
+docsurl: "https://anomaly-detection-trust.readthedocs.io/en/latest/index.html"
 slidesurl: "http://rashidrao-pk.github.io/files/papers_data/XAD/anomaly_detection_xai_w_slides.pdf"
 thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"
 
