@@ -23,7 +23,8 @@ codeurl: "https://github.com/rashidrao-pk/lime_stratified"
 testurl: "https://github.com/rashidrao-pk/lime-stratified-examples"
 pypiurl: "https://pypi.org/project/lime-stratified/"
 slidesurl: "https://rashidrao-pk.github.io/files/papers_data/lime/st_lime_slides.pdf"
-
+demourl: "https://lime-stratified.readthedocs.io/en/latest/demos/sampling/index.html"
+docsurl: "https://lime-stratified.readthedocs.io/en/latest/"
 toc: true
 toc_sticky: true
 toc_label: "On this page"
