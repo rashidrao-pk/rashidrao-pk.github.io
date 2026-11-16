@@ -36,7 +36,7 @@ technologies:
   - Python
   - Deep Learning
   - Machine Learning
-githuburl: "https://github.com/rashidrao-pk/r4sshd/tree/main/project_completed"
+githuburl: "https://github.com/rashidrao-pk/rashidrao-pk/tree/main/project_completed"
 feedbackurl: "/projects/feedbacks/"
 
 toc: true

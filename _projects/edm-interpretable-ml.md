@@ -7,4 +7,5 @@ status: "Ongoing Research"
 category: "Interpretable ML / Smart Manufacturing"
 # thumbnail: "/files/projects/edm/thumbnail.png"
 excerpt: "Interpretable hierarchical machine learning for small-sample prediction and analysis of surface and tribological responses in electrical discharge machining."
+published: false
 ---

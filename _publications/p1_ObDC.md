@@ -9,7 +9,7 @@ venue: "Multimedia Tools and Applications (Springer)"
 
 paperurl: "https://link.springer.com/article/10.1007/s11042-018-7031-0"
 pdfurl: "https://link.springer.com/content/pdf/10.1007/s11042-018-7031-0.pdf"
-codeurl: "https://github.com/rashidrao-pk/sustainable-object-detection-DCNN"
+codeurl: "https://github.com/rashidrao-pk/Object-detection-using-DCNN-CML-SIFT"
 thumbnail: "../files/thesis/ms_thesis.jpg"
 
 research_area:
