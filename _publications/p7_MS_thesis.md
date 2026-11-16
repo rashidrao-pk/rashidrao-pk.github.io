@@ -301,7 +301,7 @@ This work proposed a hybrid object detection and classification framework that c
 </center>
 
 
-[📄 View Publication](/publication/p1_ObDC/){: .btn .btn--success}
+[📄 View Publication](/publication/p1_ObDC){: .btn .btn--success}
 
 ---
 
@@ -329,7 +329,7 @@ The framework combined VGG19 and InceptionV3 deep representations using Parallel
 ### Keywords
 `Transfer Learning` `VGG19` `InceptionV3` `Feature Selection` `Object Recognition`
 
-[📄 View Publication](/publication/p3_sustainable_OD/){: .btn .btn--success}
+[📄 View Publication](/publication/p3_sustainable_OD){: .btn .btn--success}
 
 ---
 

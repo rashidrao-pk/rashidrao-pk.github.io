@@ -27,7 +27,7 @@ docsurl: "https://lime-stratified.readthedocs.io/en/latest/"
 slidesurl: "https://rashidrao-pk.github.io/files/papers_data/lime/st_lime_slides.pdf"
 posterurl: "https://rashidrao-pk.github.io/files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf"
 thumbnail: "../files/papers_data/lime/LIME_Thumbnail.png"
-citation: "Rashid,Muhammad et al. (2024). &quot;.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13)."
+citation: "Rashid, Muhammad, Amparore, Elvio G., Ferrari, Enrico, and Verda, Damiano. (2024). &quot;Using Stratified Sampling to Improve LIME Image Explanations.&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>. 38(13)."
 bibtex: |
   @inproceedings{rashid2024using,
     title     = {Using Stratified Sampling to Improve LIME Image Explanations},

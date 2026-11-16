@@ -147,7 +147,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: # Open Graph/Twitter default site image
+og_image: "profile.jpg" # Open Graph/Twitter default site image (in /images/)
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -193,6 +193,14 @@ exclude:
   - README
   - tmp
   - vendor
+  - markdown_generator
+  - scripts
+  - talkmap.py
+  - "*.ipynb"
+  - docker-compose.yaml
+  - package-lock.json
+  - CONTRIBUTING.md
+  - _config_docker.yml
 keep_files:
   - .git
   - .svn
@@ -351,7 +359,7 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /post-tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

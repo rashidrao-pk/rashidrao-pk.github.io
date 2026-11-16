@@ -14,7 +14,7 @@ main:
     url: /cv/
     children:
       - title: "Certification"
-        url: /certification/
+        url: /certifications/
       - title: "Awards"
         url: /awards/
 

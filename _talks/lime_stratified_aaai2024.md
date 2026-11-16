@@ -58,7 +58,7 @@ A recorded presentation is also available through the official AAAI-24 collectio
 <span>Presentation Video</span>
 </a>
 
-<a href="/files/papers_data/Poster_St_LIME_AAAI_24.pdf"
+<a href="/files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf"
      class="pub-btn pub-btn-poster"
      target="_blank"
      rel="noopener noreferrer">

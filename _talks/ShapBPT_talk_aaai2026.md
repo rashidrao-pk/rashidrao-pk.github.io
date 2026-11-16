@@ -62,7 +62,7 @@ to create a **data-aware hierarchical representation** of images.
   <a href="https://github.com/amparore/shap_bpt" class="custom-btn btn-code">Code</a>
   <a href="https://github.com/rashidrao-pk/shap_bpt_tests" class="custom-btn btn-tests">Tests</a>
   <a href="https://pypi.org/project/shap-bpt/" class="custom-btn btn-pypi">PyPI</a>
-  <a href="https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
+  <a href="/files/papers_data/shapbpt/AAAI_26_poster.pdf" class="custom-btn btn-poster">Poster</a>
   <a href="https://underline.io/speakers/254136-muhammad-rashid" class="custom-btn btn-demo">Talk</a>
 </p>
 
