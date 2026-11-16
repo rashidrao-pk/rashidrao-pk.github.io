@@ -59,7 +59,7 @@ author_profile: true
 </div>
 
 <div id="project-list">
-  {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+  {% assign sorted_projects = site.projects | where_exp: "p", "p.hidden != true" | sort: "date" | reverse %}
   {% for post in sorted_projects %}
 
     {% assign project_group = post.project_group | default: "" | downcase | strip %}

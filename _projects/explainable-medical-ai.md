@@ -7,5 +7,6 @@ status: "Ongoing Research"
 category: "Medical Imaging / Explainable AI"
 # thumbnail: "/files/projects/medical-xai/thumbnail.png"
 excerpt: "Research on explainable deep learning for medical image classification and analysis, combining modern CNN architectures with interpretable prediction methods."
-published: false
+hidden: true        # page builds at its permalink but is not listed on /projects/
+sitemap: false
 ---

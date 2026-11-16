@@ -7,5 +7,6 @@ status: "Manuscript in Preparation"
 category: "Cybersecurity / Explainable AI"
 # thumbnail: "/files/projects/nids-scnn/thumbnail.png"
 excerpt: "Lightweight CNN-based network intrusion detection using time-frequency representations and explainable AI."
-published: false
+hidden: true        # page builds at its permalink but is not listed on /projects/
+sitemap: false
 ---

@@ -7,5 +7,6 @@ status: "Ongoing Research"
 category: "Explainable AI / Computer Vision"
 # thumbnail: "/files/projects/sam-xai/thumbnail.png"
 excerpt: "Investigating SAM-based hierarchical image segmentation and Shapley attribution for spatially coherent and quantitatively evaluated computer vision explanations."
-published: false
+hidden: true        # page builds at its permalink but is not listed on /projects/
+sitemap: false
 ---
