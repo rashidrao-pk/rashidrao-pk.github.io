@@ -32,6 +32,18 @@ tags:
   - VGG19
   - InceptionV3
   - hybrid methods
+bibtex: |
+  @article{rashid2020sustainable,
+    title     = {A Sustainable Deep Learning Framework for Object Recognition Using Multi-Layers Deep Features Fusion and Selection},
+    author    = {Rashid, Muhammad and Khan, Muhammad Attique and Alhaisoni, Majed and Wang, Shui-Hua and Naqvi, Syed Rameez and Rehman, Amjad and Saba, Tanzila},
+    journal   = {Sustainability},
+    volume    = {12},
+    number    = {12},
+    pages     = {5037},
+    year      = {2020},
+    publisher = {MDPI},
+    doi       = {10.3390/su12125037}
+  }
 ---
 
 **Authors:**  
@@ -78,18 +90,4 @@ The framework was evaluated on four public datasets: **Caltech-101**, **Birds**,
 
 <h2>📖 Citation (BibTeX)</h2>
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{rashid2020sustainable,
-  title     = {A Sustainable Deep Learning Framework for Object Recognition Using Multi-Layers Deep Features Fusion and Selection},
-  author    = {Rashid, Muhammad and Khan, Muhammad Attique and Alhaisoni, Majed and Wang, Shui-Hua and Naqvi, Syed Rameez and Rehman, Amjad and Saba, Tanzila},
-  journal   = {Sustainability},
-  volume    = {12},
-  number    = {12},
-  pages     = {5037},
-  year      = {2020},
-  publisher = {MDPI},
-  doi       = {10.3390/su12125037}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

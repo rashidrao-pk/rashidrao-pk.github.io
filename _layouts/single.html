@@ -85,7 +85,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
 
-        {% if page.paperurl or page.pdfurl or page.arxivurl or page.codeurl or page.testurl or page.pypiurl or page.docsurl or page.demourl or page.userstudyurl or page.slidesurl or page.posterurl or page.bibtexurl %}
+        {% if page.paperurl or page.pdfurl or page.arxivurl or page.codeurl or page.testurl or page.pypiurl or page.docsurl or page.demourl or page.userstudyurl or page.slidesurl or page.posterurl or page.bibtexurl or page.bibtex %}
           <p class="pub-buttons">
             {% if page.paperurl %}<a href="{{ page.paperurl }}" class="custom-btn btn-paper">Paper</a>{% endif %}
             {% if page.pdfurl %}<a href="{{ page.pdfurl }}" class="custom-btn btn-paper">PDF</a>{% endif %}
@@ -98,7 +98,7 @@ layout: default
             {% if page.userstudyurl %}<a href="{{ page.userstudyurl }}" class="custom-btn btn-demo">User Study</a>{% endif %}
             {% if page.slidesurl %}<a href="{{ page.slidesurl }}" class="custom-btn btn-slides">Slides</a>{% endif %}
             {% if page.posterurl %}<a href="{{ page.posterurl }}" class="custom-btn btn-poster">Poster</a>{% endif %}
-            {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}" class="custom-btn btn-tests">BibTeX</a>{% endif %}
+            {% if page.bibtex %}<button type="button" class="custom-btn btn-bibtex" onclick="copyBibtex(this)" data-bibtex="{{ page.bibtex | strip | escape }}" title="Copy BibTeX to clipboard">BibTeX</button>{% elsif page.bibtexurl %}<a href="{{ page.bibtexurl }}" class="custom-btn btn-tests">BibTeX</a>{% endif %}
           </p>
         {% endif %}
 

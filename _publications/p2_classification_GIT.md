@@ -31,6 +31,18 @@ tags:
   - image segmentation
   - feature selection
   - machine learning
+bibtex: |
+  @article{khan2019classification,
+    title     = {Classification of Gastrointestinal Diseases of Stomach from {WCE} Using Improved Saliency-Based Method and Discriminant Features Selection},
+    author    = {Khan, Muhammad Attique and Rashid, Muhammad and Sharif, Muhammad and Javed, Kashif and Akram, Tallha},
+    journal   = {Multimedia Tools and Applications},
+    volume    = {78},
+    number    = {19},
+    pages     = {27743--27770},
+    year      = {2019},
+    publisher = {Springer},
+    doi       = {10.1007/s11042-019-07875-9}
+  }
 ---
 
 **Authors:**  
@@ -57,15 +69,4 @@ This work presents a framework for **classification of gastrointestinal diseases
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{khan2019classification,
-  title     = {Classification of Gastrointestinal Diseases of Stomach from WCE Using Improved Saliency-Based Method and Discriminant Feature Selection},
-  author    = {Khan, Muhammad Attique and Rashid, Muhammad and Sharif, Muhammad and Javed, Kashif and Akram, Tallha},
-  journal   = {Multimedia Tools and Applications},
-  year      = {2019},
-  publisher = {Springer},
-  doi       = {10.1007/s11042-019-07875-9}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

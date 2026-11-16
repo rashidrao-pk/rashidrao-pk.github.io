@@ -46,6 +46,15 @@ toc_label: "Thesis Contents"
 toc_icon: "book"
 
 classes: wide
+bibtex: |
+  @phdthesis{rashid2026trustworthyai,
+    title     = {Improving Trust in Safety-Critical {AI} Systems: Explainable {AI} and Anomaly Detection Frameworks for Human Safety in Smart Industries},
+    author    = {Rashid, Muhammad},
+    school    = {University of Torino},
+    type      = {PhD Thesis},
+    year      = {2026},
+    url       = {https://hdl.handle.net/2318/2145710}
+  }
 ---
 
 <div style="margin-top:1.5rem; margin-bottom:2rem;">
@@ -436,16 +445,4 @@ Investigated lightweight segmentation architectures for cardiac MRI analysis.
 
 # Citation {#sec-citation}
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@phdthesis{rashid2026trustworthyai,
-  title={Improving Trust in Safety-Critical AI Systems: Explainable AI and Anomaly Detection Frameworks for Human Safety in Smart Industries},
-  school    = {University of Torino},
-  type      = {PhD Thesis},
-  author    = {Rashid, Muhammad and Amparore, Elvio G.},
-  year      = {2026},
-  publisher = {IRIS},
-  url       = {https://iris.unito.it/handle/2318/2137472?mode=full}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

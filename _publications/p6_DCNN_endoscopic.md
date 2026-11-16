@@ -29,6 +29,18 @@ tags:
   - feature fusion
   - WCE
   - gastrointestinal diseases
+bibtex: |
+  @article{sharif2021deep,
+    title     = {Deep CNN and Geometric Features-Based Gastrointestinal Tract Diseases Detection and Classification from Wireless Capsule Endoscopy Images},
+    author    = {Sharif, Muhammad and Khan, Muhammad Attique and Rashid, Muhammad and Yasmin, Mussarat and Afza, Farhat and Tanik, Urcun John},
+    journal   = {Journal of Experimental \& Theoretical Artificial Intelligence},
+    volume    = {33},
+    number    = {4},
+    pages     = {577--599},
+    year      = {2021},
+    publisher = {Taylor \& Francis},
+    doi       = {10.1080/0952813X.2019.1572657}
+  }
 ---
 
 **Authors:**  
@@ -51,18 +63,4 @@ This work presents a framework for **gastrointestinal tract disease detection an
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{sharif2021deep,
-  title     = {Deep CNN and Geometric Features-Based Gastrointestinal Tract Diseases Detection and Classification from Wireless Capsule Endoscopy Images},
-  author    = {Sharif, Muhammad and Khan, Muhammad Attique and Rashid, Muhammad and Yasmin, Mussarat and Afza, Farhat and Tanik, Urcun John},
-  journal   = {Journal of Experimental \& Theoretical Artificial Intelligence},
-  volume    = {33},
-  number    = {4},
-  pages     = {577--599},
-  year      = {2021},
-  publisher = {Taylor \& Francis},
-  doi       = {10.1080/0952813X.2019.1572657}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

@@ -30,6 +30,16 @@ tags:
   - region-based segmentation
   - JSEG
   - hybrid methods
+bibtex: |
+  @article{javed2019region,
+    title     = {Region-Based Active Contour JSEG Fusion Technique for Skin Lesion Segmentation from Dermoscopic Images},
+    author    = {Javed, Rabia and Rahim, Mohd Shafry Mohd and Saba, Tanzila and Rashid, Muhammad},
+    journal   = {Biomedical Research},
+    volume    = {30},
+    number    = {6},
+    pages     = {1--10},
+    year      = {2019}
+  }
 ---
 
 **Authors:**  
@@ -56,16 +66,4 @@ This work presents a **skin lesion segmentation framework** based on the fusion 
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{javed2019region,
-  title     = {Region-Based Active Contour JSEG Fusion Technique for Skin Lesion Segmentation from Dermoscopic Images},
-  author    = {Javed, Rabia and Rahim, Mohd Shafry Mohd and Saba, Tanzila and Rashid, Muhammad},
-  journal   = {Biomedical Research},
-  volume    = {30},
-  number    = {6},
-  pages     = {1--10},
-  year      = {2019}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

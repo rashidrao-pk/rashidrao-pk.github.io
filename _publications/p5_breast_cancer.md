@@ -19,6 +19,17 @@ subcategory:
   - Breast Cancer Classification
   - Histopathological Image Analysis
   - Hybrid Feature Engineering
+bibtex: |
+  @article{nasir2021optimized,
+    title     = {An Optimized Approach for Breast Cancer Classification for Histopathological Images Based on Hybrid Feature Set},
+    author    = {Nasir, Inzamam M. and Rashid, Muhammad and Shah, Jamal Hussain and Sharif, Muhammad and Awan, Muhammad Y. H. and Alkinani, Monagi H.},
+    journal   = {Current Medical Imaging Reviews},
+    volume    = {17},
+    number    = {1},
+    pages     = {136--147},
+    year      = {2021},
+    publisher = {Bentham Science Publishers}
+  }
 ---
 
 **Authors:**
@@ -36,17 +47,4 @@ This work proposes an optimized framework for **breast cancer classification** u
 
 <h2>📖 Citation (BibTeX)</h2>
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{nasir2021optimized,
-  title     = {An Optimized Approach for Breast Cancer Classification for Histopathological Images Based on Hybrid Feature Set},
-  author    = {Nasir, Inzamam M. and Rashid, Muhammad and Shah, Jamal Hussain and Sharif, Muhammad and Awan, Muhammad Y. H. and Alkinani, Monagi H.},
-  journal   = {Current Medical Imaging Reviews},
-  volume    = {17},
-  number    = {1},
-  pages     = {136--147},
-  year      = {2021},
-  publisher = {Bentham Science Publishers}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

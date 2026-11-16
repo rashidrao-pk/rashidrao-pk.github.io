@@ -246,6 +246,28 @@ a.custom-btn {
   background: #024f9c;
 }
 
+/* One-click "BibTeX" button in publication button rows (copies to clipboard) */
+button.custom-btn.btn-bibtex {
+  font-family: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #fde7d9;
+  border-color: #f5c4a5;
+  color: #9a3412 !important;
+}
+
+button.custom-btn.btn-bibtex:hover {
+  background-color: #fbd5bd;
+  border-color: #ea9a6b;
+}
+
+.copy-bibtex-btn.is-copied,
+button.custom-btn.btn-bibtex.is-copied {
+  background-color: #16a34a;
+  border-color: #15803d;
+  color: #ffffff !important;
+}
+
 //  ADDED FOR TAGS
 .pub-tags {
   margin-top: 6px;

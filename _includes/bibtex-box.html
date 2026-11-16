@@ -1,0 +1,12 @@
+{% comment %}
+  Renders the BibTeX stored in a publication's `bibtex:` front-matter field.
+  On a publication page:          {% include bibtex-box.html %}
+  For another item (e.g. a list): {% include bibtex-box.html item=post %}
+{% endcomment %}
+{% assign bib_item = include.item | default: page %}
+{% if bib_item.bibtex %}
+<div class="bibtex-box" markdown="0">
+<button type="button" class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
+<pre><code class="language-bibtex">{{ bib_item.bibtex | strip | escape }}</code></pre>
+</div>
+{% endif %}

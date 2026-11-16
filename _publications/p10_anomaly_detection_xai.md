@@ -27,6 +27,17 @@ slidesurl: "http://rashidrao-pk.github.io/files/papers_data/XAD/anomaly_detectio
 thumbnail: "../files/papers_data/XAD/anomaly_detection_xai.gif"
 
 citation: "Rashid,Muhammad et al. (2024). &quot;.&quot; <i>In World Conference on Explainable Artificial Intelligence, pp. 243-254. Cham: Springer Nature Switzerland, 2024</i>."
+bibtex: |
+  @inproceedings{rashid2024trust,
+    author    = {Rashid, Muhammad and Amparore, Elvio and Ferrari, Enrico and Verda, Damiano},
+    editor    = {Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin},
+    title     = {Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI},
+    booktitle = {Explainable Artificial Intelligence},
+    year      = {2024},
+    publisher = {Springer Nature Switzerland},
+    address   = {Cham},
+    pages     = {243--254}
+  }
 ---
 
 Generative models based on variational autoencoders are a popular technique for detecting anomalies in images in a semi-supervised context. A common approach employs the anomaly score to detect the presence of anomalies, and it is known to reach high level of accuracy on benchmark datasets. However, since anomaly scores are computed from reconstruction disparities, they often obscure the detection of various spurious features, raising concerns regarding their actual efficacy.
@@ -83,17 +94,4 @@ AI
 
 <h2>Citation (BibTeX)</h2>
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@InProceedings{10.1007/978-3-031-63803-9_13,
-  author    = {Rashid, Muhammad and Amparore, Elvio and Ferrari, Enrico and Verda, Damiano},
-  editor    = {Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin},
-  title     = {Can I Trust My Anomaly Detection System? A Case Study Based on Explainable AI},
-  booktitle = {Explainable Artificial Intelligence},
-  year      = {2024},
-  publisher = {Springer Nature Switzerland},
-  address   = {Cham},
-  pages     = {243--254}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

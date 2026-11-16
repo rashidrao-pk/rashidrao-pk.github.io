@@ -31,6 +31,18 @@ tags:
   - saliency methods
   - feature selection
   - classification
+bibtex: |
+  @article{khan2020integrated,
+    title     = {An Integrated Framework of Skin Lesion Detection and Recognition through Saliency Method and Optimal Deep Neural Network Feature Selection},
+    author    = {Khan, M. Attique and Akram, Tallha and Sharif, Muhammad and Javed, Kashif and Rashid, Muhammad and Bukhari, Syed Ahmad Chan},
+    journal   = {Neural Computing and Applications},
+    volume    = {32},
+    number    = {20},
+    pages     = {15929--15948},
+    year      = {2020},
+    publisher = {Springer},
+    doi       = {10.1007/s00521-019-04514-0}
+  }
 ---
 
 **Authors:**  
@@ -58,18 +70,4 @@ This work presents an integrated framework for **skin lesion detection and recog
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{khan2020integrated,
-  title     = {An Integrated Framework of Skin Lesion Detection and Recognition through Saliency Method and Optimal Deep Neural Network Feature Selection},
-  author    = {Khan, M. Attique and Akram, Tallha and Sharif, Muhammad and Javed, Kashif and Rashid, Muhammad and Bukhari, Syed Ahmad Chan},
-  journal   = {Neural Computing and Applications},
-  volume    = {32},
-  number    = {20},
-  pages     = {15929--15948},
-  year      = {2020},
-  publisher = {Springer},
-  doi       = {10.1007/s00521-019-04514-0}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

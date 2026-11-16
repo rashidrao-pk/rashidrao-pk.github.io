@@ -45,6 +45,14 @@ toc_label: "Thesis Contents"
 toc_icon: "book"
 
 classes: wide
+bibtex: |
+  @mastersthesis{rashid2019objectdetection,
+    title  = {Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network},
+    author = {Rashid, Muhammad},
+    school = {COMSATS University Islamabad, Wah Campus},
+    type   = {MS Thesis},
+    year   = {2019}
+  }
 ---
 
 <div style="margin-top:1.5rem; margin-bottom:2rem;">
@@ -337,14 +345,4 @@ Future work may extend this approach to real-time object detection, multiple obj
 
 ## Citation {#sec-citation}
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@mastersthesis{rashid2019objectdetection,
-  title  = {Object Detection and Classification Based on Feature Fusion and Deep Convolutional Neural Network},
-  author = {Rashid, Muhammad},
-  school = {COMSATS University Islamabad, Wah Campus},
-  type   = {MS Thesis},
-  year   = {2019}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

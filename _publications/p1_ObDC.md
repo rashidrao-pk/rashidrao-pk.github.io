@@ -31,6 +31,18 @@ tags:
   - SIFT
   - feature fusion
   - hybrid methods
+bibtex: |
+  @article{rashid2018object,
+    title     = {Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and {SIFT} Point Features},
+    author    = {Rashid, Muhammad and Khan, Muhammad Attique and Sharif, Muhammad and Raza, Mudassar and Sarfraz, Muhammad Masood and Afza, Farhat},
+    journal   = {Multimedia Tools and Applications},
+    volume    = {78},
+    number    = {12},
+    pages     = {15751--15777},
+    year      = {2018},
+    publisher = {Springer},
+    doi       = {10.1007/s11042-018-7031-0}
+  }
 ---
 
 **Authors:**  
@@ -58,15 +70,4 @@ This work presents a hybrid framework for **object detection and classification*
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{rashid2018object,
-  title     = {Object Detection and Classification: A Joint Selection and Fusion Strategy of Deep Convolutional Neural Network and SIFT Point Features},
-  author    = {Rashid, Muhammad and Khan, Muhammad Attique and Sharif, Muhammad and Raza, Mudassar and Masood, Muhammad and Afza, Farhat},
-  journal   = {Multimedia Tools and Applications},
-  year      = {2018},
-  publisher = {Springer},
-  doi       = {10.1007/s11042-018-7031-0}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

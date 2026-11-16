@@ -27,6 +27,16 @@ codeurl: "https://github.com/rashidrao-pk/XAD"
 workshop: "https://qualitawg.github.io/"
 conference: "https://icpe2026.spec.org/"
 thumbnail: "../files/papers_data/shapbpt_ad/XAD_ShapBPT_workflow.png"
+bibtex: |
+  @inproceedings{rashid2026shapbptperspective,
+    title     = {{ShapBPT} in Perspective: A Consolidated Review and an {eXplainable} Anomaly Detection Case Study},
+    author    = {Rashid, Muhammad and Amparore, Elvio G. and Ferrari, Enrico and Verda, Damiano},
+    booktitle = {Companion of the 17th ACM/SPEC International Conference on Performance Engineering (ICPE Companion '26)},
+    pages     = {178--187},
+    year      = {2026},
+    publisher = {ACM},
+    doi       = {10.1145/3777911.3800638}
+  }
 ---
 
 ### XAD Workflow
@@ -129,16 +139,4 @@ ShapBPT · Explainable Anomaly Detection · XAI · Shapley Values · Binary Part
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@inproceedings{rashid2026shapbptperspective,
-  title     = {ShapBPT in Perspective: A Consolidated Review and an eXplainable Anomaly Detection Case Study},
-  author    = {Rashid, Muhammad and Amparore, Elvio G.},
-  booktitle = {Proceedings of the QualITA Workshop at ICPE 2026},
-  year      = {2026},
-  publisher = {ACM},
-  doi       = {10.1145/3777911.3800638},
-  url       = {https://doi.org/10.1145/3777911.3800638}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

@@ -35,6 +35,17 @@ thumbnail: "../files/papers_data/shapbpt/Fig3_sequence_explanations-1.png"
 toc: true
 toc_sticky: true
 toc_label: "On this page"
+bibtex: |
+  @inproceedings{rashid2026shapbpt,
+    title     = {ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees},
+    author    = {Rashid, Muhammad and Amparore, Elvio G. and Ferrari, Enrico and Verda, Damiano},
+    booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume    = {40},
+    number    = {30},
+    pages     = {25099--25107},
+    year      = {2026},
+    url       = {https://doi.org/10.1609/aaai.v40i30.39699}
+  }
 ---
 
 Pixel-level **feature attribution** plays a central role in **Explainable Computer Vision (XCV)** by showing which image regions influence a model prediction. Although hierarchical Shapley-based methods provide a principled explanation framework, many existing approaches rely on rigid image partitions that do not follow the natural structure of visual content.
@@ -156,17 +167,4 @@ Shapley Values · Binary Partition Trees · Explainable AI · XAI · Image Featu
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@inproceedings{rashid2026shapbpt,
-  title     = {ShapBPT: Image Feature Attributions Using Data-Aware Binary Partition Trees},
-  author    = {Rashid, Muhammad and Amparore, Elvio G. and Ferrari, Enrico and Verda, Damiano},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume    = {40},
-  number    = {30},
-  pages     = {25099--25107},
-  year      = {2026},
-  url       = {https://doi.org/10.1609/aaai.v40i30.39699}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

@@ -24,6 +24,16 @@ tags:
   - EfficientNetB3
   - deep learning
   - medical image analysis
+bibtex: |
+  @article{yaseen2025acute,
+    author  = {Yaseen, Faisal and Rashid, Muhammad and Shabir, Muhammad Yasir and Khan, Muhammad Attique and Hussain, Nazar},
+    title   = {Acute Lymphoblastic Leukemia Classification: Deep Learning Techniques for Blood Diseases Diagnosis},
+    journal = {Journal of Computing \& Biomedical Informatics},
+    volume  = {9},
+    number  = {01},
+    year    = {2025},
+    url     = {https://www.jcbi.org/index.php/Main/article/view/1033}
+  }
 ---
 
 This work presents a deep learning-based approach for **Acute Lymphoblastic Leukemia (ALL) classification** using microscopic peripheral blood smear images. The study focuses on automatic classification of ALL and its subtypes to support early screening and assist healthcare professionals in laboratory diagnosis.
@@ -95,16 +105,4 @@ Acute Lymphoblastic Leukemia · Blood Disease Diagnosis · Deep Learning · Effi
 
 <h2>📖 Citation</h2>
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{yaseen2025acute,
-  author  = {Yaseen, Faisal and Rashid, Muhammad and Shabir, Muhammad Yasir and Khan, Muhammad Attique and Hussain, Nazar},
-  title   = {Acute Lymphoblastic Leukemia Classification: Deep Learning Techniques for Blood Diseases Diagnosis},
-  journal = {Journal of Computing \& Biomedical Informatics},
-  volume  = {9},
-  number  = {01},
-  year    = {2025},
-  url     = {https://www.jcbi.org/index.php/Main/article/view/1033}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

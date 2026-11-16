@@ -29,6 +29,18 @@ tags:
   - CNN
   - U-Net
   - biomedical imaging
+bibtex: |
+  @article{irshad2023novel,
+    title     = {A Novel Light U-Net Model for Left Ventricle Segmentation Using MRI},
+    author    = {Irshad, Mehreen and Yasmin, Mussarat and Sharif, Muhammad Imran and Rashid, Muhammad and Sharif, Muhammad Irfan and Kadry, Seifedine},
+    journal   = {Mathematics},
+    volume    = {11},
+    number    = {14},
+    pages     = {3245},
+    year      = {2023},
+    publisher = {MDPI},
+    doi       = {10.3390/math11143245}
+  }
 ---
 
 **Authors:**  
@@ -55,18 +67,4 @@ This work proposes a **lightweight U-Net architecture** for accurate **left vent
 
 ## 📖 Citation (BibTeX)
 
-<div class="bibtex-box">
-  <button class="copy-bibtex-btn" onclick="copyBibtex(this)">Copy BibTeX</button>
-
-<pre><code class="language-bibtex">@article{irshad2023novel,
-  title     = {A Novel Light U-Net Model for Left Ventricle Segmentation Using MRI},
-  author    = {Irshad, Mehreen and Yasmin, Mussarat and Sharif, Muhammad Imran and Rashid, Muhammad and Sharif, Muhammad Irfan and Kadry, Seifedine},
-  journal   = {Mathematics},
-  volume    = {11},
-  number    = {14},
-  pages     = {3245},
-  year      = {2023},
-  publisher = {MDPI},
-  doi       = {10.3390/math11143245}
-}</code></pre>
-</div>
+{% include bibtex-box.html %}

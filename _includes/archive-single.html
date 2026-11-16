@@ -62,7 +62,7 @@
         </p>
       {% endif %}
 
-      {% if post.paperurl or post.pdfurl or post.arxivurl or post.codeurl or post.testurl or post.pypiurl or post.docsurl or post.demourl or post.userstudyurl or post.slidesurl or post.posterurl or post.bibtexurl %}
+      {% if post.paperurl or post.pdfurl or post.arxivurl or post.codeurl or post.testurl or post.pypiurl or post.docsurl or post.demourl or post.userstudyurl or post.slidesurl or post.posterurl or post.bibtexurl or post.bibtex %}
         <p class="pub-buttons">
 
           <a href="{{ base_path }}{{ post.url }}" class="custom-btn btn-paper">Publication Page</a>
@@ -111,7 +111,9 @@
             <a href="{{ post.posterurl }}" target="_blank" class="custom-btn btn-poster">Poster</a>
           {% endif %}
 
-          {% if post.bibtexurl %}
+          {% if post.bibtex %}
+            <button type="button" class="custom-btn btn-bibtex" onclick="copyBibtex(this)" data-bibtex="{{ post.bibtex | strip | escape }}" title="Copy BibTeX to clipboard">BibTeX</button>
+          {% elsif post.bibtexurl %}
             <a href="{{ post.bibtexurl }}" target="_blank" class="custom-btn btn-tests">BibTeX</a>
           {% endif %}
         </p>
