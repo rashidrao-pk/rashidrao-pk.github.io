@@ -19,7 +19,7 @@ arxivurl: "https://www.arxiv.org/abs/2602.07047"
 codeurl: "https://github.com/amparore/shap_bpt"
 testurl: "https://github.com/rashidrao-pk/shap_bpt_tests"
 pypiurl: "https://pypi.org/project/shap-bpt/"
-posterurl: "https://rashidrao-pk.github.io/files/AAAI_26_poster.pdf"
+posterurl: "https://underline.io/lecture/141841-shapbpt-image-feature-attributions-using-data-aware-binary-partition-trees"
 thumbnail: "../files/talks/papers/aaai_poster_talk.jpg"
 excerpt: "Introduces ShapBPT, a data-aware hierarchical Shapley-based method for image feature attribution that improves efficiency, structural alignment, and interpretability in computer vision models."
 ---

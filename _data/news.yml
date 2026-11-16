@@ -1,0 +1,34 @@
+# News strip on the home page (_includes/news-strip.html).
+# Add new items anywhere — they are sorted by date (newest first).
+# Fields:
+#   date:  YYYY-MM-DD
+#   type:  paper | talk | milestone | award | project | software   (sets the badge colour)
+#   text:  Markdown allowed, e.g. [link text](/publication/p12_ShapBPT)
+
+- date: 2026-05-03
+  type: paper
+  text: "Presented **ShapBPT in Perspective** at the [QualITA Workshop, ICPE 2026](/publication/p13_ShapBPT_AD) (ACM) in Florence, Italy."
+
+- date: 2026-04-28
+  type: milestone
+  text: "Defended my **PhD thesis** at the University of Torino: [*Improving Trust in Safety-Critical AI Systems*](/publication/p14_phd_thesis/)."
+
+- date: 2026-01-25
+  type: talk
+  text: "Presented [**ShapBPT**](/publication/p12_ShapBPT) at **AAAI-26** in Singapore."
+
+- date: 2025-11-13
+  type: talk
+  text: "Presented [*Unexpected Condition Detector for Industrial Safety using Deep Generative Models*](/talks/VAE_GAN_Models_DM) at Universidad de Vigo, Spain."
+
+- date: 2025-06-01
+  type: paper
+  text: "[Acute Lymphoblastic Leukemia Classification](/publication/p11_lukemia) published in the *Journal of Computing & Biomedical Informatics*."
+
+- date: 2024-07-17
+  type: paper
+  text: "Presented [*Can I Trust My Anomaly Detection System?*](/publication/p10_anomaly_detection_xai) at **xAI 2024** in Valletta, Malta."
+
+- date: 2024-02-21
+  type: paper
+  text: "Presented [*Using Stratified Sampling to Improve LIME Image Explanations*](/publication/p9_lime_stratified) at **AAAI-24** in Vancouver."

@@ -1,0 +1,1 @@
+{% assign n = include.item %}<li class="news-item news-{{ n.type | default: 'milestone' }}"><time class="news-date" datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: "%b %Y" }}</time><span class="news-text">{{ n.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>

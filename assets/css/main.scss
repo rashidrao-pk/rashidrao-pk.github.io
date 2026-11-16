@@ -1000,6 +1000,102 @@ body.dark .pub-controls select option,
   border-left-color: #0f766e;
 }
 
+/* ---------- News strip (home page) ---------- */
+
+.section-box-news {
+  border-left-color: #ca8a04;
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-item {
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px dashed #e5e7eb;
+  margin: 0;
+}
+
+.news-list .news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  flex: 0 0 76px;
+  font-size: 0.75em;
+  font-weight: 700;
+  text-align: center;
+  padding: 3px 6px;
+  border-radius: 999px;
+  white-space: nowrap;
+  color: #475569;
+  background: #f1f5f9;
+}
+
+.news-paper .news-date     { color: #c2410c; background: #ffedd5; }
+.news-talk .news-date      { color: #1d4ed8; background: #dbeafe; }
+.news-milestone .news-date { color: #15803d; background: #dcfce7; }
+.news-award .news-date     { color: #a16207; background: #fef9c3; }
+.news-project .news-date   { color: #0e7490; background: #cffafe; }
+.news-software .news-date  { color: #6d28d9; background: #ede9fe; }
+
+.news-text {
+  flex: 1;
+  font-size: 0.92em;
+  line-height: 1.5;
+}
+
+.news-older {
+  margin-top: 10px;
+}
+
+.news-older summary {
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #64748b;
+}
+
+@media (max-width: 520px) {
+  .news-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .news-date {
+    flex: none;
+  }
+}
+
+html[data-theme="dark"] .news-item,
+body.dark .news-item,
+[data-theme="dark"] .news-item {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="dark"] .news-date,
+body.dark .news-date,
+[data-theme="dark"] .news-date {
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+}
+
+html[data-theme="dark"] .news-paper .news-date,     [data-theme="dark"] .news-paper .news-date     { color: #fdba74; }
+html[data-theme="dark"] .news-talk .news-date,      [data-theme="dark"] .news-talk .news-date      { color: #93c5fd; }
+html[data-theme="dark"] .news-milestone .news-date, [data-theme="dark"] .news-milestone .news-date { color: #86efac; }
+html[data-theme="dark"] .news-award .news-date,     [data-theme="dark"] .news-award .news-date     { color: #fde047; }
+html[data-theme="dark"] .news-project .news-date,   [data-theme="dark"] .news-project .news-date   { color: #67e8f9; }
+html[data-theme="dark"] .news-software .news-date,  [data-theme="dark"] .news-software .news-date  { color: #c4b5fd; }
+
+html[data-theme="dark"] .news-older summary,
+[data-theme="dark"] .news-older summary {
+  color: #94a3b8;
+}
+
 /* ==========================================
    DARK MODE FIXES FOR CUSTOM CARDS / BOXES
    Add this block at the END of main.scss

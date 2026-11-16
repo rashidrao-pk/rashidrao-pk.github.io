@@ -13,6 +13,7 @@ codeurl: "https://github.com/rashidrao-pk/lime_stratified"
 testurl: "https://github.com/rashidrao-pk/lime-stratified-examples"
 pypiurl: "https://pypi.org/project/lime-stratified/"
 slidesurl: "https://rashidrao-pk.github.io/files/papers_data/lime/st_lime_slides.pdf"
+posterurl: "../files/papers_data/lime/Poster_St_LIME_AAAI_24.pdf"
 thumbnail: "../files/talks/papers/aaai_24_presentation_lime.jpg"
 coordinates: [49.2884, -123.1116]
 Special Session: Main Track - Poster Talk

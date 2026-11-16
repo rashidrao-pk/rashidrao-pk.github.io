@@ -476,7 +476,7 @@ NumPy, Pandas, SciPy, Matplotlib, Scikit-image
 
 <p> See details here - 
   <a href="/courses/" class="custom-btn btn-demo">📘 Courses & Training</a>
-  <a href="/certifications/" class="custom-btn btn-paper">🏅 Certifications</a>
+  <a href="certification" class="custom-btn btn-paper">🏅 Certifications</a>
 </p>
 
 ---

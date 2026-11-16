@@ -12,8 +12,8 @@ site_theme: "default"
 title: "Muhammad Rashid"
 title_separator: "-"
 name: &name "Muhammad Rashid"
-description: &description "personal description"
-url: https://rashidrao-pk.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+description: &description "Muhammad Rashid's personal website and academic portfolio - Computer Vision, Machine Learning, and Artificial Intelligence Researcher"
+url: https://rashidrao-pk.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "rashidrao-pk/rashidrao-pk.github.io"
 
@@ -151,7 +151,7 @@ og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type: # Person or Organization (defaults to Person)
+  type: Person # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 

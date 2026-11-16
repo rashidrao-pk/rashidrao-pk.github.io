@@ -7,4 +7,6 @@ status: "Ongoing Research"
 category: "Edge AI / Visual Anomaly Detection"
 # thumbnail: "/files/projects/edgexad/thumbnail.png"
 excerpt: "Developing efficient normal-only visual anomaly detection pipelines for deployment on resource-constrained edge devices and RGB camera systems."
+hidden: true # page builds at its permalink but is not listed on /projects/
+sitemap: false
 ---

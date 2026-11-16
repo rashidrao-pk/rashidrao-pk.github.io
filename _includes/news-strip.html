@@ -1,0 +1,22 @@
+{% comment %}
+  News strip — data lives in _data/news.yml.
+  Usage: {% include news-strip.html limit=5 %}
+  Shows the newest `limit` items; the rest go into a collapsible "Older news" list.
+  markdown="0" + no indentation stop kramdown from turning the HTML into code blocks.
+{% endcomment %}
+{% assign news_items = site.data.news | sort: "date" | reverse %}
+{% assign news_limit = include.limit | default: 5 %}
+<div class="section-box section-box-news" markdown="0">
+<h2 id="news">News</h2>
+<ul class="news-list">
+{% for item in news_items limit: news_limit %}{% include news-item.html item=item %}{% endfor %}
+</ul>
+{% if news_items.size > news_limit %}
+<details class="news-older">
+<summary>Older news ({{ news_items.size | minus: news_limit }})</summary>
+<ul class="news-list">
+{% for item in news_items offset: news_limit %}{% include news-item.html item=item %}{% endfor %}
+</ul>
+</details>
+{% endif %}
+</div>

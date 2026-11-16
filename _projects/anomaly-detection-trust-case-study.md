@@ -7,4 +7,6 @@ status: "Ongoing Open-Source Research"
 category: "Anomaly Detection / Trustworthy AI"
 # thumbnail: "/files/projects/anomaly-detection-trust/thumbnail.png"
 excerpt: "An open-source research project investigating anomaly detection baselines, explainability methods, faithfulness metrics, reproducibility, and trustworthy model evaluation."
+hidden: true # page builds at its permalink but is not listed on /projects/
+sitemap: false
 ---
